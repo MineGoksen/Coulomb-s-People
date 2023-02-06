@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add question</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <form action="{{ url_for('add_question') }}" method="post">
+    <label for="question">Question:</label>
+    <input type="text" id="question" name="question" required>
+    <br>
+    <label for="choice_a">Choice A:</label>
+    <input type="text" id="choice_a" name="choice_a" required>
+    <br>
+    <label for="choice_b">Choice B:</label>
+    <input type="text" id="choice_b" name="choice_b" required>
+    <br>
+    <label for="choice_c">Choice C:</label>
+    <input type="text" id="choice_c" name="choice_c" required>
+    <br>
+    <label for="choice_d">Choice D:</label>
+    <input type="text" id="choice_d" name="choice_d" required>
+    <br>
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    <br>
+    <label for="right_answer">Right Answer:</label>
+    <input type="text" id="right_answer" name="right_answer" required>
+    <br><br>
+    <input type="submit" value="Add question">
+  </form>
+</div>
+</body>
+</html>
