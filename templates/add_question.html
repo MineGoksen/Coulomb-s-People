@@ -31,5 +31,16 @@
     <input type="submit" value="Add question">
   </form>
 </div>
+  <div class="container">
+    <form action="{{ url_for('add_tip') }}" method="post">
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    <br>
+    <label for="tip">Tip:</label>
+    <input type="text" id="tip" name="tip" required>
+    <br><br>
+    <input type="submit" value="Add Tip">
+  </form>
+  </div>
 </body>
 </html>
