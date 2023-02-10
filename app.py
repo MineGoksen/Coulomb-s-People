@@ -43,6 +43,14 @@ class Question(db.Model):
         self.choice_d = choice_d
         self.country = country
         self.right_answer = right_answer
+class Tip(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    tip = db.Column(db.String(500), nullable=False )
+    country = db.Column(db.String(500), nullable=False)
+
+    def __init__(self, tip, country):
+        self.country = country
+        self.tip = tip      
 
 @app.route('/')
 def index():
@@ -72,6 +80,14 @@ def add_question():
     country = request.form['country']
     right_answer = request.form['right_answer']
     new_question = Question(question, choice_a, choice_b, choice_c, choice_d, country, right_answer)
+    db.session.add(new_question)
+    db.session.commit()
+    return redirect(url_for('home'))
+@app.route('/add_tip', methods=['POST'])
+def add_tip():
+    country = request.form['country']
+    tip = request.form['tip']
+    new_question = Tip(tip, country)
     db.session.add(new_question)
     db.session.commit()
     return redirect(url_for('home'))
