@@ -13,6 +13,14 @@ label {
   margin-top: 10px;
   display: block;
 }
+#text {
+    color: white;
+}
+
+#mesaj {
+    color: red;
+    font-size: 30px;
+}
 
 input[type="text"], input[type="password"] {
   width: 100%;
