@@ -68,7 +68,7 @@ def login():
     if user:
         return redirect(url_for('home'))
     else:
-        return redirect(url_for('index'))
+        return render_template('login.html',mesaj="Password or username is incorrect")
 
 @app.route('/home')
 def home():
