@@ -36,6 +36,14 @@ class Question(db.Model):
     country = db.Column(db.String(500), nullable=False)
     right_answer = db.Column(db.String(500), nullable=False)
 
+    def __init__(self, question, choice_a, choice_b, choice_c, choice_d, country, right_answer):
+        self.question = question
+        self.choice_a = choice_a
+        self.choice_b = choice_b
+        self.choice_c = choice_c
+        self.choice_d = choice_d
+        self.country = country
+        self.right_answer = right_answer
 
 @app.route('/questionsApi')
 def get_questions():
@@ -59,6 +67,9 @@ class Tip(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     tip = db.Column(db.String(500), nullable=False )
     country = db.Column(db.String(500), nullable=False)
+    def __init__(self, tip, country):
+        self.tip = tip
+        self.country = country
 
 @app.route('/tipsApi')
 def get_tips():
