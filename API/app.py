@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask.templating import render_template
 from flask_migrate import Migrate, migrate
+from flask import Flask, jsonify
 
 
 app = Flask(__name__)
@@ -35,14 +36,14 @@ class Question(db.Model):
     country = db.Column(db.String(500), nullable=False)
     right_answer = db.Column(db.String(500), nullable=False)
 
-    def __init__(self, question, choice_a, choice_b, choice_c, choice_d, country, right_answer):
-        self.question = question
-        self.choice_a = choice_a
-        self.choice_b = choice_b
-        self.choice_c = choice_c
-        self.choice_d = choice_d
-        self.country = country
-        self.right_answer = right_answer
+    def to_api(self):
+        return {'id': self.id, 'question': self.question, 'choice_a': self.choice_a, 'choice_b': self.choice_b, 'choice_c': self.choice_c, 'choice_d': self.choice_d, 'country': self.country, 'right_answer': self.right_answer}
+
+@app.route('/questionsApi', methods=['GET'])
+def get_questions():
+    questions = Question.query.all()
+    questions_api = [question.to_api() for question in questions]
+    return jsonify(questions_api)
 
 
 class Tip(db.Model):
@@ -50,10 +51,14 @@ class Tip(db.Model):
     tip = db.Column(db.String(500), nullable=False )
     country = db.Column(db.String(500), nullable=False)
 
-    def __init__(self, tip, country):
-        self.country = country
-        self.tip = tip
+    def to_api2(self):
+        return {'id': self.id, 'tip': self.tip, 'country': self.country}
 
+@app.route('/tipApi', methods=['GET'])
+def get_tip():
+    tip = Tip.query.all()
+    tip_api = [tip.to_api2() for tip in tip]
+    return jsonify(tip_api)
 
 
 @app.route('/')
@@ -104,7 +109,6 @@ def add_tip():
 
 if __name__ == '__main__':
     app.run()
-
 
 
 
