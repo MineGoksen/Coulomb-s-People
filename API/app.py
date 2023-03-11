@@ -36,14 +36,23 @@ class Question(db.Model):
     country = db.Column(db.String(500), nullable=False)
     right_answer = db.Column(db.String(500), nullable=False)
 
-    def to_api(self):
-        return {'id': self.id, 'question': self.question, 'choice_a': self.choice_a, 'choice_b': self.choice_b, 'choice_c': self.choice_c, 'choice_d': self.choice_d, 'country': self.country, 'right_answer': self.right_answer}
 
-@app.route('/questionsApi', methods=['GET'])
+@app.route('/questionsApi')
 def get_questions():
     questions = Question.query.all()
-    questions_api = [question.to_api() for question in questions]
-    return jsonify(questions_api)
+    result = []
+    for question in questions:
+        question_data = {}
+        question_data['id'] = question.id
+        question_data['question'] = question.question
+        question_data['choice_a'] = question.choice_a
+        question_data['choice_b'] = question.choice_b
+        question_data['choice_c'] = question.choice_c
+        question_data['choice_d'] = question.choice_d
+        question_data['country'] = question.country
+        question_data['right_answer'] = question.right_answer
+        result.append(question_data)
+    return jsonify(result)
 
 
 class Tip(db.Model):
@@ -51,14 +60,17 @@ class Tip(db.Model):
     tip = db.Column(db.String(500), nullable=False )
     country = db.Column(db.String(500), nullable=False)
 
-    def to_api2(self):
-        return {'id': self.id, 'tip': self.tip, 'country': self.country}
-
-@app.route('/tipApi', methods=['GET'])
-def get_tip():
-    tip = Tip.query.all()
-    tip_api = [tip.to_api2() for tip in tip]
-    return jsonify(tip_api)
+@app.route('/tipsApi')
+def get_tips():
+    tips = Tip.query.all()
+    result = []
+    for tip in tips:
+        tip_data = {}
+        tip_data['id'] = tip.id
+        tip_data['title'] = tip.title
+        tip_data['content'] = tip.content
+        result.append(tip_data)
+    return jsonify(result)
 
 
 @app.route('/')
@@ -102,8 +114,6 @@ def add_tip():
     db.session.add(new_question)
     db.session.commit()
     return redirect(url_for('home'))
-
-
 
 
 
