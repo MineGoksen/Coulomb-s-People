@@ -44,24 +44,22 @@ class Question(db.Model):
         self.choice_d = choice_d
         self.country = country
         self.right_answer = right_answer
-
+    def to_api(self):
+        return {'id': self.id, 'question': self.question, 'choice_a': self.choice_a, 'choice_b': self.choice_b, 'choice_c': self.choice_c, 'choice_d': self.choice_d, 'country': self.country, 'right_answer': self.right_answer}
+    def to_api_with_country(self,country):
+        if country==self.country: 
+            return {'id': self.id, 'question': self.question, 'choice_a': self.choice_a, 'choice_b': self.choice_b, 'choice_c': self.choice_c, 'choice_d': self.choice_d, 'country': self.country, 'right_answer': self.right_answer}
 @app.route('/questionsApi')
+@app.route('/questionsApi/<country>', methods=['GET'])
+def get_question_country(country):
+    questions = Question.query.all()
+    questions_api = [question.to_api_with_country(country) for question in questions]
+    return jsonify(questions_api)
+@app.route('/questionsApi', methods=['GET'])
 def get_questions():
     questions = Question.query.all()
-    result = []
-    for question in questions:
-        question_data = {}
-        question_data['id'] = question.id
-        question_data['question'] = question.question
-        question_data['choice_a'] = question.choice_a
-        question_data['choice_b'] = question.choice_b
-        question_data['choice_c'] = question.choice_c
-        question_data['choice_d'] = question.choice_d
-        question_data['country'] = question.country
-        question_data['right_answer'] = question.right_answer
-        result.append(question_data)
-    return jsonify(result)
-
+    questions_api = [question.to_api() for question in questions]
+    return jsonify(questions_api)
 
 class Tip(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -70,18 +68,22 @@ class Tip(db.Model):
     def __init__(self, tip, country):
         self.tip = tip
         self.country = country
+    def to_api2(self):
+        return {'id': self.id, 'tip': self.tip, 'country': self.country}
+    def to_api2_with_country(self,country):
+        if country==self.country:
+            return {'id': self.id, 'tip': self.tip, 'country': self.country}    
 
-@app.route('/tipsApi')
-def get_tips():
-    tips = Tip.query.all()
-    result = []
-    for tip in tips:
-        tip_data = {}
-        tip_data['id'] = tip.id
-        tip_data['title'] = tip.title
-        tip_data['content'] = tip.content
-        result.append(tip_data)
-    return jsonify(result)
+@app.route('/tipApi', methods=['GET'])
+def get_tip():
+    tip = Tip.query.all()
+    tip_api = [tip.to_api2() for tip in tip]
+    return jsonify(tip_api)
+@app.route('/tipApi/<country>', methods=['GET'])
+def get_tip_country(country):
+    tip = Tip.query.all()
+    tip_api = [tip.to_api2_with_country(country) for tip in tip]
+    return jsonify(tip_api)
 
 
 @app.route('/')
