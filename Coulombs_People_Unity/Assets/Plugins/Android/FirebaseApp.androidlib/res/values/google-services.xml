@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://pentavr-75e47-default-rtdb.europe-west1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">1029655336853</string>
+  <string name="google_storage_bucket" translatable="false">pentavr-75e47.appspot.com</string>
+  <string name="project_id" translatable="false">pentavr-75e47</string>
+  <string name="google_api_key" translatable="false">AIzaSyA0nte9TKHmPiBRgFvVSYJxYcJ3yCmkv-I</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0nte9TKHmPiBRgFvVSYJxYcJ3yCmkv-I</string>
+  <string name="google_app_id" translatable="false">1:1029655336853:android:70fcf2575cd58b8790889c</string>
+  <string name="default_web_client_id" translatable="false">1029655336853-pq1i44bt9t54a88el0rcbm8ufat4467b.apps.googleusercontent.com</string>
+</resources>

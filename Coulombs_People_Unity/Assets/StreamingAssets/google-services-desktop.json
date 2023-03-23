@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1029655336853",
+    "firebase_url": "https://pentavr-75e47-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pentavr-75e47",
+    "storage_bucket": "pentavr-75e47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029655336853:android:70fcf2575cd58b8790889c",
+        "android_client_info": {
+          "package_name": "com.PentaVR.coulombsPeople"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029655336853-pq1i44bt9t54a88el0rcbm8ufat4467b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0nte9TKHmPiBRgFvVSYJxYcJ3yCmkv-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029655336853-pq1i44bt9t54a88el0rcbm8ufat4467b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
