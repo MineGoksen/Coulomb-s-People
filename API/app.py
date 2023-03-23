@@ -49,7 +49,6 @@ class Question(db.Model):
     def to_api_with_country(self,country):
         if country==self.country: 
             return {'id': self.id, 'question': self.question, 'choice_a': self.choice_a, 'choice_b': self.choice_b, 'choice_c': self.choice_c, 'choice_d': self.choice_d, 'country': self.country, 'right_answer': self.right_answer}
-@app.route('/questionsApi')
 @app.route('/questionsApi/<country>', methods=['GET'])
 def get_question_country(country):
     questions = Question.query.all()
