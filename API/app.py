@@ -84,7 +84,34 @@ def get_tip_country(country):
     tip_api = [tip.to_api2_with_country(country) for tip in tip]
     return jsonify(tip_api)
 
+class Player(db.Model):
+    id = db.Column(db.String(500), primary_key=True)
+    nickname = db.Column(db.String(40),unique=True, nullable=False)
+    e_mail = db.Column(db.String(100),unique=True, nullable=False)
+    guest_point = db.Column(db.Integer, nullable=False)
+    question_point = db.Column(db.Integer, nullable=False)    
 
+    def __init__(self, id, nickname, e_mail, guest_point, question_point):
+        self.id = id
+        self.nickname = nickname
+        self.e_mail = e_mail
+        self.guest_point = guest_point
+        self.question_point = question_point
+    def to_api_players(self):
+        return {'id': self.id, 'tip': self.tip, 'country': self.country}
+    def to_api_playerWithId(self,id):
+        if id==self.country:
+            return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'guest-point': self.guest_point,'question-point': self.question_point}  
+@app.route('/playerApi', methods=['GET'])
+def get_player():
+    player = Player.query.all()
+    player_api = [player.to_api_players() for player in player]
+    return jsonify(player_api)
+@app.route('/playerApi/<id>', methods=['GET'])
+def get_player_id(id):
+    player = Player.query.all()
+    player_api = [player.to_api_playerWithId(id) for player in player]
+    return jsonify(player_api)           
 @app.route('/')
 def index():
     return render_template('login.html')
