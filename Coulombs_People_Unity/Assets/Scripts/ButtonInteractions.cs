@@ -21,6 +21,30 @@ public class ButtonInteractions : MonoBehaviour
         simpleUIText.text = "Sign Up Clicked: " + counter;
     }
 
+    public void AnswerA_Clicked()
+    {
+        counter++;
+        simpleUIText.text = "AnswerA: " + counter;
+    }
+
+    public void AnswerB_Clicked()
+    {
+        counter++;
+        simpleUIText.text = "AnswerB: " + counter;
+    }
+
+    public void AnswerC_Clicked()
+    {
+        counter++;
+        simpleUIText.text = "AnswerC: " + counter;
+    }
+
+    public void AnswerD_Clicked()
+    {
+        counter++;
+        simpleUIText.text = "AnswerD: " + counter;
+    }
+
 
 
 
