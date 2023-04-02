@@ -11,12 +11,17 @@ public class SignIn : MonoBehaviour
     public Button button;    
     private static Firebase.Auth.FirebaseAuth auth;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     public Button popUp;
     public GameObject image_tip;
     public TextMeshProUGUI tip;
     string t = "eror";
 
+=======
+    public GameObject image_popup;
+    public TextMeshProUGUI popup;
+>>>>>>> Stashed changes
 =======
     public GameObject image_popup;
     public TextMeshProUGUI popup;
@@ -63,7 +68,11 @@ public class SignIn : MonoBehaviour
             {
                 //Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 tip.text="user information is incorrect";
+=======
+                popup.text = "SignInWithEmailAndPasswordAsync was canceled.";
+>>>>>>> Stashed changes
 =======
                 popup.text = "SignInWithEmailAndPasswordAsync was canceled.";
 >>>>>>> Stashed changes
