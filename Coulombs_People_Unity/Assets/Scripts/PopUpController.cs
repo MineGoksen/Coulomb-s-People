@@ -28,8 +28,6 @@ public class PopUpController : MonoBehaviour
         // Show the pop-up when the button is clicked
         image_tip.SetActive(true);
         
-
-
     }
 
     public void HidePopUp()

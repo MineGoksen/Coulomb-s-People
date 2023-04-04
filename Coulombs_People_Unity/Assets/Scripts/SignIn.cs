@@ -3,35 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SignIn : MonoBehaviour
-{
+{   private bool succesfull=false;
     public string email;
     public string password;
     public Button button;    
     private static Firebase.Auth.FirebaseAuth auth;
-<<<<<<< Updated upstream
-
-    public Button popUp;
-    public GameObject image_tip;
-    public TextMeshProUGUI tip;
-    string t = "eror";
-
-=======
+    string text;
     public GameObject image_popup;
     public TextMeshProUGUI popup;
->>>>>>> Stashed changes
+    Firebase.Auth.FirebaseUser newUser;
     void Start()
     {
-        image_tip.SetActive(false);
-        tip.text = t;
+        image_popup.SetActive(false);
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        popup.text = text;
+        if (succesfull)
+        {
+            Debug.Log("here");
+            PlayerPrefs.SetString("UserID", newUser.UserId);
+            Debug.Log(PlayerPrefs.GetString("UserID"));
+            succesfull = false;
+            SceneManager.LoadScene("Entrance");
+        }
     }
     public void ReadEmails(string s)
     {
@@ -42,60 +43,49 @@ public class SignIn : MonoBehaviour
         password = s;
     }
 
-    public void ShowPopUp()
-    {
-        // Show the pop-up when the button is clicked
-        image_tip.SetActive(true);
-
-
-    }
-
-    public void HidePopUp()
-    {
-        // Hide the pop-up when the button is clicked
-        image_tip.SetActive(false);
-    }
-
     public void SignInUser()
     {
         auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
             if (task.IsCanceled)
             {
                 //Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
-<<<<<<< Updated upstream
-                tip.text="user information is incorrect";
-=======
-                popup.text = "SignInWithEmailAndPasswordAsync was canceled.";
->>>>>>> Stashed changes
-                ShowPopUp();
+
+                text = "SignInWithEmailAndPasswordAsync was canceled.";
+              
                 return;
             }
             if (task.IsFaulted)
             {
                 //Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
-                popup.text = "SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception;
-                ShowPopUp();
+               text = "SignInWithEmailAndPasswordAsync encountered an error: ";
+                
                 return;
             }
 
-            Firebase.Auth.FirebaseUser newUser = task.Result;
-            popup.text = "User signed in successfully ";
-            ShowPopUp();
-            Debug.LogFormat("User signed in successfully: {0} ({1})",
-                newUser.DisplayName, newUser.UserId);
+            newUser = task.Result;
+            text = "User signed in successfully ";
+            succesfull = true;
+            //Debug.LogFormat("User signed in successfully: {0} ({1})",newUser.DisplayName, newUser.UserId);
+
         });
     }
+
+
 
     public void ShowPopUp()
     {
         // Show the pop-up when the button is clicked
-        image_tip.SetActive(true);
+        image_popup.SetActive(true);
 
     }
 
     public void HidePopUp()
     {
         // Hide the pop-up when the button is clicked
-        image_tip.SetActive(false);
+        image_popup.SetActive(false);
+    }
+    public void toSignIn()
+    {
+        
     }
 }
