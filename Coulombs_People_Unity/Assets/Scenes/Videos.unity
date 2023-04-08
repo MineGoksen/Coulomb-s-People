@@ -1669,9 +1669,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873480431}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2056205866}
@@ -1680,7 +1686,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 549, y: 431}
+=======
+  m_AnchoredPosition: {x: 548.9684, y: 431.00125}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &873480433
@@ -1727,7 +1737,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: PauseVideo
         m_Mode: 1
@@ -2331,9 +2345,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382545298}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 976903439}
@@ -2342,7 +2362,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 658, y: 431}
+=======
+  m_AnchoredPosition: {x: 657.9521, y: 431.00125}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382545300
@@ -2389,7 +2413,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: PlayVideo
         m_Mode: 1
@@ -2649,9 +2677,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660409524}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 255949738}
@@ -2660,7 +2694,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 425, y: 431}
+=======
+  m_AnchoredPosition: {x: 424.99353, y: 431.00125}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660409526
@@ -2707,7 +2745,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: Prepare
         m_Mode: 1
@@ -2783,9 +2825,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744541813}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1364901258}
@@ -2794,7 +2842,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 772, y: 431}
+=======
+  m_AnchoredPosition: {x: 771.97876, y: 431.00125}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744541815
@@ -2841,7 +2893,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: ResetVideo
         m_Mode: 1
@@ -3006,7 +3062,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949536467}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 7f64ff729ae95bb4c9f7d5d5830940ea, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: c342d6f392aec654ea8b93db338f5f82, type: 3}
+>>>>>>> Stashed changes
   m_Name: 
   m_EditorClassIdentifier: 
   youtubePlayer: {fileID: 1573293327}
