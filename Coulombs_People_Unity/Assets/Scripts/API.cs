@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class API : MonoBehaviour
 {
-    private const string URL = "http://127.0.0.1:5000/questionsApi";
+    private const string URL = "http://192.168.208.26:5000/questionsApi";
     public TextMeshProUGUI question;
     public TextMeshProUGUI a;
     public TextMeshProUGUI b;
