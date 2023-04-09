@@ -186,7 +186,7 @@ Transform:
   m_Children:
   - {fileID: 1626762760}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109073301
 GameObject:
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 125
+  m_MaxRaycastDistance: 170
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -957,7 +957,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1051,7 +1051,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &796230475
 GameObject:
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 125
+  m_MaxRaycastDistance: 170
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -1669,15 +1669,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873480431}
-<<<<<<< Updated upstream
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00030481583}
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2056205866}
@@ -1686,11 +1680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 549, y: 431}
-=======
-  m_AnchoredPosition: {x: 548.9684, y: 431.00125}
->>>>>>> Stashed changes
+  m_AnchoredPosition: {x: 548.96936, y: 431.00024}
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &873480433
@@ -1737,11 +1727,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
-=======
-      - m_Target: {fileID: 0}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: PauseVideo
         m_Mode: 1
@@ -1791,90 +1777,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873480431}
   m_CullTransparentMesh: 0
---- !u!1 &963194225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 963194228}
-  - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
---- !u!20 &963194227
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &963194228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &976903438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,15 +2247,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382545298}
-<<<<<<< Updated upstream
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00030481583}
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 976903439}
@@ -2362,11 +2258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 658, y: 431}
-=======
-  m_AnchoredPosition: {x: 657.9521, y: 431.00125}
->>>>>>> Stashed changes
+  m_AnchoredPosition: {x: 657.9509, y: 431.00024}
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382545300
@@ -2413,11 +2305,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
-=======
-      - m_Target: {fileID: 0}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: PlayVideo
         m_Mode: 1
@@ -2493,7 +2381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573293323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4310.234, y: -1357.137, z: -1686.4495}
+  m_LocalPosition: {x: -4310.235, y: -1357.1371, z: -1686.4493}
   m_LocalScale: {x: 640.45605, y: 141.00586, z: 107.66752}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2525,7 +2413,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://rr1---sn-u0g3oxu-xnce.googlevideo.com/videoplayback?expire=1680992825&ei=2ZUxZOLZDuDVx_APhNy9uAM&ip=31.223.43.225&id=o-AGYdERlxHeYnJuBfUQi_WxolBor4gVFzecvSl5CfmwN_&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C313&source=youtube&requiressl=yes&mh=WK&mm=31%2C29&mn=sn-u0g3oxu-xnce%2Csn-nv47lnsk&ms=au%2Crdu&mv=m&mvi=1&pl=24&initcwndbps=198750&vprv=1&mime=video%2Fmp4&ns=pLiMxTfw-R466ij3qIVGLFgM&gir=yes&clen=367513170&dur=660.025&lmt=1619950660645282&mt=1680970630&fvip=4&keepalive=yes&fexp=24007246&c=WEB&txp=6216222&n=aR07ECqNZdSJDw&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAMXEOe3mlt04Hr_Z7DK-B5ICiVD1IeIT7noyG84SqCqTAiEA_NMMhFoSLj3kGy-X2o88MlyolCpSBGpQG5St__bUpgI%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgY15IpUY0RygLRxDuHbPTr6fsEXaO41AD_8qu2uDzBQICIQDkk9XkfR6ftHAKVxYd-WCcbhBjZYMXvagPwB-BFh0oBg%3D%3D
+  m_Url: https://rr1---sn-u0g3oxu-xncl.googlevideo.com/videoplayback?expire=1681020459&ei=ygEyZNSjOpengAetmYhg&ip=31.223.43.225&id=o-AMeVWLLh7EBFAozlf3vEmXLEn4eEiEoImvtKp-ColUbU&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C313&source=youtube&requiressl=yes&mh=vE&mm=31%2C29&mn=sn-u0g3oxu-xncl%2Csn-nv47ln7z&ms=au%2Crdu&mv=m&mvi=1&pl=24&initcwndbps=435000&vprv=1&mime=video%2Fmp4&ns=wvFJeaBvh5QlMo4Nin181q0M&gir=yes&clen=740265888&dur=1339.371&lmt=1679754731788348&mt=1680998702&fvip=3&keepalive=yes&fexp=24007246&c=WEB&txp=6219224&n=tLv1Z02C4mLK7g&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgRKsQZADwtzkcA9xSvlNTFotRlyXpWHwtU5tyfcu5KHgCIEDwA1Zfi_J0AeFFCVZZ5iE-HRc1oIO3bHJ8tMWU2FJk&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhANjvFi3TJ_gT2qUbHI9S1FsNYdL0WvRsSuiu0xT6wn2xAiEAqD-aR7K7WKBTcptlM2LtYQqJHbwFfwUEGTVbSi1xmUU%3D
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -2628,7 +2516,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645979297}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
@@ -2649,7 +2537,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1660409524
 GameObject:
@@ -2677,15 +2565,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660409524}
-<<<<<<< Updated upstream
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00030481583}
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 255949738}
@@ -2694,11 +2576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 425, y: 431}
-=======
-  m_AnchoredPosition: {x: 424.99353, y: 431.00125}
->>>>>>> Stashed changes
+  m_AnchoredPosition: {x: 424.9923, y: 431.00024}
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660409526
@@ -2745,11 +2623,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
-=======
-      - m_Target: {fileID: 0}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: Prepare
         m_Mode: 1
@@ -2825,15 +2699,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744541813}
-<<<<<<< Updated upstream
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00030481583}
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1364901258}
@@ -2842,11 +2710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 772, y: 431}
-=======
-  m_AnchoredPosition: {x: 771.97876, y: 431.00125}
->>>>>>> Stashed changes
+  m_AnchoredPosition: {x: 771.97876, y: 431.00024}
   m_SizeDelta: {x: 61, y: 49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744541815
@@ -2871,9 +2735,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0, g: 1, b: 0.09941673, a: 1}
-    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
-    m_SelectedColor: {r: 0, g: 0.43360895, b: 0.9245283, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2893,11 +2757,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1949536472}
-=======
-      - m_Target: {fileID: 0}
->>>>>>> Stashed changes
         m_TargetAssemblyTypeName: YoutubePlayer.VideoControl, Assembly-CSharp
         m_MethodName: ResetVideo
         m_Mode: 1
@@ -3046,7 +2906,7 @@ RectTransform:
   - {fileID: 873480432}
   - {fileID: 1573293324}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3062,11 +2922,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949536467}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: 7f64ff729ae95bb4c9f7d5d5830940ea, type: 3}
-=======
   m_Script: {fileID: 11500000, guid: c342d6f392aec654ea8b93db338f5f82, type: 3}
->>>>>>> Stashed changes
   m_Name: 
   m_EditorClassIdentifier: 
   youtubePlayer: {fileID: 1573293327}
