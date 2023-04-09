@@ -11,10 +11,15 @@ public  class StaticGame
     public static int round=0;
     public static float[] videoCoordinates=new float[2];
     public static string [] roundCountry=new string[10];
+    public static VideoStruct[] locations = new VideoStruct [2];
+    public static bool isStarted = false;
    
-    public static void CalculateScore(double lat, double lon)
+    public static void CalculateScore(double lat_guessed, double lon_guessed)
     {
-        double distance = HaversineFormula(videoCoordinates[0], videoCoordinates[1], lat, lon);
+        double lat = locations[round].lat;
+        double lon = locations[round].lon;
+        double distance = HaversineFormula(lat, lon, lat_guessed, lon_guessed);
+        Debug.Log(distance);
         score += distance;//1/distance yapýp 1 ile 100 arasý normalize edelim 
     }
     static double HaversineFormula(double lat1, double lon1, double lat2, double lon2)
@@ -49,6 +54,25 @@ public  class StaticGame
         videoCoordinates = new float[2];
         roundCountry = new string[10];
         return "worked";
+    }
+    public static void fillArray()
+    {   if (locations[0] != null)
+            return;
+        locations[0] = new VideoStruct();
+        locations[0].fill("https://www.youtube.com/watch?v=ImRJuBl1z6w&ab_channel=Y%C3%BCr%C3%BCBenimle-WalkwithMe","Turkey", 39.925533, 32.866287);
+        locations[1] = new VideoStruct();
+        locations[1].fill("https://www.youtube.com/watch?v=uM5BHCWlcio&ab_channel=WalkWithMe%21", "Greece", 37.983810, 23.727539);
+        Debug.Log("filled");
+
+    }
+    public static string returnUrl()
+    {
+        return locations[round].URL;
+    }
+
+    public static string returnCountry()
+    {
+        return locations[round].country;
     }
 
 

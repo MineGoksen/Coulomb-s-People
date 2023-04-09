@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class WorldMapController : MonoBehaviour, IPointerClickHandler
 {
@@ -20,7 +21,7 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
     {
         Vector2 localCursor;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out localCursor))
-        {
+        SceneManager.LoadScene("Videos");
             float xRatio = (localCursor.x + rectTransform.rect.width * 0.5f) / rectTransform.rect.width;
             float yRatio = (localCursor.y + rectTransform.rect.height * 0.5f) / rectTransform.rect.height;
 
@@ -36,6 +37,8 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
             PointerMove.instance.setCoordinates(latitude, longitude);
 
             Debug.Log($"Týklanan Koordinatlar: Enlem {latitude}, Boylam {longitude}");
-        }
+            StaticGame.CalculateScore(latitude, longitude);
+            SceneManager.LoadScene("Questions");
+    
     }
 }

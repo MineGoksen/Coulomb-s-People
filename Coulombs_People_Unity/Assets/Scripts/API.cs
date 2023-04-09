@@ -7,19 +7,24 @@ using UnityEngine.UI;
 
 public class API : MonoBehaviour
 {
-    private const string URL = "http://127.0.0.1:5000/questionsApi";
+    private const string URL = "http://10.2.137.52:5000/questionsApi/";
     public TextMeshProUGUI question;
     public TextMeshProUGUI a;
     public TextMeshProUGUI b;
     public TextMeshProUGUI c;
     public TextMeshProUGUI d;
+    private string rightAnswer;
+
+
+    public Button buton_a ;
+    public Button buton_b ;
+    public Button buton_c ;
+    public Button buton_d ;
 
     void Start()
-    {
-        StartCoroutine(GetRequest(URL));
+    {// string country = StaticGame.returnCountry();
+        StartCoroutine(GetRequest(URL+"Turkey"));
         Debug.Log("the request is sent");
-        
-
     }
 
     IEnumerator GetRequest(string uri)
@@ -51,9 +56,51 @@ public class API : MonoBehaviour
                     b.text = data[0].choice_b;
                     c.text = data[0].choice_c;
                     d.text = data[0].choice_d;
+                    rightAnswer = data[0].right_answer;
                     break;
             }
         }
+
+        
+    }
+
+    public void RightAnswerCheck()
+    {
+        switch (rightAnswer)
+        {
+
+
+            case "A":
+                buton_a.GetComponent<Image>().color = Color.green;
+                buton_b.GetComponent<Image>().color = Color.red;
+                buton_c.GetComponent<Image>().color = Color.red;
+                buton_d.GetComponent<Image>().color = Color.red;
+                break;
+            case "B":
+                buton_a.GetComponent<Image>().color = Color.red;
+                buton_b.GetComponent<Image>().color = Color.green;
+                buton_c.GetComponent<Image>().color = Color.red;
+                buton_d.GetComponent<Image>().color = Color.red;
+                break;
+            case "C":
+                buton_a.GetComponent<Image>().color = Color.red;
+                buton_b.GetComponent<Image>().color = Color.red;
+                buton_c.GetComponent<Image>().color = Color.green;
+                buton_d.GetComponent<Image>().color = Color.red;
+                break;
+            case "D":
+                buton_a.GetComponent<Image>().color = Color.red;
+                buton_b.GetComponent<Image>().color = Color.red;
+                buton_c.GetComponent<Image>().color = Color.red;
+                buton_d.GetComponent<Image>().color = Color.green;
+                break;
+        }
+
+
+
+
+
+
     }
 
 
