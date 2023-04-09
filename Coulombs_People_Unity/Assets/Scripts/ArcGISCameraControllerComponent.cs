@@ -42,7 +42,7 @@ namespace Esri.ArcGISMapsSDK.Samples.Components
 
 
 		private float TranslationSpeed = 0.0f;
-		private float RotationSpeed = 99999999.0f;
+		private float RotationSpeed = 100.0f;
 		private double MouseScrollSpeed = 0.001f;
 
 		private static double MaxCameraHeight = 11000000.0;

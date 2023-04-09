@@ -1,12 +1,22 @@
 {
   "dependencies": {
     "com.esri.arcgis-maps-sdk": {
-      "version": "file:C:/Users/berak/Downloads/arcgis-maps-sdk-unity-1.1.0.tgz",
+
+      "version": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
+
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
         "com.unity.burst": "1.6.5",
         "com.unity.mathematics": "1.2.6"
+      }
+    },
+    "com.ibicha.youtube-player": {
+      "version": "file:com.ibicha.youtube-player",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
     "com.unity.burst": {
@@ -117,7 +127,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
