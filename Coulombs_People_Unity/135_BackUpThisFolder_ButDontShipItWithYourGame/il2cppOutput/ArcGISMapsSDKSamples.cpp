@@ -1,0 +1,13591 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+struct GenericVirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct GenericInterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InvokerActionInvoker1;
+template <typename T1>
+struct InvokerActionInvoker1<T1*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1)
+	{
+		void* params[1] = { p1 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2>
+struct InvokerActionInvoker2;
+template <typename T1, typename T2>
+struct InvokerActionInvoker2<T1*, T2*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2)
+	{
+		void* params[2] = { p1, p2 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>>
+struct Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0;
+// System.Action`1<System.Threading.Tasks.Task`1<System.Object>>
+struct Action_1_t0328A8A468C762DAECEC2BDBE23D4E47955D8678;
+// System.Action`1<System.Threading.Tasks.Task`1<System.String>>
+struct Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B;
+// System.Action`1<System.Boolean>
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<System.String>
+struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A;
+// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+// System.Action`2<System.Object,System.Int32>
+struct Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75;
+// System.Action`2<System.String,System.Int32>
+struct Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF;
+// Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>
+struct ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2;
+// Esri.Unity.ArcGISDictionary`2<System.Object,System.Object>
+struct ArcGISDictionary_2_t899C8E79879BE992B4751B96E27230040403B45C;
+// Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>
+struct ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE;
+// Esri.Unity.ArcGISDictionary`2<System.String,System.String>
+struct ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<System.Object>
+struct ArcGISImmutableArrayBuilder_1_tEC440AFC33A47D14C2393F12006802F027A82530;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>
+struct ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700;
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>
+struct ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589;
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>
+struct ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE;
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC;
+// Esri.Unity.ArcGISImmutableArray`1<System.Object>
+struct ArcGISImmutableArray_1_tC58986FF2249D807471CE8D095E14DF0EF41EE80;
+// Esri.Unity.ArcGISImmutableArray`1<System.String>
+struct ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2;
+// Esri.Standard.ArcGISIntermediateDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>
+struct ArcGISIntermediateDictionary_2_t2C5F65F49FC4D7C5AD0F400531D51D411D74C6FE;
+// Esri.Standard.ArcGISIntermediateDictionary`2<System.String,System.String>
+struct ArcGISIntermediateDictionary_2_t0A1E5024EFFDE4CA6D3C2062A82A3F02740CE90F;
+// Esri.Standard.ArcGISIntermediateImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISIntermediateImmutableArrayBuilder_1_t31B00CC21AED218272CF351C5EE719B8A269A324;
+// Esri.Standard.ArcGISIntermediateImmutableArrayBuilder`1<System.String>
+struct ArcGISIntermediateImmutableArrayBuilder_1_t36B272831563851E86A56029EBF4CB4450E0B4D8;
+// Esri.Standard.ArcGISIntermediateImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>
+struct ArcGISIntermediateImmutableArray_1_tAE93B37F208DBBEA3F046E236EF494AF65EBEC0F;
+// Esri.Standard.ArcGISIntermediateImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>
+struct ArcGISIntermediateImmutableArray_1_t0532A71BEDEC57C84D9CDA8FE006490CF86F7744;
+// Esri.Standard.ArcGISIntermediateImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISIntermediateImmutableArray_1_t9499D8773CBE6F4AA8F38542081172A43B9A2B89;
+// Esri.Standard.ArcGISIntermediateImmutableArray`1<System.String>
+struct ArcGISIntermediateImmutableArray_1_tA44FFF20B8F94CA1F341823563E7002D06E39FEF;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+// System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding>
+struct IEnumerable_1_tB0371F6D0932F0C778CAEED128603B65772AC357;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction>
+struct IEnumerator_1_t5197EB77176C670D4AAF5E0D1B4F1AB9940EFE41;
+// UnityEngine.InputSystem.InputControl`1<System.Single>
+struct InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A;
+// UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>
+struct InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66;
+// UnityEngine.InputSystem.InputProcessor`1<System.Single>
+struct InputProcessor_1_tFE49B42CB371A9A2A3F29802695BD251947AD0B4;
+// UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>
+struct InputProcessor_1_tD1A40E0E5825AAABC3416EC96E087FF6E6351DD2;
+// System.Collections.Generic.List`1<Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationConfigurationInstanceData>
+struct List_1_t12F17821A3CFF9644C345047DF4D0510E3C71706;
+// System.Collections.Generic.List`1<Esri.ArcGISMapsSDK.Components.ArcGISLayerInstanceData>
+struct List_1_t48837955D6081E2B80F194704BBB84CFD0A30531;
+// System.Collections.Generic.List`1<Esri.HPFramework.HPTransform>
+struct List_1_tB65EBA56CE964E7A4390BC5EAFB4F5F57EDCDE06;
+// System.Collections.Generic.List`1<System.Text.RegularExpressions.Match>
+struct List_1_t425196350A2888B269895DE1C865A3E7E4E2C9B6;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Predicate`1<System.Object>
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+// System.Predicate`1<System.Threading.Tasks.Task>
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>
+struct ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886;
+// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
+struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37;
+// System.Threading.Tasks.TaskCompletionSource`1<System.String>
+struct TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372;
+// System.Threading.Tasks.TaskFactory`1<System.Net.HttpListenerContext>
+struct TaskFactory_1_tC0BB9633EDDB72940A75C39F67D074DAFBE019D4;
+// System.Threading.Tasks.TaskFactory`1<System.Object>
+struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
+// System.Threading.Tasks.TaskFactory`1<System.String>
+struct TaskFactory_1_t7ABCD7F9503486A075E0B072E6EB95956CFE3106;
+// System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>
+struct Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0;
+// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>[]
+struct Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76;
+// UnityEngine.InputSystem.InputProcessor`1<System.Single>[]
+struct InputProcessor_1U5BU5D_tFEE411B67EEAA6B997AF875A65D072993C8C809C;
+// UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>[]
+struct InputProcessor_1U5BU5D_t5083205703ED9D1A4B8037E3BBE765389957231A;
+// System.Int32[][]
+struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E;
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// System.Text.RegularExpressions.Group[]
+struct GroupU5BU5D_t9924453EAB39E5BC350475A536C5C7093F9A04A9;
+// UnityEngine.InputSystem.InputAction[]
+struct InputActionU5BU5D_t6F881A9FE5C2016615C8D2E0B192608EA5FCE810;
+// UnityEngine.InputSystem.InputActionMap[]
+struct InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045;
+// UnityEngine.InputSystem.InputBinding[]
+struct InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57;
+// UnityEngine.InputSystem.InputControl[]
+struct InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17;
+// UnityEngine.InputSystem.InputControlScheme[]
+struct InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86;
+// UnityEngine.InputSystem.InputDevice[]
+struct InputDeviceU5BU5D_tA9AEFC6AF63557D3D5DCFB2B26DDA6F63147D548;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// UnityEngine.InputSystem.Utilities.InternedString[]
+struct InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.Type[]
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+// System.UInt32[]
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+// UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride[]
+struct ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE;
+// System.AggregateException
+struct AggregateException_t51B6205846DFB356B94452702201DD239D44422F;
+// Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+struct ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA;
+// Esri.GameEngine.Attributes.ArcGISAttribute
+struct ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439;
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+struct ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242;
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent
+struct ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99;
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEventHandler
+struct ArcGISAttributeProcessorEventHandler_tB1396F9413A0D7DBC566BB53567ECD7464CEDCE3;
+// Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+struct ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9;
+// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler
+struct ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012;
+// Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+struct ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3;
+// Esri.GameEngine.Map.ArcGISBasemap
+struct ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062;
+// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent
+struct ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D;
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent
+struct ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033;
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions
+struct ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC;
+// Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+struct ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F;
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+struct ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536;
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent
+struct ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4;
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEventHandler
+struct ArcGISElevationSourceViewStateChangedEventHandler_tD5A2202E8D710E8AB8ECCA69A8AA08E8DDF44EBA;
+// Esri.GameEngine.Extent.ArcGISExtent
+struct ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC;
+// Esri.GameEngine.Extent.ArcGISExtentCircle
+struct ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B;
+// Esri.GameEngine.Geometry.ArcGISGeometry
+struct ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2;
+// Esri.GameEngine.Elevation.ArcGISImageElevationSource
+struct ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56;
+// Esri.GameEngine.Layers.ArcGISImageLayer
+struct ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB;
+// Esri.GameEngine.Layers.Base.ArcGISLayer
+struct ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29;
+// Esri.GameEngine.View.State.ArcGISLayerViewState
+struct ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829;
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent
+struct ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C;
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEventHandler
+struct ArcGISLayerViewStateChangedEventHandler_t889A215B5C14CB4B983E01C1D6FC9C6E3B23078D;
+// Esri.GameEngine.ArcGISLoadableDoneLoadingEventHandler
+struct ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538;
+// Esri.GameEngine.ArcGISLoadableLoadStatusChangedEventHandler
+struct ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126;
+// Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent
+struct ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC;
+// Esri.GameEngine.Map.ArcGISMap
+struct ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E;
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent
+struct ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C;
+// Esri.GameEngine.Map.ArcGISMapElevation
+struct ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD;
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+struct ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A;
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+struct ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B;
+// Esri.GameEngine.Security.ArcGISOAuthAuthorizationCredentialIssuedEventHandler
+struct ArcGISOAuthAuthorizationCredentialIssuedEventHandler_t7D15A20B88D0E8993C7BBCB6DEED1A9B62AF1C9B;
+// Esri.GameEngine.Geometry.ArcGISPoint
+struct ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD;
+// Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent
+struct ArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC;
+// Esri.GameEngine.Geometry.ArcGISSpatialReference
+struct ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791;
+// Esri.GameEngine.View.ArcGISView
+struct ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB;
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent
+struct ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4;
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEventHandler
+struct ArcGISViewSpatialReferenceChangedEventHandler_tD7E9D73F59153CAA1B72336F00B0A73AFC4C2B98;
+// Esri.GameEngine.View.State.ArcGISViewState
+struct ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E;
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEvent
+struct ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0;
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEventHandler
+struct ArcGISViewStateChangedEventHandler_tD996E475E3ECFC7DF0453F53D7BD3B3CEC340A0B;
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent
+struct ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6;
+// Esri.GameEngine.View.State.ArcGISViewStateMessage
+struct ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F;
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+struct ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE;
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+struct ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3;
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
+// System.Collections.ArrayList
+struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+// System.Net.AuthenticationSchemeSelector
+struct AuthenticationSchemeSelector_tF0DDA5A5A05EDB1A9B42FF58391E36E1AAD01FDF;
+// UnityEngine.InputSystem.Controls.AxisControl
+struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7;
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+// System.Reflection.Binder
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+// UnityEngine.InputSystem.Controls.ButtonControl
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF;
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+// UnityEngine.Canvas
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+// System.Text.RegularExpressions.Capture
+struct Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A;
+// System.Text.RegularExpressions.CaptureCollection
+struct CaptureCollection_t38405272BD6A6DA77CD51487FD39624C6E95CC93;
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+// System.Threading.ContextCallback
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+// System.Net.CookieCollection
+struct CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// UnityEngine.InputSystem.Controls.DeltaControl
+struct DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B;
+// System.Text.Encoding
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+// System.Exception
+struct Exception_t;
+// System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy
+struct ExtendedProtectionPolicy_t50F460D31056608D80176DD66F24EE5ACEA54F99;
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+// System.Text.RegularExpressions.Group
+struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881;
+// System.Text.RegularExpressions.GroupCollection
+struct GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E;
+// Esri.HPFramework.HPNode
+struct HPNode_t1A0643C84675A11E7C271CEAD04102D3FBF7A20C;
+// Esri.HPFramework.HPRoot
+struct HPRoot_t722454C205514EE6378825BFA632736A35958E06;
+// Esri.HPFramework.HPTransform
+struct HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E;
+// System.Collections.Hashtable
+struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
+// System.Net.HttpConnection
+struct HttpConnection_tAA1DA73AA1D39D03237022305791474A193E0308;
+// System.Net.HttpListener
+struct HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01;
+// System.Net.HttpListenerContext
+struct HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412;
+// System.Net.HttpListenerPrefixCollection
+struct HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897;
+// System.Net.HttpListenerRequest
+struct HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8;
+// System.Net.HttpListenerResponse
+struct HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// System.Collections.IEnumerator
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+// System.Collections.IEqualityComparer
+struct IEqualityComparer_tEF8F1EC76B9C8E76695BE848D41E6B147928D1C1;
+// Esri.ArcGISMapsSDK.Memory.IMemorySystemHandler
+struct IMemorySystemHandler_t2BE9B1029C323FC2AA11D3A374A66968BCC43ECC;
+// System.Security.Principal.IPrincipal
+struct IPrincipal_tE7AF5096287F6C3472585E124CB38FF2A51EAB5F;
+// UnityEngine.InputSystem.InputAction
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
+// UnityEngine.InputSystem.InputActionAsset
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+// UnityEngine.InputSystem.InputActionMap
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09;
+// UnityEngine.InputSystem.InputActionState
+struct InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700;
+// UnityEngine.InputSystem.InputDevice
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+// UnityEngine.InputSystem.Controls.IntegerControl
+struct IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB;
+// System.Text.RegularExpressions.Match
+struct Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F;
+// System.Text.RegularExpressions.MatchCollection
+struct MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC;
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+// System.Reflection.MemberFilter
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// Mono.Security.Interface.MonoTlsProvider
+struct MonoTlsProvider_t39C898CDC9458EEAD7C019B4B23701EAF9E24F7E;
+// Mono.Security.Interface.MonoTlsSettings
+struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0;
+// UnityEngine.InputSystem.Mouse
+struct Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F;
+// System.Collections.Specialized.NameValueCollection
+struct NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7;
+// Esri.ArcGISMapsSDK.Security.OAuthAuthenticationConfigurationMapping
+struct OAuthAuthenticationConfigurationMapping_tFE336B3678528C62F6CFC948D41851DB3B649346;
+// Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer
+struct OAuthChallengeHandlersInitializer_t697A651694758FAB7CC202906F321A76644D0803;
+// Esri.ArcGISMapsSDK.Samples.OAuthScene
+struct OAuthScene_t26BBE10FE8E18CCA09F301A1E37CAD9D393A8C48;
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// UnityEngine.InputSystem.Pointer
+struct Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A;
+// System.Text.RegularExpressions.Regex
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
+// UnityEngine.Rendering.RenderPipelineAsset
+struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E;
+// System.Net.ResponseStream
+struct ResponseStream_t8E2B4FE038D63D87A22401FD4ED8267BA284AEDD;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// Sample3DAttributesComponent
+struct Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44;
+// SampleAPIMapCreator
+struct SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456;
+// SampleArcGISRaycast
+struct SampleArcGISRaycast_tD6F90D510AC1B83A47FD959C2B4A3EDC9C69DA6A;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler
+struct SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler
+struct SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler
+struct SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+// System.Net.ServiceNameStore
+struct ServiceNameStore_t58D68EFA9BC0DF88B9FA9940086DCE0DEF08D843;
+// System.Threading.Tasks.StackGuard
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+// System.IO.Stream
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE;
+// System.String
+struct String_t;
+// System.StringComparer
+struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06;
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+// System.Threading.Tasks.TaskScheduler
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+// UnityEngine.UI.Text
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+// UnityEngine.Transform
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+// System.Type
+struct Type_t;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
+// System.UriParser
+struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+// UnityEngine.InputSystem.Controls.Vector2Control
+struct Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432;
+// System.Version
+struct Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// System.Net.WebHeaderCollection
+struct WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8;
+// System.Security.Cryptography.X509Certificates.X509Certificate
+struct X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4;
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/IMoveActions
+struct IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961;
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/EditorModeEnabledChangedEventHandler
+struct EditorModeEnabledChangedEventHandler_tFBDB822FD9290D26492B83A767DE1E185A2795B3;
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler
+struct MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C;
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MeshCollidersEnabledChangedEventHandler
+struct MeshCollidersEnabledChangedEventHandler_tF4AAA622B6446005F9F7166B637A98C14E4004D1;
+// UnityEngine.Camera/CameraCallback
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+// System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
+struct KeysCollection_t8FF5FD8704F6F99F6FD4B8A2D27DFAEFD3880F81;
+// System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry
+struct NameObjectEntry_t58A8B38FC7A6ABE5C83153B6C3F2696F88E7A9A2;
+// Sample3DAttributesComponent/<>c__DisplayClass9_0
+struct U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD;
+// SampleAPIMapCreator/SetLayerAttributesEventHandler
+struct SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0
+struct U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0
+struct U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233;
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0
+struct U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8;
+// System.Threading.Tasks.Task/ContingentProperties
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+// System.Uri/UriInfo
+struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISAuthenticationManager_t5FAB05D18656673B026282F53D7C5AA9C08363BF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISElevationSourceViewStatus_t122162AF3F54CDAD39B9C694F84275E8D9CCC8DB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISLayerViewStatus_t1CF73F38A0F934F70488533AA868EA8B87B84C1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISViewStatus_t2A5ADB3472098506F5AC0F5012B184C738F477A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral04C9618D2E042948890B0F29CB70997BC6F512A7;
+IL2CPP_EXTERN_C String_t* _stringLiteral06C54B36BC3CACF15D9DD8AC28884E0815EEF9B1;
+IL2CPP_EXTERN_C String_t* _stringLiteral089848BE2C0B21B3DECB3224D087FD585FAC0A5A;
+IL2CPP_EXTERN_C String_t* _stringLiteral0AC529BB3A4F89F74C6A4D1B670F33B34B27884B;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C26850851D92C78237F0A0E15E39996ACAD2C90;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F21EACE919110FF489F0C6F157FC28CAC42C527;
+IL2CPP_EXTERN_C String_t* _stringLiteral1417408F309FA843A4FCFB4965F3F84874427D89;
+IL2CPP_EXTERN_C String_t* _stringLiteral16A70DC8C790D0EFD53AE03FF23CB99D8B7A53CA;
+IL2CPP_EXTERN_C String_t* _stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B;
+IL2CPP_EXTERN_C String_t* _stringLiteral24A27595273ABD78A9616CAC927DD0ED146D9AC8;
+IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
+IL2CPP_EXTERN_C String_t* _stringLiteral38D56DDD845951F5F2D1A86D08506382F8C01930;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B507CF1334072EFBB9CCE271AFA7FBDEC7CB0D0;
+IL2CPP_EXTERN_C String_t* _stringLiteral3BE087A9CA779969BE0FC05BB57DE5116FCA6EBF;
+IL2CPP_EXTERN_C String_t* _stringLiteral3D9A5BCA84CBC621991B59F55CFA1BFDAE41D6AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral3DBD56A88F354EACFAFE433FC930A93888C30822;
+IL2CPP_EXTERN_C String_t* _stringLiteral55A97A63A2773903CDB44D31C926F08D9259B24F;
+IL2CPP_EXTERN_C String_t* _stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF;
+IL2CPP_EXTERN_C String_t* _stringLiteral5ED246642A639D94F6002A30C5CDAF1AD64CC4F2;
+IL2CPP_EXTERN_C String_t* _stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5;
+IL2CPP_EXTERN_C String_t* _stringLiteral60A2E461CC4A1D49199A67B5216F128319CE63CC;
+IL2CPP_EXTERN_C String_t* _stringLiteral62E8C8594D61918FFA638FEF25B9829A6997E6AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral65741981A7D546D3EB3A5BC5C04603D3C2630BD3;
+IL2CPP_EXTERN_C String_t* _stringLiteral66836DCBDBFA85B7DC8085D0B45ADF14F670FE31;
+IL2CPP_EXTERN_C String_t* _stringLiteral680D8B64F824701349EA7DF217364A98284B8BB2;
+IL2CPP_EXTERN_C String_t* _stringLiteral70946C15FA725DB07D881F8A694CA716713A6AD6;
+IL2CPP_EXTERN_C String_t* _stringLiteral70B9D0E3342087CDF4F016BCAC969F50EA6893E2;
+IL2CPP_EXTERN_C String_t* _stringLiteral724F6EF07C0D3FFFD32A55027218B65FB4F377E1;
+IL2CPP_EXTERN_C String_t* _stringLiteral7EC1DB04E87FF7730A44EB2E46E7B7AF9BB1F14C;
+IL2CPP_EXTERN_C String_t* _stringLiteral804AEFF53ABE9586A9E9C23615903AFF229F1B74;
+IL2CPP_EXTERN_C String_t* _stringLiteral80CED26F8D8EB6422E7C0D1F2A41C4675B7616F7;
+IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
+IL2CPP_EXTERN_C String_t* _stringLiteral8BE5699979AC3DE9620AFBA19563FBC5BC8CE935;
+IL2CPP_EXTERN_C String_t* _stringLiteral8BF33A59DFE908357B990B07DC9307C5B0615D19;
+IL2CPP_EXTERN_C String_t* _stringLiteral8C6222E8F105CF34D89C8715E3752ABD26CE3D81;
+IL2CPP_EXTERN_C String_t* _stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813;
+IL2CPP_EXTERN_C String_t* _stringLiteral91D6FB410D71CE9742B5463875BD066822096B08;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B33F90A16096463F38F8C4D7CF742717E2510DB;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D0744B42D825ABDF3BEA2282D80FFAD935CE205;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D354CA1036DDA6F701F800C5C1B3A4235D2EDD7;
+IL2CPP_EXTERN_C String_t* _stringLiteralA18FC8EA58E12A25639395492EAE3D0709F77DF2;
+IL2CPP_EXTERN_C String_t* _stringLiteralA28D113880249B0B23262C811D42B1ABE15F41A5;
+IL2CPP_EXTERN_C String_t* _stringLiteralA49829C4F5082005F0F7D1045BE32D193C6FA017;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8070BBD635F5D8EE6A31E3AB9BDBB77B0DF9A01;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
+IL2CPP_EXTERN_C String_t* _stringLiteralB44AF4EDFCA412C57660CFA0541BB99D6F07A545;
+IL2CPP_EXTERN_C String_t* _stringLiteralB48A9ACF9BFCB5E32BBE2DDCC86A434ECBA25E6D;
+IL2CPP_EXTERN_C String_t* _stringLiteralC16A72F568099036F31C777BB6DB1252A60B74E0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC3DE20E50BCFB8505A67C58B3806CCD0346AEA55;
+IL2CPP_EXTERN_C String_t* _stringLiteralC59F95CCBB1B3C9204F113EC7990845B7282B635;
+IL2CPP_EXTERN_C String_t* _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDC249A7143D53551771C2CECCC0424019492E947;
+IL2CPP_EXTERN_C String_t* _stringLiteralE20B211F8AE1EC582AC21FD4069D7C9DE9AD7B96;
+IL2CPP_EXTERN_C String_t* _stringLiteralE2650DF022919640180BF997A9A61D5AA4233A9C;
+IL2CPP_EXTERN_C String_t* _stringLiteralE3C76D80E692A8EFB46FAD0AA3B3580418160879;
+IL2CPP_EXTERN_C String_t* _stringLiteralE61CD0CEC26DE828F369FEF299C7118F6873632A;
+IL2CPP_EXTERN_C String_t* _stringLiteralE95C2C3E334D7BBD413C06E8235A34CBF118CEC4;
+IL2CPP_EXTERN_C String_t* _stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2;
+IL2CPP_EXTERN_C String_t* _stringLiteralF6A6ED6A0F3980367298E40026750E97B3291A44;
+IL2CPP_EXTERN_C String_t* _stringLiteralF851EE96052530DAB3CD426BF4C320F171FB77B1;
+IL2CPP_EXTERN_C String_t* _stringLiteralFAC19F803219641E6985AB634099FA7A2BFFE7DE;
+IL2CPP_EXTERN_C String_t* _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2;
+IL2CPP_EXTERN_C String_t* _stringLiteralFE1048C9B319AA50FED1026F8A9DA660EF40E73D;
+IL2CPP_EXTERN_C String_t* _stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISCameraControllerComponent_FocusChanged_mEC77A7C9386CD673544210488A8283E62C0421CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISDictionary_2_Add_m918CD8C2A22E92DEC15FB8043804AB919989AD14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISDictionary_2_Clear_m01D330596FD8DD39CBA6AF7D1E63027507098015_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArrayBuilder_1_Add_m9B645C4F52F191110F9DE3326FA84DD25FCDDB12_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArrayBuilder_1_MoveToArray_m4673FA4F1C5B8A7B4F4F93E5F8E6679331164024_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArray_1_At_mC04B3490DDA2B5CDD7B81C7D0F3B03E0E5976133_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArray_1_At_mD6FFDC3BFEF557EFE4B4BDCCCD3F1BB461C9E7B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArray_1_CreateBuilder_m102B630F5A29BBDB0FF815CF06BF05030489DCC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_0_mC218367F9EEB53A5D33EE27A55536943494651E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_1_mE34FE163008BE38F797ADD97D80302A9BD238F42_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_2_mDC4B210C227DD44275ADECBD956D3964B346A6C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_3_m142D720B1D3EFF586A9D73364593B702FB21C51E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m48048CEC8C895EC5EA48D7E3554DC12D218614EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_mE7D44689F6992F868F4567188250A800470E7D7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_m35CA5343EEE462AD233862A02443F56B7E328F88_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisHPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E_mE17656D923589664ECE4DF97AD969D87A6F9E3E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisSampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456_mA521C6F29A931AE6133ECFE8BEBC0D69D01B106B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_m6E6D01F9C3833DBA8B5A428993E3B1A0A1BB97DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_mD9E21CD06DFAB1573E7727107E7731F41BEEB529_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_m7596CAEE5B19174D825CC14CAE1E98657F31B635_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m272CC46315F1EACC9F4E3CC3E3AD274A8246E381_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC_mB3F5965AB11322EEFDE310A358609FBD4359162F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_mE15BCE704EC2BE508FB0D97C209647DDA12448B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m26769E29D0B4F1ED4B6B1F1EF26E258843A602FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_mC7DDEBBB41B5E60F1CF83EB24E5309D11143FA3E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectOfType_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m931C89A99029BAF090DFE15ED9AB2AC7CA1D63B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Sample3DAttributesComponent_Setup3DAttributes_mA36E5A3694722B7C45095C272DBAA9662B9764BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Sample3DAttributesComponent_U3CSetup3DAttributesOtherTypeU3Eb__9_0_m2180771F21D5A38276A737E35BF845CF45AA9068_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_mCA6F8A00478A61E0CCE8A3F0A70B558D987B2940_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m78AC1C73D49147BA9D91F5BBBE549F1853F21B1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass0_0_U3CHandleChallengeInternalU3Eb__0_mEC84C45016706C63ADB2926B972F768538B9846F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass1_0_U3CHandleChallengeU3Eb__0_m7AB6AAF567C181A20916D59011D1A8006F492B7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass2_0_U3CHandleChallengeInternalU3Eb__0_m669100E2185332C562F3BBB9A1C9D697D3C2557C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass9_0_U3CSetup3DAttributesOtherTypeU3Eb__1_mA36B425822EF019BB633912BBAC1F1640E0D9197_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_t119304DF5C0D9289082DECF52C5AFA23394D69F8 
+{
+};
+
+// Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>
+struct ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateDictionary`2<TKey,TValue> Esri.Unity.ArcGISDictionary`2::intermediateDictionary
+	ArcGISIntermediateDictionary_2_t2C5F65F49FC4D7C5AD0F400531D51D411D74C6FE* ___intermediateDictionary_0;
+};
+
+// Esri.Unity.ArcGISDictionary`2<System.String,System.String>
+struct ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateDictionary`2<TKey,TValue> Esri.Unity.ArcGISDictionary`2::intermediateDictionary
+	ArcGISIntermediateDictionary_2_t0A1E5024EFFDE4CA6D3C2062A82A3F02740CE90F* ___intermediateDictionary_0;
+};
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArrayBuilder`1<T> Esri.Unity.ArcGISImmutableArrayBuilder`1::intermediateImmutableArrayBuilder
+	ArcGISIntermediateImmutableArrayBuilder_1_t31B00CC21AED218272CF351C5EE719B8A269A324* ___intermediateImmutableArrayBuilder_0;
+};
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>
+struct ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArrayBuilder`1<T> Esri.Unity.ArcGISImmutableArrayBuilder`1::intermediateImmutableArrayBuilder
+	ArcGISIntermediateImmutableArrayBuilder_1_t36B272831563851E86A56029EBF4CB4450E0B4D8* ___intermediateImmutableArrayBuilder_0;
+};
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>
+struct ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArray`1<T> Esri.Unity.ArcGISImmutableArray`1::intermediateImmutableArray
+	ArcGISIntermediateImmutableArray_1_tAE93B37F208DBBEA3F046E236EF494AF65EBEC0F* ___intermediateImmutableArray_0;
+};
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>
+struct ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArray`1<T> Esri.Unity.ArcGISImmutableArray`1::intermediateImmutableArray
+	ArcGISIntermediateImmutableArray_1_t0532A71BEDEC57C84D9CDA8FE006490CF86F7744* ___intermediateImmutableArray_0;
+};
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+struct ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArray`1<T> Esri.Unity.ArcGISImmutableArray`1::intermediateImmutableArray
+	ArcGISIntermediateImmutableArray_1_t9499D8773CBE6F4AA8F38542081172A43B9A2B89* ___intermediateImmutableArray_0;
+};
+
+// Esri.Unity.ArcGISImmutableArray`1<System.String>
+struct ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2  : public RuntimeObject
+{
+	// Esri.Standard.ArcGISIntermediateImmutableArray`1<T> Esri.Unity.ArcGISImmutableArray`1::intermediateImmutableArray
+	ArcGISIntermediateImmutableArray_1_tA44FFF20B8F94CA1F341823563E7002D06E39FEF* ___intermediateImmutableArray_0;
+};
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
+struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37  : public RuntimeObject
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ____task_0;
+};
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.String>
+struct TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372  : public RuntimeObject
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ____task_0;
+};
+
+// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler
+struct ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012  : public RuntimeObject
+{
+};
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions
+struct ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC  : public RuntimeObject
+{
+	// UnityEngine.InputSystem.InputActionAsset Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::<asset>k__BackingField
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___U3CassetU3Ek__BackingField_0;
+	// UnityEngine.InputSystem.InputActionMap Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_Move
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_Move_1;
+	// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/IMoveActions Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_MoveActionsCallbackInterface
+	RuntimeObject* ___m_MoveActionsCallbackInterface_2;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_Move_Up
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Move_Up_3;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_Move_Forward
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Move_Forward_4;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_Move_Right
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Move_Right_5;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::m_Move_GetCoordinates
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Move_GetCoordinates_6;
+};
+
+// System.Text.RegularExpressions.Capture
+struct Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A  : public RuntimeObject
+{
+	// System.Int32 System.Text.RegularExpressions.Capture::<Index>k__BackingField
+	int32_t ___U3CIndexU3Ek__BackingField_0;
+	// System.Int32 System.Text.RegularExpressions.Capture::<Length>k__BackingField
+	int32_t ___U3CLengthU3Ek__BackingField_1;
+	// System.String System.Text.RegularExpressions.Capture::<Text>k__BackingField
+	String_t* ___U3CTextU3Ek__BackingField_2;
+};
+
+// Esri.ArcGISMapsSDK.Utils.Environment
+struct Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2  : public RuntimeObject
+{
+};
+
+// System.Text.RegularExpressions.GroupCollection
+struct GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E  : public RuntimeObject
+{
+	// System.Text.RegularExpressions.Match System.Text.RegularExpressions.GroupCollection::_match
+	Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* ____match_0;
+	// System.Collections.Hashtable System.Text.RegularExpressions.GroupCollection::_captureMap
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ____captureMap_1;
+	// System.Text.RegularExpressions.Group[] System.Text.RegularExpressions.GroupCollection::_groups
+	GroupU5BU5D_t9924453EAB39E5BC350475A536C5C7093F9A04A9* ____groups_2;
+};
+
+// System.Net.HttpListener
+struct HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01  : public RuntimeObject
+{
+	// Mono.Security.Interface.MonoTlsProvider System.Net.HttpListener::tlsProvider
+	MonoTlsProvider_t39C898CDC9458EEAD7C019B4B23701EAF9E24F7E* ___tlsProvider_0;
+	// Mono.Security.Interface.MonoTlsSettings System.Net.HttpListener::tlsSettings
+	MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0* ___tlsSettings_1;
+	// System.Security.Cryptography.X509Certificates.X509Certificate System.Net.HttpListener::certificate
+	X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___certificate_2;
+	// System.Net.AuthenticationSchemes System.Net.HttpListener::auth_schemes
+	int32_t ___auth_schemes_3;
+	// System.Net.HttpListenerPrefixCollection System.Net.HttpListener::prefixes
+	HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897* ___prefixes_4;
+	// System.Net.AuthenticationSchemeSelector System.Net.HttpListener::auth_selector
+	AuthenticationSchemeSelector_tF0DDA5A5A05EDB1A9B42FF58391E36E1AAD01FDF* ___auth_selector_5;
+	// System.String System.Net.HttpListener::realm
+	String_t* ___realm_6;
+	// System.Boolean System.Net.HttpListener::ignore_write_exceptions
+	bool ___ignore_write_exceptions_7;
+	// System.Boolean System.Net.HttpListener::listening
+	bool ___listening_8;
+	// System.Boolean System.Net.HttpListener::disposed
+	bool ___disposed_9;
+	// System.Object System.Net.HttpListener::_internalLock
+	RuntimeObject* ____internalLock_10;
+	// System.Collections.Hashtable System.Net.HttpListener::registry
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___registry_11;
+	// System.Collections.ArrayList System.Net.HttpListener::ctx_queue
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___ctx_queue_12;
+	// System.Collections.ArrayList System.Net.HttpListener::wait_queue
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ___wait_queue_13;
+	// System.Collections.Hashtable System.Net.HttpListener::connections
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___connections_14;
+	// System.Net.ServiceNameStore System.Net.HttpListener::defaultServiceNames
+	ServiceNameStore_t58D68EFA9BC0DF88B9FA9940086DCE0DEF08D843* ___defaultServiceNames_15;
+	// System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy System.Net.HttpListener::extendedProtectionPolicy
+	ExtendedProtectionPolicy_t50F460D31056608D80176DD66F24EE5ACEA54F99* ___extendedProtectionPolicy_16;
+};
+
+// System.Net.HttpListenerContext
+struct HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412  : public RuntimeObject
+{
+	// System.Net.HttpListenerRequest System.Net.HttpListenerContext::request
+	HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* ___request_0;
+	// System.Net.HttpListenerResponse System.Net.HttpListenerContext::response
+	HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* ___response_1;
+	// System.Security.Principal.IPrincipal System.Net.HttpListenerContext::user
+	RuntimeObject* ___user_2;
+	// System.Net.HttpConnection System.Net.HttpListenerContext::cnc
+	HttpConnection_tAA1DA73AA1D39D03237022305791474A193E0308* ___cnc_3;
+	// System.String System.Net.HttpListenerContext::error
+	String_t* ___error_4;
+	// System.Int32 System.Net.HttpListenerContext::err_status
+	int32_t ___err_status_5;
+	// System.Net.HttpListener System.Net.HttpListenerContext::Listener
+	HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* ___Listener_6;
+};
+
+// System.Net.HttpListenerPrefixCollection
+struct HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897  : public RuntimeObject
+{
+	// System.Collections.Generic.List`1<System.String> System.Net.HttpListenerPrefixCollection::prefixes
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___prefixes_0;
+	// System.Net.HttpListener System.Net.HttpListenerPrefixCollection::listener
+	HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* ___listener_1;
+};
+
+// System.Net.HttpListenerRequest
+struct HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8  : public RuntimeObject
+{
+	// System.String[] System.Net.HttpListenerRequest::accept_types
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___accept_types_0;
+	// System.Int64 System.Net.HttpListenerRequest::content_length
+	int64_t ___content_length_1;
+	// System.Boolean System.Net.HttpListenerRequest::cl_set
+	bool ___cl_set_2;
+	// System.Net.CookieCollection System.Net.HttpListenerRequest::cookies
+	CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608* ___cookies_3;
+	// System.Net.WebHeaderCollection System.Net.HttpListenerRequest::headers
+	WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* ___headers_4;
+	// System.String System.Net.HttpListenerRequest::method
+	String_t* ___method_5;
+	// System.IO.Stream System.Net.HttpListenerRequest::input_stream
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___input_stream_6;
+	// System.Version System.Net.HttpListenerRequest::version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_7;
+	// System.Collections.Specialized.NameValueCollection System.Net.HttpListenerRequest::query_string
+	NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* ___query_string_8;
+	// System.String System.Net.HttpListenerRequest::raw_url
+	String_t* ___raw_url_9;
+	// System.Uri System.Net.HttpListenerRequest::url
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___url_10;
+	// System.Uri System.Net.HttpListenerRequest::referrer
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___referrer_11;
+	// System.String[] System.Net.HttpListenerRequest::user_languages
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___user_languages_12;
+	// System.Net.HttpListenerContext System.Net.HttpListenerRequest::context
+	HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* ___context_13;
+	// System.Boolean System.Net.HttpListenerRequest::is_chunked
+	bool ___is_chunked_14;
+	// System.Boolean System.Net.HttpListenerRequest::ka_set
+	bool ___ka_set_15;
+	// System.Boolean System.Net.HttpListenerRequest::keep_alive
+	bool ___keep_alive_16;
+};
+
+// System.Net.HttpListenerResponse
+struct HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1  : public RuntimeObject
+{
+	// System.Boolean System.Net.HttpListenerResponse::disposed
+	bool ___disposed_0;
+	// System.Text.Encoding System.Net.HttpListenerResponse::content_encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___content_encoding_1;
+	// System.Int64 System.Net.HttpListenerResponse::content_length
+	int64_t ___content_length_2;
+	// System.Boolean System.Net.HttpListenerResponse::cl_set
+	bool ___cl_set_3;
+	// System.String System.Net.HttpListenerResponse::content_type
+	String_t* ___content_type_4;
+	// System.Net.CookieCollection System.Net.HttpListenerResponse::cookies
+	CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608* ___cookies_5;
+	// System.Net.WebHeaderCollection System.Net.HttpListenerResponse::headers
+	WebHeaderCollection_tAF1CF77FB39D8E1EB782174E30566BAF55F71AE8* ___headers_6;
+	// System.Boolean System.Net.HttpListenerResponse::keep_alive
+	bool ___keep_alive_7;
+	// System.Net.ResponseStream System.Net.HttpListenerResponse::output_stream
+	ResponseStream_t8E2B4FE038D63D87A22401FD4ED8267BA284AEDD* ___output_stream_8;
+	// System.Version System.Net.HttpListenerResponse::version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_9;
+	// System.String System.Net.HttpListenerResponse::location
+	String_t* ___location_10;
+	// System.Int32 System.Net.HttpListenerResponse::status_code
+	int32_t ___status_code_11;
+	// System.String System.Net.HttpListenerResponse::status_description
+	String_t* ___status_description_12;
+	// System.Boolean System.Net.HttpListenerResponse::chunked
+	bool ___chunked_13;
+	// System.Net.HttpListenerContext System.Net.HttpListenerResponse::context
+	HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* ___context_14;
+	// System.Boolean System.Net.HttpListenerResponse::HeadersSent
+	bool ___HeadersSent_15;
+	// System.Object System.Net.HttpListenerResponse::headers_lock
+	RuntimeObject* ___headers_lock_16;
+	// System.Boolean System.Net.HttpListenerResponse::force_close_chunked
+	bool ___force_close_chunked_17;
+};
+
+// System.Text.RegularExpressions.MatchCollection
+struct MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC  : public RuntimeObject
+{
+	// System.Text.RegularExpressions.Regex System.Text.RegularExpressions.MatchCollection::_regex
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ____regex_0;
+	// System.Collections.Generic.List`1<System.Text.RegularExpressions.Match> System.Text.RegularExpressions.MatchCollection::_matches
+	List_1_t425196350A2888B269895DE1C865A3E7E4E2C9B6* ____matches_1;
+	// System.Boolean System.Text.RegularExpressions.MatchCollection::_done
+	bool ____done_2;
+	// System.String System.Text.RegularExpressions.MatchCollection::_input
+	String_t* ____input_3;
+	// System.Int32 System.Text.RegularExpressions.MatchCollection::_beginning
+	int32_t ____beginning_4;
+	// System.Int32 System.Text.RegularExpressions.MatchCollection::_length
+	int32_t ____length_5;
+	// System.Int32 System.Text.RegularExpressions.MatchCollection::_startat
+	int32_t ____startat_6;
+	// System.Int32 System.Text.RegularExpressions.MatchCollection::_prevlen
+	int32_t ____prevlen_7;
+};
+
+// System.Reflection.MemberInfo
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+
+// System.Collections.Specialized.NameObjectCollectionBase
+struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC  : public RuntimeObject
+{
+	// System.Boolean System.Collections.Specialized.NameObjectCollectionBase::_readOnly
+	bool ____readOnly_8;
+	// System.Collections.ArrayList System.Collections.Specialized.NameObjectCollectionBase::_entriesArray
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____entriesArray_9;
+	// System.Collections.IEqualityComparer System.Collections.Specialized.NameObjectCollectionBase::_keyComparer
+	RuntimeObject* ____keyComparer_10;
+	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Specialized.NameObjectCollectionBase::_entriesTable
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ____entriesTable_11;
+	// System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Specialized.NameObjectCollectionBase::_nullKeyEntry
+	NameObjectEntry_t58A8B38FC7A6ABE5C83153B6C3F2696F88E7A9A2* ____nullKeyEntry_12;
+	// System.Collections.Specialized.NameObjectCollectionBase/KeysCollection System.Collections.Specialized.NameObjectCollectionBase::_keys
+	KeysCollection_t8FF5FD8704F6F99F6FD4B8A2D27DFAEFD3880F81* ____keys_13;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Specialized.NameObjectCollectionBase::_serializationInfo
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____serializationInfo_14;
+	// System.Int32 System.Collections.Specialized.NameObjectCollectionBase::_version
+	int32_t ____version_15;
+	// System.Object System.Collections.Specialized.NameObjectCollectionBase::_syncRoot
+	RuntimeObject* ____syncRoot_16;
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
+{
+	// System.String System.Uri::m_String
+	String_t* ___m_String_16;
+	// System.String System.Uri::m_originalUnicodeString
+	String_t* ___m_originalUnicodeString_17;
+	// System.UriParser System.Uri::m_Syntax
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
+	// System.String System.Uri::m_DnsSafeHost
+	String_t* ___m_DnsSafeHost_19;
+	// System.Uri/Flags System.Uri::m_Flags
+	uint64_t ___m_Flags_20;
+	// System.Uri/UriInfo System.Uri::m_Info
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
+	// System.Boolean System.Uri::m_iriParsing
+	bool ___m_iriParsing_22;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0
+struct U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D  : public RuntimeObject
+{
+	// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0::<>4__this
+	SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9* ___U3CU3E4__this_0;
+	// System.Threading.Tasks.TaskCompletionSource`1<System.String> Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0::taskCompletionSource
+	TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* ___taskCompletionSource_1;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0
+struct U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233  : public RuntimeObject
+{
+	// System.Text.RegularExpressions.MatchCollection Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0::matches
+	MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* ___matches_0;
+	// System.Threading.Tasks.TaskCompletionSource`1<System.String> Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0::taskCompletionSource
+	TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* ___taskCompletionSource_1;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0
+struct U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8  : public RuntimeObject
+{
+	// Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0::oauthAuthenticationChallenge
+	ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* ___oauthAuthenticationChallenge_0;
+};
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+struct InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B 
+{
+	// System.Int32 UnityEngine.InputSystem.Utilities.InlinedArray`1::length
+	int32_t ___length_0;
+	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___firstValue_1;
+	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
+	Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76* ___additionalValues_2;
+};
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<System.Single>>
+struct InlinedArray_1_t2A86A6C75E0160EE14310E053C5249518871D847 
+{
+	// System.Int32 UnityEngine.InputSystem.Utilities.InlinedArray`1::length
+	int32_t ___length_0;
+	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
+	InputProcessor_1_tFE49B42CB371A9A2A3F29802695BD251947AD0B4* ___firstValue_1;
+	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
+	InputProcessor_1U5BU5D_tFEE411B67EEAA6B997AF875A65D072993C8C809C* ___additionalValues_2;
+};
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>>
+struct InlinedArray_1_tE5F1062E65707D24360CEAC52E03D32C6E5BA8BB 
+{
+	// System.Int32 UnityEngine.InputSystem.Utilities.InlinedArray`1::length
+	int32_t ___length_0;
+	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
+	InputProcessor_1_tD1A40E0E5825AAABC3416EC96E087FF6E6351DD2* ___firstValue_1;
+	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
+	InputProcessor_1U5BU5D_t5083205703ED9D1A4B8037E3BBE765389957231A* ___additionalValues_2;
+};
+
+// Unity.Collections.NativeArray`1<System.Byte>
+struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
+{
+	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
+	void* ___m_Buffer_0;
+	// System.Int32 Unity.Collections.NativeArray`1::m_Length
+	int32_t ___m_Length_1;
+	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
+	int32_t ___m_AllocatorLabel_2;
+};
+
+// Unity.Collections.NativeArray`1<System.Single>
+struct NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF 
+{
+	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
+	void* ___m_Buffer_0;
+	// System.Int32 Unity.Collections.NativeArray`1::m_Length
+	int32_t ___m_Length_1;
+	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
+	int32_t ___m_AllocatorLabel_2;
+};
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme>
+struct ReadOnlyArray_1_tC41FC1476A6CC9385BDD74ECC6D3AF66A6C82BF9 
+{
+	// TValue[] UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Array
+	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_Array_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_StartIndex
+	int32_t ___m_StartIndex_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Length
+	int32_t ___m_Length_2;
+};
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>
+struct ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA 
+{
+	// TValue[] UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Array
+	InputDeviceU5BU5D_tA9AEFC6AF63557D3D5DCFB2B26DDA6F63147D548* ___m_Array_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_StartIndex
+	int32_t ___m_StartIndex_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Length
+	int32_t ___m_Length_2;
+};
+
+// System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>
+struct Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	RuntimeObject* ___m_result_38;
+};
+
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	String_t* ___m_result_38;
+};
+
+// Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation
+struct ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256 
+{
+	// System.Double Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation::Heading
+	double ___Heading_0;
+	// System.Double Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation::Pitch
+	double ___Pitch_1;
+	// System.Double Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation::Roll
+	double ___Roll_2;
+};
+
+// Esri.GameEngine.Geometry.ArcGISSpheroidData
+struct ArcGISSpheroidData_tFEF516D5982F2BC23F01C9C84982FD774D8CFED6 
+{
+	// System.Double Esri.GameEngine.Geometry.ArcGISSpheroidData::MajorSemiAxis
+	double ___MajorSemiAxis_0;
+	// System.Double Esri.GameEngine.Geometry.ArcGISSpheroidData::SquaredEccentricity
+	double ___SquaredEccentricity_1;
+	// System.Double Esri.GameEngine.Geometry.ArcGISSpheroidData::MinorSemiAxis
+	double ___MinorSemiAxis_2;
+	// System.Double Esri.GameEngine.Geometry.ArcGISSpheroidData::Flattening
+	double ___Flattening_3;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// UnityEngine.InputSystem.Utilities.FourCC
+struct FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED 
+{
+	// System.Int32 UnityEngine.InputSystem.Utilities.FourCC::m_Code
+	int32_t ___m_Code_0;
+};
+
+// System.Text.RegularExpressions.Group
+struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881  : public Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A
+{
+	// System.Int32[] System.Text.RegularExpressions.Group::_caps
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____caps_4;
+	// System.Int32 System.Text.RegularExpressions.Group::_capcount
+	int32_t ____capcount_5;
+	// System.Text.RegularExpressions.CaptureCollection System.Text.RegularExpressions.Group::_capcoll
+	CaptureCollection_t38405272BD6A6DA77CD51487FD39624C6E95CC93* ____capcoll_6;
+	// System.String System.Text.RegularExpressions.Group::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_7;
+};
+
+// UnityEngine.InputSystem.InputBinding
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 
+{
+	// System.String UnityEngine.InputSystem.InputBinding::m_Name
+	String_t* ___m_Name_2;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Id
+	String_t* ___m_Id_3;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Path
+	String_t* ___m_Path_4;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Interactions
+	String_t* ___m_Interactions_5;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Processors
+	String_t* ___m_Processors_6;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Groups
+	String_t* ___m_Groups_7;
+	// System.String UnityEngine.InputSystem.InputBinding::m_Action
+	String_t* ___m_Action_8;
+	// UnityEngine.InputSystem.InputBinding/Flags UnityEngine.InputSystem.InputBinding::m_Flags
+	int32_t ___m_Flags_9;
+	// System.String UnityEngine.InputSystem.InputBinding::m_OverridePath
+	String_t* ___m_OverridePath_10;
+	// System.String UnityEngine.InputSystem.InputBinding::m_OverrideInteractions
+	String_t* ___m_OverrideInteractions_11;
+	// System.String UnityEngine.InputSystem.InputBinding::m_OverrideProcessors
+	String_t* ___m_OverrideProcessors_12;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.InputBinding
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_pinvoke
+{
+	char* ___m_Name_2;
+	char* ___m_Id_3;
+	char* ___m_Path_4;
+	char* ___m_Interactions_5;
+	char* ___m_Processors_6;
+	char* ___m_Groups_7;
+	char* ___m_Action_8;
+	int32_t ___m_Flags_9;
+	char* ___m_OverridePath_10;
+	char* ___m_OverrideInteractions_11;
+	char* ___m_OverrideProcessors_12;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.InputBinding
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_com
+{
+	Il2CppChar* ___m_Name_2;
+	Il2CppChar* ___m_Id_3;
+	Il2CppChar* ___m_Path_4;
+	Il2CppChar* ___m_Interactions_5;
+	Il2CppChar* ___m_Processors_6;
+	Il2CppChar* ___m_Groups_7;
+	Il2CppChar* ___m_Action_8;
+	int32_t ___m_Flags_9;
+	Il2CppChar* ___m_OverridePath_10;
+	Il2CppChar* ___m_OverrideInteractions_11;
+	Il2CppChar* ___m_OverrideProcessors_12;
+};
+
+// UnityEngine.InputSystem.Layouts.InputDeviceDescription
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F 
+{
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_InterfaceName
+	String_t* ___m_InterfaceName_0;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_DeviceClass
+	String_t* ___m_DeviceClass_1;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_Manufacturer
+	String_t* ___m_Manufacturer_2;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_Product
+	String_t* ___m_Product_3;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_Serial
+	String_t* ___m_Serial_4;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_Version
+	String_t* ___m_Version_5;
+	// System.String UnityEngine.InputSystem.Layouts.InputDeviceDescription::m_Capabilities
+	String_t* ___m_Capabilities_6;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Layouts.InputDeviceDescription
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_pinvoke
+{
+	char* ___m_InterfaceName_0;
+	char* ___m_DeviceClass_1;
+	char* ___m_Manufacturer_2;
+	char* ___m_Product_3;
+	char* ___m_Serial_4;
+	char* ___m_Version_5;
+	char* ___m_Capabilities_6;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Layouts.InputDeviceDescription
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_com
+{
+	Il2CppChar* ___m_InterfaceName_0;
+	Il2CppChar* ___m_DeviceClass_1;
+	Il2CppChar* ___m_Manufacturer_2;
+	Il2CppChar* ___m_Product_3;
+	Il2CppChar* ___m_Serial_4;
+	Il2CppChar* ___m_Version_5;
+	Il2CppChar* ___m_Capabilities_6;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+// UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 
+{
+	// System.String UnityEngine.InputSystem.Utilities.InternedString::m_StringOriginalCase
+	String_t* ___m_StringOriginalCase_0;
+	// System.String UnityEngine.InputSystem.Utilities.InternedString::m_StringLowerCase
+	String_t* ___m_StringLowerCase_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke
+{
+	char* ___m_StringOriginalCase_0;
+	char* ___m_StringLowerCase_1;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com
+{
+	Il2CppChar* ___m_StringOriginalCase_0;
+	Il2CppChar* ___m_StringLowerCase_1;
+};
+
+// UnityEngine.Matrix4x4
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	// System.Single UnityEngine.Matrix4x4::m00
+	float ___m00_0;
+	// System.Single UnityEngine.Matrix4x4::m10
+	float ___m10_1;
+	// System.Single UnityEngine.Matrix4x4::m20
+	float ___m20_2;
+	// System.Single UnityEngine.Matrix4x4::m30
+	float ___m30_3;
+	// System.Single UnityEngine.Matrix4x4::m01
+	float ___m01_4;
+	// System.Single UnityEngine.Matrix4x4::m11
+	float ___m11_5;
+	// System.Single UnityEngine.Matrix4x4::m21
+	float ___m21_6;
+	// System.Single UnityEngine.Matrix4x4::m31
+	float ___m31_7;
+	// System.Single UnityEngine.Matrix4x4::m02
+	float ___m02_8;
+	// System.Single UnityEngine.Matrix4x4::m12
+	float ___m12_9;
+	// System.Single UnityEngine.Matrix4x4::m22
+	float ___m22_10;
+	// System.Single UnityEngine.Matrix4x4::m32
+	float ___m32_11;
+	// System.Single UnityEngine.Matrix4x4::m03
+	float ___m03_12;
+	// System.Single UnityEngine.Matrix4x4::m13
+	float ___m13_13;
+	// System.Single UnityEngine.Matrix4x4::m23
+	float ___m23_14;
+	// System.Single UnityEngine.Matrix4x4::m33
+	float ___m33_15;
+};
+
+// System.Collections.Specialized.NameValueCollection
+struct NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7  : public NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC
+{
+	// System.String[] System.Collections.Specialized.NameValueCollection::_all
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____all_18;
+	// System.String[] System.Collections.Specialized.NameValueCollection::_allKeys
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____allKeys_19;
+};
+
+// UnityEngine.InputSystem.Utilities.PrimitiveValue
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.TypeCode UnityEngine.InputSystem.Utilities.PrimitiveValue::m_Type
+			int32_t ___m_Type_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding[4];
+			// System.Boolean UnityEngine.InputSystem.Utilities.PrimitiveValue::m_BoolValue
+			bool ___m_BoolValue_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding_forAlignmentOnly[4];
+			bool ___m_BoolValue_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding[4];
+			// System.Char UnityEngine.InputSystem.Utilities.PrimitiveValue::m_CharValue
+			Il2CppChar ___m_CharValue_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding_forAlignmentOnly[4];
+			Il2CppChar ___m_CharValue_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding[4];
+			// System.Byte UnityEngine.InputSystem.Utilities.PrimitiveValue::m_ByteValue
+			uint8_t ___m_ByteValue_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding[4];
+			// System.SByte UnityEngine.InputSystem.Utilities.PrimitiveValue::m_SByteValue
+			int8_t ___m_SByteValue_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding[4];
+			// System.Int16 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_ShortValue
+			int16_t ___m_ShortValue_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding[4];
+			// System.UInt16 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_UShortValue
+			uint16_t ___m_UShortValue_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding[4];
+			// System.Int32 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_IntValue
+			int32_t ___m_IntValue_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding[4];
+			// System.UInt32 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_UIntValue
+			uint32_t ___m_UIntValue_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_8_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding[4];
+			// System.Int64 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_LongValue
+			int64_t ___m_LongValue_9;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_9_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding[4];
+			// System.UInt64 UnityEngine.InputSystem.Utilities.PrimitiveValue::m_ULongValue
+			uint64_t ___m_ULongValue_10;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_10_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding[4];
+			// System.Single UnityEngine.InputSystem.Utilities.PrimitiveValue::m_FloatValue
+			float ___m_FloatValue_11;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_11_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding[4];
+			// System.Double UnityEngine.InputSystem.Utilities.PrimitiveValue::m_DoubleValue
+			double ___m_DoubleValue_12;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_12_forAlignmentOnly;
+		};
+	};
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.PrimitiveValue
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___m_Type_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding[4];
+			int32_t ___m_BoolValue_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_BoolValue_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding[4];
+			uint8_t ___m_CharValue_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_CharValue_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding[4];
+			uint8_t ___m_ByteValue_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding[4];
+			int8_t ___m_SByteValue_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding[4];
+			int16_t ___m_ShortValue_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding[4];
+			uint16_t ___m_UShortValue_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding[4];
+			int32_t ___m_IntValue_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding[4];
+			uint32_t ___m_UIntValue_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_8_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding[4];
+			int64_t ___m_LongValue_9;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_9_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding[4];
+			uint64_t ___m_ULongValue_10;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_10_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding[4];
+			float ___m_FloatValue_11;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_11_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding[4];
+			double ___m_DoubleValue_12;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_12_forAlignmentOnly;
+		};
+	};
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.PrimitiveValue
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___m_Type_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding[4];
+			int32_t ___m_BoolValue_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_1_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_BoolValue_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding[4];
+			uint8_t ___m_CharValue_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_2_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_CharValue_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding[4];
+			uint8_t ___m_ByteValue_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_3_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding[4];
+			int8_t ___m_SByteValue_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_4_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding[4];
+			int16_t ___m_ShortValue_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_5_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding[4];
+			uint16_t ___m_UShortValue_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_6_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding[4];
+			int32_t ___m_IntValue_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_7_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding[4];
+			uint32_t ___m_UIntValue_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_8_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_8_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding[4];
+			int64_t ___m_LongValue_9;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_9_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_9_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding[4];
+			uint64_t ___m_ULongValue_10;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_10_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_10_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding[4];
+			float ___m_FloatValue_11;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_11_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_11_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding[4];
+			double ___m_DoubleValue_12;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_12_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_12_forAlignmentOnly;
+		};
+	};
+};
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	// System.Single UnityEngine.Quaternion::x
+	float ___x_0;
+	// System.Single UnityEngine.Quaternion::y
+	float ___y_1;
+	// System.Single UnityEngine.Quaternion::z
+	float ___z_2;
+	// System.Single UnityEngine.Quaternion::w
+	float ___w_3;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler
+struct SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE  : public ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012
+{
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// System.UInt64
+struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
+{
+	// System.UInt64 System.UInt64::m_value
+	uint64_t ___m_value_0;
+};
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	// System.Single UnityEngine.Vector2::x
+	float ___x_0;
+	// System.Single UnityEngine.Vector2::y
+	float ___y_1;
+};
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	// System.Single UnityEngine.Vector3::x
+	float ___x_2;
+	// System.Single UnityEngine.Vector3::y
+	float ___y_3;
+	// System.Single UnityEngine.Vector3::z
+	float ___z_4;
+};
+
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	// System.Single UnityEngine.Vector4::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector4::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector4::z
+	float ___z_3;
+	// System.Single UnityEngine.Vector4::w
+	float ___w_4;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// Unity.Mathematics.double2
+struct double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA 
+{
+	// System.Double Unity.Mathematics.double2::x
+	double ___x_0;
+	// System.Double Unity.Mathematics.double2::y
+	double ___y_1;
+};
+
+// Unity.Mathematics.double3
+struct double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 
+{
+	// System.Double Unity.Mathematics.double3::x
+	double ___x_0;
+	// System.Double Unity.Mathematics.double3::y
+	double ___y_1;
+	// System.Double Unity.Mathematics.double3::z
+	double ___z_2;
+};
+
+// Unity.Mathematics.double4
+struct double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 
+{
+	// System.Double Unity.Mathematics.double4::x
+	double ___x_0;
+	// System.Double Unity.Mathematics.double4::y
+	double ___y_1;
+	// System.Double Unity.Mathematics.double4::z
+	double ___z_2;
+	// System.Double Unity.Mathematics.double4::w
+	double ___w_3;
+};
+
+// Unity.Mathematics.float3
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E 
+{
+	// System.Single Unity.Mathematics.float3::x
+	float ___x_0;
+	// System.Single Unity.Mathematics.float3::y
+	float ___y_1;
+	// System.Single Unity.Mathematics.float3::z
+	float ___z_2;
+};
+
+// Unity.Mathematics.float4
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
+{
+	// System.Single Unity.Mathematics.float4::x
+	float ___x_0;
+	// System.Single Unity.Mathematics.float4::y
+	float ___y_1;
+	// System.Single Unity.Mathematics.float4::z
+	float ___z_2;
+	// System.Single Unity.Mathematics.float4::w
+	float ___w_3;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+struct MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 
+{
+	// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::m_Wrapper
+	ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___m_Wrapper_0;
+};
+// Native definition for P/Invoke marshalling of Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+struct MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_pinvoke
+{
+	ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___m_Wrapper_0;
+};
+// Native definition for COM marshalling of Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+struct MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_com
+{
+	ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___m_Wrapper_0;
+};
+
+// UnityEngine.InputSystem.InputAction/CallbackContext
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 
+{
+	// UnityEngine.InputSystem.InputActionState UnityEngine.InputSystem.InputAction/CallbackContext::m_State
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State_0;
+	// System.Int32 UnityEngine.InputSystem.InputAction/CallbackContext::m_ActionIndex
+	int32_t ___m_ActionIndex_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.InputAction/CallbackContext
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_pinvoke
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State_0;
+	int32_t ___m_ActionIndex_1;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.InputAction/CallbackContext
+struct CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8_marshaled_com
+{
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State_0;
+	int32_t ___m_ActionIndex_1;
+};
+
+// UnityEngine.InputSystem.InputActionMap/DeviceArray
+struct DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E 
+{
+	// System.Boolean UnityEngine.InputSystem.InputActionMap/DeviceArray::m_HaveValue
+	bool ___m_HaveValue_0;
+	// System.Int32 UnityEngine.InputSystem.InputActionMap/DeviceArray::m_DeviceCount
+	int32_t ___m_DeviceCount_1;
+	// UnityEngine.InputSystem.InputDevice[] UnityEngine.InputSystem.InputActionMap/DeviceArray::m_DeviceArray
+	InputDeviceU5BU5D_tA9AEFC6AF63557D3D5DCFB2B26DDA6F63147D548* ___m_DeviceArray_2;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.InputActionMap/DeviceArray
+struct DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E_marshaled_pinvoke
+{
+	int32_t ___m_HaveValue_0;
+	int32_t ___m_DeviceCount_1;
+	InputDeviceU5BU5D_tA9AEFC6AF63557D3D5DCFB2B26DDA6F63147D548* ___m_DeviceArray_2;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.InputActionMap/DeviceArray
+struct DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E_marshaled_com
+{
+	int32_t ___m_HaveValue_0;
+	int32_t ___m_DeviceCount_1;
+	InputDeviceU5BU5D_tA9AEFC6AF63557D3D5DCFB2B26DDA6F63147D548* ___m_DeviceArray_2;
+};
+
+// Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>
+struct ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2  : public RuntimeObject
+{
+	// System.IntPtr Esri.Unity.ArcGISCollection`1::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.Unity.ArcGISCollection`1
+#ifndef ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_pinvoke_define
+#define ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_pinvoke_define
+struct ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+#endif
+// Native definition for COM marshalling of Esri.Unity.ArcGISCollection`1
+#ifndef ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_com_define
+#define ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_com_define
+struct ArcGISCollection_1_t1397D2787DC4D70C01B065E79AF32B887221FD77_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+#endif
+
+// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+struct CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 
+{
+	// System.Boolean UnityEngine.InputSystem.Utilities.CallbackArray`1::m_CannotMutateCallbacksArray
+	bool ___m_CannotMutateCallbacksArray_0;
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<TDelegate> UnityEngine.InputSystem.Utilities.CallbackArray`1::m_Callbacks
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_Callbacks_1;
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<TDelegate> UnityEngine.InputSystem.Utilities.CallbackArray`1::m_CallbacksToAdd
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToAdd_2;
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<TDelegate> UnityEngine.InputSystem.Utilities.CallbackArray`1::m_CallbacksToRemove
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToRemove_3;
+};
+
+// System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>
+struct Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA ___value_1;
+};
+
+// System.Nullable`1<UnityEngine.InputSystem.InputBinding>
+struct Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___value_1;
+};
+
+// Esri.GameEngine.Attributes.ArcGISAttribute
+struct ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Attributes.ArcGISAttribute::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Attributes.ArcGISAttribute
+struct ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Attributes.ArcGISAttribute
+struct ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+struct ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Attributes.ArcGISAttributeProcessor::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEventHandler Esri.GameEngine.Attributes.ArcGISAttributeProcessor::_processEventHandler
+	ArcGISAttributeProcessorEventHandler_tB1396F9413A0D7DBC566BB53567ECD7464CEDCE3* ____processEventHandler_1;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+struct ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISAttributeProcessorEventHandler_tB1396F9413A0D7DBC566BB53567ECD7464CEDCE3* ____processEventHandler_1;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+struct ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISAttributeProcessorEventHandler_tB1396F9413A0D7DBC566BB53567ECD7464CEDCE3* ____processEventHandler_1;
+};
+
+// Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+struct ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Security.ArcGISAuthenticationChallenge::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+struct ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+struct ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+struct ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Security.ArcGISAuthenticationConfiguration::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+struct ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+struct ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Map.ArcGISBasemap
+struct ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Map.ArcGISBasemap::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.ArcGISLoadableDoneLoadingEventHandler Esri.GameEngine.Map.ArcGISBasemap::_doneLoadingHandler
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	// Esri.GameEngine.ArcGISLoadableLoadStatusChangedEventHandler Esri.GameEngine.Map.ArcGISBasemap::_loadStatusChangedHandler
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Map.ArcGISBasemap
+struct ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Map.ArcGISBasemap
+struct ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+
+// Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+struct ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Elevation.Base.ArcGISElevationSource::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.ArcGISLoadableDoneLoadingEventHandler Esri.GameEngine.Elevation.Base.ArcGISElevationSource::_doneLoadingHandler
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	// Esri.GameEngine.ArcGISLoadableLoadStatusChangedEventHandler Esri.GameEngine.Elevation.Base.ArcGISElevationSource::_loadStatusChangedHandler
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+struct ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+struct ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+struct ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.View.State.ArcGISElevationSourceViewState::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+struct ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+struct ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Extent.ArcGISExtent
+struct ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Extent.ArcGISExtent::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Extent.ArcGISExtent
+struct ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Extent.ArcGISExtent
+struct ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData
+struct ArcGISExtentInstanceData_t76F2A1B3A7EF0547072D66AAF583A82308DF3E2E 
+{
+	// Esri.GameEngine.Geometry.ArcGISPoint Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData::GeographicCenter
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___GeographicCenter_0;
+	// Esri.ArcGISMapsSDK.Components.MapExtentShapes Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData::ExtentShape
+	int32_t ___ExtentShape_1;
+	// Unity.Mathematics.double2 Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData::ShapeDimensions
+	double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___ShapeDimensions_2;
+};
+
+// Esri.GameEngine.Geometry.ArcGISGeometry
+struct ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Geometry.ArcGISGeometry::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Geometry.ArcGISGeometry
+struct ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Geometry.ArcGISGeometry
+struct ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Layers.Base.ArcGISLayer
+struct ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Layers.Base.ArcGISLayer::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.ArcGISLoadableDoneLoadingEventHandler Esri.GameEngine.Layers.Base.ArcGISLayer::_doneLoadingHandler
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	// Esri.GameEngine.ArcGISLoadableLoadStatusChangedEventHandler Esri.GameEngine.Layers.Base.ArcGISLayer::_loadStatusChangedHandler
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Layers.Base.ArcGISLayer
+struct ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Layers.Base.ArcGISLayer
+struct ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+
+// Esri.GameEngine.View.State.ArcGISLayerViewState
+struct ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.View.State.ArcGISLayerViewState::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.View.State.ArcGISLayerViewState
+struct ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.View.State.ArcGISLayerViewState
+struct ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Map.ArcGISMap
+struct ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Map.ArcGISMap::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.ArcGISLoadableDoneLoadingEventHandler Esri.GameEngine.Map.ArcGISMap::_doneLoadingHandler
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	// Esri.GameEngine.ArcGISLoadableLoadStatusChangedEventHandler Esri.GameEngine.Map.ArcGISMap::_loadStatusChangedHandler
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Map.ArcGISMap
+struct ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Map.ArcGISMap
+struct ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISLoadableDoneLoadingEventHandler_t71E678F39DA108CC0602F26CAA55514872882538* ____doneLoadingHandler_1;
+	ArcGISLoadableLoadStatusChangedEventHandler_t3BA327E3FBF8DACE714E7345760BFC7DE8FB1126* ____loadStatusChangedHandler_2;
+};
+
+// Esri.GameEngine.Map.ArcGISMapElevation
+struct ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Map.ArcGISMapElevation::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Map.ArcGISMapElevation
+struct ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Map.ArcGISMapElevation
+struct ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Geometry.ArcGISSpatialReference
+struct ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Geometry.ArcGISSpatialReference::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Geometry.ArcGISSpatialReference
+struct ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Geometry.ArcGISSpatialReference
+struct ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.View.ArcGISView
+struct ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.View.ArcGISView::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEventHandler Esri.GameEngine.View.ArcGISView::_elevationSourceViewStateChangedHandler
+	ArcGISElevationSourceViewStateChangedEventHandler_tD5A2202E8D710E8AB8ECCA69A8AA08E8DDF44EBA* ____elevationSourceViewStateChangedHandler_1;
+	// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEventHandler Esri.GameEngine.View.ArcGISView::_layerViewStateChangedHandler
+	ArcGISLayerViewStateChangedEventHandler_t889A215B5C14CB4B983E01C1D6FC9C6E3B23078D* ____layerViewStateChangedHandler_2;
+	// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEventHandler Esri.GameEngine.View.ArcGISView::_spatialReferenceChangedHandler
+	ArcGISViewSpatialReferenceChangedEventHandler_tD7E9D73F59153CAA1B72336F00B0A73AFC4C2B98* ____spatialReferenceChangedHandler_3;
+	// Esri.GameEngine.View.State.ArcGISViewStateChangedEventHandler Esri.GameEngine.View.ArcGISView::_viewStateChangedHandler
+	ArcGISViewStateChangedEventHandler_tD996E475E3ECFC7DF0453F53D7BD3B3CEC340A0B* ____viewStateChangedHandler_4;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.View.ArcGISView
+struct ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISElevationSourceViewStateChangedEventHandler_tD5A2202E8D710E8AB8ECCA69A8AA08E8DDF44EBA* ____elevationSourceViewStateChangedHandler_1;
+	ArcGISLayerViewStateChangedEventHandler_t889A215B5C14CB4B983E01C1D6FC9C6E3B23078D* ____layerViewStateChangedHandler_2;
+	ArcGISViewSpatialReferenceChangedEventHandler_tD7E9D73F59153CAA1B72336F00B0A73AFC4C2B98* ____spatialReferenceChangedHandler_3;
+	ArcGISViewStateChangedEventHandler_tD996E475E3ECFC7DF0453F53D7BD3B3CEC340A0B* ____viewStateChangedHandler_4;
+};
+// Native definition for COM marshalling of Esri.GameEngine.View.ArcGISView
+struct ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+	ArcGISElevationSourceViewStateChangedEventHandler_tD5A2202E8D710E8AB8ECCA69A8AA08E8DDF44EBA* ____elevationSourceViewStateChangedHandler_1;
+	ArcGISLayerViewStateChangedEventHandler_t889A215B5C14CB4B983E01C1D6FC9C6E3B23078D* ____layerViewStateChangedHandler_2;
+	ArcGISViewSpatialReferenceChangedEventHandler_tD7E9D73F59153CAA1B72336F00B0A73AFC4C2B98* ____spatialReferenceChangedHandler_3;
+	ArcGISViewStateChangedEventHandler_tD996E475E3ECFC7DF0453F53D7BD3B3CEC340A0B* ____viewStateChangedHandler_4;
+};
+
+// Esri.GameEngine.View.State.ArcGISViewState
+struct ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.View.State.ArcGISViewState::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.View.State.ArcGISViewState
+struct ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.View.State.ArcGISViewState
+struct ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.View.State.ArcGISViewStateMessage
+struct ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.View.State.ArcGISViewStateMessage::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.View.State.ArcGISViewStateMessage
+struct ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.View.State.ArcGISViewStateMessage
+struct ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+struct ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Attributes.ArcGISVisualizationAttribute::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+struct ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+struct ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+struct ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3  : public RuntimeObject
+{
+	// System.IntPtr Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription::<Handle>k__BackingField
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+struct ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3_marshaled_pinvoke
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+struct ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3_marshaled_com
+{
+	intptr_t ___U3CHandleU3Ek__BackingField_0;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// UnityEngine.InputSystem.LowLevel.InputStateBlock
+struct InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 
+{
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::<format>k__BackingField
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField_33;
+	// System.UInt32 UnityEngine.InputSystem.LowLevel.InputStateBlock::<byteOffset>k__BackingField
+	uint32_t ___U3CbyteOffsetU3Ek__BackingField_34;
+	// System.UInt32 UnityEngine.InputSystem.LowLevel.InputStateBlock::<bitOffset>k__BackingField
+	uint32_t ___U3CbitOffsetU3Ek__BackingField_35;
+	// System.UInt32 UnityEngine.InputSystem.LowLevel.InputStateBlock::<sizeInBits>k__BackingField
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_36;
+};
+
+// System.Text.RegularExpressions.Match
+struct Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F  : public Group_t26371E9136D6F43782C487B63C67C5FC4F472881
+{
+	// System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::_groupcoll
+	GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* ____groupcoll_8;
+	// System.Text.RegularExpressions.Regex System.Text.RegularExpressions.Match::_regex
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ____regex_9;
+	// System.Int32 System.Text.RegularExpressions.Match::_textbeg
+	int32_t ____textbeg_10;
+	// System.Int32 System.Text.RegularExpressions.Match::_textpos
+	int32_t ____textpos_11;
+	// System.Int32 System.Text.RegularExpressions.Match::_textend
+	int32_t ____textend_12;
+	// System.Int32 System.Text.RegularExpressions.Match::_textstart
+	int32_t ____textstart_13;
+	// System.Int32[][] System.Text.RegularExpressions.Match::_matches
+	Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* ____matches_14;
+	// System.Int32[] System.Text.RegularExpressions.Match::_matchcount
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____matchcount_15;
+	// System.Boolean System.Text.RegularExpressions.Match::_balancing
+	bool ____balancing_16;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler
+struct SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9  : public SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE
+{
+	// System.Net.HttpListener Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler::httpListener
+	HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* ___httpListener_0;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler
+struct SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3  : public SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE
+{
+};
+
+// Unity.Mathematics.double4x4
+struct double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C 
+{
+	// Unity.Mathematics.double4 Unity.Mathematics.double4x4::c0
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c0_0;
+	// Unity.Mathematics.double4 Unity.Mathematics.double4x4::c1
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c1_1;
+	// Unity.Mathematics.double4 Unity.Mathematics.double4x4::c2
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c2_2;
+	// Unity.Mathematics.double4 Unity.Mathematics.double4x4::c3
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___c3_3;
+};
+
+// Unity.Mathematics.quaternion
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+{
+	// Unity.Mathematics.float4 Unity.Mathematics.quaternion::value
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value_0;
+};
+
+// Sample3DAttributesComponent/<>c__DisplayClass9_0
+struct U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD  : public RuntimeObject
+{
+	// Unity.Collections.NativeArray`1<System.Single> Sample3DAttributesComponent/<>c__DisplayClass9_0::isBuildingOfInterestData
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___isBuildingOfInterestData_0;
+	// Sample3DAttributesComponent Sample3DAttributesComponent/<>c__DisplayClass9_0::<>4__this
+	Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* ___U3CU3E4__this_1;
+};
+
+// System.AggregateException
+struct AggregateException_t51B6205846DFB356B94452702201DD239D44422F  : public Exception_t
+{
+	// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> System.AggregateException::m_innerExceptions
+	ReadOnlyCollection_1_t0A3EEA206F04C2F9E8303E24D863C2E7FD258886* ___m_innerExceptions_18;
+};
+
+// Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+struct ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA  : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29
+{
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+struct ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA_marshaled_pinvoke : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+struct ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA_marshaled_com : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_com
+{
+};
+
+// Esri.GameEngine.Extent.ArcGISExtentCircle
+struct ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B  : public ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC
+{
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Extent.ArcGISExtentCircle
+struct ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B_marshaled_pinvoke : public ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of Esri.GameEngine.Extent.ArcGISExtentCircle
+struct ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B_marshaled_com : public ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC_marshaled_com
+{
+};
+
+// Esri.GameEngine.Elevation.ArcGISImageElevationSource
+struct ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56  : public ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F
+{
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Elevation.ArcGISImageElevationSource
+struct ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56_marshaled_pinvoke : public ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of Esri.GameEngine.Elevation.ArcGISImageElevationSource
+struct ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56_marshaled_com : public ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F_marshaled_com
+{
+};
+
+// Esri.GameEngine.Layers.ArcGISImageLayer
+struct ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB  : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29
+{
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Layers.ArcGISImageLayer
+struct ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_marshaled_pinvoke : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of Esri.GameEngine.Layers.ArcGISImageLayer
+struct ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_marshaled_com : public ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29_marshaled_com
+{
+};
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+struct ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A  : public ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9
+{
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+struct ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_marshaled_pinvoke : public ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+struct ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_marshaled_com : public ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9_marshaled_com
+{
+};
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+struct ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B  : public ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3
+{
+	// Esri.GameEngine.Security.ArcGISOAuthAuthorizationCredentialIssuedEventHandler Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration::_authorizationCredentialIssuedEventHandler
+	ArcGISOAuthAuthorizationCredentialIssuedEventHandler_t7D15A20B88D0E8993C7BBCB6DEED1A9B62AF1C9B* ____authorizationCredentialIssuedEventHandler_1;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+struct ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B_marshaled_pinvoke : public ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3_marshaled_pinvoke
+{
+	ArcGISOAuthAuthorizationCredentialIssuedEventHandler_t7D15A20B88D0E8993C7BBCB6DEED1A9B62AF1C9B* ____authorizationCredentialIssuedEventHandler_1;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+struct ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B_marshaled_com : public ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3_marshaled_com
+{
+	ArcGISOAuthAuthorizationCredentialIssuedEventHandler_t7D15A20B88D0E8993C7BBCB6DEED1A9B62AF1C9B* ____authorizationCredentialIssuedEventHandler_1;
+};
+
+// Esri.GameEngine.Geometry.ArcGISPoint
+struct ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD  : public ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2
+{
+	// System.Double Esri.GameEngine.Geometry.ArcGISPoint::x
+	double ___x_1;
+	// System.Double Esri.GameEngine.Geometry.ArcGISPoint::y
+	double ___y_2;
+	// System.Double Esri.GameEngine.Geometry.ArcGISPoint::z
+	double ___z_3;
+	// System.Int32 Esri.GameEngine.Geometry.ArcGISPoint::SRWkid
+	int32_t ___SRWkid_4;
+};
+// Native definition for P/Invoke marshalling of Esri.GameEngine.Geometry.ArcGISPoint
+struct ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_marshaled_pinvoke : public ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2_marshaled_pinvoke
+{
+	double ___x_1;
+	double ___y_2;
+	double ___z_3;
+	int32_t ___SRWkid_4;
+};
+// Native definition for COM marshalling of Esri.GameEngine.Geometry.ArcGISPoint
+struct ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_marshaled_com : public ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2_marshaled_com
+{
+	double ___x_1;
+	double ___y_2;
+	double ___z_3;
+	int32_t ___SRWkid_4;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.InputSystem.InputAction
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeObject
+{
+	// System.String UnityEngine.InputSystem.InputAction::m_Name
+	String_t* ___m_Name_0;
+	// UnityEngine.InputSystem.InputActionType UnityEngine.InputSystem.InputAction::m_Type
+	int32_t ___m_Type_1;
+	// System.String UnityEngine.InputSystem.InputAction::m_ExpectedControlType
+	String_t* ___m_ExpectedControlType_2;
+	// System.String UnityEngine.InputSystem.InputAction::m_Id
+	String_t* ___m_Id_3;
+	// System.String UnityEngine.InputSystem.InputAction::m_Processors
+	String_t* ___m_Processors_4;
+	// System.String UnityEngine.InputSystem.InputAction::m_Interactions
+	String_t* ___m_Interactions_5;
+	// UnityEngine.InputSystem.InputBinding[] UnityEngine.InputSystem.InputAction::m_SingletonActionBindings
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_SingletonActionBindings_6;
+	// UnityEngine.InputSystem.InputAction/ActionFlags UnityEngine.InputSystem.InputAction::m_Flags
+	int32_t ___m_Flags_7;
+	// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputAction::m_BindingMask
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_8;
+	// System.Int32 UnityEngine.InputSystem.InputAction::m_BindingsStartIndex
+	int32_t ___m_BindingsStartIndex_9;
+	// System.Int32 UnityEngine.InputSystem.InputAction::m_BindingsCount
+	int32_t ___m_BindingsCount_10;
+	// System.Int32 UnityEngine.InputSystem.InputAction::m_ControlStartIndex
+	int32_t ___m_ControlStartIndex_11;
+	// System.Int32 UnityEngine.InputSystem.InputAction::m_ControlCount
+	int32_t ___m_ControlCount_12;
+	// System.Int32 UnityEngine.InputSystem.InputAction::m_ActionIndexInState
+	int32_t ___m_ActionIndexInState_13;
+	// UnityEngine.InputSystem.InputActionMap UnityEngine.InputSystem.InputAction::m_ActionMap
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap_14;
+	// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>> UnityEngine.InputSystem.InputAction::m_OnStarted
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnStarted_15;
+	// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>> UnityEngine.InputSystem.InputAction::m_OnCanceled
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnCanceled_16;
+	// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>> UnityEngine.InputSystem.InputAction::m_OnPerformed
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnPerformed_17;
+};
+
+// UnityEngine.InputSystem.InputActionMap
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09  : public RuntimeObject
+{
+	// System.String UnityEngine.InputSystem.InputActionMap::m_Name
+	String_t* ___m_Name_0;
+	// System.String UnityEngine.InputSystem.InputActionMap::m_Id
+	String_t* ___m_Id_1;
+	// UnityEngine.InputSystem.InputActionAsset UnityEngine.InputSystem.InputActionMap::m_Asset
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_Asset_2;
+	// UnityEngine.InputSystem.InputAction[] UnityEngine.InputSystem.InputActionMap::m_Actions
+	InputActionU5BU5D_t6F881A9FE5C2016615C8D2E0B192608EA5FCE810* ___m_Actions_3;
+	// UnityEngine.InputSystem.InputBinding[] UnityEngine.InputSystem.InputActionMap::m_Bindings
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_Bindings_4;
+	// UnityEngine.InputSystem.InputBinding[] UnityEngine.InputSystem.InputActionMap::m_BindingsForEachAction
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_BindingsForEachAction_5;
+	// UnityEngine.InputSystem.InputControl[] UnityEngine.InputSystem.InputActionMap::m_ControlsForEachAction
+	InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* ___m_ControlsForEachAction_6;
+	// System.Int32 UnityEngine.InputSystem.InputActionMap::m_EnabledActionsCount
+	int32_t ___m_EnabledActionsCount_7;
+	// UnityEngine.InputSystem.InputAction UnityEngine.InputSystem.InputActionMap::m_SingletonAction
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_SingletonAction_8;
+	// System.Int32 UnityEngine.InputSystem.InputActionMap::m_MapIndexInState
+	int32_t ___m_MapIndexInState_9;
+	// UnityEngine.InputSystem.InputActionState UnityEngine.InputSystem.InputActionMap::m_State
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_State_10;
+	// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionMap::m_BindingMask
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_11;
+	// UnityEngine.InputSystem.InputActionMap/Flags UnityEngine.InputSystem.InputActionMap::m_Flags
+	int32_t ___m_Flags_12;
+	// System.Int32 UnityEngine.InputSystem.InputActionMap::m_ParameterOverridesCount
+	int32_t ___m_ParameterOverridesCount_13;
+	// UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride[] UnityEngine.InputSystem.InputActionMap::m_ParameterOverrides
+	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_14;
+	// UnityEngine.InputSystem.InputActionMap/DeviceArray UnityEngine.InputSystem.InputActionMap::m_Devices
+	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_15;
+	// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>> UnityEngine.InputSystem.InputActionMap::m_ActionCallbacks
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_ActionCallbacks_16;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> UnityEngine.InputSystem.InputActionMap::m_ActionIndexByNameOrId
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_ActionIndexByNameOrId_17;
+};
+
+// UnityEngine.InputSystem.InputControl
+struct InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E  : public RuntimeObject
+{
+	// UnityEngine.InputSystem.LowLevel.InputStateBlock UnityEngine.InputSystem.InputControl::m_StateBlock
+	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___m_StateBlock_0;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.InputControl::m_Name
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Name_1;
+	// System.String UnityEngine.InputSystem.InputControl::m_Path
+	String_t* ___m_Path_2;
+	// System.String UnityEngine.InputSystem.InputControl::m_DisplayName
+	String_t* ___m_DisplayName_3;
+	// System.String UnityEngine.InputSystem.InputControl::m_DisplayNameFromLayout
+	String_t* ___m_DisplayNameFromLayout_4;
+	// System.String UnityEngine.InputSystem.InputControl::m_ShortDisplayName
+	String_t* ___m_ShortDisplayName_5;
+	// System.String UnityEngine.InputSystem.InputControl::m_ShortDisplayNameFromLayout
+	String_t* ___m_ShortDisplayNameFromLayout_6;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.InputControl::m_Layout
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Layout_7;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.InputControl::m_Variants
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Variants_8;
+	// UnityEngine.InputSystem.InputDevice UnityEngine.InputSystem.InputControl::m_Device
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___m_Device_9;
+	// UnityEngine.InputSystem.InputControl UnityEngine.InputSystem.InputControl::m_Parent
+	InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___m_Parent_10;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_UsageCount
+	int32_t ___m_UsageCount_11;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_UsageStartIndex
+	int32_t ___m_UsageStartIndex_12;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_AliasCount
+	int32_t ___m_AliasCount_13;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_AliasStartIndex
+	int32_t ___m_AliasStartIndex_14;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_ChildCount
+	int32_t ___m_ChildCount_15;
+	// System.Int32 UnityEngine.InputSystem.InputControl::m_ChildStartIndex
+	int32_t ___m_ChildStartIndex_16;
+	// UnityEngine.InputSystem.InputControl/ControlFlags UnityEngine.InputSystem.InputControl::m_ControlFlags
+	int32_t ___m_ControlFlags_17;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.InputControl::m_DefaultState
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_DefaultState_18;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.InputControl::m_MinValue
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_MinValue_19;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.InputControl::m_MaxValue
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_MaxValue_20;
+};
+
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>>
+struct Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.String>>
+struct Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.Boolean>
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.String>
+struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Object,System.Int32>
+struct Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.String,System.Int32>
+struct Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.InputSystem.InputControl`1<System.Single>
+struct InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<TValue>> UnityEngine.InputSystem.InputControl`1::m_ProcessorStack
+	InlinedArray_1_t2A86A6C75E0160EE14310E053C5249518871D847 ___m_ProcessorStack_21;
+};
+
+// UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>
+struct InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<TValue>> UnityEngine.InputSystem.InputControl`1::m_ProcessorStack
+	InlinedArray_1_tE5F1062E65707D24360CEAC52E03D32C6E5BA8BB ___m_ProcessorStack_21;
+};
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent
+struct ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99  : public MulticastDelegate_t
+{
+};
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent
+struct ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4  : public MulticastDelegate_t
+{
+};
+
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent
+struct ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C  : public MulticastDelegate_t
+{
+};
+
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent
+struct ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4  : public MulticastDelegate_t
+{
+};
+
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEvent
+struct ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// UnityEngine.InputSystem.InputActionAsset
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// UnityEngine.InputSystem.InputActionMap[] UnityEngine.InputSystem.InputActionAsset::m_ActionMaps
+	InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045* ___m_ActionMaps_5;
+	// UnityEngine.InputSystem.InputControlScheme[] UnityEngine.InputSystem.InputActionAsset::m_ControlSchemes
+	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_ControlSchemes_6;
+	// UnityEngine.InputSystem.InputActionState UnityEngine.InputSystem.InputActionAsset::m_SharedStateForAllMaps
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_SharedStateForAllMaps_7;
+	// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionAsset::m_BindingMask
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_8;
+	// System.Int32 UnityEngine.InputSystem.InputActionAsset::m_ParameterOverridesCount
+	int32_t ___m_ParameterOverridesCount_9;
+	// UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride[] UnityEngine.InputSystem.InputActionAsset::m_ParameterOverrides
+	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_10;
+	// UnityEngine.InputSystem.InputActionMap/DeviceArray UnityEngine.InputSystem.InputActionAsset::m_Devices
+	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_11;
+};
+
+// UnityEngine.InputSystem.InputDevice
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	// UnityEngine.InputSystem.InputDevice/DeviceFlags UnityEngine.InputSystem.InputDevice::m_DeviceFlags
+	int32_t ___m_DeviceFlags_24;
+	// System.Int32 UnityEngine.InputSystem.InputDevice::m_DeviceId
+	int32_t ___m_DeviceId_25;
+	// System.Int32 UnityEngine.InputSystem.InputDevice::m_ParticipantId
+	int32_t ___m_ParticipantId_26;
+	// System.Int32 UnityEngine.InputSystem.InputDevice::m_DeviceIndex
+	int32_t ___m_DeviceIndex_27;
+	// UnityEngine.InputSystem.Layouts.InputDeviceDescription UnityEngine.InputSystem.InputDevice::m_Description
+	InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F ___m_Description_28;
+	// System.Double UnityEngine.InputSystem.InputDevice::m_LastUpdateTimeInternal
+	double ___m_LastUpdateTimeInternal_29;
+	// System.UInt32 UnityEngine.InputSystem.InputDevice::m_CurrentUpdateStepCount
+	uint32_t ___m_CurrentUpdateStepCount_30;
+	// UnityEngine.InputSystem.Utilities.InternedString[] UnityEngine.InputSystem.InputDevice::m_AliasesForEachControl
+	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___m_AliasesForEachControl_31;
+	// UnityEngine.InputSystem.Utilities.InternedString[] UnityEngine.InputSystem.InputDevice::m_UsagesForEachControl
+	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___m_UsagesForEachControl_32;
+	// UnityEngine.InputSystem.InputControl[] UnityEngine.InputSystem.InputDevice::m_UsageToControl
+	InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* ___m_UsageToControl_33;
+	// UnityEngine.InputSystem.InputControl[] UnityEngine.InputSystem.InputDevice::m_ChildrenForEachControl
+	InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* ___m_ChildrenForEachControl_34;
+	// System.UInt32[] UnityEngine.InputSystem.InputDevice::m_StateOffsetToControlMap
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_StateOffsetToControlMap_35;
+};
+
+// UnityEngine.Rendering.RenderPipelineAsset
+struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+};
+
+// UnityEngine.Transform
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler
+struct MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C  : public MulticastDelegate_t
+{
+};
+
+// SampleAPIMapCreator/SetLayerAttributesEventHandler
+struct SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.InputSystem.Controls.AxisControl
+struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7  : public InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A
+{
+	// UnityEngine.InputSystem.Controls.AxisControl/Clamp UnityEngine.InputSystem.Controls.AxisControl::clamp
+	int32_t ___clamp_22;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::clampMin
+	float ___clampMin_23;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::clampMax
+	float ___clampMax_24;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::clampConstant
+	float ___clampConstant_25;
+	// System.Boolean UnityEngine.InputSystem.Controls.AxisControl::invert
+	bool ___invert_26;
+	// System.Boolean UnityEngine.InputSystem.Controls.AxisControl::normalize
+	bool ___normalize_27;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::normalizeMin
+	float ___normalizeMin_28;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::normalizeMax
+	float ___normalizeMax_29;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::normalizeZero
+	float ___normalizeZero_30;
+	// System.Boolean UnityEngine.InputSystem.Controls.AxisControl::scale
+	bool ___scale_31;
+	// System.Single UnityEngine.InputSystem.Controls.AxisControl::scaleFactor
+	float ___scaleFactor_32;
+};
+
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// UnityEngine.InputSystem.Pointer
+struct Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A  : public InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B
+{
+	// UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.InputSystem.Pointer::<position>k__BackingField
+	Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___U3CpositionU3Ek__BackingField_39;
+	// UnityEngine.InputSystem.Controls.DeltaControl UnityEngine.InputSystem.Pointer::<delta>k__BackingField
+	DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___U3CdeltaU3Ek__BackingField_40;
+	// UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.InputSystem.Pointer::<radius>k__BackingField
+	Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___U3CradiusU3Ek__BackingField_41;
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Pointer::<pressure>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CpressureU3Ek__BackingField_42;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Pointer::<press>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CpressU3Ek__BackingField_43;
+};
+
+// UnityEngine.InputSystem.Controls.Vector2Control
+struct Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432  : public InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66
+{
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.Vector2Control::<x>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CxU3Ek__BackingField_22;
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.Vector2Control::<y>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CyU3Ek__BackingField_23;
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent
+struct ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::UpdateClippingPlanes
+	bool ___UpdateClippingPlanes_4;
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::UseCameraViewportProperties
+	bool ___UseCameraViewportProperties_5;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_6;
+	// UnityEngine.Camera Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::cameraComponent
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cameraComponent_7;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::verticalFov
+	float ___verticalFov_8;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::horizontalFov
+	float ___horizontalFov_9;
+	// System.UInt32 Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::viewportSizeX
+	uint32_t ___viewportSizeX_10;
+	// System.UInt32 Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::viewportSizeY
+	uint32_t ___viewportSizeY_11;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::qualityScalingFactor
+	float ___qualityScalingFactor_12;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastVerticalFov
+	float ___lastVerticalFov_13;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastHorizontalFov
+	float ___lastHorizontalFov_14;
+	// System.UInt32 Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastViewportSizeX
+	uint32_t ___lastViewportSizeX_15;
+	// System.UInt32 Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastViewportSizeY
+	uint32_t ___lastViewportSizeY_16;
+	// System.Single Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastQualityScalingFactor
+	float ___lastQualityScalingFactor_17;
+	// Esri.GameEngine.Geometry.ArcGISPoint Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastPosition
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___lastPosition_18;
+	// Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent::lastRotation
+	ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256 ___lastRotation_19;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent
+struct ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_4;
+	// Esri.HPFramework.HPTransform Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::hpTransform
+	HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* ___hpTransform_5;
+	// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::CameraActions
+	ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___CameraActions_6;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::UpControls
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___UpControls_7;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::ForwardControls
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___ForwardControls_8;
+	// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::RightControls
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___RightControls_9;
+	// System.Single Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::TranslationSpeed
+	float ___TranslationSpeed_10;
+	// System.Single Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::RotationSpeed
+	float ___RotationSpeed_11;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MouseScrollSpeed
+	double ___MouseScrollSpeed_12;
+	// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::lastCartesianPoint
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___lastCartesianPoint_16;
+	// Esri.GameEngine.Geometry.ArcGISPoint Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::lastArcGISPoint
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___lastArcGISPoint_17;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::lastDotVC
+	double ___lastDotVC_18;
+	// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::firstDragStep
+	bool ___firstDragStep_19;
+	// UnityEngine.Vector3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::lastMouseScreenPosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastMouseScreenPosition_20;
+	// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::firstOnFocus
+	bool ___firstOnFocus_21;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MaxSpeed
+	double ___MaxSpeed_22;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MinSpeed
+	double ___MinSpeed_23;
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent
+struct ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.GameEngine.Geometry.ArcGISPoint Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::position
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___position_4;
+	// Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::rotation
+	ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256 ___rotation_5;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_6;
+	// Esri.HPFramework.HPTransform Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::hpTransform
+	HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* ___hpTransform_7;
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::internalHasChanged
+	bool ___internalHasChanged_8;
+	// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::universePosition
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___universePosition_9;
+	// Unity.Mathematics.quaternion Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::universeRotation
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___universeRotation_10;
+	// System.IntPtr Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::lastPointHandle
+	intptr_t ___lastPointHandle_11;
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent
+struct ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.String Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::apiKey
+	String_t* ___apiKey_4;
+	// System.String Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::basemap
+	String_t* ___basemap_5;
+	// Esri.ArcGISMapsSDK.Components.BasemapTypes Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::basemapType
+	int32_t ___basemapType_6;
+	// Esri.ArcGISMapsSDK.Security.OAuthAuthenticationConfigurationMapping Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::basemapAuthentication
+	OAuthAuthenticationConfigurationMapping_tFE336B3678528C62F6CFC948D41851DB3B649346* ___basemapAuthentication_7;
+	// System.String Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::elevation
+	String_t* ___elevation_8;
+	// Esri.ArcGISMapsSDK.Security.OAuthAuthenticationConfigurationMapping Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::elevationAuthentication
+	OAuthAuthenticationConfigurationMapping_tFE336B3678528C62F6CFC948D41851DB3B649346* ___elevationAuthentication_9;
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::enableExtent
+	bool ___enableExtent_10;
+	// Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::extent
+	ArcGISExtentInstanceData_t76F2A1B3A7EF0547072D66AAF583A82308DF3E2E ___extent_11;
+	// System.Collections.Generic.List`1<Esri.ArcGISMapsSDK.Components.ArcGISLayerInstanceData> Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::layers
+	List_1_t48837955D6081E2B80F194704BBB84CFD0A30531* ___layers_12;
+	// Esri.ArcGISMapsSDK.Memory.IMemorySystemHandler Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::memorySystemHandler
+	RuntimeObject* ___memorySystemHandler_13;
+	// Esri.GameEngine.Geometry.ArcGISPoint Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::originPosition
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___originPosition_14;
+	// Esri.GameEngine.Map.ArcGISMapType Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::mapType
+	int32_t ___mapType_15;
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::meshCollidersEnabled
+	bool ___meshCollidersEnabled_16;
+	// Esri.GameEngine.View.ArcGISView Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::view
+	ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* ___view_17;
+	// System.Collections.Generic.List`1<Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationConfigurationInstanceData> Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::configurations
+	List_1_t12F17821A3CFF9644C345047DF4D0510E3C71706* ___configurations_18;
+	// UnityEngine.GameObject Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::rendererGO
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___rendererGO_19;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::MapTypeChanged
+	MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C* ___MapTypeChanged_20;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/EditorModeEnabledChangedEventHandler Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::EditorModeEnabledChanged
+	EditorModeEnabledChangedEventHandler_tFBDB822FD9290D26492B83A767DE1E185A2795B3* ___EditorModeEnabledChanged_21;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MeshCollidersEnabledChangedEventHandler Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::MeshCollidersEnabledChanged
+	MeshCollidersEnabledChangedEventHandler_tF4AAA622B6446005F9F7166B637A98C14E4004D1* ___MeshCollidersEnabledChanged_22;
+	// UnityEngine.Events.UnityEvent Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::RootChanged
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___RootChanged_23;
+	// Esri.HPFramework.HPRoot Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::hpRoot
+	HPRoot_t722454C205514EE6378825BFA632736A35958E06* ___hpRoot_24;
+	// System.Boolean Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::internalHasChanged
+	bool ___internalHasChanged_25;
+	// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::universePosition
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___universePosition_26;
+	// UnityEngine.Quaternion Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::universeRotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___universeRotation_27;
+	// Esri.GameEngine.Map.ArcGISMap Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::map
+	ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* ___map_28;
+};
+
+// Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent
+struct ArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_4;
+	// Esri.HPFramework.HPTransform Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent::hpTransform
+	HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* ___hpTransform_5;
+	// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent::lastPosition
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___lastPosition_6;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent
+struct ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::enableLogging
+	bool ___enableLogging_4;
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_5;
+};
+
+// UnityEngine.InputSystem.Controls.ButtonControl
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF  : public AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7
+{
+	// System.Single UnityEngine.InputSystem.Controls.ButtonControl::pressPoint
+	float ___pressPoint_33;
+};
+
+// UnityEngine.InputSystem.Controls.DeltaControl
+struct DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B  : public Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432
+{
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.DeltaControl::<up>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CupU3Ek__BackingField_24;
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.DeltaControl::<down>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CdownU3Ek__BackingField_25;
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.DeltaControl::<left>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CleftU3Ek__BackingField_26;
+	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.InputSystem.Controls.DeltaControl::<right>k__BackingField
+	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CrightU3Ek__BackingField_27;
+};
+
+// Esri.HPFramework.HPTransform
+struct HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean Esri.HPFramework.HPTransform::m_IsInitialized
+	bool ___m_IsInitialized_4;
+	// Unity.Mathematics.double3 Esri.HPFramework.HPTransform::m_LocalPosition
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___m_LocalPosition_5;
+	// Unity.Mathematics.quaternion Esri.HPFramework.HPTransform::m_LocalRotation
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_LocalRotation_6;
+	// Unity.Mathematics.float3 Esri.HPFramework.HPTransform::m_LocalScale
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___m_LocalScale_7;
+	// Esri.HPFramework.HPNode Esri.HPFramework.HPTransform::m_Parent
+	RuntimeObject* ___m_Parent_8;
+	// System.Collections.Generic.List`1<Esri.HPFramework.HPTransform> Esri.HPFramework.HPTransform::m_Children
+	List_1_tB65EBA56CE964E7A4390BC5EAFB4F5F57EDCDE06* ___m_Children_9;
+	// UnityEngine.Transform Esri.HPFramework.HPTransform::m_CachedUnityTransform
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_CachedUnityTransform_10;
+	// System.Boolean Esri.HPFramework.HPTransform::m_CachedUniverseMatrixIsValid
+	bool ___m_CachedUniverseMatrixIsValid_11;
+	// Unity.Mathematics.double4x4 Esri.HPFramework.HPTransform::m_CachedUniverseMatrix
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___m_CachedUniverseMatrix_12;
+	// System.Boolean Esri.HPFramework.HPTransform::m_CachedUniverseRotationIsValid
+	bool ___m_CachedUniverseRotationIsValid_13;
+	// Unity.Mathematics.quaternion Esri.HPFramework.HPTransform::m_CachedUniverseRotation
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___m_CachedUniverseRotation_14;
+	// System.Boolean Esri.HPFramework.HPTransform::m_CachedWorldMatrixIsValid
+	bool ___m_CachedWorldMatrixIsValid_15;
+	// Unity.Mathematics.double4x4 Esri.HPFramework.HPTransform::m_CachedWorldMatrix
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___m_CachedWorldMatrix_16;
+	// System.Boolean Esri.HPFramework.HPTransform::m_CachedLocalMatrixIsValid
+	bool ___m_CachedLocalMatrixIsValid_17;
+	// Unity.Mathematics.double4x4 Esri.HPFramework.HPTransform::m_CachedLocalMatrix
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___m_CachedLocalMatrix_18;
+	// System.Boolean Esri.HPFramework.HPTransform::m_UnityTransformIsValid
+	bool ___m_UnityTransformIsValid_19;
+	// System.Boolean Esri.HPFramework.HPTransform::m_LocalHasChanged
+	bool ___m_LocalHasChanged_20;
+};
+
+// UnityEngine.InputSystem.Mouse
+struct Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F  : public Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A
+{
+	// UnityEngine.InputSystem.Controls.DeltaControl UnityEngine.InputSystem.Mouse::<scroll>k__BackingField
+	DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___U3CscrollU3Ek__BackingField_45;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::<leftButton>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CleftButtonU3Ek__BackingField_46;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::<middleButton>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CmiddleButtonU3Ek__BackingField_47;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::<rightButton>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CrightButtonU3Ek__BackingField_48;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::<backButton>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CbackButtonU3Ek__BackingField_49;
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::<forwardButton>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CforwardButtonU3Ek__BackingField_50;
+	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.InputSystem.Mouse::<clickCount>k__BackingField
+	IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___U3CclickCountU3Ek__BackingField_51;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer
+struct OAuthChallengeHandlersInitializer_t697A651694758FAB7CC202906F321A76644D0803  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer::authenticationChallengeHandler
+	ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* ___authenticationChallengeHandler_4;
+};
+
+// Esri.ArcGISMapsSDK.Samples.OAuthScene
+struct OAuthScene_t26BBE10FE8E18CCA09F301A1E37CAD9D393A8C48  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler Esri.ArcGISMapsSDK.Samples.OAuthScene::authenticationChallengeHandler
+	ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* ___authenticationChallengeHandler_4;
+	// System.String Esri.ArcGISMapsSDK.Samples.OAuthScene::clientID
+	String_t* ___clientID_5;
+	// System.String Esri.ArcGISMapsSDK.Samples.OAuthScene::redirectURIDesktop
+	String_t* ___redirectURIDesktop_6;
+	// System.String Esri.ArcGISMapsSDK.Samples.OAuthScene::redirectURIMobile
+	String_t* ___redirectURIMobile_7;
+	// System.String Esri.ArcGISMapsSDK.Samples.OAuthScene::serviceURL
+	String_t* ___serviceURL_8;
+};
+
+// Sample3DAttributesComponent
+struct Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Sample3DAttributesComponent/AttributeType Sample3DAttributesComponent::layerAttribute
+	int32_t ___layerAttribute_4;
+	// Sample3DAttributesComponent/AttributeType Sample3DAttributesComponent::lastLayerAttribute
+	int32_t ___lastLayerAttribute_5;
+	// Esri.GameEngine.Attributes.ArcGISAttributeProcessor Sample3DAttributesComponent::attributeProcessor
+	ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* ___attributeProcessor_6;
+	// SampleAPIMapCreator Sample3DAttributesComponent::sampleMapCreator
+	SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* ___sampleMapCreator_7;
+};
+
+// SampleAPIMapCreator
+struct SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent SampleAPIMapCreator::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_4;
+	// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent SampleAPIMapCreator::cameraComponent
+	ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* ___cameraComponent_5;
+	// System.String SampleAPIMapCreator::APIKey
+	String_t* ___APIKey_6;
+	// Esri.GameEngine.Geometry.ArcGISPoint SampleAPIMapCreator::geographicCoordinates
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___geographicCoordinates_7;
+	// SampleAPIMapCreator/SetLayerAttributesEventHandler SampleAPIMapCreator::OnSetLayerAttributes
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* ___OnSetLayerAttributes_8;
+};
+
+// SampleArcGISRaycast
+struct SampleArcGISRaycast_tD6F90D510AC1B83A47FD959C2B4A3EDC9C69DA6A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent SampleArcGISRaycast::arcGISMapComponent
+	ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* ___arcGISMapComponent_4;
+	// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent SampleArcGISRaycast::arcGISCamera
+	ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* ___arcGISCamera_5;
+	// UnityEngine.Canvas SampleArcGISRaycast::canvas
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___canvas_6;
+	// UnityEngine.UI.Text SampleArcGISRaycast::featureText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___featureText_7;
+};
+
+// <Module>
+
+// <Module>
+
+// Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>
+
+// Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>
+
+// Esri.Unity.ArcGISDictionary`2<System.String,System.String>
+
+// Esri.Unity.ArcGISDictionary`2<System.String,System.String>
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>
+
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+
+// Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>
+
+// Esri.Unity.ArcGISImmutableArray`1<System.String>
+
+// Esri.Unity.ArcGISImmutableArray`1<System.String>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Object>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.String>
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.String>
+
+// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions
+
+// System.Text.RegularExpressions.Capture
+
+// System.Text.RegularExpressions.Capture
+
+// Esri.ArcGISMapsSDK.Utils.Environment
+struct Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_StaticFields
+{
+	// System.Boolean Esri.ArcGISMapsSDK.Utils.Environment::initialized
+	bool ___initialized_0;
+	// Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler Esri.ArcGISMapsSDK.Utils.Environment::authenticationChallengeHandler
+	ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* ___authenticationChallengeHandler_1;
+};
+
+// Esri.ArcGISMapsSDK.Utils.Environment
+
+// System.Text.RegularExpressions.GroupCollection
+
+// System.Text.RegularExpressions.GroupCollection
+
+// System.Net.HttpListener
+
+// System.Net.HttpListener
+
+// System.Net.HttpListenerContext
+
+// System.Net.HttpListenerContext
+
+// System.Net.HttpListenerPrefixCollection
+
+// System.Net.HttpListenerPrefixCollection
+
+// System.Net.HttpListenerRequest
+struct HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8_StaticFields
+{
+	// System.Byte[] System.Net.HttpListenerRequest::_100continue
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____100continue_17;
+	// System.Char[] System.Net.HttpListenerRequest::separators
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___separators_18;
+};
+
+// System.Net.HttpListenerRequest
+
+// System.Net.HttpListenerResponse
+struct HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1_StaticFields
+{
+	// System.String System.Net.HttpListenerResponse::tspecials
+	String_t* ___tspecials_18;
+};
+
+// System.Net.HttpListenerResponse
+
+// System.Text.RegularExpressions.MatchCollection
+
+// System.Text.RegularExpressions.MatchCollection
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.Collections.Specialized.NameObjectCollectionBase
+struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC_StaticFields
+{
+	// System.StringComparer System.Collections.Specialized.NameObjectCollectionBase::defaultComparer
+	StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06* ___defaultComparer_17;
+};
+
+// System.Collections.Specialized.NameObjectCollectionBase
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	// System.String System.Uri::UriSchemeFile
+	String_t* ___UriSchemeFile_0;
+	// System.String System.Uri::UriSchemeFtp
+	String_t* ___UriSchemeFtp_1;
+	// System.String System.Uri::UriSchemeGopher
+	String_t* ___UriSchemeGopher_2;
+	// System.String System.Uri::UriSchemeHttp
+	String_t* ___UriSchemeHttp_3;
+	// System.String System.Uri::UriSchemeHttps
+	String_t* ___UriSchemeHttps_4;
+	// System.String System.Uri::UriSchemeWs
+	String_t* ___UriSchemeWs_5;
+	// System.String System.Uri::UriSchemeWss
+	String_t* ___UriSchemeWss_6;
+	// System.String System.Uri::UriSchemeMailto
+	String_t* ___UriSchemeMailto_7;
+	// System.String System.Uri::UriSchemeNews
+	String_t* ___UriSchemeNews_8;
+	// System.String System.Uri::UriSchemeNntp
+	String_t* ___UriSchemeNntp_9;
+	// System.String System.Uri::UriSchemeNetTcp
+	String_t* ___UriSchemeNetTcp_10;
+	// System.String System.Uri::UriSchemeNetPipe
+	String_t* ___UriSchemeNetPipe_11;
+	// System.String System.Uri::SchemeDelimiter
+	String_t* ___SchemeDelimiter_12;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
+	bool ___s_ConfigInitialized_23;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
+	bool ___s_ConfigInitializing_24;
+	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
+	int32_t ___s_IdnScope_25;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
+	bool ___s_IriParsing_26;
+	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
+	bool ___useDotNetRelativeOrAbsolute_27;
+	// System.Boolean System.Uri::IsWindowsFileSystem
+	bool ___IsWindowsFileSystem_29;
+	// System.Object System.Uri::s_initLock
+	RuntimeObject* ___s_initLock_30;
+	// System.Char[] System.Uri::HexLowerChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
+	// System.Char[] System.Uri::_WSchars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+};
+
+// System.Uri
+
+// System.ValueType
+
+// System.ValueType
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<System.Single>>
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<System.Single>>
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>>
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Vector2>>
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// Unity.Collections.NativeArray`1<System.Single>
+
+// Unity.Collections.NativeArray`1<System.Single>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>
+
+// System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>
+struct Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tC0BB9633EDDB72940A75C39F67D074DAFBE019D4* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>
+
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.Object>
+
+// System.Threading.Tasks.Task`1<System.String>
+struct Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t7ABCD7F9503486A075E0B072E6EB95956CFE3106* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.String>
+
+// Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation
+
+// Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation
+
+// Esri.GameEngine.Geometry.ArcGISSpheroidData
+
+// Esri.GameEngine.Geometry.ArcGISSpheroidData
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Double
+
+// System.Double
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+
+// System.Enum
+
+// UnityEngine.InputSystem.Utilities.FourCC
+
+// UnityEngine.InputSystem.Utilities.FourCC
+
+// System.Text.RegularExpressions.Group
+struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881_StaticFields
+{
+	// System.Text.RegularExpressions.Group System.Text.RegularExpressions.Group::s_emptyGroup
+	Group_t26371E9136D6F43782C487B63C67C5FC4F472881* ___s_emptyGroup_3;
+};
+
+// System.Text.RegularExpressions.Group
+
+// UnityEngine.InputSystem.InputBinding
+
+// UnityEngine.InputSystem.InputBinding
+
+// UnityEngine.InputSystem.Layouts.InputDeviceDescription
+
+// UnityEngine.InputSystem.Layouts.InputDeviceDescription
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.InputSystem.Utilities.InternedString
+
+// UnityEngine.InputSystem.Utilities.InternedString
+
+// UnityEngine.Matrix4x4
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
+};
+
+// UnityEngine.Matrix4x4
+
+// System.Collections.Specialized.NameValueCollection
+
+// System.Collections.Specialized.NameValueCollection
+
+// UnityEngine.InputSystem.Utilities.PrimitiveValue
+
+// UnityEngine.InputSystem.Utilities.PrimitiveValue
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+};
+
+// UnityEngine.Quaternion
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler
+
+// System.Single
+
+// System.Single
+
+// System.UInt64
+
+// System.UInt64
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
+};
+
+// UnityEngine.Vector4
+
+// System.Void
+
+// System.Void
+
+// Unity.Mathematics.double2
+struct double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA_StaticFields
+{
+	// Unity.Mathematics.double2 Unity.Mathematics.double2::zero
+	double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___zero_2;
+};
+
+// Unity.Mathematics.double2
+
+// Unity.Mathematics.double3
+struct double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields
+{
+	// Unity.Mathematics.double3 Unity.Mathematics.double3::zero
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___zero_3;
+};
+
+// Unity.Mathematics.double3
+
+// Unity.Mathematics.double4
+struct double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5_StaticFields
+{
+	// Unity.Mathematics.double4 Unity.Mathematics.double4::zero
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___zero_4;
+};
+
+// Unity.Mathematics.double4
+
+// Unity.Mathematics.float3
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_StaticFields
+{
+	// Unity.Mathematics.float3 Unity.Mathematics.float3::zero
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___zero_3;
+};
+
+// Unity.Mathematics.float3
+
+// Unity.Mathematics.float4
+struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields
+{
+	// Unity.Mathematics.float4 Unity.Mathematics.float4::zero
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___zero_4;
+};
+
+// Unity.Mathematics.float4
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+
+// UnityEngine.InputSystem.InputAction/CallbackContext
+
+// UnityEngine.InputSystem.InputAction/CallbackContext
+
+// UnityEngine.InputSystem.InputActionMap/DeviceArray
+
+// UnityEngine.InputSystem.InputActionMap/DeviceArray
+
+// Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>
+
+// Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>
+
+// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+
+// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>>
+
+// System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>
+
+// System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>
+
+// System.Nullable`1<UnityEngine.InputSystem.InputBinding>
+
+// System.Nullable`1<UnityEngine.InputSystem.InputBinding>
+
+// Esri.GameEngine.Attributes.ArcGISAttribute
+
+// Esri.GameEngine.Attributes.ArcGISAttribute
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessor
+
+// Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+
+// Esri.GameEngine.Security.ArcGISAuthenticationChallenge
+
+// Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+
+// Esri.GameEngine.Security.ArcGISAuthenticationConfiguration
+
+// Esri.GameEngine.Map.ArcGISBasemap
+
+// Esri.GameEngine.Map.ArcGISBasemap
+
+// Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+
+// Esri.GameEngine.Elevation.Base.ArcGISElevationSource
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewState
+
+// Esri.GameEngine.Extent.ArcGISExtent
+
+// Esri.GameEngine.Extent.ArcGISExtent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData
+
+// Esri.ArcGISMapsSDK.Components.ArcGISExtentInstanceData
+
+// Esri.GameEngine.Geometry.ArcGISGeometry
+
+// Esri.GameEngine.Geometry.ArcGISGeometry
+
+// Esri.GameEngine.Layers.Base.ArcGISLayer
+
+// Esri.GameEngine.Layers.Base.ArcGISLayer
+
+// Esri.GameEngine.View.State.ArcGISLayerViewState
+
+// Esri.GameEngine.View.State.ArcGISLayerViewState
+
+// Esri.GameEngine.Map.ArcGISMap
+
+// Esri.GameEngine.Map.ArcGISMap
+
+// Esri.GameEngine.Map.ArcGISMapElevation
+
+// Esri.GameEngine.Map.ArcGISMapElevation
+
+// Esri.GameEngine.Geometry.ArcGISSpatialReference
+
+// Esri.GameEngine.Geometry.ArcGISSpatialReference
+
+// Esri.GameEngine.View.ArcGISView
+
+// Esri.GameEngine.View.ArcGISView
+
+// Esri.GameEngine.View.State.ArcGISViewState
+
+// Esri.GameEngine.View.State.ArcGISViewState
+
+// Esri.GameEngine.View.State.ArcGISViewStateMessage
+
+// Esri.GameEngine.View.State.ArcGISViewStateMessage
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttribute
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+
+// Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription
+
+// System.Delegate
+
+// System.Delegate
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// UnityEngine.InputSystem.LowLevel.InputStateBlock
+struct InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5_StaticFields
+{
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatBit
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatBit_2;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatSBit
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatSBit_4;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatInt
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatInt_6;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatUInt
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatUInt_8;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatShort
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatShort_10;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatUShort
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatUShort_12;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatByte
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatByte_14;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatSByte
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatSByte_16;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatLong
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatLong_18;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatULong
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatULong_20;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatFloat
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatFloat_22;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatDouble
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatDouble_24;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector2
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector2_26;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector3
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector3_27;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatQuaternion
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatQuaternion_28;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector2Short
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector2Short_29;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector3Short
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector3Short_30;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector2Byte
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector2Byte_31;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.InputStateBlock::FormatVector3Byte
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___FormatVector3Byte_32;
+};
+
+// UnityEngine.InputSystem.LowLevel.InputStateBlock
+
+// System.Text.RegularExpressions.Match
+struct Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F_StaticFields
+{
+	// System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::<Empty>k__BackingField
+	Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* ___U3CEmptyU3Ek__BackingField_17;
+};
+
+// System.Text.RegularExpressions.Match
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler
+
+// Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler
+
+// Unity.Mathematics.double4x4
+struct double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C_StaticFields
+{
+	// Unity.Mathematics.double4x4 Unity.Mathematics.double4x4::identity
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___identity_4;
+	// Unity.Mathematics.double4x4 Unity.Mathematics.double4x4::zero
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___zero_5;
+};
+
+// Unity.Mathematics.double4x4
+
+// Unity.Mathematics.quaternion
+struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
+{
+	// Unity.Mathematics.quaternion Unity.Mathematics.quaternion::identity
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity_1;
+};
+
+// Unity.Mathematics.quaternion
+
+// Sample3DAttributesComponent/<>c__DisplayClass9_0
+
+// Sample3DAttributesComponent/<>c__DisplayClass9_0
+
+// System.AggregateException
+
+// System.AggregateException
+
+// Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+
+// Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer
+
+// Esri.GameEngine.Extent.ArcGISExtentCircle
+
+// Esri.GameEngine.Extent.ArcGISExtentCircle
+
+// Esri.GameEngine.Elevation.ArcGISImageElevationSource
+
+// Esri.GameEngine.Elevation.ArcGISImageElevationSource
+
+// Esri.GameEngine.Layers.ArcGISImageLayer
+
+// Esri.GameEngine.Layers.ArcGISImageLayer
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+
+// Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration
+
+// Esri.GameEngine.Geometry.ArcGISPoint
+
+// Esri.GameEngine.Geometry.ArcGISPoint
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// UnityEngine.InputSystem.InputAction
+
+// UnityEngine.InputSystem.InputAction
+
+// UnityEngine.InputSystem.InputActionMap
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09_StaticFields
+{
+	// System.Int32 UnityEngine.InputSystem.InputActionMap::s_DeferBindingResolution
+	int32_t ___s_DeferBindingResolution_18;
+};
+
+// UnityEngine.InputSystem.InputActionMap
+
+// UnityEngine.InputSystem.InputControl
+
+// UnityEngine.InputSystem.InputControl
+
+// UnityEngine.Material
+
+// UnityEngine.Material
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.ScriptableObject
+
+// System.SystemException
+
+// System.SystemException
+
+// System.Type
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Type
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>>
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>>
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.String>>
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.String>>
+
+// System.Action`1<System.Boolean>
+
+// System.Action`1<System.Boolean>
+
+// System.Action`1<System.String>
+
+// System.Action`1<System.String>
+
+// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>
+
+// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>
+
+// System.Action`2<System.Object,System.Int32>
+
+// System.Action`2<System.Object,System.Int32>
+
+// System.Action`2<System.String,System.Int32>
+
+// System.Action`2<System.String,System.Int32>
+
+// UnityEngine.InputSystem.InputControl`1<System.Single>
+
+// UnityEngine.InputSystem.InputControl`1<System.Single>
+
+// UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>
+
+// UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent
+
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent
+
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent
+
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent
+
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent
+
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent
+
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent
+
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEvent
+
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEvent
+
+// System.ArgumentException
+
+// System.ArgumentException
+
+// System.AsyncCallback
+
+// System.AsyncCallback
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// UnityEngine.InputSystem.InputActionAsset
+
+// UnityEngine.InputSystem.InputActionAsset
+
+// UnityEngine.InputSystem.InputDevice
+
+// UnityEngine.InputSystem.InputDevice
+
+// UnityEngine.Rendering.RenderPipelineAsset
+
+// UnityEngine.Rendering.RenderPipelineAsset
+
+// UnityEngine.Transform
+
+// UnityEngine.Transform
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler
+
+// SampleAPIMapCreator/SetLayerAttributesEventHandler
+
+// SampleAPIMapCreator/SetLayerAttributesEventHandler
+
+// UnityEngine.InputSystem.Controls.AxisControl
+
+// UnityEngine.InputSystem.Controls.AxisControl
+
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
+};
+
+// UnityEngine.Camera
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.InputSystem.Pointer
+struct Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A_StaticFields
+{
+	// UnityEngine.InputSystem.Pointer UnityEngine.InputSystem.Pointer::<current>k__BackingField
+	Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* ___U3CcurrentU3Ek__BackingField_44;
+};
+
+// UnityEngine.InputSystem.Pointer
+
+// UnityEngine.InputSystem.Controls.Vector2Control
+
+// UnityEngine.InputSystem.Controls.Vector2Control
+
+// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent
+struct ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields
+{
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MaxCameraHeight
+	double ___MaxCameraHeight_13;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MinCameraHeight
+	double ___MinCameraHeight_14;
+	// System.Double Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MaxCameraLatitude
+	double ___MaxCameraLatitude_15;
+};
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISMapComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent
+
+// Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent
+
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent
+
+// UnityEngine.InputSystem.Controls.ButtonControl
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_StaticFields
+{
+	// System.Single UnityEngine.InputSystem.Controls.ButtonControl::s_GlobalDefaultButtonPressPoint
+	float ___s_GlobalDefaultButtonPressPoint_34;
+	// System.Single UnityEngine.InputSystem.Controls.ButtonControl::s_GlobalDefaultButtonReleaseThreshold
+	float ___s_GlobalDefaultButtonReleaseThreshold_35;
+};
+
+// UnityEngine.InputSystem.Controls.ButtonControl
+
+// UnityEngine.InputSystem.Controls.DeltaControl
+
+// UnityEngine.InputSystem.Controls.DeltaControl
+
+// Esri.HPFramework.HPTransform
+
+// Esri.HPFramework.HPTransform
+
+// UnityEngine.InputSystem.Mouse
+struct Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F_StaticFields
+{
+	// UnityEngine.InputSystem.Mouse UnityEngine.InputSystem.Mouse::<current>k__BackingField
+	Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* ___U3CcurrentU3Ek__BackingField_52;
+	// UnityEngine.InputSystem.Mouse UnityEngine.InputSystem.Mouse::s_PlatformMouseDevice
+	Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* ___s_PlatformMouseDevice_53;
+};
+
+// UnityEngine.InputSystem.Mouse
+
+// Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer
+
+// Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer
+
+// Esri.ArcGISMapsSDK.Samples.OAuthScene
+
+// Esri.ArcGISMapsSDK.Samples.OAuthScene
+
+// Sample3DAttributesComponent
+
+// Sample3DAttributesComponent
+
+// SampleAPIMapCreator
+
+// SampleAPIMapCreator
+
+// SampleArcGISRaycast
+
+// SampleArcGISRaycast
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// T UnityEngine.Component::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<T> Esri.Unity.ArcGISImmutableArray`1<System.Object>::CreateBuilder()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISImmutableArrayBuilder_1_tEC440AFC33A47D14C2393F12006802F027A82530* ArcGISImmutableArray_1_CreateBuilder_m0B8EB7D7EDB3D0B59E90FA3711214863BEDEB0A2_gshared (const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISImmutableArrayBuilder`1<System.Object>::Add(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISImmutableArrayBuilder_1_Add_mFAA14EFBBBE6AC9C8502ED0EA5B78C10489811FE_gshared (ArcGISImmutableArrayBuilder_1_tEC440AFC33A47D14C2393F12006802F027A82530* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISImmutableArray`1<T> Esri.Unity.ArcGISImmutableArrayBuilder`1<System.Object>::MoveToArray()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISImmutableArray_1_tC58986FF2249D807471CE8D095E14DF0EF41EE80* ArcGISImmutableArrayBuilder_1_MoveToArray_m7ED09717B1D896A4F20EB1EAF4EA14A073453846_gshared (ArcGISImmutableArrayBuilder_1_tEC440AFC33A47D14C2393F12006802F027A82530* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Resources::Load<System.Object>(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared (String_t* ___0_path, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafePtr<System.Byte>(Unity.Collections.NativeArray`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_nativeArray, const RuntimeMethod* method) ;
+// System.Void System.Action`2<System.Object,System.Int32>::Invoke(T1,T2)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m88484A213EB00FF7254FE3DB935BFB06DD3F5753_gshared_inline (Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) ;
+// T Esri.Unity.ArcGISImmutableArray`1<System.Object>::At(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArcGISImmutableArray_1_At_mCD74C78F939A7883E336D1754D85B42AF4FB7A17_gshared (ArcGISImmutableArray_1_tC58986FF2249D807471CE8D095E14DF0EF41EE80* __this, uint64_t ___0_position, const RuntimeMethod* method) ;
+// Unity.Collections.NativeArray`1<U> Unity.Collections.NativeArray`1<System.Byte>::Reinterpret<System.Single>(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA_gshared (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, int32_t ___0_expectedTypeSize, const RuntimeMethod* method) ;
+// System.Void System.Action`2<System.Object,System.Int32>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m07C6392BB276FFCCFD4E495842992EA26FA44882_gshared (Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// T UnityEngine.Object::FindObjectOfType<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared (const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::AddComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISDictionary`2<System.Object,System.Object>::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISDictionary_2_Clear_m883AE0A185D3F108ABFDE257A67C36BA213E46DA_gshared (ArcGISDictionary_2_t899C8E79879BE992B4751B96E27230040403B45C* __this, const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISDictionary`2<System.Object,System.Object>::Add(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISDictionary_2_Add_m108EB59EDBD6DA154E61248BEC2E8F87D0554E73_gshared (ArcGISDictionary_2_t899C8E79879BE992B4751B96E27230040403B45C* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task::FromException<System.Object>(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* Task_FromException_TisRuntimeObject_m81649814701F78FC4AAB5BE79018C8DCC7227E6E_gshared (Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Object>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, Action_1_t0328A8A468C762DAECEC2BDBE23D4E47955D8678* ___0_continuationAction, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Object>::get_Task()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Object>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Object>::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1_SetException_m7DB7E6251CB92C741F7E081E2ECAA06FF79E212F_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, Exception_t* ___0_exception, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Object>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1_SetResult_m948378015A7A0E42647452EB7003466406B831A4_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponentInParent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>::ReadValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_gshared (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputAction::ReadValue<System.Single>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_gshared (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputControl`1<System.Single>::ReadValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_gshared (InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponentInParent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Boolean Esri.Unity.ArcGISDictionary`2<System.Object,System.Object>::TryGetValue(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISDictionary_2_TryGetValue_m3B73893DB4C616231287990D1372B21E2D014C5B_gshared (ArcGISDictionary_2_t899C8E79879BE992B4751B96E27230040403B45C* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+
+// T UnityEngine.Component::GetComponent<SampleAPIMapCreator>()
+inline SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* Component_GetComponent_TisSampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456_mA521C6F29A931AE6133ECFE8BEBC0D69D01B106B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator/SetLayerAttributesEventHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler__ctor_m225F0B214AA5EF545C1D01D75B448278B765CC7C (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::add_OnSetLayerAttributes(SampleAPIMapCreator/SetLayerAttributesEventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_add_OnSetLayerAttributes_mEF174C3D6BFB94726E4E395FB2099998CD0B0AE8 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* ___0_value, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::CreateArcGISMap()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) ;
+// System.Void Sample3DAttributesComponent::Setup3DAttributesFloatAndIntegerType(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Setup3DAttributesFloatAndIntegerType_m716C0F19C0B8059EBDB723260C42B8ED7CD9B237 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) ;
+// System.Void Sample3DAttributesComponent::Setup3DAttributesOtherType(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Setup3DAttributesOtherType_mAFD2BBC779E9FDEC9796DC24703B4F72F4D58F9B (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<T> Esri.Unity.ArcGISImmutableArray`1<System.String>::CreateBuilder()
+inline ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711 (const RuntimeMethod* method)
+{
+	return ((  ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* (*) (const RuntimeMethod*))ArcGISImmutableArray_1_CreateBuilder_m0B8EB7D7EDB3D0B59E90FA3711214863BEDEB0A2_gshared)(method);
+}
+// System.Void Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>::Add(T)
+inline void ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0 (ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* __this, String_t* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700*, String_t*, const RuntimeMethod*))ArcGISImmutableArrayBuilder_1_Add_mFAA14EFBBBE6AC9C8502ED0EA5B78C10489811FE_gshared)(__this, ___0_value, method);
+}
+// Esri.Unity.ArcGISImmutableArray`1<T> Esri.Unity.ArcGISImmutableArrayBuilder`1<System.String>::MoveToArray()
+inline ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7 (ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* (*) (ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700*, const RuntimeMethod*))ArcGISImmutableArrayBuilder_1_MoveToArray_m7ED09717B1D896A4F20EB1EAF4EA14A073453846_gshared)(__this, method);
+}
+// System.Void Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer::SetAttributesToVisualize(Esri.Unity.ArcGISImmutableArray`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGIS3DObjectSceneLayer_SetAttributesToVisualize_mD324EFDBABE174B5B6D8B88E11210B99E88AA294 (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* __this, ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* ___0_layerAttributes, const RuntimeMethod* method) ;
+// System.String Sample3DAttributesComponent::DetectRenderPipeline()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Sample3DAttributesComponent_DetectRenderPipeline_m7E17E094C372A1B17D63E671C519F112EBA0B8D1 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+// T UnityEngine.Resources::Load<UnityEngine.Material>(System.String)
+inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E (String_t* ___0_path, const RuntimeMethod* method)
+{
+	return ((  Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared)(___0_path, method);
+}
+// System.Void UnityEngine.Material::.ctor(UnityEngine.Material)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material__ctor_mFCC42FB90257F1E8F7516A8640A79C465A39961C (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_source, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer::set_MaterialReference(UnityEngine.Material)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGIS3DObjectSceneLayer_set_MaterialReference_mA8ADADDD125E74A856188C0D1F6EBC87D92591C1 (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISImmutableArrayBuilder`1<T> Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>::CreateBuilder()
+inline ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* ArcGISImmutableArray_1_CreateBuilder_m102B630F5A29BBDB0FF815CF06BF05030489DCC9 (const RuntimeMethod* method)
+{
+	return ((  ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* (*) (const RuntimeMethod*))ArcGISImmutableArray_1_CreateBuilder_m0B8EB7D7EDB3D0B59E90FA3711214863BEDEB0A2_gshared)(method);
+}
+// System.Void Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription::.ctor(System.String,Esri.GameEngine.Attributes.ArcGISVisualizationAttributeType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISVisualizationAttributeDescription__ctor_mCFE9E73919AECB28BAE26FD03F2161276B849276 (ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3* __this, String_t* ___0_name, int32_t ___1_visualizationAttributeType, const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>::Add(T)
+inline void ArcGISImmutableArrayBuilder_1_Add_m9B645C4F52F191110F9DE3326FA84DD25FCDDB12 (ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* __this, ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D*, ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3*, const RuntimeMethod*))ArcGISImmutableArrayBuilder_1_Add_mFAA14EFBBBE6AC9C8502ED0EA5B78C10489811FE_gshared)(__this, ___0_value, method);
+}
+// System.Void Esri.GameEngine.Attributes.ArcGISAttributeProcessor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAttributeProcessor__ctor_m4541AFBE53E1CCF7BBCC8543FC44C03DF943550A (ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent Esri.GameEngine.Attributes.ArcGISAttributeProcessor::get_ProcessEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99* ArcGISAttributeProcessor_get_ProcessEvent_mA659ADFA69C386A026AFB4C6493B1469F9A6C9EE (ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAttributeProcessorEvent__ctor_mD05781F21778A74BEF3F36CB5D41CC209DB440D6 (ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Attributes.ArcGISAttributeProcessor::set_ProcessEvent(Esri.GameEngine.Attributes.ArcGISAttributeProcessorEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAttributeProcessor_set_ProcessEvent_m828849293D5D08DBD8BE6D2D1CC886C7FBEA96E6 (ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* __this, ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99* ___0_value, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISImmutableArray`1<T> Esri.Unity.ArcGISImmutableArrayBuilder`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>::MoveToArray()
+inline ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC* ArcGISImmutableArrayBuilder_1_MoveToArray_m4673FA4F1C5B8A7B4F4F93E5F8E6679331164024 (ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC* (*) (ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D*, const RuntimeMethod*))ArcGISImmutableArrayBuilder_1_MoveToArray_m7ED09717B1D896A4F20EB1EAF4EA14A073453846_gshared)(__this, method);
+}
+// System.Void Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer::SetAttributesToVisualize(Esri.Unity.ArcGISImmutableArray`1<System.String>,Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>,Esri.GameEngine.Attributes.ArcGISAttributeProcessor)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGIS3DObjectSceneLayer_SetAttributesToVisualize_mEF3777E98FA9C544CEBAFCB5CE4F758420125ECF (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* __this, ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* ___0_layerAttributes, ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC* ___1_visualizationAttributeDescriptions, ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* ___2_attributeProcessor, const RuntimeMethod* method) ;
+// System.Boolean System.String::Equals(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// Unity.Collections.NativeArray`1<System.Byte> Esri.GameEngine.Attributes.ArcGISAttribute::get_Data()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ArcGISAttribute_get_Data_mD7ABF15453984DB4DDCA286623E85E657A59E3C5 (ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* __this, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafePtr<System.Byte>(Unity.Collections.NativeArray`1<T>)
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2 (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2_gshared)(___0_nativeArray, method);
+}
+// System.IntPtr System.IntPtr::op_Explicit(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D (void* ___0_value, const RuntimeMethod* method) ;
+// System.IntPtr System.IntPtr::op_Addition(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Addition_m6887593F991D01CEB382C914B7FDFA29CB900E2A (intptr_t ___0_pointer, int32_t ___1_offset, const RuntimeMethod* method) ;
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Marshal_PtrToStringAnsi_mDCD72FE33CAE42EBB32334D7CC555E97667864D3 (intptr_t ___0_ptr, int32_t ___1_len, const RuntimeMethod* method) ;
+// System.Void System.Action`2<System.String,System.Int32>::Invoke(T1,T2)
+inline void Action_2_Invoke_m69AAAB992ABFCF392F04C4F7E3CE91388C9E24E1_inline (Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* __this, String_t* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF*, String_t*, int32_t, const RuntimeMethod*))Action_2_Invoke_m88484A213EB00FF7254FE3DB935BFB06DD3F5753_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
+}
+// UnityEngine.Rendering.RenderPipelineAsset UnityEngine.Rendering.GraphicsSettings::get_renderPipelineAsset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* GraphicsSettings_get_renderPipelineAsset_mB1679AD22B6EB56C50ED48807AA59A643F0782FA (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+// System.Type System.Object::GetType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Void Sample3DAttributesComponent/<>c__DisplayClass9_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m1C14FAF2EB184159B68F287E8BBA15BC90C72242 (U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* __this, const RuntimeMethod* method) ;
+// T Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>::At(System.UInt64)
+inline ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* ArcGISImmutableArray_1_At_mC04B3490DDA2B5CDD7B81C7D0F3B03E0E5976133 (ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589* __this, uint64_t ___0_position, const RuntimeMethod* method)
+{
+	return ((  ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* (*) (ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589*, uint64_t, const RuntimeMethod*))ArcGISImmutableArray_1_At_mCD74C78F939A7883E336D1754D85B42AF4FB7A17_gshared)(__this, ___0_position, method);
+}
+// T Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>::At(System.UInt64)
+inline ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE* ArcGISImmutableArray_1_At_mD6FFDC3BFEF557EFE4B4BDCCCD3F1BB461C9E7B4 (ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE* __this, uint64_t ___0_position, const RuntimeMethod* method)
+{
+	return ((  ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE* (*) (ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE*, uint64_t, const RuntimeMethod*))ArcGISImmutableArray_1_At_mCD74C78F939A7883E336D1754D85B42AF4FB7A17_gshared)(__this, ___0_position, method);
+}
+// Unity.Collections.NativeArray`1<System.Byte> Esri.GameEngine.Attributes.ArcGISVisualizationAttribute::get_Data()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ArcGISVisualizationAttribute_get_Data_m231DC09690F699AF049FB3DC9924CD84E1153DC0 (ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE* __this, const RuntimeMethod* method) ;
+// Unity.Collections.NativeArray`1<U> Unity.Collections.NativeArray`1<System.Byte>::Reinterpret<System.Single>(System.Int32)
+inline NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, int32_t ___0_expectedTypeSize, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF (*) (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*, int32_t, const RuntimeMethod*))NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA_gshared)(__this, ___0_expectedTypeSize, method);
+}
+// System.Void System.Action`2<System.String,System.Int32>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_m84E5BF3DC27EF88D8F87DBBF1C1EC426F2FA4975 (Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m07C6392BB276FFCCFD4E495842992EA26FA44882_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Void Sample3DAttributesComponent::ForEachString(Esri.GameEngine.Attributes.ArcGISAttribute,System.Action`2<System.String,System.Int32>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_ForEachString_mB4C40E5F997F09894F14E44FEE3EDE681CAF44CA (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* ___0_attribute, Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* ___1_predicate, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Int32 Sample3DAttributesComponent::IsBuildingOfInterest(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sample3DAttributesComponent_IsBuildingOfInterest_m905EDEC8A91A029B67C72FC7ADC38833CA4AE59F (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, String_t* ___0_element, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::CreateArcGISMapComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISMapComponent_m4A8A2B1B68ADF2E2BE5F9F3DEB76A0768C63469B (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::CreateArcGISCamera()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISCamera_mFFF796071B3D003ACC8A182EED269753BA5B076F (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::CreateSkyComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateSkyComponent_mA83E0460B743C5DFE191193E9DC09F6E712A6BFF (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator::CreateViewStateLoggingComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateViewStateLoggingComponent_m1B3275FA8CEFB0A51AE4017823D2E6A0FFA21E5B (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Object::FindObjectOfType<Esri.ArcGISMapsSDK.Components.ArcGISMapComponent>()
+inline ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* Object_FindObjectOfType_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m931C89A99029BAF090DFE15ED9AB2AC7CA1D63B5 (const RuntimeMethod* method)
+{
+	return ((  ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* (*) (const RuntimeMethod*))Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared)(method);
+}
+// System.Void UnityEngine.GameObject::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Components.ArcGISMapComponent>()
+inline ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* GameObject_AddComponent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m272CC46315F1EACC9F4E3CC3E3AD274A8246E381 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::set_OriginPosition(Esri.GameEngine.Geometry.ArcGISPoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMapComponent_set_OriginPosition_mAEC61B6B716D4A10B45E8F9E832EAAAECCEFF779 (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::set_MapType(Esri.GameEngine.Map.ArcGISMapType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMapComponent_set_MapType_mB450D646DB2D7F7AAF3E2923FD0CB14427FBFC29 (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapTypeChangedEventHandler__ctor_m73849710002922250FEA89447239F76DC0AA90C0 (MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::add_MapTypeChanged(Esri.ArcGISMapsSDK.Components.ArcGISMapComponent/MapTypeChangedEventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMapComponent_add_MapTypeChanged_m68E4A52DDF0F555A325B328E312B7B32AF405589 (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C* ___0_value, const RuntimeMethod* method) ;
+// UnityEngine.Camera UnityEngine.Camera::get_main()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent>()
+inline ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* GameObject_GetComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_mC7DDEBBB41B5E60F1CF83EB24E5309D11143FA3E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::SetParent(UnityEngine.Transform,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, bool ___1_worldPositionStays, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Components.ArcGISCameraComponent>()
+inline ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* GameObject_AddComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_m6E6D01F9C3833DBA8B5A428993E3B1A0A1BB97DD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent>()
+inline ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* GameObject_AddComponent_TisArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_mD9E21CD06DFAB1573E7727107E7731F41BEEB529 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Components.ArcGISRebaseComponent>()
+inline ArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC* GameObject_AddComponent_TisArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC_mB3F5965AB11322EEFDE310A358609FBD4359162F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// T UnityEngine.Component::GetComponent<Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent>()
+inline ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* Component_GetComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_mE7D44689F6992F868F4567188250A800470E7D7E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent>()
+inline ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* GameObject_AddComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_m7596CAEE5B19174D825CC14CAE1E98657F31B635 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::set_Position(Esri.GameEngine.Geometry.ArcGISPoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISLocationComponent_set_Position_m74E528AB73F98FFD2BCA7C41889532506D1BBD66 (ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* __this, ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation::.ctor(System.Double,System.Double,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISRotation__ctor_m11F5F3E6BBB0247750123C1C27F9DE90D3C30E15 (ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256* __this, double ___0_heading, double ___1_pitch, double ___2_roll, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISLocationComponent::set_Rotation(Esri.ArcGISMapsSDK.Utils.GeoCoord.ArcGISRotation)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISLocationComponent_set_Rotation_mCA615F9E7671B201B1A0C64AA4E721CB42CFA025 (ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* __this, ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256 ___0_value, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponent<Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent>()
+inline ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* Component_GetComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_m35CA5343EEE462AD233862A02443F56B7E328F88 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// T UnityEngine.GameObject::AddComponent<Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent>()
+inline ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* GameObject_AddComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_mE15BCE704EC2BE508FB0D97C209647DDA12448B9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// Esri.GameEngine.Map.ArcGISMapType Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::get_MapType()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISMap::.ctor(Esri.GameEngine.Map.ArcGISMapType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMap__ctor_m393BFF84779C552E06AA45E4804E2CB3A02922E8 (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, int32_t ___0_mapType, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISBasemap::.ctor(Esri.GameEngine.Map.ArcGISBasemapStyle,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISBasemap__ctor_mFA7495B4B70A1877E2FE156B16D1B1EDF5DAF72B (ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062* __this, int32_t ___0_basemapStyle, String_t* ___1_APIKey, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISMap::set_Basemap(Esri.GameEngine.Map.ArcGISBasemap)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMap_set_Basemap_m75D4B68BC5242B45FEC7D240F0FB0564871F1C9F (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Elevation.ArcGISImageElevationSource::.ctor(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISImageElevationSource__ctor_m1EE85F93332C50AB99D966690BFE4A74E9BDD274 (ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56* __this, String_t* ___0_source, String_t* ___1_name, String_t* ___2_APIKey, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISMapElevation::.ctor(Esri.GameEngine.Elevation.Base.ArcGISElevationSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMapElevation__ctor_mBB31D77101D9BF3A010B91ED13A76D217854B004 (ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD* __this, ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F* ___0_elevationSource, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISMap::set_Elevation(Esri.GameEngine.Map.ArcGISMapElevation)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMap_set_Elevation_mC90326047612CAF47964A78966082FFA00B60AA8 (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Layers.ArcGISImageLayer::.ctor(System.String,System.String,System.Single,System.Boolean,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISImageLayer__ctor_m94F4D3209509D088C1B7EE5ABF4235328C61AFB7 (ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* __this, String_t* ___0_source, String_t* ___1_name, float ___2_opacity, bool ___3_visible, String_t* ___4_APIKey, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer> Esri.GameEngine.Map.ArcGISMap::get_Layers()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, const RuntimeMethod* method) ;
+// System.UInt64 Esri.Unity.ArcGISCollectionSpecialization::Add(Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>,Esri.GameEngine.Layers.Base.ArcGISLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ArcGISCollectionSpecialization_Add_m7275314EE257B0BAE4B42DDF1CCB464DB5216F2C (ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* ___0_self, ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* ___1_value, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer::.ctor(System.String,System.String,System.Single,System.Boolean,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGIS3DObjectSceneLayer__ctor_m360835DA039831DA21A59C3B488B8A00427674AD (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* __this, String_t* ___0_source, String_t* ___1_name, float ___2_opacity, bool ___3_visible, String_t* ___4_APIKey, const RuntimeMethod* method) ;
+// System.Void SampleAPIMapCreator/SetLayerAttributesEventHandler::Invoke(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_inline (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) ;
+// System.UInt64 Esri.Unity.ArcGISCollectionSpecialization::IndexOf(Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>,Esri.GameEngine.Layers.Base.ArcGISLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ArcGISCollectionSpecialization_IndexOf_m5DCF3767F9FAB2AB5F456B034F83F83D98BBE235 (ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* ___0_self, ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* ___1_value, const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISCollectionSpecialization::Remove(Esri.Unity.ArcGISCollection`1<Esri.GameEngine.Layers.Base.ArcGISLayer>,System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCollectionSpecialization_Remove_m068D20DFF07C11EEE65B92BFC6F649DCCFDF8DFA (ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* ___0_self, uint64_t ___1_position, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Layers.Base.ArcGISLayer::set_Opacity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISLayer_set_Opacity_mC9F82357E7D0900E800C38AF9CFA6C8FE9C35A54 (ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* __this, float ___0_value, const RuntimeMethod* method) ;
+// Esri.GameEngine.Map.ArcGISMapType Esri.GameEngine.Map.ArcGISMap::get_MapType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISMap_get_MapType_mCB257339A56790D1F2D227FB3728835F00F97A55 (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::set_EnableExtent(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMapComponent_set_EnableExtent_mE2C8B3C155A817EA4602F385A28115C3A54F07C8 (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, bool ___0_value, const RuntimeMethod* method) ;
+// Esri.GameEngine.Geometry.ArcGISSpatialReference Esri.GameEngine.Geometry.ArcGISSpatialReference::WGS84()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* ArcGISSpatialReference_WGS84_mB8A74F047550EBC18BBA4F328AE4B46A041CBC99 (const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Geometry.ArcGISPoint::.ctor(System.Double,System.Double,System.Double,Esri.GameEngine.Geometry.ArcGISSpatialReference)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* __this, double ___0_x, double ___1_y, double ___2_z, ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* ___3_spatialReference, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Extent.ArcGISExtentCircle::.ctor(Esri.GameEngine.Geometry.ArcGISPoint,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISExtentCircle__ctor_m9730885DAFCD0AF891F40AAB47FA8DCA4EB9E7C5 (ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B* __this, ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___0_center, double ___1_radius, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Map.ArcGISMap::set_ClippingArea(Esri.GameEngine.Extent.ArcGISExtent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISMap_set_ClippingArea_mC601B6347719A56DF8F35506ED1190A2588453D3 (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* __this, ArcGISExtent_t6D04682967B1EABE5EFF1343A26B16095668DACC* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.ArcGISView Esri.ArcGISMapsSDK.Components.ArcGISMapComponent::get_View()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISView::set_Map(Esri.GameEngine.Map.ArcGISMap)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISView_set_Map_m4DAD35EDFC2188F2C1DB7F72AEC52A14F0CF8592 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleMobileOAuthAuthenticationChallengeHandler__ctor_m38A9343F56D648C1C9417C377D4DFE54EC3836DC (SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Utils.Environment::SetAuthenticationChallengeHandler(Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Environment_SetAuthenticationChallengeHandler_m485732689D8075AA565EFFB4F7EF916F13874C65_inline (ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* ___0_authenticationChallengeHandler, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration> Esri.GameEngine.Security.ArcGISAuthenticationManager::get_AuthenticationConfigurations()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE* ArcGISAuthenticationManager_get_AuthenticationConfigurations_mA06720A45F58EA772BCA35F93CD17B2CAC02E032 (const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>::Clear()
+inline void ArcGISDictionary_2_Clear_m01D330596FD8DD39CBA6AF7D1E63027507098015 (ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE*, const RuntimeMethod*))ArcGISDictionary_2_Clear_m883AE0A185D3F108ABFDE257A67C36BA213E46DA_gshared)(__this, method);
+}
+// System.String System.String::Trim()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Security.ArcGISOAuthAuthenticationConfiguration::.ctor(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISOAuthAuthenticationConfiguration__ctor_mF217164D576B194FF7B07ACE29851387FF6D2383 (ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B* __this, String_t* ___0_clientId, String_t* ___1_clientSecret, String_t* ___2_redirectURI, const RuntimeMethod* method) ;
+// System.Void Esri.Unity.ArcGISDictionary`2<System.String,Esri.GameEngine.Security.ArcGISAuthenticationConfiguration>::Add(TKey,TValue)
+inline void ArcGISDictionary_2_Add_m918CD8C2A22E92DEC15FB8043804AB919989AD14 (ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE* __this, String_t* ___0_key, ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE*, String_t*, ArcGISAuthenticationConfiguration_tD59942553AFE6021FB5282832433BFF3E00CC3E3*, const RuntimeMethod*))ArcGISDictionary_2_Add_m108EB59EDBD6DA154E61248BEC2E8F87D0554E73_gshared)(__this, ___0_key, ___1_value, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAuthenticationChallengeHandler_Dispose_m8A4BFA69F444DA482E04749C8A134ED3670CCBFD (ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* __this, const RuntimeMethod* method) ;
+// System.Void System.Net.HttpListener::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListener_Stop_mCE62183FF81F99305C3AB6E30B79B3A457DDC350 (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m187C2DF94E6BBAE3C1336246BCCBE7CFDAAE99EB (U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* __this, const RuntimeMethod* method) ;
+// System.Text.RegularExpressions.MatchCollection System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* Regex_Matches_mA76DE01D08582901D6E2CAC35C0D458185A5D018 (String_t* ___0_input, String_t* ___1_pattern, int32_t ___2_options, const RuntimeMethod* method) ;
+// System.Int32 System.Text.RegularExpressions.MatchCollection::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MatchCollection_get_Count_mF9D979B5B9D3835CC61977CBFB4110173B1CC926 (MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* __this, const RuntimeMethod* method) ;
+// System.Void System.ArgumentException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task::FromException<System.String>(System.Exception)
+inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817 (Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (Exception_t*, const RuntimeMethod*))Task_FromException_TisRuntimeObject_m81649814701F78FC4AAB5BE79018C8DCC7227E6E_gshared)(___0_exception, method);
+}
+// System.Text.RegularExpressions.Group System.Text.RegularExpressions.GroupCollection::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Group_t26371E9136D6F43782C487B63C67C5FC4F472881* GroupCollection_get_Item_m40EC174D4AC8FDD68F8819C35B779C79A44322F3 (GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* __this, int32_t ___0_groupnum, const RuntimeMethod* method) ;
+// System.String System.Text.RegularExpressions.Capture::get_Value()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC (Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A* __this, const RuntimeMethod* method) ;
+// System.Void System.Uri::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___0_uriString, const RuntimeMethod* method) ;
+// System.String System.Uri::get_Scheme()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.String System.Uri::get_Host()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m2C0E258C7DFF7A340049BE9BC08FF45E90988D8C (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::EndsWith(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+// System.Void System.Net.HttpListener::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListener__ctor_m16577B4C2A3E2D5CA19F2CB38EEEC6DE3DD70463 (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* __this, const RuntimeMethod* method) ;
+// System.Net.HttpListenerPrefixCollection System.Net.HttpListener::get_Prefixes()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897* HttpListener_get_Prefixes_mBDE4ABFC6DE6A06BBDF436459FFB84276AC7BD21 (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* __this, const RuntimeMethod* method) ;
+// System.Void System.Net.HttpListenerPrefixCollection::Add(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerPrefixCollection_Add_mB373ADD97AF3D45A7C6DC3E6E9119A4F1AE84713 (HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897* __this, String_t* ___0_uriPrefix, const RuntimeMethod* method) ;
+// System.Void System.Net.HttpListener::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListener_Start_mFFF59C04274FCAA5F9C86A1908DDBE1FDC48D867 (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* __this, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.String>::.ctor()
+inline void TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1 (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, const RuntimeMethod*))TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared)(__this, method);
+}
+// System.Threading.Tasks.Task`1<System.Net.HttpListenerContext> System.Net.HttpListener::GetContextAsync()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* HttpListener_GetContextAsync_m839A198FEE991B0D94967BD12F51B88D70BD7AD0 (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mF5EFD24164B49F577A8B64778209EF6E5A945019 (Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mCA6F8A00478A61E0CCE8A3F0A70B558D987B2940 (Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* __this, Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0* ___0_continuationAction, const RuntimeMethod* method)
+{
+	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D*, Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0*, const RuntimeMethod*))Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared)(__this, ___0_continuationAction, method);
+}
+// System.Void UnityEngine.Application::OpenURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89 (String_t* ___0_url, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.String>::get_Task()
+inline Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_inline (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline)(__this, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleOAuthAuthenticationChallengeHandler__ctor_m421864BE357315CA0FCD6CC242A0404B5C111218 (SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>::get_Result()
+inline HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* Task_1_get_Result_m78AC1C73D49147BA9D91F5BBBE549F1853F21B1F (Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* __this, const RuntimeMethod* method)
+{
+	return ((  HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* (*) (Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D*, const RuntimeMethod*))Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared)(__this, method);
+}
+// System.Net.HttpListenerResponse System.Net.HttpListenerContext::get_Response()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* HttpListenerContext_get_Response_m64CA8756CB54BE4A08A336ACCAC5EED26EF42867_inline (HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* __this, const RuntimeMethod* method) ;
+// System.Void System.Net.HttpListenerResponse::Close()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpListenerResponse_Close_m22216D7ACC6F210F7635AA3B0268B81F9DF7123F (HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* __this, const RuntimeMethod* method) ;
+// System.Net.HttpListenerRequest System.Net.HttpListenerContext::get_Request()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* HttpListenerContext_get_Request_m12CFD433DD5D32D9A72388BEBE6256C7BABE1808_inline (HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* __this, const RuntimeMethod* method) ;
+// System.Collections.Specialized.NameValueCollection System.Net.HttpListenerRequest::get_QueryString()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpListenerRequest_get_QueryString_mA0A78DFE87D21645E21CC6947A8F3FA5DC78622B_inline (HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* __this, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+// System.Void System.Exception::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.String>::SetException(System.Exception)
+inline void TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6 (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, Exception_t* ___0_exception, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, Exception_t*, const RuntimeMethod*))TaskCompletionSource_1_SetException_m7DB7E6251CB92C741F7E081E2ECAA06FF79E212F_gshared)(__this, ___0_exception, method);
+}
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.String>::SetResult(TResult)
+inline void TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1 (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* __this, String_t* ___0_result, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*, String_t*, const RuntimeMethod*))TaskCompletionSource_1_SetResult_m948378015A7A0E42647452EB7003466406B831A4_gshared)(__this, ___0_result, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_mFA2DAB1A0CE6E49E2DA425B9A3D8B73E4BA458A4 (U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Void UnityEngine.Application::add_deepLinkActivated(System.Action`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_deepLinkActivated_m65DB6854F5FA8DA9842618D0DF5F6F293161081D (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mD0E4001689018ED994C7E586C1997C78659D7938 (U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* __this, const RuntimeMethod* method) ;
+// System.String Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge::get_AuthorizeURI()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArcGISOAuthAuthenticationChallenge_get_AuthorizeURI_m0E1D931B8EAEF5BB14B81C0A046F39412AC545E6 (ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.String>>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m9A99EE412CA28FA3656C2B3CEEEDEA403CF736F1 (Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.String>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469 (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* __this, Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B* ___0_continuationAction, const RuntimeMethod* method)
+{
+	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B*, const RuntimeMethod*))Task_1_ContinueWith_mA0846133B2903064AAD1D23FE61AE736A033F866_gshared)(__this, ___0_continuationAction, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Security.ArcGISAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAuthenticationChallengeHandler__ctor_m541A62E273E4D79ABE2BE6D2298412563F44E618 (ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.AggregateException System.Threading.Tasks.Task::get_Exception()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AggregateException_t51B6205846DFB356B94452702201DD239D44422F* Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.Security.ArcGISAuthenticationChallenge::Cancel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISAuthenticationChallenge_Cancel_mEAEE6DD23CF9649FC07088E8F6668940ECD9AF97 (ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCanceled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.String>::get_Result()
+inline String_t* Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13 (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* __this, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, const RuntimeMethod*))Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared)(__this, method);
+}
+// System.Void Esri.GameEngine.Security.ArcGISOAuthAuthenticationChallenge::Respond(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISOAuthAuthenticationChallenge_Respond_m1EFA14C7911C28ADDE2BF7E92D9EEC6334C27CDD (ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* __this, String_t* ___0_token, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMousePosition()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Void UnityEngine.Application::add_focusChanged(System.Action`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_focusChanged_m8C984ECC5D23BE2E395EEAEE58D028F2B95A7E85 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions__ctor_m283656135C837EE1088972A22A48C80B9A1BD43F (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) ;
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_Move()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 ArcGISCameraControllerComponentActions_get_Move_mA422172D76CEB173A52F38F0F038B76A315FE6D8 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Up()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Forward()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Right()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponentInParent<Esri.ArcGISMapsSDK.Components.ArcGISMapComponent>()
+inline ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* GameObject_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m26769E29D0B4F1ED4B6B1F1EF26E258843A602FB (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared)(__this, method);
+}
+// T UnityEngine.Component::GetComponent<Esri.HPFramework.HPTransform>()
+inline HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* Component_GetComponent_TisHPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E_mE17656D923589664ECE4DF97AD969D87A6F9E3E7 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// System.Void UnityEngine.InputSystem.InputAction::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Mouse UnityEngine.InputSystem.Mouse::get_current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline (const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.InputSystem.Pointer::get_position()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* Pointer_get_position_m4286004169788483EEDA6AF833CEFDB04FEDF3D8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputControl`1<UnityEngine.Vector2>::ReadValue()
+inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541 (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66* __this, const RuntimeMethod* method)
+{
+	return ((  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*) (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66*, const RuntimeMethod*))InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_gshared)(__this, method);
+}
+// UnityEngine.Vector3 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector2)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) ;
+// Unity.Mathematics.float3 Esri.HPFramework.HPTransform::get_Forward()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E HPTransform_get_Forward_m993BF27382E1F7452A7F7F0DF7ECC270AE9733DD (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Utils.Math.float3Extensions::ToDouble3(Unity.Mathematics.float3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) ;
+// Unity.Mathematics.float3 Esri.HPFramework.HPTransform::get_Right()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E HPTransform_get_Right_m2C374EDE7EB5D5B59B6316C64A11D38AB2D73F84 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float3 Esri.HPFramework.HPTransform::get_Up()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E HPTransform_get_Up_m1C7200EA25AEC1B49B31B2B2C85B1C9ED36A3E91 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputAction::ReadValue<System.Single>()
+inline float InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*, const RuntimeMethod*))InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_gshared)(__this, method);
+}
+// System.Single UnityEngine.Time::get_deltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Multiply(Unity.Mathematics.double3,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Addition(Unity.Mathematics.double3,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Controls.DeltaControl UnityEngine.InputSystem.Mouse::get_scroll()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* Mouse_get_scroll_mB17E8A9038C866A29701595E06B8806E945ACA00_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::get_leftButton()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) ;
+// TValue UnityEngine.InputSystem.InputControl`1<System.Single>::ReadValue()
+inline float InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741 (InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A*, const RuntimeMethod*))InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_gshared)(__this, method);
+}
+// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.Mouse::get_rightButton()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+// Esri.GameEngine.Geometry.ArcGISSpatialReference Esri.GameEngine.View.ArcGISView::get_SpatialReference()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* ArcGISView_get_SpatialReference_m7292D2AB784E4229DE76E779C2DE176FC6DB5DA0 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::DragMouseEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_DragMouseEvent_mE0B6C26F412956E98B4022DBED6E512618BC830C (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::UpdateNavigation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_UpdateNavigation_mAB50A0A9D8DE5C4226AED369E9E8AB67D1C0496F (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::get_Position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Double Esri.GameEngine.View.ArcGISViewExtensions::AltitudeAtCartesianPosition(Esri.GameEngine.View.ArcGISView,Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ArcGISViewExtensions_AltitudeAtCartesianPosition_mB198297E10CC2CF298E5CD11E264AB29F874EB34 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* ___0_view, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_cartesianPosition, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::UpdateSpeed(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_UpdateSpeed_mCF8F629A632D17A62F81326C696FC8FDB2826ECE (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double ___0_height, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetTotalTranslation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_GetTotalTranslation_m40C544CEF9A8BCC6012E9F1FA96535FB839365F0 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Single Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMouseScollValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ArcGISCameraControllerComponent_GetMouseScollValue_m11A0BEA80292F99D91778CAE8A92E1A4D684C607 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMouseRayCastDirection()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_GetMouseRayCastDirection_mA332A584E20312EAE05D5833057979670439FF96 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Double System.Math::Max(System.Double,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Max_m7BAC743E1752A51F258BB82DEBDD13E7C6D3ED26 (double ___0_val1, double ___1_val2, const RuntimeMethod* method) ;
+// System.Boolean Unity.Mathematics.double3::Equals(Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool double3_Equals_mF3C722BF906A714D77899BB9055403481C2FC192_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_rhs, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MoveCamera(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_MoveCamera_m418741BBF5E1DA79F779719FA9E6414216A8F918 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_movDir, const RuntimeMethod* method) ;
+// System.Double Unity.Mathematics.math::length(Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Division(Unity.Mathematics.double3,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::get_Rotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ArcGISCameraControllerComponent_get_Rotation_m0E3A5128DA7B504F2A8D85B0B8CB7396EC803188 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.Geometry.ArcGISSpheroidData Esri.GameEngine.Geometry.ArcGISSpatialReference::get_SpheroidData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISSpheroidData_tFEF516D5982F2BC23F01C9C84982FD774D8CFED6 ArcGISSpatialReference_get_SpheroidData_mA99AC1AC7707C13096FEB2FED37C208BBA82E590 (ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.Geometry.ArcGISPoint Esri.GameEngine.View.ArcGISView::WorldToGeographic(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ArcGISView_WorldToGeographic_m18BBC5FD841B531EFE370DD199745D0EE443D955 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_worldCoordinate, const RuntimeMethod* method) ;
+// System.Double Esri.GameEngine.Geometry.ArcGISPoint::get_Z()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ArcGISPoint_get_Z_mE3B051B20A9E292A548B40B7C2E82F2C2FB9BB0D (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* __this, const RuntimeMethod* method) ;
+// System.Double Esri.GameEngine.Geometry.ArcGISPoint::get_X()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522 (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* __this, const RuntimeMethod* method) ;
+// System.Double Esri.GameEngine.Geometry.ArcGISPoint::get_Y()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4 (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.Geometry.ArcGISSpatialReference Esri.GameEngine.Geometry.ArcGISGeometry::get_SpatialReference()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04 (ArcGISGeometry_t16793F7C377C91A93DE51884DAA53E8E85FA8EA2* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.GameEngine.View.ArcGISView::GeographicToWorld(Esri.GameEngine.Geometry.ArcGISPoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISView_GeographicToWorld_mB3D52E55AF2B56E95459E9D9CE800BF7091B7B34 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* ___0_geographicCoordinate, const RuntimeMethod* method) ;
+// Unity.Mathematics.double4x4 Esri.GameEngine.View.ArcGISViewExtensions::GetENUReference(Esri.GameEngine.View.ArcGISView,Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* ___0_view, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_cartesianPosition, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Esri.HPFramework.HPMath::GetRotation(Unity.Mathematics.double4x4)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 HPMath_GetRotation_mD3928B0174CE0CA828862E6E8121AB7165ECC46D (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Unity.Mathematics.math::inverse(Unity.Mathematics.quaternion)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_inverse_mAB8FC214DC9438E44EB31D19E3C70D3BDFAAF202_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_q, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Unity.Mathematics.math::mul(Unity.Mathematics.quaternion,Unity.Mathematics.quaternion)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_a, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_b, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::set_Position(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_set_Position_m4A1FA4F2E0E6EBAC542F00E93524DE6E3B11FB26 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::set_Rotation(Unity.Mathematics.quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_set_Rotation_m613EE5B412EE9631CE3536D52E32278B71988B8B (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_OnEnable_mAB64653AD1312384A39176FD69E48B361E4342BC (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::IsMouseLeftClicked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISCameraControllerComponent_IsMouseLeftClicked_mC90AFDB285635DA9FE882017B0AA0CC968561EBB (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Vector3::op_Inequality(UnityEngine.Vector3,UnityEngine.Vector3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GlobalDragging(Unity.Mathematics.double3&,Unity.Mathematics.quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_GlobalDragging_m10400E6665C55E92E1FA65BCF36476B7B182D590 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_cartesianRotation, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::LocalDragging(Unity.Mathematics.double3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_LocalDragging_m4A5A359AAA7E0D515A7DE0DEA1AD634D845C3916 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, const RuntimeMethod* method) ;
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::IsMouseRightClicked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISCameraControllerComponent_IsMouseRightClicked_m0AF56E9DB613E852D99897AAC4D65E1B439B863D (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Vector3::Equals(UnityEngine.Vector3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_other, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::RotateAround(Unity.Mathematics.double3&,Unity.Mathematics.quaternion&,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_RotateAround_mB0E4F337FC698F5425888053C2236050955B9A3E (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_cartesianRotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_deltaMouse, const RuntimeMethod* method) ;
+// Unity.Mathematics.float3 Unity.Mathematics.math::up()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_up_m0BE1699606608A1C5B2F4996F2D550938DB736C1_inline (const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Implicit(Unity.Mathematics.float3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+// System.Boolean Esri.ArcGISMapsSDK.Utils.Math.Geometry::RayPlaneIntersection(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,System.Double&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Geometry_RayPlaneIntersection_m5516614D4A2C028AAA5F02D75CC3EABFCE238BEF (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_rayOrig, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rayDir, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_planePosition, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___3_planeNormal, double* ___4_t, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Subtraction(Unity.Mathematics.double3,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+// System.Boolean Esri.ArcGISMapsSDK.Utils.Math.Geometry::RayEllipsoidIntersection(Esri.GameEngine.Geometry.ArcGISSpheroidData,Unity.Mathematics.double3,Unity.Mathematics.double3,System.Double,System.Double&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Geometry_RayEllipsoidIntersection_mD7FC27B9AF49C964E54D3DD1C61CF19DF74ADC5C (ArcGISSpheroidData_tFEF516D5982F2BC23F01C9C84982FD774D8CFED6 ___0_spheroidData, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rayOrig, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___2_rayDir, double ___3_Altitude, double* ___4_t, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.math::normalize(Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_normalize_m13118ECBEA0AF4D81C9B2B289B2D6E1C2040DF44_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) ;
+// System.Double Unity.Mathematics.math::dot(Unity.Mathematics.double3,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) ;
+// System.Int32 System.Math::Sign(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Sign_m6E20753D72DE4B46CB1268023661DBE154294408 (double ___0_value, const RuntimeMethod* method) ;
+// UnityEngine.Matrix4x4 Esri.HPFramework.HPMath::ToMatrix4x4(Unity.Mathematics.double4x4)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 HPMath_ToMatrix4x4_mA501D31DB701CB8BC828E8BEA551E564BB06D508 (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Screen::get_width()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Screen::get_height()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion Unity.Mathematics.quaternion::op_Implicit(Unity.Mathematics.quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41 (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_q, const RuntimeMethod* method) ;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Rotate(UnityEngine.Quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_Rotate_m015442530DFF5651458BBFDFB3CBC9180FC09D9E (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_q, const RuntimeMethod* method) ;
+// UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_v, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion UnityEngine.Quaternion::AngleAxis(System.Single,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80 (float ___0_angle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_axis, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Quaternion)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Unity.Mathematics.quaternion::op_Implicit(UnityEngine.Quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 quaternion_op_Implicit_m12C97CDC5FE642C53837F73E2F9B8761D530C502 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_q, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<UnityEngine.Camera>()
+inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// Unity.Mathematics.double4 Unity.Mathematics.math::double4(Unity.Mathematics.double3,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.double4x4::.ctor(Unity.Mathematics.double4,Unity.Mathematics.double4,Unity.Mathematics.double4,Unity.Mathematics.double4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_c0, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_c1, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___2_c2, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___3_c3, const RuntimeMethod* method) ;
+// UnityEngine.Matrix4x4 UnityEngine.Camera::get_projectionMatrix()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_inverse()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.double4x4 Esri.HPFramework.MatrixExtension::ToDouble4x4(UnityEngine.Matrix4x4)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C MatrixExtension_ToDouble4x4_m882B94536FC161B1A2CE6ADBE7EE9ED4BB4649A4 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_matrix, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.double3::.ctor(System.Double,System.Double,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.HPFramework.HPMath::HomogeneousTransformPoint(Unity.Mathematics.double4x4,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 HPMath_HomogeneousTransformPoint_mD4E424BEAD78D590A5026B18D40905DDF2A0343E_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_point, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.HPFramework.HPMath::HomogeneousTransformVector(Unity.Mathematics.double4x4,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 HPMath_HomogeneousTransformVector_mD4C65D7735EC88B9CB9903914F412D9EA470B6B5_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_vector, const RuntimeMethod* method) ;
+// System.Double System.Math::Min(System.Double,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Min_mA3310F1FF7876DA2FC7F37B822E6DD66410565C1 (double ___0_val1, double ___1_val2, const RuntimeMethod* method) ;
+// System.Double System.Math::Pow(System.Double,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_mEAE651F0858203FBE12B72B6A53951BBD0FB5265 (double ___0_x, double ___1_y, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Esri.HPFramework.HPTransform::get_UniversePosition()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 HPTransform_get_UniversePosition_m7ED66F0C5E5C63E0ED7CCC96551D70ABA1E96F12 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, const RuntimeMethod* method) ;
+// System.Void Esri.HPFramework.HPTransform::set_UniversePosition(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HPTransform_set_UniversePosition_m0D5DBB46152059D91BD5666B5C7080C73DB57C66 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Esri.HPFramework.HPTransform::get_UniverseRotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 HPTransform_get_UniverseRotation_mE87A1C439F67301FCD86072790AD990A0C76E107 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, const RuntimeMethod* method) ;
+// System.Void Esri.HPFramework.HPTransform::set_UniverseRotation(Unity.Mathematics.quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HPTransform_set_UniverseRotation_m89008C41EFDA38D60D8C11256A1765444D5602A3 (HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_value, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputActionAsset UnityEngine.InputSystem.InputActionAsset::FromJson(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* InputActionAsset_FromJson_m8F7212EB013EF4D853836228D393C0D15BD0433C (String_t* ___0_json, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputActionAsset Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_asset()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputActionMap UnityEngine.InputSystem.InputActionAsset::FindActionMap(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, String_t* ___0_nameOrId, bool ___1_throwIfNotFound, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction UnityEngine.InputSystem.InputActionMap::FindAction(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionMap_FindAction_m94A9B02203CFFA97310EC589FAD4CCB15898F0A3 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, String_t* ___0_actionNameOrId, bool ___1_throwIfNotFound, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionAsset::get_bindingMask()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 InputActionAsset_get_bindingMask_mD5D2FAC455D221E7BC657DA5E7E4F5402E0B4F6C_inline (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionAsset::set_bindingMask(System.Nullable`1<UnityEngine.InputSystem.InputBinding>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionAsset_set_bindingMask_mD621370B859495F593CBE28019D84F44922C94A5 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___0_value, const RuntimeMethod* method) ;
+// System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>> UnityEngine.InputSystem.InputActionAsset::get_devices()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D InputActionAsset_get_devices_m8FF856B2C61E23B7360A9279C10F8A6498C72B9C (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionAsset::set_devices(System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionAsset_set_devices_m5A513BB841DB76966CD2B39E0E6FA8AFB3EBE38D (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D ___0_value, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme> UnityEngine.InputSystem.InputActionAsset::get_controlSchemes()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyArray_1_tC41FC1476A6CC9385BDD74ECC6D3AF66A6C82BF9 InputActionAsset_get_controlSchemes_m257644C546BD6221DD62251F6C7C2A2CC11BD099 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.InputActionAsset::Contains(UnityEngine.InputSystem.InputAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputActionAsset_Contains_mB3B9FBCE562FB5229F9387F14AEC22083FC6CDDE (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___0_action, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction> UnityEngine.InputSystem.InputActionAsset::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputActionAsset_GetEnumerator_m39998F5B21D08AAE328E63B3FDCC0F414620A8A9 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArcGISCameraControllerComponentActions_GetEnumerator_m56D4154F049AA03ABE781406D1E262DAC8BCDD85 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionAsset::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionAsset_Enable_m5102429EE832C7891F73B6979612702CECA8F431 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionAsset::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionAsset_Disable_m62FD8B11BB4EDF6AADAB2BDDC699242D09BAF99C (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionAsset::get_bindings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputActionAsset_get_bindings_mB045318575B5D7B13A92B973CABB40E0FEC70FB9 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction UnityEngine.InputSystem.InputActionAsset::FindAction(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, String_t* ___0_actionNameOrId, bool ___1_throwIfNotFound, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.InputSystem.InputActionAsset::FindBinding(UnityEngine.InputSystem.InputBinding,UnityEngine.InputSystem.InputAction&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputActionAsset_FindBinding_mB5B36B9DDFAABFD4B528B891653B1B5B895DBDC5 (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___0_mask, InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD** ___1_action, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::.ctor(Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1_inline (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___0_wrapper, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_GetCoordinates()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.InputActionMap Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Get()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionMap::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_Enable_m33D2B67F136D786AA45C5319EB49D825FA2E4A7F (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputActionMap::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_Disable_m29D9FFD1B078413070F5A695FE4943B98EE42F0B (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.InputActionMap::get_enabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputActionMap_get_enabled_mB89FAA20F1EA1884A28829B3E350822D7456E888 (InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* __this, const RuntimeMethod* method) ;
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_enabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveActions_get_enabled_m8A9277DC9B1ADE37531DFEF41B75C3E696769ECE (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57 (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Void UnityEngine.InputSystem.InputAction::remove_started(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::remove_performed(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::remove_canceled(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::add_started(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::add_performed(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.InputAction::add_canceled(System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::SetCallbacks(Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/IMoveActions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_SetCallbacks_m27759F5F85A1415FAC5616443BE211FC144EBA09 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, RuntimeObject* ___0_instance, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponentInParent<Esri.ArcGISMapsSDK.Components.ArcGISMapComponent>()
+inline ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* Component_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m48048CEC8C895EC5EA48D7E3554DC12D218614EF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::SubscribeToViewStateEvents()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_SubscribeToViewStateEvents_m1B866B11EC21675BE97748721F457B19E9979B10 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISView::set_ViewStateChanged(Esri.GameEngine.View.State.ArcGISViewStateChangedEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISView_set_ViewStateChanged_mF39E05BCDAEFC45B38D85C05BCD2AF19607A4FB4 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISView::set_ElevationSourceViewStateChanged(Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISView_set_ElevationSourceViewStateChanged_mC63CAABD36EF20B692B5491A5A53F0DBEBE86351 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4* ___0_value, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISView::set_LayerViewStateChanged(Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISView_set_LayerViewStateChanged_m711FEB22896E6826D8B915E5BF5432C8DB43791D (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C* ___0_value, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent Esri.GameEngine.View.ArcGISView::get_ElevationSourceViewStateChanged()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4* ArcGISView_get_ElevationSourceViewStateChanged_m9B96746A72F809CDB66176A851684AB295AEA063 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.State.ArcGISElevationSourceViewStateChangedEvent::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISElevationSourceViewStateChangedEvent__ctor_m28A685C6D71A257729FF100116743D556D8999C2 (ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent Esri.GameEngine.View.ArcGISView::get_LayerViewStateChanged()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C* ArcGISView_get_LayerViewStateChanged_m75B33C3496D6B3744353A3D967BAD764C4968EC1 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.State.ArcGISLayerViewStateChangedEvent::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISLayerViewStateChangedEvent__ctor_mEDD0DDA3D0A5CB13E1817CC49D201C4707FA41A6 (ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISViewStateChangedEvent Esri.GameEngine.View.ArcGISView::get_ViewStateChanged()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0* ArcGISView_get_ViewStateChanged_m35A72508F906130DC46CED27CA2F2723E0B17A6B (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.State.ArcGISViewStateChangedEvent::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateChangedEvent__ctor_m8BD386F8BEFCEEA8D23299B0D7E817E7860203E2 (ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent Esri.GameEngine.View.ArcGISView::get_SpatialReferenceChanged()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4* ArcGISView_get_SpatialReferenceChanged_m820E06B23D283CC6CC37AFB1335D3CEDACAD8282 (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewSpatialReferenceChangedEvent__ctor_m44D558E28C2F5BD09AA9BA5A97DB164DEF1FFE1C (ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void Esri.GameEngine.View.ArcGISView::set_SpatialReferenceChanged(Esri.GameEngine.View.ArcGISViewSpatialReferenceChangedEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISView_set_SpatialReferenceChanged_m65ECF54AF507C2FCBB77E4DCD34DE68C5DF5788E (ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* __this, ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4* ___0_value, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISViewStateMessage Esri.GameEngine.View.State.ArcGISElevationSourceViewState::get_Message()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* ArcGISElevationSourceViewState_get_Message_m1A6E4076702AA36EDCEAAB7C080F21228DFF23EB (ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* __this, const RuntimeMethod* method) ;
+// System.String Esri.GameEngine.View.State.ArcGISViewStateMessage::GetMessage()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArcGISViewStateMessage_GetMessage_m3170DC93134B73F7BB2125A045B4E3B2EFBE648C (ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISElevationSourceViewStatus Esri.GameEngine.View.State.ArcGISElevationSourceViewState::get_Status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISElevationSourceViewState_get_Status_m2F6BA465CFBD7E573D825BDE3520447525009D25 (ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* __this, const RuntimeMethod* method) ;
+// System.String Esri.GameEngine.Elevation.Base.ArcGISElevationSource::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArcGISElevationSource_get_Name_mB7CFFC8EE53CEAC4C53670578A980AD3253FFC84 (ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+// Esri.Unity.ArcGISDictionary`2<System.String,System.String> Esri.GameEngine.View.State.ArcGISViewStateMessage::GetAdditionalInformation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC* ArcGISViewStateMessage_GetAdditionalInformation_mA83197CC58B522603C63EB2E1F9EA77D89FEC4B8 (ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* __this, const RuntimeMethod* method) ;
+// System.Boolean Esri.Unity.ArcGISDictionary`2<System.String,System.String>::TryGetValue(TKey,TValue&)
+inline bool ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751 (ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC* __this, String_t* ___0_key, String_t** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC*, String_t*, String_t**, const RuntimeMethod*))ArcGISDictionary_2_TryGetValue_m3B73893DB4C616231287990D1372B21E2D014C5B_gshared)(__this, ___0_key, ___1_value, method);
+}
+// System.Boolean System.String::op_Inequality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISViewStateMessage Esri.GameEngine.View.State.ArcGISLayerViewState::get_Message()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* ArcGISLayerViewState_get_Message_mB465576DE6C3D051EED1D4545687FF84054195BB (ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISLayerViewStatus Esri.GameEngine.View.State.ArcGISLayerViewState::get_Status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISLayerViewState_get_Status_m1D95E8866E238E6B4331534AEE0126FE8DD06763 (ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* __this, const RuntimeMethod* method) ;
+// System.String Esri.GameEngine.Layers.Base.ArcGISLayer::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArcGISLayer_get_Name_mAA1EF99A6DDCD877F46B20DE8EB1F0F1DFDCDEC1 (ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISViewStateMessage Esri.GameEngine.View.State.ArcGISViewState::get_Message()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* ArcGISViewState_get_Message_m440A75FB26690388EF36C44D85E8D7CA339AEF9B (ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* __this, const RuntimeMethod* method) ;
+// Esri.GameEngine.View.State.ArcGISViewStatus Esri.GameEngine.View.State.ArcGISViewState::get_Status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISViewState_get_Status_m2DF98B4CDF97F05C30722EF82F0CF4016C1ADAF7 (ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* __this, const RuntimeMethod* method) ;
+// System.Int32 Esri.GameEngine.Geometry.ArcGISSpatialReference::get_WKID()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISSpatialReference_get_WKID_mB7CB991B7C4004CEB26996407F6C771A8D7BE415 (ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* __this, const RuntimeMethod* method) ;
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.math::double3(System.Double,System.Double,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_double3_m66E7EE72E3425CD355C75D86B3D21E720F07A030_inline (double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) ;
+// System.Double Unity.Mathematics.math::sqrt(System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) ;
+// System.Single Unity.Mathematics.math::dot(Unity.Mathematics.float4,Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_m20F2285F7227DC308D9CF2DCB8EAAD3E774501D4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) ;
+// System.Single Unity.Mathematics.math::rcp(System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rcp_mED2BCEE83560EEE59CE06EBD90332CAFA9C08024_inline (float ___0_x, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(System.Single,Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581_inline (float ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.math::float4(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline (float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(Unity.Mathematics.float4,Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.quaternion Unity.Mathematics.math::quaternion(Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwww()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_xyzx()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwwx()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxy()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyy()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::op_Addition(Unity.Mathematics.float4,Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyz()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxz()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) ;
+// Unity.Mathematics.float4 Unity.Mathematics.float4::op_Subtraction(Unity.Mathematics.float4,Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Vector3::op_Equality(UnityEngine.Vector3,UnityEngine.Vector3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.float3::.ctor(System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.double3::.ctor(Unity.Mathematics.float3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) ;
+// System.Double Unity.Mathematics.math::rsqrt(System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_rsqrt_mFCE41521321BF854424BE66D4887EF27C21AA592_inline (double ___0_x, const RuntimeMethod* method) ;
+// Unity.Mathematics.double3 Unity.Mathematics.double3::op_Multiply(System.Double,Unity.Mathematics.double3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_m4B2A373F7D9A179B6DBB10BB3827D95DE914EF89_inline (double ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.double4::.ctor(Unity.Mathematics.double3,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) ;
+// Unity.Mathematics.double4 Unity.Mathematics.double4::op_Multiply(Unity.Mathematics.double4,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.double4 Unity.Mathematics.double4::op_Addition(Unity.Mathematics.double4,Unity.Mathematics.double4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_rhs, const RuntimeMethod* method) ;
+// Unity.Mathematics.double4 Unity.Mathematics.math::mul(Unity.Mathematics.double4x4,Unity.Mathematics.double4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 math_mul_m15697BA79A02858D72C9114C635AF321624CBD0D_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_a, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_b, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.float4::.ctor(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.quaternion::.ctor(Unity.Mathematics.float4)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Mathematics.double4::.ctor(System.Double,System.Double,System.Double,System.Double)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double ___0_x, double ___1_y, double ___2_z, double ___3_w, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Sample3DAttributesComponent::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Awake_mC48A4003DD249D231864A12725588D502ECD41A8 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456_mA521C6F29A931AE6133ECFE8BEBC0D69D01B106B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sample3DAttributesComponent_Setup3DAttributes_mA36E5A3694722B7C45095C272DBAA9662B9764BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C6222E8F105CF34D89C8715E3752ABD26CE3D81);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// sampleMapCreator = GetComponent<SampleAPIMapCreator>();
+		SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* L_0;
+		L_0 = Component_GetComponent_TisSampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456_mA521C6F29A931AE6133ECFE8BEBC0D69D01B106B(__this, Component_GetComponent_TisSampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456_mA521C6F29A931AE6133ECFE8BEBC0D69D01B106B_RuntimeMethod_var);
+		__this->___sampleMapCreator_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sampleMapCreator_7), (void*)L_0);
+		// if (!sampleMapCreator)
+		SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* L_1 = __this->___sampleMapCreator_7;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// Debug.LogError("SampleAPIMapCreator not found");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8C6222E8F105CF34D89C8715E3752ABD26CE3D81, NULL);
+		// return;
+		return;
+	}
+
+IL_0024:
+	{
+		// sampleMapCreator.OnSetLayerAttributes += new SampleAPIMapCreator.SetLayerAttributesEventHandler(Setup3DAttributes);
+		SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* L_3 = __this->___sampleMapCreator_7;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_4 = (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)il2cpp_codegen_object_new(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		SetLayerAttributesEventHandler__ctor_m225F0B214AA5EF545C1D01D75B448278B765CC7C(L_4, __this, (intptr_t)((void*)Sample3DAttributesComponent_Setup3DAttributes_mA36E5A3694722B7C45095C272DBAA9662B9764BF_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		SampleAPIMapCreator_add_OnSetLayerAttributes_mEF174C3D6BFB94726E4E395FB2099998CD0B0AE8(L_3, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Update_m1D12092A271ADA13D26D7D8ACAC9323F75A2A45D (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (layerAttribute != lastLayerAttribute)
+		int32_t L_0 = __this->___layerAttribute_4;
+		int32_t L_1 = __this->___lastLayerAttribute_5;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		// sampleMapCreator.CreateArcGISMap();
+		SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* L_2 = __this->___sampleMapCreator_7;
+		NullCheck(L_2);
+		SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58(L_2, NULL);
+		// lastLayerAttribute = layerAttribute;
+		int32_t L_3 = __this->___layerAttribute_4;
+		__this->___lastLayerAttribute_5 = L_3;
+	}
+
+IL_0025:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent::Setup3DAttributes(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Setup3DAttributes_mA36E5A3694722B7C45095C272DBAA9662B9764BF (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_buildingLayer, const RuntimeMethod* method) 
+{
+	{
+		// if (buildingLayer == null)
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_0 = ___0_buildingLayer;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0004:
+	{
+		// if (layerAttribute == AttributeType.ConstructionYear)
+		int32_t L_1 = __this->___layerAttribute_4;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// Setup3DAttributesFloatAndIntegerType(buildingLayer);
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_2 = ___0_buildingLayer;
+		Sample3DAttributesComponent_Setup3DAttributesFloatAndIntegerType_m716C0F19C0B8059EBDB723260C42B8ED7CD9B237(__this, L_2, NULL);
+		return;
+	}
+
+IL_0015:
+	{
+		// else if (layerAttribute == AttributeType.BuildingName)
+		int32_t L_3 = __this->___layerAttribute_4;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		// Setup3DAttributesOtherType(buildingLayer);
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_4 = ___0_buildingLayer;
+		Sample3DAttributesComponent_Setup3DAttributesOtherType_mAFD2BBC779E9FDEC9796DC24703B4F72F4D58F9B(__this, L_4, NULL);
+	}
+
+IL_0025:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent::Setup3DAttributesFloatAndIntegerType(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Setup3DAttributesFloatAndIntegerType_m716C0F19C0B8059EBDB723260C42B8ED7CD9B237 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B507CF1334072EFBB9CCE271AFA7FBDEC7CB0D0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral80CED26F8D8EB6422E7C0D1F2A41C4675B7616F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE1048C9B319AA50FED1026F8A9DA660EF40E73D);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* V_0 = NULL;
+	{
+		// var layerAttributes = ArcGISImmutableArray<String>.CreateBuilder();
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_0;
+		L_0 = ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711(ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711_RuntimeMethod_var);
+		V_0 = L_0;
+		// layerAttributes.Add("CNSTRCT_YR");
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_1 = V_0;
+		NullCheck(L_1);
+		ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0(L_1, _stringLiteralFE1048C9B319AA50FED1026F8A9DA660EF40E73D, ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0_RuntimeMethod_var);
+		// layer.SetAttributesToVisualize(layerAttributes.MoveToArray());
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_2 = ___0_layer;
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_3 = V_0;
+		NullCheck(L_3);
+		ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* L_4;
+		L_4 = ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7(L_3, ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7_RuntimeMethod_var);
+		NullCheck(L_2);
+		ArcGIS3DObjectSceneLayer_SetAttributesToVisualize_mD324EFDBABE174B5B6D8B88E11210B99E88AA294(L_2, L_4, NULL);
+		// layer.MaterialReference = new Material(Resources.Load<Material>("Materials/" + DetectRenderPipeline() + "/ConstructionYearRenderer"));
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_5 = ___0_layer;
+		String_t* L_6;
+		L_6 = Sample3DAttributesComponent_DetectRenderPipeline_m7E17E094C372A1B17D63E671C519F112EBA0B8D1(__this, NULL);
+		String_t* L_7;
+		L_7 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral80CED26F8D8EB6422E7C0D1F2A41C4675B7616F7, L_6, _stringLiteral3B507CF1334072EFBB9CCE271AFA7FBDEC7CB0D0, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8;
+		L_8 = Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E(L_7, Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E_RuntimeMethod_var);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Material__ctor_mFCC42FB90257F1E8F7516A8640A79C465A39961C(L_9, L_8, NULL);
+		NullCheck(L_5);
+		ArcGIS3DObjectSceneLayer_set_MaterialReference_mA8ADADDD125E74A856188C0D1F6EBC87D92591C1(L_5, L_9, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent::Setup3DAttributesOtherType(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_Setup3DAttributesOtherType_mAFD2BBC779E9FDEC9796DC24703B4F72F4D58F9B (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_Add_m9B645C4F52F191110F9DE3326FA84DD25FCDDB12_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArrayBuilder_1_MoveToArray_m4673FA4F1C5B8A7B4F4F93E5F8E6679331164024_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArray_1_CreateBuilder_m102B630F5A29BBDB0FF815CF06BF05030489DCC9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sample3DAttributesComponent_U3CSetup3DAttributesOtherTypeU3Eb__9_0_m2180771F21D5A38276A737E35BF845CF45AA9068_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3DBD56A88F354EACFAFE433FC930A93888C30822);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral80CED26F8D8EB6422E7C0D1F2A41C4675B7616F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8070BBD635F5D8EE6A31E3AB9BDBB77B0DF9A01);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDC249A7143D53551771C2CECCC0424019492E947);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* V_0 = NULL;
+	ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* V_1 = NULL;
+	{
+		// var layerAttributes = ArcGISImmutableArray<String>.CreateBuilder();
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_0;
+		L_0 = ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711(ArcGISImmutableArray_1_CreateBuilder_m924A6C734B64ED096FCCE7433706EADC54CFD711_RuntimeMethod_var);
+		V_0 = L_0;
+		// layerAttributes.Add("NAME");
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_1 = V_0;
+		NullCheck(L_1);
+		ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0(L_1, _stringLiteral3DBD56A88F354EACFAFE433FC930A93888C30822, ArcGISImmutableArrayBuilder_1_Add_m89AA0D869B6D23808D6A219EB624D1E7F57FF8C0_RuntimeMethod_var);
+		// var renderAttributeDescriptions = ArcGISImmutableArray<Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription>.CreateBuilder();
+		ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* L_2;
+		L_2 = ArcGISImmutableArray_1_CreateBuilder_m102B630F5A29BBDB0FF815CF06BF05030489DCC9(ArcGISImmutableArray_1_CreateBuilder_m102B630F5A29BBDB0FF815CF06BF05030489DCC9_RuntimeMethod_var);
+		V_1 = L_2;
+		// renderAttributeDescriptions.Add(new Esri.GameEngine.Attributes.ArcGISVisualizationAttributeDescription("IsBuildingOfInterest", Esri.GameEngine.Attributes.ArcGISVisualizationAttributeType.Float32));
+		ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* L_3 = V_1;
+		ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3* L_4 = (ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3*)il2cpp_codegen_object_new(ArcGISVisualizationAttributeDescription_t23E37745B5AC447C6D0D88EACE3A8B0D01651BF3_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		ArcGISVisualizationAttributeDescription__ctor_mCFE9E73919AECB28BAE26FD03F2161276B849276(L_4, _stringLiteralA8070BBD635F5D8EE6A31E3AB9BDBB77B0DF9A01, 1, NULL);
+		NullCheck(L_3);
+		ArcGISImmutableArrayBuilder_1_Add_m9B645C4F52F191110F9DE3326FA84DD25FCDDB12(L_3, L_4, ArcGISImmutableArrayBuilder_1_Add_m9B645C4F52F191110F9DE3326FA84DD25FCDDB12_RuntimeMethod_var);
+		// attributeProcessor = new Esri.GameEngine.Attributes.ArcGISAttributeProcessor();
+		ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* L_5 = (ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242*)il2cpp_codegen_object_new(ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		ArcGISAttributeProcessor__ctor_m4541AFBE53E1CCF7BBCC8543FC44C03DF943550A(L_5, NULL);
+		__this->___attributeProcessor_6 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___attributeProcessor_6), (void*)L_5);
+		// attributeProcessor.ProcessEvent += (ArcGISImmutableArray<Esri.GameEngine.Attributes.ArcGISAttribute> layerNodeAttributes, ArcGISImmutableArray<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute> renderNodeAttributes) =>
+		// {
+		//     // Buffers will be provided in the same order they appear in the layer metadata
+		//     // If layerAttributes contained an additional element, it would be at inputAttributes.At(1)
+		//     var nameAttribute = layerNodeAttributes.At(0);
+		// 
+		//     // The outputVisualizationAttributes array expects that its data is indexed the same way as the attributeDescriptions above
+		//     var isBuildingOfInterestAttribute = renderNodeAttributes.At(0);
+		// 
+		//     var isBuildingOfInterestBuffer = isBuildingOfInterestAttribute.Data;
+		//     var isBuildingOfInterestData = isBuildingOfInterestBuffer.Reinterpret<float>(sizeof(byte));
+		// 
+		//     // Go over each attribute and if its name is one of the four buildings of interest set its "isBuildingOfInterest" value to 1, otherwise set it to 0
+		//     ForEachString(nameAttribute, (string element, Int32 index) =>
+		//     {
+		//         isBuildingOfInterestData[index] = IsBuildingOfInterest(element);
+		//     });
+		// };
+		ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* L_6 = __this->___attributeProcessor_6;
+		ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* L_7 = L_6;
+		NullCheck(L_7);
+		ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99* L_8;
+		L_8 = ArcGISAttributeProcessor_get_ProcessEvent_mA659ADFA69C386A026AFB4C6493B1469F9A6C9EE(L_7, NULL);
+		ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99* L_9 = (ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99*)il2cpp_codegen_object_new(ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		ArcGISAttributeProcessorEvent__ctor_mD05781F21778A74BEF3F36CB5D41CC209DB440D6(L_9, __this, (intptr_t)((void*)Sample3DAttributesComponent_U3CSetup3DAttributesOtherTypeU3Eb__9_0_m2180771F21D5A38276A737E35BF845CF45AA9068_RuntimeMethod_var), NULL);
+		Delegate_t* L_10;
+		L_10 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_8, L_9, NULL);
+		NullCheck(L_7);
+		ArcGISAttributeProcessor_set_ProcessEvent_m828849293D5D08DBD8BE6D2D1CC886C7FBEA96E6(L_7, ((ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99*)CastclassSealed((RuntimeObject*)L_10, ArcGISAttributeProcessorEvent_tF40F99A6D97D0BEBF4186538DA0B03D2C44BAB99_il2cpp_TypeInfo_var)), NULL);
+		// layer.SetAttributesToVisualize(layerAttributes.MoveToArray(), renderAttributeDescriptions.MoveToArray(), attributeProcessor);
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_11 = ___0_layer;
+		ArcGISImmutableArrayBuilder_1_tA2300858EB1F1AD1BADD00731B81BFFD393B5700* L_12 = V_0;
+		NullCheck(L_12);
+		ArcGISImmutableArray_1_t9900D11F4EF4C9E1942B432A4B182F4718110DB2* L_13;
+		L_13 = ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7(L_12, ArcGISImmutableArrayBuilder_1_MoveToArray_m3E655EA991779D1A66A6A0AEF64E237FEFC348B7_RuntimeMethod_var);
+		ArcGISImmutableArrayBuilder_1_tC93742E0E1506BE5381F0BEA7D5238457703915D* L_14 = V_1;
+		NullCheck(L_14);
+		ArcGISImmutableArray_1_t0F2D02432B8BD4B0B96B5E994B47371DBE7BFBFC* L_15;
+		L_15 = ArcGISImmutableArrayBuilder_1_MoveToArray_m4673FA4F1C5B8A7B4F4F93E5F8E6679331164024(L_14, ArcGISImmutableArrayBuilder_1_MoveToArray_m4673FA4F1C5B8A7B4F4F93E5F8E6679331164024_RuntimeMethod_var);
+		ArcGISAttributeProcessor_t077318022D52D106C29B5858862FBC2F30B00242* L_16 = __this->___attributeProcessor_6;
+		NullCheck(L_11);
+		ArcGIS3DObjectSceneLayer_SetAttributesToVisualize_mEF3777E98FA9C544CEBAFCB5CE4F758420125ECF(L_11, L_13, L_15, L_16, NULL);
+		// layer.MaterialReference = new Material(Resources.Load<Material>("Materials/" + DetectRenderPipeline() + "/BuildingNameRenderer"));
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_17 = ___0_layer;
+		String_t* L_18;
+		L_18 = Sample3DAttributesComponent_DetectRenderPipeline_m7E17E094C372A1B17D63E671C519F112EBA0B8D1(__this, NULL);
+		String_t* L_19;
+		L_19 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral80CED26F8D8EB6422E7C0D1F2A41C4675B7616F7, L_18, _stringLiteralDC249A7143D53551771C2CECCC0424019492E947, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20;
+		L_20 = Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E(L_19, Resources_Load_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_mC909CC888641BC8E1E29C8AB1C790C637C9B390E_RuntimeMethod_var);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
+		Material__ctor_mFCC42FB90257F1E8F7516A8640A79C465A39961C(L_21, L_20, NULL);
+		NullCheck(L_17);
+		ArcGIS3DObjectSceneLayer_set_MaterialReference_mA8ADADDD125E74A856188C0D1F6EBC87D92591C1(L_17, L_21, NULL);
+		// }
+		return;
+	}
+}
+// System.Int32 Sample3DAttributesComponent::IsBuildingOfInterest(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sample3DAttributesComponent_IsBuildingOfInterest_m905EDEC8A91A029B67C72FC7ADC38833CA4AE59F (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, String_t* ___0_element, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral089848BE2C0B21B3DECB3224D087FD585FAC0A5A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D9A5BCA84CBC621991B59F55CFA1BFDAE41D6AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB44AF4EDFCA412C57660CFA0541BB99D6F07A545);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE95C2C3E334D7BBD413C06E8235A34CBF118CEC4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (element == null)
+		String_t* L_0 = ___0_element;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		// return 0;
+		return 0;
+	}
+
+IL_0005:
+	{
+		// else if (element.Equals("Empire State Building") || element.Equals("Chrysler Building") || element.Equals("Tower 1 World Trade Ctr") ||
+		//         element.Equals("One Chase Manhattan Plaza"))
+		String_t* L_1 = ___0_element;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_1, _stringLiteral089848BE2C0B21B3DECB3224D087FD585FAC0A5A, NULL);
+		if (L_2)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		String_t* L_3 = ___0_element;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_3, _stringLiteral3D9A5BCA84CBC621991B59F55CFA1BFDAE41D6AE, NULL);
+		if (L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		String_t* L_5 = ___0_element;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_5, _stringLiteralB44AF4EDFCA412C57660CFA0541BB99D6F07A545, NULL);
+		if (L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		String_t* L_7 = ___0_element;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_7, _stringLiteralE95C2C3E334D7BBD413C06E8235A34CBF118CEC4, NULL);
+		if (!L_8)
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_0039:
+	{
+		// return 1;
+		return 1;
+	}
+
+IL_003b:
+	{
+		// return 0;
+		return 0;
+	}
+}
+// System.Void Sample3DAttributesComponent::ForEachString(Esri.GameEngine.Attributes.ArcGISAttribute,System.Action`2<System.String,System.Int32>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_ForEachString_mB4C40E5F997F09894F14E44FEE3EDE681CAF44CA (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* ___0_attribute, Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* ___1_predicate, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	String_t* V_4 = NULL;
+	{
+		// var buffer = attribute.Data;
+		ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* L_0 = ___0_attribute;
+		NullCheck(L_0);
+		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_1;
+		L_1 = ArcGISAttribute_get_Data_mD7ABF15453984DB4DDCA286623E85E657A59E3C5(L_0, NULL);
+		// var unsafePtr = NativeArrayUnsafeUtility.GetUnsafePtr(buffer);
+		void* L_2;
+		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2(L_1, NativeArrayUnsafeUtility_GetUnsafePtr_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m8CFDB2DF56E810A2E2FB3686AF676FCAC65AFCC2_RuntimeMethod_var);
+		// var metadata = (int*)unsafePtr;
+		void* L_3 = L_2;
+		V_0 = (int32_t*)L_3;
+		// var count = metadata[0];
+		int32_t* L_4 = V_0;
+		int32_t L_5 = *((int32_t*)L_4);
+		V_1 = L_5;
+		// IntPtr stringPtr = (IntPtr)unsafePtr + (2 + count) * sizeof(int);
+		intptr_t L_6;
+		L_6 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D(L_3, NULL);
+		int32_t L_7 = V_1;
+		intptr_t L_8;
+		L_8 = IntPtr_op_Addition_m6887593F991D01CEB382C914B7FDFA29CB900E2A(L_6, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(2, L_7)), 4)), NULL);
+		V_2 = L_8;
+		// for (var i = 0; i < count; ++i)
+		V_3 = 0;
+		goto IL_0063;
+	}
+
+IL_0024:
+	{
+		// string element = null;
+		V_4 = (String_t*)NULL;
+		// if (metadata[2 + i] > 0)
+		int32_t* L_9 = V_0;
+		int32_t L_10 = V_3;
+		int32_t L_11 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(2, L_10))), 4)))));
+		if ((((int32_t)L_11) <= ((int32_t)0)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		// element = Marshal.PtrToStringAnsi(stringPtr, metadata[2 + i] - 1);
+		intptr_t L_12 = V_2;
+		int32_t* L_13 = V_0;
+		int32_t L_14 = V_3;
+		int32_t L_15 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_13, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(2, L_14))), 4)))));
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		String_t* L_16;
+		L_16 = Marshal_PtrToStringAnsi_mDCD72FE33CAE42EBB32334D7CC555E97667864D3(L_12, ((int32_t)il2cpp_codegen_subtract(L_15, 1)), NULL);
+		V_4 = L_16;
+	}
+
+IL_0046:
+	{
+		// predicate(element, i);
+		Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* L_17 = ___1_predicate;
+		String_t* L_18 = V_4;
+		int32_t L_19 = V_3;
+		NullCheck(L_17);
+		Action_2_Invoke_m69AAAB992ABFCF392F04C4F7E3CE91388C9E24E1_inline(L_17, L_18, L_19, NULL);
+		// stringPtr += metadata[2 + i];
+		intptr_t L_20 = V_2;
+		int32_t* L_21 = V_0;
+		int32_t L_22 = V_3;
+		int32_t L_23 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_21, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(2, L_22))), 4)))));
+		intptr_t L_24;
+		L_24 = IntPtr_op_Addition_m6887593F991D01CEB382C914B7FDFA29CB900E2A(L_20, L_23, NULL);
+		V_2 = L_24;
+		// for (var i = 0; i < count; ++i)
+		int32_t L_25 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_0063:
+	{
+		// for (var i = 0; i < count; ++i)
+		int32_t L_26 = V_3;
+		int32_t L_27 = V_1;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// }
+		return;
+	}
+}
+// System.String Sample3DAttributesComponent::DetectRenderPipeline()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Sample3DAttributesComponent_DetectRenderPipeline_m7E17E094C372A1B17D63E671C519F112EBA0B8D1 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04C9618D2E042948890B0F29CB70997BC6F512A7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66836DCBDBFA85B7DC8085D0B45ADF14F670FE31);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91D6FB410D71CE9742B5463875BD066822096B08);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA28D113880249B0B23262C811D42B1ABE15F41A5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAC19F803219641E6985AB634099FA7A2BFFE7DE);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// if (GraphicsSettings.renderPipelineAsset != null)
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_0;
+		L_0 = GraphicsSettings_get_renderPipelineAsset_mB1679AD22B6EB56C50ED48807AA59A643F0782FA(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		// var renderType = GraphicsSettings.renderPipelineAsset.GetType().ToString();
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_2;
+		L_2 = GraphicsSettings_get_renderPipelineAsset_mB1679AD22B6EB56C50ED48807AA59A643F0782FA(NULL);
+		NullCheck(L_2);
+		Type_t* L_3;
+		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_3);
+		V_0 = L_4;
+		// if (renderType == "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset")
+		String_t* L_5 = V_0;
+		bool L_6;
+		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, _stringLiteralA28D113880249B0B23262C811D42B1ABE15F41A5, NULL);
+		if (!L_6)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// return "URP";
+		return _stringLiteral04C9618D2E042948890B0F29CB70997BC6F512A7;
+	}
+
+IL_0030:
+	{
+		// else if (renderType == "UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset")
+		String_t* L_7 = V_0;
+		bool L_8;
+		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, _stringLiteralFAC19F803219641E6985AB634099FA7A2BFFE7DE, NULL);
+		if (!L_8)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		// return "HDRP";
+		return _stringLiteral66836DCBDBFA85B7DC8085D0B45ADF14F670FE31;
+	}
+
+IL_0043:
+	{
+		// return "Legacy";
+		return _stringLiteral91D6FB410D71CE9742B5463875BD066822096B08;
+	}
+}
+// System.Void Sample3DAttributesComponent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent__ctor_mCF4D351743B4A9C118476CAAC2A2B56143487C13 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent::<Setup3DAttributesOtherType>b__9_0(Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISAttribute>,Esri.Unity.ArcGISImmutableArray`1<Esri.GameEngine.Attributes.ArcGISVisualizationAttribute>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sample3DAttributesComponent_U3CSetup3DAttributesOtherTypeU3Eb__9_0_m2180771F21D5A38276A737E35BF845CF45AA9068 (Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* __this, ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589* ___0_layerNodeAttributes, ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE* ___1_renderNodeAttributes, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArray_1_At_mC04B3490DDA2B5CDD7B81C7D0F3B03E0E5976133_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImmutableArray_1_At_mD6FFDC3BFEF557EFE4B4BDCCCD3F1BB461C9E7B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass9_0_U3CSetup3DAttributesOtherTypeU3Eb__1_mA36B425822EF019BB633912BBAC1F1640E0D9197_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* V_0 = NULL;
+	ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* V_1 = NULL;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* L_0 = (U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass9_0__ctor_m1C14FAF2EB184159B68F287E8BBA15BC90C72242(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_1), (void*)__this);
+		// var nameAttribute = layerNodeAttributes.At(0);
+		ArcGISImmutableArray_1_t1EF8EF77B8182F06710BA24F152ECCD934C44589* L_2 = ___0_layerNodeAttributes;
+		NullCheck(L_2);
+		ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* L_3;
+		L_3 = ArcGISImmutableArray_1_At_mC04B3490DDA2B5CDD7B81C7D0F3B03E0E5976133(L_2, ((int64_t)0), ArcGISImmutableArray_1_At_mC04B3490DDA2B5CDD7B81C7D0F3B03E0E5976133_RuntimeMethod_var);
+		V_1 = L_3;
+		// var isBuildingOfInterestAttribute = renderNodeAttributes.At(0);
+		ArcGISImmutableArray_1_t248FD30447631554789FC7916ACC92F8FB8915EE* L_4 = ___1_renderNodeAttributes;
+		NullCheck(L_4);
+		ArcGISVisualizationAttribute_t91C61BD74E990A9613D527D625ED3C318AF29AEE* L_5;
+		L_5 = ArcGISImmutableArray_1_At_mD6FFDC3BFEF557EFE4B4BDCCCD3F1BB461C9E7B4(L_4, ((int64_t)0), ArcGISImmutableArray_1_At_mD6FFDC3BFEF557EFE4B4BDCCCD3F1BB461C9E7B4_RuntimeMethod_var);
+		// var isBuildingOfInterestBuffer = isBuildingOfInterestAttribute.Data;
+		NullCheck(L_5);
+		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_6;
+		L_6 = ArcGISVisualizationAttribute_get_Data_m231DC09690F699AF049FB3DC9924CD84E1153DC0(L_5, NULL);
+		V_2 = L_6;
+		// var isBuildingOfInterestData = isBuildingOfInterestBuffer.Reinterpret<float>(sizeof(byte));
+		U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* L_7 = V_0;
+		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_8;
+		L_8 = NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA((&V_2), 1, NativeArray_1_Reinterpret_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9F4AF128CEBE2B647B7DF4A9D74232DEB3013AEA_RuntimeMethod_var);
+		NullCheck(L_7);
+		L_7->___isBuildingOfInterestData_0 = L_8;
+		// ForEachString(nameAttribute, (string element, Int32 index) =>
+		// {
+		//     isBuildingOfInterestData[index] = IsBuildingOfInterest(element);
+		// });
+		ArcGISAttribute_tB57049E30A864152B84249449EC0475D1FAE2439* L_9 = V_1;
+		U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* L_10 = V_0;
+		Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF* L_11 = (Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF*)il2cpp_codegen_object_new(Action_2_t3C59E567836F9368797ABE71269B3D38D4F3E1CF_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action_2__ctor_m84E5BF3DC27EF88D8F87DBBF1C1EC426F2FA4975(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3CSetup3DAttributesOtherTypeU3Eb__1_mA36B425822EF019BB633912BBAC1F1640E0D9197_RuntimeMethod_var), NULL);
+		Sample3DAttributesComponent_ForEachString_mB4C40E5F997F09894F14E44FEE3EDE681CAF44CA(__this, L_9, L_11, NULL);
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Sample3DAttributesComponent/<>c__DisplayClass9_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m1C14FAF2EB184159B68F287E8BBA15BC90C72242 (U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Sample3DAttributesComponent/<>c__DisplayClass9_0::<Setup3DAttributesOtherType>b__1(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CSetup3DAttributesOtherTypeU3Eb__1_mA36B425822EF019BB633912BBAC1F1640E0D9197 (U3CU3Ec__DisplayClass9_0_t4E2ADC0CB9649AC1AEF1AA5B7F86E51608B85CDD* __this, String_t* ___0_element, int32_t ___1_index, const RuntimeMethod* method) 
+{
+	{
+		// isBuildingOfInterestData[index] = IsBuildingOfInterest(element);
+		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* L_0 = (&__this->___isBuildingOfInterestData_0);
+		int32_t L_1 = ___1_index;
+		Sample3DAttributesComponent_tADCF0A8CDD5376B5E532C374E2862A75F34F4A44* L_2 = __this->___U3CU3E4__this_1;
+		String_t* L_3 = ___0_element;
+		NullCheck(L_2);
+		int32_t L_4;
+		L_4 = Sample3DAttributesComponent_IsBuildingOfInterest_m905EDEC8A91A029B67C72FC7ADC38833CA4AE59F(L_2, L_3, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(float, (L_0)->___m_Buffer_0, L_1, (((float)L_4)));
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SampleAPIMapCreator::add_OnSetLayerAttributes(SampleAPIMapCreator/SetLayerAttributesEventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_add_OnSetLayerAttributes_mEF174C3D6BFB94726E4E395FB2099998CD0B0AE8 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_0 = NULL;
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_1 = NULL;
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_2 = NULL;
+	{
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_0 = __this->___OnSetLayerAttributes_8;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_1 = V_0;
+		V_1 = L_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_2 = V_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)CastclassSealed((RuntimeObject*)L_4, SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var));
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3** L_5 = (&__this->___OnSetLayerAttributes_8);
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_6 = V_2;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_7 = V_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_8;
+		L_8 = InterlockedCompareExchangeImpl<SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_9 = V_0;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_10 = V_1;
+		if ((!(((RuntimeObject*)(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)L_9) == ((RuntimeObject*)(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::remove_OnSetLayerAttributes(SampleAPIMapCreator/SetLayerAttributesEventHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_remove_OnSetLayerAttributes_m753B326B2AC17B50459A10953BB8506761DFE7A8 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_0 = NULL;
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_1 = NULL;
+	SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* V_2 = NULL;
+	{
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_0 = __this->___OnSetLayerAttributes_8;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_1 = V_0;
+		V_1 = L_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_2 = V_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)CastclassSealed((RuntimeObject*)L_4, SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3_il2cpp_TypeInfo_var));
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3** L_5 = (&__this->___OnSetLayerAttributes_8);
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_6 = V_2;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_7 = V_1;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_8;
+		L_8 = InterlockedCompareExchangeImpl<SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_9 = V_0;
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_10 = V_1;
+		if ((!(((RuntimeObject*)(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)L_9) == ((RuntimeObject*)(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_Start_m4D90C63D71EF1B8E89364BDC031FB377E203EAB1 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	{
+		// CreateArcGISMapComponent();
+		SampleAPIMapCreator_CreateArcGISMapComponent_m4A8A2B1B68ADF2E2BE5F9F3DEB76A0768C63469B(__this, NULL);
+		// CreateArcGISCamera();
+		SampleAPIMapCreator_CreateArcGISCamera_mFFF796071B3D003ACC8A182EED269753BA5B076F(__this, NULL);
+		// CreateSkyComponent();
+		SampleAPIMapCreator_CreateSkyComponent_mA83E0460B743C5DFE191193E9DC09F6E712A6BFF(__this, NULL);
+		// CreateViewStateLoggingComponent();
+		SampleAPIMapCreator_CreateViewStateLoggingComponent_m1B3275FA8CEFB0A51AE4017823D2E6A0FFA21E5B(__this, NULL);
+		// CreateArcGISMap();
+		SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::CreateArcGISMapComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISMapComponent_m4A8A2B1B68ADF2E2BE5F9F3DEB76A0768C63469B (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m272CC46315F1EACC9F4E3CC3E3AD274A8246E381_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m931C89A99029BAF090DFE15ED9AB2AC7CA1D63B5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24A27595273ABD78A9616CAC927DD0ED146D9AC8);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		// arcGISMapComponent = FindObjectOfType<ArcGISMapComponent>();
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0;
+		L_0 = Object_FindObjectOfType_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m931C89A99029BAF090DFE15ED9AB2AC7CA1D63B5(Object_FindObjectOfType_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m931C89A99029BAF090DFE15ED9AB2AC7CA1D63B5_RuntimeMethod_var);
+		__this->___arcGISMapComponent_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___arcGISMapComponent_4), (void*)L_0);
+		// if (!arcGISMapComponent)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_1 = __this->___arcGISMapComponent_4;
+		bool L_2;
+		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		// var arcGISMapGameObject = new GameObject("ArcGISMap");
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_3, _stringLiteral24A27595273ABD78A9616CAC927DD0ED146D9AC8, NULL);
+		V_0 = L_3;
+		// arcGISMapComponent = arcGISMapGameObject.AddComponent<ArcGISMapComponent>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
+		NullCheck(L_4);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_5;
+		L_5 = GameObject_AddComponent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m272CC46315F1EACC9F4E3CC3E3AD274A8246E381(L_4, GameObject_AddComponent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m272CC46315F1EACC9F4E3CC3E3AD274A8246E381_RuntimeMethod_var);
+		__this->___arcGISMapComponent_4 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___arcGISMapComponent_4), (void*)L_5);
+	}
+
+IL_002f:
+	{
+		// arcGISMapComponent.OriginPosition = geographicCoordinates;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_6 = __this->___arcGISMapComponent_4;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_7 = __this->___geographicCoordinates_7;
+		NullCheck(L_6);
+		ArcGISMapComponent_set_OriginPosition_mAEC61B6B716D4A10B45E8F9E832EAAAECCEFF779(L_6, L_7, NULL);
+		// arcGISMapComponent.MapType = Esri.GameEngine.Map.ArcGISMapType.Local;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_8 = __this->___arcGISMapComponent_4;
+		NullCheck(L_8);
+		ArcGISMapComponent_set_MapType_mB450D646DB2D7F7AAF3E2923FD0CB14427FBFC29(L_8, 1, NULL);
+		// arcGISMapComponent.MapTypeChanged += new ArcGISMapComponent.MapTypeChangedEventHandler(CreateArcGISMap);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_9 = __this->___arcGISMapComponent_4;
+		MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C* L_10 = (MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C*)il2cpp_codegen_object_new(MapTypeChangedEventHandler_t965ACE1DF51EE8F8AC446DD0E2AB4AFED891715C_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		MapTypeChangedEventHandler__ctor_m73849710002922250FEA89447239F76DC0AA90C0(L_10, __this, (intptr_t)((void*)SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58_RuntimeMethod_var), NULL);
+		NullCheck(L_9);
+		ArcGISMapComponent_add_MapTypeChanged_m68E4A52DDF0F555A325B328E312B7B32AF405589(L_9, L_10, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::CreateArcGISCamera()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISCamera_mFFF796071B3D003ACC8A182EED269753BA5B076F (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_mE7D44689F6992F868F4567188250A800470E7D7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_m6E6D01F9C3833DBA8B5A428993E3B1A0A1BB97DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_mD9E21CD06DFAB1573E7727107E7731F41BEEB529_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_m7596CAEE5B19174D825CC14CAE1E98657F31B635_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC_mB3F5965AB11322EEFDE310A358609FBD4359162F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_mC7DDEBBB41B5E60F1CF83EB24E5309D11143FA3E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		// cameraComponent = Camera.main.gameObject.GetComponent<ArcGISCameraComponent>();
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		NullCheck(L_1);
+		ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* L_2;
+		L_2 = GameObject_GetComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_mC7DDEBBB41B5E60F1CF83EB24E5309D11143FA3E(L_1, GameObject_GetComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_mC7DDEBBB41B5E60F1CF83EB24E5309D11143FA3E_RuntimeMethod_var);
+		__this->___cameraComponent_5 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraComponent_5), (void*)L_2);
+		// if (!cameraComponent)
+		ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* L_3 = __this->___cameraComponent_5;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		// var cameraGameObject = Camera.main.gameObject;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5;
+		L_5 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		V_0 = L_6;
+		// cameraGameObject.transform.SetParent(arcGISMapComponent.transform, false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_9 = __this->___arcGISMapComponent_4;
+		NullCheck(L_9);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_9, NULL);
+		NullCheck(L_8);
+		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_8, L_10, (bool)0, NULL);
+		// cameraComponent = cameraGameObject.AddComponent<ArcGISCameraComponent>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
+		NullCheck(L_11);
+		ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* L_12;
+		L_12 = GameObject_AddComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_m6E6D01F9C3833DBA8B5A428993E3B1A0A1BB97DD(L_11, GameObject_AddComponent_TisArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D_m6E6D01F9C3833DBA8B5A428993E3B1A0A1BB97DD_RuntimeMethod_var);
+		__this->___cameraComponent_5 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraComponent_5), (void*)L_12);
+		// cameraGameObject.AddComponent<ArcGISCameraControllerComponent>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_0;
+		NullCheck(L_13);
+		ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* L_14;
+		L_14 = GameObject_AddComponent_TisArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_mD9E21CD06DFAB1573E7727107E7731F41BEEB529(L_13, GameObject_AddComponent_TisArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_mD9E21CD06DFAB1573E7727107E7731F41BEEB529_RuntimeMethod_var);
+		// cameraGameObject.AddComponent<ArcGISRebaseComponent>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
+		NullCheck(L_15);
+		ArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC* L_16;
+		L_16 = GameObject_AddComponent_TisArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC_mB3F5965AB11322EEFDE310A358609FBD4359162F(L_15, GameObject_AddComponent_TisArcGISRebaseComponent_tB43F2784341A25C738FE533A10EB35C6A718F8BC_mB3F5965AB11322EEFDE310A358609FBD4359162F_RuntimeMethod_var);
+	}
+
+IL_005e:
+	{
+		// var cameraLocationComponent = cameraComponent.GetComponent<ArcGISLocationComponent>();
+		ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* L_17 = __this->___cameraComponent_5;
+		NullCheck(L_17);
+		ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* L_18;
+		L_18 = Component_GetComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_mE7D44689F6992F868F4567188250A800470E7D7E(L_17, Component_GetComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_mE7D44689F6992F868F4567188250A800470E7D7E_RuntimeMethod_var);
+		// if (!cameraLocationComponent)
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_18, NULL);
+		if (L_19)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		// cameraLocationComponent = cameraComponent.gameObject.AddComponent<ArcGISLocationComponent>();
+		ArcGISCameraComponent_t07FC6878A0BD188CF6DE3D1E06EDD9875A91162D* L_20 = __this->___cameraComponent_5;
+		NullCheck(L_20);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
+		L_21 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_20, NULL);
+		NullCheck(L_21);
+		ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* L_22;
+		L_22 = GameObject_AddComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_m7596CAEE5B19174D825CC14CAE1E98657F31B635(L_21, GameObject_AddComponent_TisArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC_m7596CAEE5B19174D825CC14CAE1E98657F31B635_RuntimeMethod_var);
+		// cameraLocationComponent.Position = geographicCoordinates;
+		ArcGISLocationComponent_t346357559B18174C7913C0CC6EADACE2D63E37DC* L_23 = L_22;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_24 = __this->___geographicCoordinates_7;
+		NullCheck(L_23);
+		ArcGISLocationComponent_set_Position_m74E528AB73F98FFD2BCA7C41889532506D1BBD66(L_23, L_24, NULL);
+		// cameraLocationComponent.Rotation = new ArcGISRotation(65, 68, 0);
+		ArcGISRotation_t26743B844E78B2A30120D8CE529B57F102A55256 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		ArcGISRotation__ctor_m11F5F3E6BBB0247750123C1C27F9DE90D3C30E15((&L_25), (65.0), (68.0), (0.0), /*hidden argument*/NULL);
+		NullCheck(L_23);
+		ArcGISLocationComponent_set_Rotation_mCA615F9E7671B201B1A0C64AA4E721CB42CFA025(L_23, L_25, NULL);
+	}
+
+IL_00b1:
+	{
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::CreateSkyComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateSkyComponent_mA83E0460B743C5DFE191193E9DC09F6E712A6BFF (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::CreateViewStateLoggingComponent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateViewStateLoggingComponent_m1B3275FA8CEFB0A51AE4017823D2E6A0FFA21E5B (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_m35CA5343EEE462AD233862A02443F56B7E328F88_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_mE15BCE704EC2BE508FB0D97C209647DDA12448B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ArcGISViewStateLoggingComponent viewStateComponent = arcGISMapComponent.GetComponent<ArcGISViewStateLoggingComponent>();
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		NullCheck(L_0);
+		ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* L_1;
+		L_1 = Component_GetComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_m35CA5343EEE462AD233862A02443F56B7E328F88(L_0, Component_GetComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_m35CA5343EEE462AD233862A02443F56B7E328F88_RuntimeMethod_var);
+		// if (!viewStateComponent)
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		// viewStateComponent = arcGISMapComponent.gameObject.AddComponent<ArcGISViewStateLoggingComponent>();
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_3 = __this->___arcGISMapComponent_4;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* L_5;
+		L_5 = GameObject_AddComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_mE15BCE704EC2BE508FB0D97C209647DDA12448B9(L_4, GameObject_AddComponent_TisArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6_mE15BCE704EC2BE508FB0D97C209647DDA12448B9_RuntimeMethod_var);
+	}
+
+IL_0023:
+	{
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::CreateArcGISMap()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator_CreateArcGISMap_mD7202E3A6378E8A0E1DDE2F2C5CD8667170DAB58 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral06C54B36BC3CACF15D9DD8AC28884E0815EEF9B1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1417408F309FA843A4FCFB4965F3F84874427D89);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3BE087A9CA779969BE0FC05BB57DE5116FCA6EBF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5ED246642A639D94F6002A30C5CDAF1AD64CC4F2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral804AEFF53ABE9586A9E9C23615903AFF229F1B74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B33F90A16096463F38F8C4D7CF742717E2510DB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA49829C4F5082005F0F7D1045BE32D193C6FA017);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC3DE20E50BCFB8505A67C58B3806CCD0346AEA55);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2650DF022919640180BF997A9A61D5AA4233A9C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3C76D80E692A8EFB46FAD0AA3B3580418160879);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF851EE96052530DAB3CD426BF4C320F171FB77B1);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* V_0 = NULL;
+	ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* V_1 = NULL;
+	ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* V_2 = NULL;
+	ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* V_3 = NULL;
+	ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* V_4 = NULL;
+	ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		// if (APIKey == "")
+		String_t* L_0 = __this->___APIKey_6;
+		bool L_1;
+		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		// Debug.LogError("An API Key must be set on the SampleAPIMapCreator for content to load");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5ED246642A639D94F6002A30C5CDAF1AD64CC4F2, NULL);
+	}
+
+IL_001c:
+	{
+		// var arcGISMap = new Esri.GameEngine.Map.ArcGISMap(arcGISMapComponent.MapType);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_2 = __this->___arcGISMapComponent_4;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline(L_2, NULL);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_4 = (ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E*)il2cpp_codegen_object_new(ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		ArcGISMap__ctor_m393BFF84779C552E06AA45E4804E2CB3A02922E8(L_4, L_3, NULL);
+		V_0 = L_4;
+		// arcGISMap.Basemap = new Esri.GameEngine.Map.ArcGISBasemap(Esri.GameEngine.Map.ArcGISBasemapStyle.ArcGISImagery, APIKey);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_5 = V_0;
+		String_t* L_6 = __this->___APIKey_6;
+		ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062* L_7 = (ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062*)il2cpp_codegen_object_new(ArcGISBasemap_tF450DAE03D26D469313BDEAF8E49D2C1F7427062_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		ArcGISBasemap__ctor_mFA7495B4B70A1877E2FE156B16D1B1EDF5DAF72B(L_7, 0, L_6, NULL);
+		NullCheck(L_5);
+		ArcGISMap_set_Basemap_m75D4B68BC5242B45FEC7D240F0FB0564871F1C9F(L_5, L_7, NULL);
+		// arcGISMap.Elevation = new Esri.GameEngine.Map.ArcGISMapElevation(new Esri.GameEngine.Elevation.ArcGISImageElevationSource("https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer", "Elevation", ""));
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_8 = V_0;
+		ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56* L_9 = (ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56*)il2cpp_codegen_object_new(ArcGISImageElevationSource_tED546CF473BC0DD2EDAF80C998B4BBFAB7625B56_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		ArcGISImageElevationSource__ctor_m1EE85F93332C50AB99D966690BFE4A74E9BDD274(L_9, _stringLiteral9B33F90A16096463F38F8C4D7CF742717E2510DB, _stringLiteralE2650DF022919640180BF997A9A61D5AA4233A9C, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD* L_10 = (ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD*)il2cpp_codegen_object_new(ArcGISMapElevation_tA8364AB3E9315AE6876F2042DE57A02A221C68CD_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		ArcGISMapElevation__ctor_mBB31D77101D9BF3A010B91ED13A76D217854B004(L_10, L_9, NULL);
+		NullCheck(L_8);
+		ArcGISMap_set_Elevation_mC90326047612CAF47964A78966082FFA00B60AA8(L_8, L_10, NULL);
+		// var layer_1 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer", "MyLayer_1", 1.0f, true, "");
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_11 = (ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB*)il2cpp_codegen_object_new(ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		ArcGISImageLayer__ctor_m94F4D3209509D088C1B7EE5ABF4235328C61AFB7(L_11, _stringLiteralF851EE96052530DAB3CD426BF4C320F171FB77B1, _stringLiteral1417408F309FA843A4FCFB4965F3F84874427D89, (1.0f), (bool)1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_1 = L_11;
+		// arcGISMap.Layers.Add(layer_1);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_12 = V_0;
+		NullCheck(L_12);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_13;
+		L_13 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_12, NULL);
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_14 = V_1;
+		uint64_t L_15;
+		L_15 = ArcGISCollectionSpecialization_Add_m7275314EE257B0BAE4B42DDF1CCB464DB5216F2C(L_13, L_14, NULL);
+		// var layer_2 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/New_York_Industrial/MapServer", "MyLayer_2", 1.0f, true, "");
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_16 = (ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB*)il2cpp_codegen_object_new(ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		ArcGISImageLayer__ctor_m94F4D3209509D088C1B7EE5ABF4235328C61AFB7(L_16, _stringLiteralE3C76D80E692A8EFB46FAD0AA3B3580418160879, _stringLiteralA49829C4F5082005F0F7D1045BE32D193C6FA017, (1.0f), (bool)1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_2 = L_16;
+		// arcGISMap.Layers.Add(layer_2);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_17 = V_0;
+		NullCheck(L_17);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_18;
+		L_18 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_17, NULL);
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_19 = V_2;
+		uint64_t L_20;
+		L_20 = ArcGISCollectionSpecialization_Add_m7275314EE257B0BAE4B42DDF1CCB464DB5216F2C(L_18, L_19, NULL);
+		// var layer_3 = new Esri.GameEngine.Layers.ArcGISImageLayer("https://tiles.arcgis.com/tiles/4yjifSiIG17X0gW4/arcgis/rest/services/NewYorkCity_PopDensity/MapServer", "MyLayer_3", 1.0f, true, "");
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_21 = (ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB*)il2cpp_codegen_object_new(ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
+		ArcGISImageLayer__ctor_m94F4D3209509D088C1B7EE5ABF4235328C61AFB7(L_21, _stringLiteralC3DE20E50BCFB8505A67C58B3806CCD0346AEA55, _stringLiteral3BE087A9CA779969BE0FC05BB57DE5116FCA6EBF, (1.0f), (bool)1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_3 = L_21;
+		// arcGISMap.Layers.Add(layer_3);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_22 = V_0;
+		NullCheck(L_22);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_23;
+		L_23 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_22, NULL);
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_24 = V_3;
+		uint64_t L_25;
+		L_25 = ArcGISCollectionSpecialization_Add_m7275314EE257B0BAE4B42DDF1CCB464DB5216F2C(L_23, L_24, NULL);
+		// var buildingLayer = new Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer("https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Buildings_NewYork_17/SceneServer", "Building Layer", 1.0f, true, "");
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_26 = (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*)il2cpp_codegen_object_new(ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA_il2cpp_TypeInfo_var);
+		NullCheck(L_26);
+		ArcGIS3DObjectSceneLayer__ctor_m360835DA039831DA21A59C3B488B8A00427674AD(L_26, _stringLiteral804AEFF53ABE9586A9E9C23615903AFF229F1B74, _stringLiteral06C54B36BC3CACF15D9DD8AC28884E0815EEF9B1, (1.0f), (bool)1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_4 = L_26;
+		// arcGISMap.Layers.Add(buildingLayer);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_27 = V_0;
+		NullCheck(L_27);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_28;
+		L_28 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_27, NULL);
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_29 = V_4;
+		uint64_t L_30;
+		L_30 = ArcGISCollectionSpecialization_Add_m7275314EE257B0BAE4B42DDF1CCB464DB5216F2C(L_28, L_29, NULL);
+		// if (OnSetLayerAttributes != null)
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_31 = __this->___OnSetLayerAttributes_8;
+		if (!L_31)
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		// OnSetLayerAttributes(buildingLayer);
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* L_32 = __this->___OnSetLayerAttributes_8;
+		ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* L_33 = V_4;
+		NullCheck(L_32);
+		SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_inline(L_32, L_33, NULL);
+	}
+
+IL_0115:
+	{
+		// arcGISMap.Layers.Remove(arcGISMap.Layers.IndexOf(layer_3));
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_34 = V_0;
+		NullCheck(L_34);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_35;
+		L_35 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_34, NULL);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_36 = V_0;
+		NullCheck(L_36);
+		ArcGISCollection_1_tCA9218BFE52A9693EA1EB26C23034A40060EC2B2* L_37;
+		L_37 = ArcGISMap_get_Layers_mCCFDC90AA097944EAF6777B72DFA02AAAB40FD7A(L_36, NULL);
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_38 = V_3;
+		uint64_t L_39;
+		L_39 = ArcGISCollectionSpecialization_IndexOf_m5DCF3767F9FAB2AB5F456B034F83F83D98BBE235(L_37, L_38, NULL);
+		ArcGISCollectionSpecialization_Remove_m068D20DFF07C11EEE65B92BFC6F649DCCFDF8DFA(L_35, L_39, NULL);
+		// layer_1.Opacity = 0.9f;
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_40 = V_1;
+		NullCheck(L_40);
+		ArcGISLayer_set_Opacity_mC9F82357E7D0900E800C38AF9CFA6C8FE9C35A54(L_40, (0.899999976f), NULL);
+		// layer_2.Opacity = 0.6f;
+		ArcGISImageLayer_t8943BE55432949BE949C3193D3ED10A37DCDC8FB* L_41 = V_2;
+		NullCheck(L_41);
+		ArcGISLayer_set_Opacity_mC9F82357E7D0900E800C38AF9CFA6C8FE9C35A54(L_41, (0.600000024f), NULL);
+		// if (arcGISMap.MapType == Esri.GameEngine.Map.ArcGISMapType.Local)
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_42 = V_0;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = ArcGISMap_get_MapType_mCB257339A56790D1F2D227FB3728835F00F97A55(L_42, NULL);
+		if ((!(((uint32_t)L_43) == ((uint32_t)1))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		// arcGISMapComponent.EnableExtent = true;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_44 = __this->___arcGISMapComponent_4;
+		NullCheck(L_44);
+		ArcGISMapComponent_set_EnableExtent_mE2C8B3C155A817EA4602F385A28115C3A54F07C8(L_44, (bool)1, NULL);
+		// var extentCenter = new Esri.GameEngine.Geometry.ArcGISPoint(-74.054921, 40.691242, 3000, ArcGISSpatialReference.WGS84());
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_45;
+		L_45 = ArcGISSpatialReference_WGS84_mB8A74F047550EBC18BBA4F328AE4B46A041CBC99(NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_46 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_46);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_46, (-74.054920999999993), (40.691242000000003), (3000.0), L_45, NULL);
+		// var extent = new ArcGISExtentCircle(extentCenter, 10000);
+		ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B* L_47 = (ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B*)il2cpp_codegen_object_new(ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B_il2cpp_TypeInfo_var);
+		NullCheck(L_47);
+		ArcGISExtentCircle__ctor_m9730885DAFCD0AF891F40AAB47FA8DCA4EB9E7C5(L_47, L_46, (10000.0), NULL);
+		V_5 = L_47;
+	}
+	try
+	{// begin try (depth: 1)
+		// arcGISMap.ClippingArea = extent;
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_48 = V_0;
+		ArcGISExtentCircle_tAE01F510923F14AA91B023D79432A727993B666B* L_49 = V_5;
+		NullCheck(L_48);
+		ArcGISMap_set_ClippingArea_mC601B6347719A56DF8F35506ED1190A2588453D3(L_48, L_49, NULL);
+		// }
+		goto IL_01a2;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0196;
+		}
+		throw e;
+	}
+
+CATCH_0196:
+	{// begin catch(System.Exception)
+		// Debug.Log(e.Message);
+		NullCheck(((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*)));
+		String_t* L_50;
+		L_50 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*)));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_50, NULL);
+		// }
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_01a2;
+	}// end catch (depth: 1)
+
+IL_01a2:
+	{
+		// arcGISMapComponent.View.Map = arcGISMap;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_51 = __this->___arcGISMapComponent_4;
+		NullCheck(L_51);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_52;
+		L_52 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_51, NULL);
+		ArcGISMap_tCF5E9CBF2B143D3A80AD57BF24DCE8FFDBB1EF8E* L_53 = V_0;
+		NullCheck(L_52);
+		ArcGISView_set_Map_m4DAD35EDFC2188F2C1DB7F72AEC52A14F0CF8592(L_52, L_53, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SampleAPIMapCreator::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleAPIMapCreator__ctor_mA5623BD40FF682073B739A924E2B9A80EF9E0D84 (SampleAPIMapCreator_t0319E7555DFBBF930C6B8D791597B3535DFA6456* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public string APIKey = "";
+		__this->___APIKey_6 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___APIKey_6), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		// private ArcGISPoint geographicCoordinates = new ArcGISPoint(-74.054921, 40.691242, 3000, ArcGISSpatialReference.WGS84());
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_0;
+		L_0 = ArcGISSpatialReference_WGS84_mB8A74F047550EBC18BBA4F328AE4B46A041CBC99(NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_1 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_1, (-74.054920999999993), (40.691242000000003), (3000.0), L_0, NULL);
+		__this->___geographicCoordinates_7 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___geographicCoordinates_7), (void*)L_1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_Multicast(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* currentDelegate = reinterpret_cast<SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_layer, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenInst(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	NullCheck(___0_layer);
+	typedef void (*FunctionPointerType) (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_layer, method);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenStatic(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_layer, method);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenStaticInvoker(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* >::Invoke(__this->___method_ptr_0, method, NULL, ___0_layer);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_ClosedStaticInvoker(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_layer);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenVirtual(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	NullCheck(___0_layer);
+	VirtualActionInvoker0::Invoke(il2cpp_codegen_method_get_slot(method), ___0_layer);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenInterface(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	NullCheck(___0_layer);
+	InterfaceActionInvoker0::Invoke(il2cpp_codegen_method_get_slot(method), il2cpp_codegen_method_get_declaring_type(method), ___0_layer);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenGenericVirtual(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	NullCheck(___0_layer);
+	GenericVirtualActionInvoker0::Invoke(method, ___0_layer);
+}
+void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenGenericInterface(SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method)
+{
+	NullCheck(___0_layer);
+	GenericInterfaceActionInvoker0::Invoke(method, ___0_layer);
+}
+// System.Void SampleAPIMapCreator/SetLayerAttributesEventHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler__ctor_m225F0B214AA5EF545C1D01D75B448278B765CC7C (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		bool isOpen = parameterCount == 0;
+		if (isOpen)
+		{
+			if (__this->___method_is_virtual_12)
+			{
+				if (il2cpp_codegen_method_is_generic_instance_method((RuntimeMethod*)___1_method))
+					if (il2cpp_codegen_method_is_interface_method((RuntimeMethod*)___1_method))
+						__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenGenericInterface;
+					else
+						__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenGenericVirtual;
+				else
+					if (il2cpp_codegen_method_is_interface_method((RuntimeMethod*)___1_method))
+						__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenInterface;
+					else
+						__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenVirtual;
+			}
+			else
+			{
+				__this->___invoke_impl_1 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_OpenInst;
+			}
+		}
+		else
+		{
+			if (___0_object == NULL)
+				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+		}
+	}
+	__this->___extra_arg_5 = (intptr_t)&SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_Multicast;
+}
+// System.Void SampleAPIMapCreator/SetLayerAttributesEventHandler::Invoke(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_layer, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult SampleAPIMapCreator/SetLayerAttributesEventHandler::BeginInvoke(Esri.GameEngine.Layers.ArcGIS3DObjectSceneLayer,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SetLayerAttributesEventHandler_BeginInvoke_m43AE98A79F18EECE1C891156C203BF2B74A02CCF (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___0_layer;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
+}
+// System.Void SampleAPIMapCreator/SetLayerAttributesEventHandler::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler_EndInvoke_m8C9E3339CF66DEADECCB3C7B5549F2306C8F7FC2 (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SampleArcGISRaycast::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleArcGISRaycast_OnEnable_mDA33AD60446BBEB269CADB4456CB468B57941BD1 (SampleArcGISRaycast_tD6F90D510AC1B83A47FD959C2B4A3EDC9C69DA6A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55A97A63A2773903CDB44D31C926F08D9259B24F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("ArcGISRaycast sample is not configured to work with the new input manager package");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral55A97A63A2773903CDB44D31C926F08D9259B24F, NULL);
+		// enabled = false;
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SampleArcGISRaycast::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleArcGISRaycast_Update_mF81573C03329AB6BCD3C931550EB83138C839FC6 (SampleArcGISRaycast_tD6F90D510AC1B83A47FD959C2B4A3EDC9C69DA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void SampleArcGISRaycast::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleArcGISRaycast__ctor_m5234BC65274769B39A8A47669CD8671448863480 (SampleArcGISRaycast_tD6F90D510AC1B83A47FD959C2B4A3EDC9C69DA6A* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.OAuthScene::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthScene_Start_m1B0CB22EA49316C68D73CD9AB142519534B7EF0B (OAuthScene_t26BBE10FE8E18CCA09F301A1E37CAD9D393A8C48* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISAuthenticationManager_t5FAB05D18656673B026282F53D7C5AA9C08363BF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISDictionary_2_Add_m918CD8C2A22E92DEC15FB8043804AB919989AD14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISDictionary_2_Clear_m01D330596FD8DD39CBA6AF7D1E63027507098015_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B* V_0 = NULL;
+	{
+		// authenticationChallengeHandler = new Security.SampleMobileOAuthAuthenticationChallengeHandler();
+		SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3* L_0 = (SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3*)il2cpp_codegen_object_new(SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		SampleMobileOAuthAuthenticationChallengeHandler__ctor_m38A9343F56D648C1C9417C377D4DFE54EC3836DC(L_0, NULL);
+		__this->___authenticationChallengeHandler_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___authenticationChallengeHandler_4), (void*)L_0);
+		// Environment.SetAuthenticationChallengeHandler(authenticationChallengeHandler);
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_1 = __this->___authenticationChallengeHandler_4;
+		Environment_SetAuthenticationChallengeHandler_m485732689D8075AA565EFFB4F7EF916F13874C65_inline(L_1, NULL);
+		// ArcGISAuthenticationManager.AuthenticationConfigurations.Clear();
+		il2cpp_codegen_runtime_class_init_inline(ArcGISAuthenticationManager_t5FAB05D18656673B026282F53D7C5AA9C08363BF_il2cpp_TypeInfo_var);
+		ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE* L_2;
+		L_2 = ArcGISAuthenticationManager_get_AuthenticationConfigurations_mA06720A45F58EA772BCA35F93CD17B2CAC02E032(NULL);
+		NullCheck(L_2);
+		ArcGISDictionary_2_Clear_m01D330596FD8DD39CBA6AF7D1E63027507098015(L_2, ArcGISDictionary_2_Clear_m01D330596FD8DD39CBA6AF7D1E63027507098015_RuntimeMethod_var);
+		// var authenticationConfiguration = new ArcGISOAuthAuthenticationConfiguration(clientID.Trim(), "", redirectURIMobile.Trim());
+		String_t* L_3 = __this->___clientID_5;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_3, NULL);
+		String_t* L_5 = __this->___redirectURIMobile_7;
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_5, NULL);
+		ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B* L_7 = (ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B*)il2cpp_codegen_object_new(ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		ArcGISOAuthAuthenticationConfiguration__ctor_mF217164D576B194FF7B07ACE29851387FF6D2383(L_7, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, L_6, NULL);
+		V_0 = L_7;
+		// ArcGISAuthenticationManager.AuthenticationConfigurations.Add(serviceURL, authenticationConfiguration);
+		ArcGISDictionary_2_t35193DE6094D22094862E8AE077C84838F294FEE* L_8;
+		L_8 = ArcGISAuthenticationManager_get_AuthenticationConfigurations_mA06720A45F58EA772BCA35F93CD17B2CAC02E032(NULL);
+		String_t* L_9 = __this->___serviceURL_8;
+		ArcGISOAuthAuthenticationConfiguration_t0B1DB67297734B029B3880DD2BAB5EB4B576B95B* L_10 = V_0;
+		NullCheck(L_8);
+		ArcGISDictionary_2_Add_m918CD8C2A22E92DEC15FB8043804AB919989AD14(L_8, L_9, L_10, ArcGISDictionary_2_Add_m918CD8C2A22E92DEC15FB8043804AB919989AD14_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.OAuthScene::OnDestroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthScene_OnDestroy_m73CED021E504761FB420F0CBDC880A9D863280DE (OAuthScene_t26BBE10FE8E18CCA09F301A1E37CAD9D393A8C48* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (authenticationChallengeHandler != null)
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_0 = __this->___authenticationChallengeHandler_4;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// authenticationChallengeHandler.Dispose();
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_1 = __this->___authenticationChallengeHandler_4;
+		NullCheck(L_1);
+		ArcGISAuthenticationChallengeHandler_Dispose_m8A4BFA69F444DA482E04749C8A134ED3670CCBFD(L_1, NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.OAuthScene::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthScene__ctor_m99136C78DD50FF0F0193B81A9A2C96320B906EEC (OAuthScene_t26BBE10FE8E18CCA09F301A1E37CAD9D393A8C48* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62E8C8594D61918FFA638FEF25B9829A6997E6AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral65741981A7D546D3EB3A5BC5C04603D3C2630BD3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8BF33A59DFE908357B990B07DC9307C5B0615D19);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC59F95CCBB1B3C9204F113EC7990845B7282B635);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public string clientID = "Enter Client ID";
+		__this->___clientID_5 = _stringLiteral62E8C8594D61918FFA638FEF25B9829A6997E6AE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___clientID_5), (void*)_stringLiteral62E8C8594D61918FFA638FEF25B9829A6997E6AE);
+		// public string redirectURIDesktop = "Enter Desktop Redirect URI";
+		__this->___redirectURIDesktop_6 = _stringLiteral65741981A7D546D3EB3A5BC5C04603D3C2630BD3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___redirectURIDesktop_6), (void*)_stringLiteral65741981A7D546D3EB3A5BC5C04603D3C2630BD3);
+		// public string redirectURIMobile = "Enter Mobile Redirect URI";
+		__this->___redirectURIMobile_7 = _stringLiteral8BF33A59DFE908357B990B07DC9307C5B0615D19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___redirectURIMobile_7), (void*)_stringLiteral8BF33A59DFE908357B990B07DC9307C5B0615D19);
+		// public string serviceURL = "EnterServiceURL";
+		__this->___serviceURL_8 = _stringLiteralC59F95CCBB1B3C9204F113EC7990845B7282B635;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serviceURL_8), (void*)_stringLiteralC59F95CCBB1B3C9204F113EC7990845B7282B635);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthChallengeHandlersInitializer_Awake_m8DD6C81CC10C149D0FAF48CE29161F9AB9566DCC (OAuthChallengeHandlersInitializer_t697A651694758FAB7CC202906F321A76644D0803* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// authenticationChallengeHandler = new Security.SampleMobileOAuthAuthenticationChallengeHandler();
+		SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3* L_0 = (SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3*)il2cpp_codegen_object_new(SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		SampleMobileOAuthAuthenticationChallengeHandler__ctor_m38A9343F56D648C1C9417C377D4DFE54EC3836DC(L_0, NULL);
+		__this->___authenticationChallengeHandler_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___authenticationChallengeHandler_4), (void*)L_0);
+		// Environment.SetAuthenticationChallengeHandler(authenticationChallengeHandler);
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_1 = __this->___authenticationChallengeHandler_4;
+		Environment_SetAuthenticationChallengeHandler_m485732689D8075AA565EFFB4F7EF916F13874C65_inline(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer::OnDestroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthChallengeHandlersInitializer_OnDestroy_m65F51692956824014AB441616F1FC53ABF0CB27D (OAuthChallengeHandlersInitializer_t697A651694758FAB7CC202906F321A76644D0803* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (authenticationChallengeHandler != null)
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_0 = __this->___authenticationChallengeHandler_4;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// authenticationChallengeHandler.Dispose();
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_1 = __this->___authenticationChallengeHandler_4;
+		NullCheck(L_1);
+		ArcGISAuthenticationChallengeHandler_Dispose_m8A4BFA69F444DA482E04749C8A134ED3670CCBFD(L_1, NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.OAuthChallengeHandlersInitializer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthChallengeHandlersInitializer__ctor_mBE771AA1BCC3D56BB8305700892E63FA9C3CD060 (OAuthChallengeHandlersInitializer_t697A651694758FAB7CC202906F321A76644D0803* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleDesktopOAuthAuthenticationChallengeHandler_Dispose_m47287B8095589345F15326CCB4921BD8C986553C (SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (httpListener != null)
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_0 = __this->___httpListener_0;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// httpListener.Stop();
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_1 = __this->___httpListener_0;
+		NullCheck(L_1);
+		HttpListener_Stop_mCE62183FF81F99305C3AB6E30B79B3A457DDC350(L_1, NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Threading.Tasks.Task`1<System.String> Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler::HandleChallengeInternal(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* SampleDesktopOAuthAuthenticationChallengeHandler_HandleChallengeInternal_mE3DC1F9A10E0328AE8AD9D8D38E6AB9BC6773E34 (SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9* __this, String_t* ___0_authorizeURI, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_mCA6F8A00478A61E0CCE8A3F0A70B558D987B2940_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass2_0_U3CHandleChallengeInternalU3Eb__0_m669100E2185332C562F3BBB9A1C9D697D3C2557C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AC529BB3A4F89F74C6A4D1B670F33B34B27884B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C26850851D92C78237F0A0E15E39996ACAD2C90);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38D56DDD845951F5F2D1A86D08506382F8C01930);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB48A9ACF9BFCB5E32BBE2DDCC86A434ECBA25E6D);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* V_0 = NULL;
+	MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_4 = NULL;
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* L_0 = (U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass2_0__ctor_m187C2DF94E6BBAE3C1336246BCCBE7CFDAAE99EB(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
+		// var matches = Regex.Matches(authorizeURI, @"redirect_uri=([^&]*)", RegexOptions.IgnoreCase);
+		String_t* L_2 = ___0_authorizeURI;
+		il2cpp_codegen_runtime_class_init_inline(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_3;
+		L_3 = Regex_Matches_mA76DE01D08582901D6E2CAC35C0D458185A5D018(L_2, _stringLiteral38D56DDD845951F5F2D1A86D08506382F8C01930, 1, NULL);
+		V_1 = L_3;
+		// if (matches.Count != 1)
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_4 = V_1;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = MatchCollection_get_Count_mF9D979B5B9D3835CC61977CBFB4110173B1CC926(L_4, NULL);
+		if ((((int32_t)L_5) == ((int32_t)1)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// return Task.FromException<string>(new ArgumentException("Invalid authorize URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, _stringLiteral0AC529BB3A4F89F74C6A4D1B670F33B34B27884B, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_7;
+		L_7 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_6, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		return L_7;
+	}
+
+IL_0033:
+	{
+		// var redirectURI = matches[0].Groups[1].Value;
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_8 = V_1;
+		NullCheck(L_8);
+		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_9;
+		L_9 = VirtualFuncInvoker1< Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F*, int32_t >::Invoke(35 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_8, 0);
+		NullCheck(L_9);
+		GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* L_10;
+		L_10 = VirtualFuncInvoker0< GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* >::Invoke(5 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_9);
+		NullCheck(L_10);
+		Group_t26371E9136D6F43782C487B63C67C5FC4F472881* L_11;
+		L_11 = GroupCollection_get_Item_m40EC174D4AC8FDD68F8819C35B779C79A44322F3(L_10, 1, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC(L_11, NULL);
+		V_2 = L_12;
+		// if (redirectURI == "urn:ietf:wg:oauth:2.0:oob")
+		String_t* L_13 = V_2;
+		bool L_14;
+		L_14 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_13, _stringLiteral0C26850851D92C78237F0A0E15E39996ACAD2C90, NULL);
+		if (!L_14)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		// return Task.FromException<string>(new ArgumentException("\"urn:ietf:wg:oauth:2.0:oob\" is not a supported redirect URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_15 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_15, _stringLiteralB48A9ACF9BFCB5E32BBE2DDCC86A434ECBA25E6D, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_16;
+		L_16 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_15, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		return L_16;
+	}
+
+IL_0068:
+	{
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			// var uri = new Uri(redirectURI);
+			String_t* L_17 = V_2;
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_18 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+			NullCheck(L_18);
+			Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_18, L_17, NULL);
+			V_4 = L_18;
+			// if (uri.Scheme == "http" && uri.Host == "localhost")
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_19 = V_4;
+			NullCheck(L_19);
+			String_t* L_20;
+			L_20 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_19, NULL);
+			bool L_21;
+			L_21 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_20, _stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF, NULL);
+			if (!L_21)
+			{
+				goto IL_00a1_1;
+			}
+		}
+		{
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_22 = V_4;
+			NullCheck(L_22);
+			String_t* L_23;
+			L_23 = Uri_get_Host_m2C0E258C7DFF7A340049BE9BC08FF45E90988D8C(L_22, NULL);
+			bool L_24;
+			L_24 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_23, _stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5, NULL);
+			if (!L_24)
+			{
+				goto IL_00a1_1;
+			}
+		}
+		{
+			// redirectURI = uri.ToString();
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_25 = V_4;
+			NullCheck(L_25);
+			String_t* L_26;
+			L_26 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_25);
+			V_2 = L_26;
+			goto IL_00b7_1;
+		}
+
+IL_00a1_1:
+		{
+			// return Task.FromException<string>(new ArgumentException("Invalid redirect URI"));
+			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_27 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+			NullCheck(L_27);
+			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_27, _stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_28;
+			L_28 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_27, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+			V_5 = L_28;
+			goto IL_0149;
+		}
+
+IL_00b7_1:
+		{
+			// }
+			goto IL_00cd;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00b9;
+		}
+		throw e;
+	}
+
+CATCH_00b9:
+	{// begin catch(System.Object)
+		// catch
+		// return Task.FromException<string>(new ArgumentException("Invalid redirect URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_29 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_29);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_29, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813)), NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var)));
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_30;
+		L_30 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var)));
+		V_5 = L_30;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0149;
+	}// end catch (depth: 1)
+
+IL_00cd:
+	{
+		// var httpListenerPrefix = redirectURI;
+		String_t* L_31 = V_2;
+		V_3 = L_31;
+		// if (!httpListenerPrefix.EndsWith("/"))
+		String_t* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC(L_32, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, NULL);
+		if (L_33)
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		// httpListenerPrefix += "/";
+		String_t* L_34 = V_3;
+		String_t* L_35;
+		L_35 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_34, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, NULL);
+		V_3 = L_35;
+	}
+
+IL_00e8:
+	{
+		// httpListener = new HttpListener();
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_36 = (HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01*)il2cpp_codegen_object_new(HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01_il2cpp_TypeInfo_var);
+		NullCheck(L_36);
+		HttpListener__ctor_m16577B4C2A3E2D5CA19F2CB38EEEC6DE3DD70463(L_36, NULL);
+		__this->___httpListener_0 = L_36;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___httpListener_0), (void*)L_36);
+		// httpListener.Prefixes.Add(httpListenerPrefix);
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_37 = __this->___httpListener_0;
+		NullCheck(L_37);
+		HttpListenerPrefixCollection_tC33808D167E85BCF19C8EA7B02709F95FC604897* L_38;
+		L_38 = HttpListener_get_Prefixes_mBDE4ABFC6DE6A06BBDF436459FFB84276AC7BD21(L_37, NULL);
+		String_t* L_39 = V_3;
+		NullCheck(L_38);
+		HttpListenerPrefixCollection_Add_mB373ADD97AF3D45A7C6DC3E6E9119A4F1AE84713(L_38, L_39, NULL);
+		// httpListener.Start();
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_40 = __this->___httpListener_0;
+		NullCheck(L_40);
+		HttpListener_Start_mFFF59C04274FCAA5F9C86A1908DDBE1FDC48D867(L_40, NULL);
+		// var taskCompletionSource = new TaskCompletionSource<string>();
+		U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* L_41 = V_0;
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_42 = (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*)il2cpp_codegen_object_new(TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372_il2cpp_TypeInfo_var);
+		NullCheck(L_42);
+		TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1(L_42, TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var);
+		NullCheck(L_41);
+		L_41->___taskCompletionSource_1 = L_42;
+		Il2CppCodeGenWriteBarrier((void**)(&L_41->___taskCompletionSource_1), (void*)L_42);
+		// httpListener.GetContextAsync().ContinueWith(task =>
+		// {
+		//     if (!task.IsCompleted)
+		//     {
+		//         return;
+		//     }
+		// 
+		//     var context = task.Result;
+		// 
+		//     context.Response.Close();
+		// 
+		//     httpListener.Stop();
+		// 
+		//     if (context.Request.QueryString.Get("error") != null)
+		//     {
+		//         taskCompletionSource.SetException(new Exception(String.Format("OAuth authorization error: {0}.", context.Request.QueryString.Get("error"))));
+		//     }
+		//     else
+		//     {
+		//         var code = context.Request.QueryString.Get("code");
+		// 
+		//         taskCompletionSource.SetResult(code);
+		//     }
+		// });
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_43 = __this->___httpListener_0;
+		NullCheck(L_43);
+		Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* L_44;
+		L_44 = HttpListener_GetContextAsync_m839A198FEE991B0D94967BD12F51B88D70BD7AD0(L_43, NULL);
+		U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* L_45 = V_0;
+		Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0* L_46 = (Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0*)il2cpp_codegen_object_new(Action_1_tD155D8EEE0CEC9EEE5E68B9D8E5DE9216A840EE0_il2cpp_TypeInfo_var);
+		NullCheck(L_46);
+		Action_1__ctor_mF5EFD24164B49F577A8B64778209EF6E5A945019(L_46, L_45, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CHandleChallengeInternalU3Eb__0_m669100E2185332C562F3BBB9A1C9D697D3C2557C_RuntimeMethod_var), NULL);
+		NullCheck(L_44);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_47;
+		L_47 = Task_1_ContinueWith_mCA6F8A00478A61E0CCE8A3F0A70B558D987B2940(L_44, L_46, Task_1_ContinueWith_mCA6F8A00478A61E0CCE8A3F0A70B558D987B2940_RuntimeMethod_var);
+		// Application.OpenURL(authorizeURI);
+		String_t* L_48 = ___0_authorizeURI;
+		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_48, NULL);
+		// return taskCompletionSource.Task;
+		U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* L_49 = V_0;
+		NullCheck(L_49);
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_50 = L_49->___taskCompletionSource_1;
+		NullCheck(L_50);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_51;
+		L_51 = TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_inline(L_50, TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var);
+		return L_51;
+	}
+
+IL_0149:
+	{
+		// }
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_52 = V_5;
+		return L_52;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleDesktopOAuthAuthenticationChallengeHandler__ctor_m3F09F15471D2021888D86F23BB56131DF190C3B3 (SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9* __this, const RuntimeMethod* method) 
+{
+	{
+		SampleOAuthAuthenticationChallengeHandler__ctor_m421864BE357315CA0FCD6CC242A0404B5C111218(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m187C2DF94E6BBAE3C1336246BCCBE7CFDAAE99EB (U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleDesktopOAuthAuthenticationChallengeHandler/<>c__DisplayClass2_0::<HandleChallengeInternal>b__0(System.Threading.Tasks.Task`1<System.Net.HttpListenerContext>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CHandleChallengeInternalU3Eb__0_m669100E2185332C562F3BBB9A1C9D697D3C2557C (U3CU3Ec__DisplayClass2_0_t393B59B2E86B802BA624CF2CFB95743AA8FBC74D* __this, Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* ___0_task, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m78AC1C73D49147BA9D91F5BBBE549F1853F21B1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral60A2E461CC4A1D49199A67B5216F128319CE63CC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA18FC8EA58E12A25639395492EAE3D0709F77DF2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2);
+		s_Il2CppMethodInitialized = true;
+	}
+	HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		// if (!task.IsCompleted)
+		Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* L_0 = ___0_task;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// var context = task.Result;
+		Task_1_t7B1A2F201CBB48A5FE2574C4F589450D6731403D* L_2 = ___0_task;
+		NullCheck(L_2);
+		HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* L_3;
+		L_3 = Task_1_get_Result_m78AC1C73D49147BA9D91F5BBBE549F1853F21B1F(L_2, Task_1_get_Result_m78AC1C73D49147BA9D91F5BBBE549F1853F21B1F_RuntimeMethod_var);
+		V_0 = L_3;
+		// context.Response.Close();
+		HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* L_4 = V_0;
+		NullCheck(L_4);
+		HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* L_5;
+		L_5 = HttpListenerContext_get_Response_m64CA8756CB54BE4A08A336ACCAC5EED26EF42867_inline(L_4, NULL);
+		NullCheck(L_5);
+		HttpListenerResponse_Close_m22216D7ACC6F210F7635AA3B0268B81F9DF7123F(L_5, NULL);
+		// httpListener.Stop();
+		SampleDesktopOAuthAuthenticationChallengeHandler_tCB0FCAEDCE947E1CFD41AFE9B4A7C788FB7E7BD9* L_6 = __this->___U3CU3E4__this_0;
+		NullCheck(L_6);
+		HttpListener_t64CDB1E1A5227C151C7A271A8747DBC88EBC8F01* L_7 = L_6->___httpListener_0;
+		NullCheck(L_7);
+		HttpListener_Stop_mCE62183FF81F99305C3AB6E30B79B3A457DDC350(L_7, NULL);
+		// if (context.Request.QueryString.Get("error") != null)
+		HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* L_8 = V_0;
+		NullCheck(L_8);
+		HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* L_9;
+		L_9 = HttpListenerContext_get_Request_m12CFD433DD5D32D9A72388BEBE6256C7BABE1808_inline(L_8, NULL);
+		NullCheck(L_9);
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_10;
+		L_10 = HttpListenerRequest_get_QueryString_mA0A78DFE87D21645E21CC6947A8F3FA5DC78622B_inline(L_9, NULL);
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(16 /* System.String System.Collections.Specialized.NameValueCollection::Get(System.String) */, L_10, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2);
+		if (!L_11)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		// taskCompletionSource.SetException(new Exception(String.Format("OAuth authorization error: {0}.", context.Request.QueryString.Get("error"))));
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_12 = __this->___taskCompletionSource_1;
+		HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* L_13 = V_0;
+		NullCheck(L_13);
+		HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* L_14;
+		L_14 = HttpListenerContext_get_Request_m12CFD433DD5D32D9A72388BEBE6256C7BABE1808_inline(L_13, NULL);
+		NullCheck(L_14);
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_15;
+		L_15 = HttpListenerRequest_get_QueryString_mA0A78DFE87D21645E21CC6947A8F3FA5DC78622B_inline(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(16 /* System.String System.Collections.Specialized.NameValueCollection::Get(System.String) */, L_15, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2);
+		String_t* L_17;
+		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA18FC8EA58E12A25639395492EAE3D0709F77DF2, L_16, NULL);
+		Exception_t* L_18 = (Exception_t*)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		NullCheck(L_18);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_18, L_17, NULL);
+		NullCheck(L_12);
+		TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6(L_12, L_18, TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6_RuntimeMethod_var);
+		return;
+	}
+
+IL_0072:
+	{
+		// var code = context.Request.QueryString.Get("code");
+		HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* L_19 = V_0;
+		NullCheck(L_19);
+		HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* L_20;
+		L_20 = HttpListenerContext_get_Request_m12CFD433DD5D32D9A72388BEBE6256C7BABE1808_inline(L_19, NULL);
+		NullCheck(L_20);
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_21;
+		L_21 = HttpListenerRequest_get_QueryString_mA0A78DFE87D21645E21CC6947A8F3FA5DC78622B_inline(L_20, NULL);
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(16 /* System.String System.Collections.Specialized.NameValueCollection::Get(System.String) */, L_21, _stringLiteral60A2E461CC4A1D49199A67B5216F128319CE63CC);
+		V_1 = L_22;
+		// taskCompletionSource.SetResult(code);
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_23 = __this->___taskCompletionSource_1;
+		String_t* L_24 = V_1;
+		NullCheck(L_23);
+		TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1(L_23, L_24, TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Threading.Tasks.Task`1<System.String> Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler::HandleChallengeInternal(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* SampleMobileOAuthAuthenticationChallengeHandler_HandleChallengeInternal_m45C509DD2CD35CAFA3F7CC7F04349AB301E7A74E (SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3* __this, String_t* ___0_authorizeURI, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass0_0_U3CHandleChallengeInternalU3Eb__0_mEC84C45016706C63ADB2926B972F768538B9846F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AC529BB3A4F89F74C6A4D1B670F33B34B27884B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C26850851D92C78237F0A0E15E39996ACAD2C90);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38D56DDD845951F5F2D1A86D08506382F8C01930);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB48A9ACF9BFCB5E32BBE2DDCC86A434ECBA25E6D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_2 = NULL;
+	Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_0 = (U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass0_0__ctor_mFA2DAB1A0CE6E49E2DA425B9A3D8B73E4BA458A4(L_0, NULL);
+		V_0 = L_0;
+		// var matches = Regex.Matches(authorizeURI, @"redirect_uri=([^&]*)", RegexOptions.IgnoreCase);
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_1 = V_0;
+		String_t* L_2 = ___0_authorizeURI;
+		il2cpp_codegen_runtime_class_init_inline(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_3;
+		L_3 = Regex_Matches_mA76DE01D08582901D6E2CAC35C0D458185A5D018(L_2, _stringLiteral38D56DDD845951F5F2D1A86D08506382F8C01930, 1, NULL);
+		NullCheck(L_1);
+		L_1->___matches_0 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___matches_0), (void*)L_3);
+		// if (matches.Count != 1)
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_4 = V_0;
+		NullCheck(L_4);
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_5 = L_4->___matches_0;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = MatchCollection_get_Count_mF9D979B5B9D3835CC61977CBFB4110173B1CC926(L_5, NULL);
+		if ((((int32_t)L_6) == ((int32_t)1)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// return Task.FromException<string>(new ArgumentException("Invalid authorize URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_7, _stringLiteral0AC529BB3A4F89F74C6A4D1B670F33B34B27884B, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_8;
+		L_8 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_7, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		return L_8;
+	}
+
+IL_0036:
+	{
+		// var redirectURI = matches[0].Groups[1].Value;
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_9 = V_0;
+		NullCheck(L_9);
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_10 = L_9->___matches_0;
+		NullCheck(L_10);
+		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_11;
+		L_11 = VirtualFuncInvoker1< Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F*, int32_t >::Invoke(35 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_10, 0);
+		NullCheck(L_11);
+		GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* L_12;
+		L_12 = VirtualFuncInvoker0< GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* >::Invoke(5 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_11);
+		NullCheck(L_12);
+		Group_t26371E9136D6F43782C487B63C67C5FC4F472881* L_13;
+		L_13 = GroupCollection_get_Item_m40EC174D4AC8FDD68F8819C35B779C79A44322F3(L_12, 1, NULL);
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC(L_13, NULL);
+		V_1 = L_14;
+		// if (redirectURI == "urn:ietf:wg:oauth:2.0:oob")
+		String_t* L_15 = V_1;
+		bool L_16;
+		L_16 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_15, _stringLiteral0C26850851D92C78237F0A0E15E39996ACAD2C90, NULL);
+		if (!L_16)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		// return Task.FromException<string>(new ArgumentException("\"urn:ietf:wg:oauth:2.0:oob\" is not a supported redirect URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_17 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		NullCheck(L_17);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_17, _stringLiteralB48A9ACF9BFCB5E32BBE2DDCC86A434ECBA25E6D, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_18;
+		L_18 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_17, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+		return L_18;
+	}
+
+IL_0070:
+	{
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			// var uri = new Uri(redirectURI);
+			String_t* L_19 = V_1;
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_20 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+			NullCheck(L_20);
+			Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_20, L_19, NULL);
+			V_2 = L_20;
+			// if (uri.Scheme == "http" || uri.Scheme == "https")
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_21 = V_2;
+			NullCheck(L_21);
+			String_t* L_22;
+			L_22 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_21, NULL);
+			bool L_23;
+			L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_22, _stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF, NULL);
+			if (L_23)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_24 = V_2;
+			NullCheck(L_24);
+			String_t* L_25;
+			L_25 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_24, NULL);
+			bool L_26;
+			L_26 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_25, _stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2, NULL);
+			if (!L_26)
+			{
+				goto IL_00ae_1;
+			}
+		}
+
+IL_009c_1:
+		{
+			// return Task.FromException<string>(new ArgumentException("Invalid redirect URI"));
+			ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_27 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+			NullCheck(L_27);
+			ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_27, _stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_28;
+			L_28 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_27, Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var);
+			V_3 = L_28;
+			goto IL_00f8;
+		}
+
+IL_00ae_1:
+		{
+			// redirectURI = uri.ToString();
+			Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_29 = V_2;
+			NullCheck(L_29);
+			String_t* L_30;
+			L_30 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_29);
+			V_1 = L_30;
+			// }
+			goto IL_00ca;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00b7;
+		}
+		throw e;
+	}
+
+CATCH_00b7:
+	{// begin catch(System.Object)
+		// catch
+		// return Task.FromException<string>(new ArgumentException("Invalid redirect URI"));
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_31 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_31);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_31, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8E8DC66D30E8C1CD8FCE4DD1E1C2C6BE2864F813)), NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var)));
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_32;
+		L_32 = Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817(L_31, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Task_FromException_TisString_t_mA5883552B4C07AEE65B575C6D3C3592DED3AB817_RuntimeMethod_var)));
+		V_3 = L_32;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00f8;
+	}// end catch (depth: 1)
+
+IL_00ca:
+	{
+		// var taskCompletionSource = new TaskCompletionSource<string>();
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_33 = V_0;
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_34 = (TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372*)il2cpp_codegen_object_new(TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1(L_34, TaskCompletionSource_1__ctor_m1E0F0E41DAFB9401D33DE03A55F9BDC5565F0CF1_RuntimeMethod_var);
+		NullCheck(L_33);
+		L_33->___taskCompletionSource_1 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&L_33->___taskCompletionSource_1), (void*)L_34);
+		// Application.deepLinkActivated += delegate (string url)
+		// {
+		//     matches = Regex.Matches(url, @"\?code=([^&]*)", RegexOptions.IgnoreCase);
+		// 
+		//     if (matches.Count != 1)
+		//     {
+		//         taskCompletionSource.SetException(new ArgumentException("Invalid response from the authentication server"));
+		//     }
+		//     else
+		//     {
+		//         var code = matches[0].Groups[1].Value;
+		// 
+		//         taskCompletionSource.SetResult(code);
+		//     }
+		// };
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_35 = V_0;
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_36 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
+		NullCheck(L_36);
+		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_36, L_35, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CHandleChallengeInternalU3Eb__0_mEC84C45016706C63ADB2926B972F768538B9846F_RuntimeMethod_var), NULL);
+		Application_add_deepLinkActivated_m65DB6854F5FA8DA9842618D0DF5F6F293161081D(L_36, NULL);
+		// Application.OpenURL(authorizeURI);
+		String_t* L_37 = ___0_authorizeURI;
+		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_37, NULL);
+		// return taskCompletionSource.Task;
+		U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* L_38 = V_0;
+		NullCheck(L_38);
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_39 = L_38->___taskCompletionSource_1;
+		NullCheck(L_39);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_40;
+		L_40 = TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_inline(L_39, TaskCompletionSource_1_get_Task_m11D993ACE1C12B89F69CA41E3BAAE3698C3AE587_RuntimeMethod_var);
+		return L_40;
+	}
+
+IL_00f8:
+	{
+		// }
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_41 = V_3;
+		return L_41;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleMobileOAuthAuthenticationChallengeHandler__ctor_m38A9343F56D648C1C9417C377D4DFE54EC3836DC (SampleMobileOAuthAuthenticationChallengeHandler_tF6D626CA8C2DD4494DC248998C08FE61A76289D3* __this, const RuntimeMethod* method) 
+{
+	{
+		SampleOAuthAuthenticationChallengeHandler__ctor_m421864BE357315CA0FCD6CC242A0404B5C111218(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_mFA2DAB1A0CE6E49E2DA425B9A3D8B73E4BA458A4 (U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleMobileOAuthAuthenticationChallengeHandler/<>c__DisplayClass0_0::<HandleChallengeInternal>b__0(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CHandleChallengeInternalU3Eb__0_mEC84C45016706C63ADB2926B972F768538B9846F (U3CU3Ec__DisplayClass0_0_t825CBE17D7ACFBBDFFF0D2F1A4D7DF186C4F8233* __this, String_t* ___0_url, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70B9D0E3342087CDF4F016BCAC969F50EA6893E2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6A6ED6A0F3980367298E40026750E97B3291A44);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// matches = Regex.Matches(url, @"\?code=([^&]*)", RegexOptions.IgnoreCase);
+		String_t* L_0 = ___0_url;
+		il2cpp_codegen_runtime_class_init_inline(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_1;
+		L_1 = Regex_Matches_mA76DE01D08582901D6E2CAC35C0D458185A5D018(L_0, _stringLiteral70B9D0E3342087CDF4F016BCAC969F50EA6893E2, 1, NULL);
+		__this->___matches_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___matches_0), (void*)L_1);
+		// if (matches.Count != 1)
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_2 = __this->___matches_0;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = MatchCollection_get_Count_mF9D979B5B9D3835CC61977CBFB4110173B1CC926(L_2, NULL);
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// taskCompletionSource.SetException(new ArgumentException("Invalid response from the authentication server"));
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_4 = __this->___taskCompletionSource_1;
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_5 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_5, _stringLiteralF6A6ED6A0F3980367298E40026750E97B3291A44, NULL);
+		NullCheck(L_4);
+		TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6(L_4, L_5, TaskCompletionSource_1_SetException_mBDE1D57E882888E999765C0CA78DBB1E7DED5AA6_RuntimeMethod_var);
+		return;
+	}
+
+IL_0036:
+	{
+		// var code = matches[0].Groups[1].Value;
+		MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC* L_6 = __this->___matches_0;
+		NullCheck(L_6);
+		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_7;
+		L_7 = VirtualFuncInvoker1< Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F*, int32_t >::Invoke(35 /* System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::get_Item(System.Int32) */, L_6, 0);
+		NullCheck(L_7);
+		GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* L_8;
+		L_8 = VirtualFuncInvoker0< GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* >::Invoke(5 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_7);
+		NullCheck(L_8);
+		Group_t26371E9136D6F43782C487B63C67C5FC4F472881* L_9;
+		L_9 = GroupCollection_get_Item_m40EC174D4AC8FDD68F8819C35B779C79A44322F3(L_8, 1, NULL);
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC(L_9, NULL);
+		V_0 = L_10;
+		// taskCompletionSource.SetResult(code);
+		TaskCompletionSource_1_tC9FC5C6EACD2138DA270912A14414A2FCA266372* L_11 = __this->___taskCompletionSource_1;
+		String_t* L_12 = V_0;
+		NullCheck(L_11);
+		TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1(L_11, L_12, TaskCompletionSource_1_SetResult_mA4FD1E75C7272079BE7032F18BCDC158463FE3E1_RuntimeMethod_var);
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Esri.GameEngine.Security.ArcGISAuthenticationChallengeType Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler::GetAuthenticationChallengeType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SampleOAuthAuthenticationChallengeHandler_GetAuthenticationChallengeType_m3F2C30294F102598EFC471D84C84E3E86DC2D7ED (SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE* __this, const RuntimeMethod* method) 
+{
+	{
+		// return ArcGISAuthenticationChallengeType.ArcGISOAuthAuthenticationChallenge;
+		return (int32_t)(1);
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler::HandleChallenge(Esri.GameEngine.Security.ArcGISAuthenticationChallenge)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleOAuthAuthenticationChallengeHandler_HandleChallenge_m6A08B32B94E262238C298F2E274E8475ABCA989C (SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE* __this, ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9* ___0_authenticationChallenge, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass1_0_U3CHandleChallengeU3Eb__0_m7AB6AAF567C181A20916D59011D1A8006F492B7B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* L_0 = (U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass1_0__ctor_mD0E4001689018ED994C7E586C1997C78659D7938(L_0, NULL);
+		V_0 = L_0;
+		// var oauthAuthenticationChallenge = authenticationChallenge as ArcGISOAuthAuthenticationChallenge;
+		U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* L_1 = V_0;
+		ArcGISAuthenticationChallenge_t5352B610E70374E36DB256C88C3BA3880FAA5DC9* L_2 = ___0_authenticationChallenge;
+		NullCheck(L_1);
+		L_1->___oauthAuthenticationChallenge_0 = ((ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A*)IsInstClass((RuntimeObject*)L_2, ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___oauthAuthenticationChallenge_0), (void*)((ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A*)IsInstClass((RuntimeObject*)L_2, ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A_il2cpp_TypeInfo_var)));
+		// var authorizeURI = oauthAuthenticationChallenge.AuthorizeURI;
+		U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* L_3 = V_0;
+		NullCheck(L_3);
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_4 = L_3->___oauthAuthenticationChallenge_0;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = ArcGISOAuthAuthenticationChallenge_get_AuthorizeURI_m0E1D931B8EAEF5BB14B81C0A046F39412AC545E6(L_4, NULL);
+		// HandleChallengeInternal(oauthAuthenticationChallenge.AuthorizeURI).ContinueWith(authorizationCodeTask =>
+		// {
+		//     if (authorizationCodeTask.IsFaulted)
+		//     {
+		//         Debug.LogError(authorizationCodeTask.Exception.Message);
+		// 
+		//         oauthAuthenticationChallenge.Cancel();
+		//     }
+		//     else if (authorizationCodeTask.IsCanceled)
+		//     {
+		//         oauthAuthenticationChallenge.Cancel();
+		//     }
+		//     else
+		//     {
+		//         var authorizationCode = authorizationCodeTask.Result;
+		// 
+		//         if (authorizationCode != null)
+		//         {
+		//             oauthAuthenticationChallenge.Respond(authorizationCode);
+		//         }
+		//         else
+		//         {
+		//             oauthAuthenticationChallenge.Cancel();
+		//         }
+		//     }
+		// });
+		U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* L_6 = V_0;
+		NullCheck(L_6);
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_7 = L_6->___oauthAuthenticationChallenge_0;
+		NullCheck(L_7);
+		String_t* L_8;
+		L_8 = ArcGISOAuthAuthenticationChallenge_get_AuthorizeURI_m0E1D931B8EAEF5BB14B81C0A046F39412AC545E6(L_7, NULL);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_9;
+		L_9 = VirtualFuncInvoker1< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0*, String_t* >::Invoke(7 /* System.Threading.Tasks.Task`1<System.String> Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler::HandleChallengeInternal(System.String) */, __this, L_8);
+		U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* L_10 = V_0;
+		Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B* L_11 = (Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B*)il2cpp_codegen_object_new(Action_1_t04EE6D71337813893DE13688771E909BDBADAA1B_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action_1__ctor_m9A99EE412CA28FA3656C2B3CEEEDEA403CF736F1(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CHandleChallengeU3Eb__0_m7AB6AAF567C181A20916D59011D1A8006F492B7B_RuntimeMethod_var), NULL);
+		NullCheck(L_9);
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_12;
+		L_12 = Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469(L_9, L_11, Task_1_ContinueWith_m2976BD674D15E3F3419CF9D4C4C27C863EAAC469_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleOAuthAuthenticationChallengeHandler__ctor_m421864BE357315CA0FCD6CC242A0404B5C111218 (SampleOAuthAuthenticationChallengeHandler_tD1983366C307DD8B09F095B488DE014C2BB27AFE* __this, const RuntimeMethod* method) 
+{
+	{
+		ArcGISAuthenticationChallengeHandler__ctor_m541A62E273E4D79ABE2BE6D2298412563F44E618(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mD0E4001689018ED994C7E586C1997C78659D7938 (U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Security.SampleOAuthAuthenticationChallengeHandler/<>c__DisplayClass1_0::<HandleChallenge>b__0(System.Threading.Tasks.Task`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CHandleChallengeU3Eb__0_m7AB6AAF567C181A20916D59011D1A8006F492B7B (U3CU3Ec__DisplayClass1_0_t8B9146A53DA0C1E2229B3B657F1F3305081AD4C8* __this, Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* ___0_authorizationCodeTask, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// if (authorizationCodeTask.IsFaulted)
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_0 = ___0_authorizationCodeTask;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// Debug.LogError(authorizationCodeTask.Exception.Message);
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_2 = ___0_authorizationCodeTask;
+		NullCheck(L_2);
+		AggregateException_t51B6205846DFB356B94452702201DD239D44422F* L_3;
+		L_3 = Task_get_Exception_m11317CABA220E351C84B3E94B8A98F1565F42B45(L_2, NULL);
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_3);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
+		// oauthAuthenticationChallenge.Cancel();
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_5 = __this->___oauthAuthenticationChallenge_0;
+		NullCheck(L_5);
+		ArcGISAuthenticationChallenge_Cancel_mEAEE6DD23CF9649FC07088E8F6668940ECD9AF97(L_5, NULL);
+		return;
+	}
+
+IL_0024:
+	{
+		// else if (authorizationCodeTask.IsCanceled)
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_6 = ___0_authorizationCodeTask;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		// oauthAuthenticationChallenge.Cancel();
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_8 = __this->___oauthAuthenticationChallenge_0;
+		NullCheck(L_8);
+		ArcGISAuthenticationChallenge_Cancel_mEAEE6DD23CF9649FC07088E8F6668940ECD9AF97(L_8, NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		// var authorizationCode = authorizationCodeTask.Result;
+		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_9 = ___0_authorizationCodeTask;
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13(L_9, Task_1_get_Result_m75DDCE5DDCDA410C5506E2E7DD257E9E065EBB13_RuntimeMethod_var);
+		V_0 = L_10;
+		// if (authorizationCode != null)
+		String_t* L_11 = V_0;
+		if (!L_11)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		// oauthAuthenticationChallenge.Respond(authorizationCode);
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_12 = __this->___oauthAuthenticationChallenge_0;
+		String_t* L_13 = V_0;
+		NullCheck(L_12);
+		ArcGISOAuthAuthenticationChallenge_Respond_m1EFA14C7911C28ADDE2BF7E92D9EEC6334C27CDD(L_12, L_13, NULL);
+		return;
+	}
+
+IL_004f:
+	{
+		// oauthAuthenticationChallenge.Cancel();
+		ArcGISOAuthAuthenticationChallenge_t523DB0986F158100531BEB3905D17DE9A652086A* L_14 = __this->___oauthAuthenticationChallenge_0;
+		NullCheck(L_14);
+		ArcGISAuthenticationChallenge_Cancel_mEAEE6DD23CF9649FC07088E8F6668940ECD9AF97(L_14, NULL);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_Awake_m828D52FC92C811FA28F41ED76B07BA8F72389F5F (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponent_FocusChanged_mEC77A7C9386CD673544210488A8283E62C0421CC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// lastMouseScreenPosition = GetMousePosition();
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5(__this, NULL);
+		__this->___lastMouseScreenPosition_20 = L_0;
+		// Application.focusChanged += FocusChanged;
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_1, __this, (intptr_t)((void*)ArcGISCameraControllerComponent_FocusChanged_mEC77A7C9386CD673544210488A8283E62C0421CC_RuntimeMethod_var), NULL);
+		Application_add_focusChanged_m8C984ECC5D23BE2E395EEAEE58D028F2B95A7E85(L_1, NULL);
+		// CameraActions = new ArcGISCameraControllerComponentActions();
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_2 = (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC*)il2cpp_codegen_object_new(ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		ArcGISCameraControllerComponentActions__ctor_m283656135C837EE1088972A22A48C80B9A1BD43F(L_2, NULL);
+		__this->___CameraActions_6 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___CameraActions_6), (void*)L_2);
+		// UpControls = CameraActions.Move.Up;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_3 = __this->___CameraActions_6;
+		NullCheck(L_3);
+		MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 L_4;
+		L_4 = ArcGISCameraControllerComponentActions_get_Move_mA422172D76CEB173A52F38F0F038B76A315FE6D8(L_3, NULL);
+		V_0 = L_4;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
+		L_5 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37((&V_0), NULL);
+		__this->___UpControls_7 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpControls_7), (void*)L_5);
+		// ForwardControls = CameraActions.Move.Forward;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_6 = __this->___CameraActions_6;
+		NullCheck(L_6);
+		MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 L_7;
+		L_7 = ArcGISCameraControllerComponentActions_get_Move_mA422172D76CEB173A52F38F0F038B76A315FE6D8(L_6, NULL);
+		V_0 = L_7;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_8;
+		L_8 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821((&V_0), NULL);
+		__this->___ForwardControls_8 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ForwardControls_8), (void*)L_8);
+		// RightControls = CameraActions.Move.Right;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_9 = __this->___CameraActions_6;
+		NullCheck(L_9);
+		MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 L_10;
+		L_10 = ArcGISCameraControllerComponentActions_get_Move_mA422172D76CEB173A52F38F0F038B76A315FE6D8(L_9, NULL);
+		V_0 = L_10;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
+		L_11 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1((&V_0), NULL);
+		__this->___RightControls_9 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___RightControls_9), (void*)L_11);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_OnEnable_mAB64653AD1312384A39176FD69E48B361E4342BC (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisHPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E_mE17656D923589664ECE4DF97AD969D87A6F9E3E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m26769E29D0B4F1ED4B6B1F1EF26E258843A602FB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// arcGISMapComponent = gameObject.GetComponentInParent<ArcGISMapComponent>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_1;
+		L_1 = GameObject_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m26769E29D0B4F1ED4B6B1F1EF26E258843A602FB(L_0, GameObject_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m26769E29D0B4F1ED4B6B1F1EF26E258843A602FB_RuntimeMethod_var);
+		__this->___arcGISMapComponent_4 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___arcGISMapComponent_4), (void*)L_1);
+		// hpTransform = GetComponent<HPTransform>();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_2;
+		L_2 = Component_GetComponent_TisHPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E_mE17656D923589664ECE4DF97AD969D87A6F9E3E7(__this, Component_GetComponent_TisHPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E_mE17656D923589664ECE4DF97AD969D87A6F9E3E7_RuntimeMethod_var);
+		__this->___hpTransform_5 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hpTransform_5), (void*)L_2);
+		// UpControls.Enable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = __this->___UpControls_7;
+		NullCheck(L_3);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_3, NULL);
+		// ForwardControls.Enable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = __this->___ForwardControls_8;
+		NullCheck(L_4);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_4, NULL);
+		// RightControls.Enable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5 = __this->___RightControls_9;
+		NullCheck(L_5);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::OnDisable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_OnDisable_mC27EA8C3FC531AC4ADFD00839B7C4EC7872DB953 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	{
+		// UpControls.Disable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___UpControls_7;
+		NullCheck(L_0);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_0, NULL);
+		// ForwardControls.Disable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = __this->___ForwardControls_8;
+		NullCheck(L_1);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_1, NULL);
+		// RightControls.Disable();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = __this->___RightControls_9;
+		NullCheck(L_2);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_2, NULL);
+		// }
+		return;
+	}
+}
+// UnityEngine.Vector3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMousePosition()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Mouse.current.position.ReadValue();
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0;
+		L_0 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_0);
+		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1;
+		L_1 = Pointer_get_position_m4286004169788483EEDA6AF833CEFDB04FEDF3D8_inline(L_0, NULL);
+		NullCheck(L_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
+		L_2 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_1, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_2, NULL);
+		return L_3;
+	}
+}
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetTotalTranslation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_GetTotalTranslation_m40C544CEF9A8BCC6012E9F1FA96535FB839365F0 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		// var forward = hpTransform.Forward.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		NullCheck(L_0);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
+		L_1 = HPTransform_get_Forward_m993BF27382E1F7452A7F7F0DF7ECC270AE9733DD(L_0, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_1, NULL);
+		V_0 = L_2;
+		// var right = hpTransform.Right.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_3 = __this->___hpTransform_5;
+		NullCheck(L_3);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
+		L_4 = HPTransform_get_Right_m2C374EDE7EB5D5B59B6316C64A11D38AB2D73F84(L_3, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_4, NULL);
+		V_1 = L_5;
+		// var up = hpTransform.Up.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_6 = __this->___hpTransform_5;
+		NullCheck(L_6);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
+		L_7 = HPTransform_get_Up_m1C7200EA25AEC1B49B31B2B2C85B1C9ED36A3E91(L_6, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8;
+		L_8 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_7, NULL);
+		V_2 = L_8;
+		// var totalTranslation = double3.zero;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		// up *= UpControls.ReadValue<float>() * TranslationSpeed * Time.deltaTime;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = V_2;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11 = __this->___UpControls_7;
+		NullCheck(L_11);
+		float L_12;
+		L_12 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_11, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		float L_13 = __this->___TranslationSpeed_10;
+		float L_14;
+		L_14 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_15;
+		L_15 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_10, ((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_12, L_13)), L_14))), NULL);
+		V_2 = L_15;
+		// right *= RightControls.ReadValue<float>() * TranslationSpeed * Time.deltaTime;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_16 = V_1;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_17 = __this->___RightControls_9;
+		NullCheck(L_17);
+		float L_18;
+		L_18 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_17, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		float L_19 = __this->___TranslationSpeed_10;
+		float L_20;
+		L_20 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_21;
+		L_21 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_16, ((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_18, L_19)), L_20))), NULL);
+		V_1 = L_21;
+		// forward *= ForwardControls.ReadValue<float>() * TranslationSpeed * Time.deltaTime;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_22 = V_0;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_23 = __this->___ForwardControls_8;
+		NullCheck(L_23);
+		float L_24;
+		L_24 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_23, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		float L_25 = __this->___TranslationSpeed_10;
+		float L_26;
+		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_27;
+		L_27 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_22, ((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_24, L_25)), L_26))), NULL);
+		V_0 = L_27;
+		// totalTranslation += up + right + forward;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_28 = V_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_29 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_30;
+		L_30 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_28, L_29, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_31 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_32;
+		L_32 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_30, L_31, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_33;
+		L_33 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_9, L_32, NULL);
+		// return totalTranslation;
+		return L_33;
+	}
+}
+// System.Single Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMouseScollValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ArcGISCameraControllerComponent_GetMouseScollValue_m11A0BEA80292F99D91778CAE8A92E1A4D684C607 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Mouse.current.scroll.ReadValue().y;
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0;
+		L_0 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_0);
+		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1;
+		L_1 = Mouse_get_scroll_mB17E8A9038C866A29701595E06B8806E945ACA00_inline(L_0, NULL);
+		NullCheck(L_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
+		L_2 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_1, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
+		float L_3 = L_2.___y_1;
+		return L_3;
+	}
+}
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::IsMouseLeftClicked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISCameraControllerComponent_IsMouseLeftClicked_mC90AFDB285635DA9FE882017B0AA0CC968561EBB (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Mouse.current.leftButton.ReadValue() == 1;
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0;
+		L_0 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_0);
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1;
+		L_1 = Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline(L_0, NULL);
+		NullCheck(L_1);
+		float L_2;
+		L_2 = InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741(L_1, InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_RuntimeMethod_var);
+		return (bool)((((float)L_2) == ((float)(1.0f)))? 1 : 0);
+	}
+}
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::IsMouseRightClicked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISCameraControllerComponent_IsMouseRightClicked_m0AF56E9DB613E852D99897AAC4D65E1B439B863D (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return Mouse.current.rightButton.ReadValue() == 1;
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0;
+		L_0 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
+		NullCheck(L_0);
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1;
+		L_1 = Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline(L_0, NULL);
+		NullCheck(L_1);
+		float L_2;
+		L_2 = InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741(L_1, InputControl_1_ReadValue_m1B0D6757EFE874CF44E42908BF77133DCB48A741_RuntimeMethod_var);
+		return (bool)((((float)L_2) == ((float)(1.0f)))? 1 : 0);
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_Start_mFF0B39A2B25759E3D799B05ABCB1E62D694A6529 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70946C15FA725DB07D881F8A694CA716713A6AD6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (arcGISMapComponent == null)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// Debug.LogError("An ArcGISMapComponent could not be found. Please make sure this GameObject is a child of a GameObject with an ArcGISMapComponent attached");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral70946C15FA725DB07D881F8A694CA716713A6AD6, NULL);
+		// enabled = false;
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		// return;
+		return;
+	}
+
+IL_0020:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_Update_m356A062737F6D06316A84528ADB9C5545D6521EA (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (arcGISMapComponent == null)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000f:
+	{
+		// if (arcGISMapComponent.View.SpatialReference == null)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_2 = __this->___arcGISMapComponent_4;
+		NullCheck(L_2);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_3;
+		L_3 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_2, NULL);
+		NullCheck(L_3);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_4;
+		L_4 = ArcGISView_get_SpatialReference_m7292D2AB784E4229DE76E779C2DE176FC6DB5DA0(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0022:
+	{
+		// DragMouseEvent();
+		ArcGISCameraControllerComponent_DragMouseEvent_mE0B6C26F412956E98B4022DBED6E512618BC830C(__this, NULL);
+		// UpdateNavigation();
+		ArcGISCameraControllerComponent_UpdateNavigation_mAB50A0A9D8DE5C4226AED369E9E8AB67D1C0496F(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::UpdateNavigation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_UpdateNavigation_mAB50A0A9D8DE5C4226AED369E9E8AB67D1C0496F (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	double V_3 = 0.0;
+	{
+		// var altitude = arcGISMapComponent.View.AltitudeAtCartesianPosition(Position);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		NullCheck(L_0);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_1;
+		L_1 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_0, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090(__this, NULL);
+		double L_3;
+		L_3 = ArcGISViewExtensions_AltitudeAtCartesianPosition_mB198297E10CC2CF298E5CD11E264AB29F874EB34(L_1, L_2, NULL);
+		V_0 = L_3;
+		// UpdateSpeed(altitude);
+		double L_4 = V_0;
+		ArcGISCameraControllerComponent_UpdateSpeed_mCF8F629A632D17A62F81326C696FC8FDB2826ECE(__this, L_4, NULL);
+		// var totalTranslation = GetTotalTranslation();
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = ArcGISCameraControllerComponent_GetTotalTranslation_m40C544CEF9A8BCC6012E9F1FA96535FB839365F0(__this, NULL);
+		V_1 = L_5;
+		// if (GetMouseScollValue() != 0.0)
+		float L_6;
+		L_6 = ArcGISCameraControllerComponent_GetMouseScollValue_m11A0BEA80292F99D91778CAE8A92E1A4D684C607(__this, NULL);
+		if ((((double)((double)L_6)) == ((double)(0.0))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		// var towardsMouse = GetMouseRayCastDirection();
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7;
+		L_7 = ArcGISCameraControllerComponent_GetMouseRayCastDirection_mA332A584E20312EAE05D5833057979670439FF96(__this, NULL);
+		V_2 = L_7;
+		// var delta = Math.Max(1.0, (altitude - MinCameraHeight)) * MouseScrollSpeed * GetMouseScollValue();
+		double L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_9 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MinCameraHeight_14;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_10;
+		L_10 = Math_Max_m7BAC743E1752A51F258BB82DEBDD13E7C6D3ED26((1.0), ((double)il2cpp_codegen_subtract(L_8, L_9)), NULL);
+		double L_11 = __this->___MouseScrollSpeed_12;
+		float L_12;
+		L_12 = ArcGISCameraControllerComponent_GetMouseScollValue_m11A0BEA80292F99D91778CAE8A92E1A4D684C607(__this, NULL);
+		V_3 = ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_multiply(L_10, L_11)), ((double)L_12)));
+		// totalTranslation += towardsMouse * delta;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_13 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_14 = V_2;
+		double L_15 = V_3;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_16;
+		L_16 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_14, L_15, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_17;
+		L_17 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_13, L_16, NULL);
+		V_1 = L_17;
+	}
+
+IL_0071:
+	{
+		// if (!totalTranslation.Equals(double3.zero))
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		bool L_19;
+		L_19 = double3_Equals_mF3C722BF906A714D77899BB9055403481C2FC192_inline((&V_1), L_18, NULL);
+		if (L_19)
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		// MoveCamera(totalTranslation);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_20 = V_1;
+		ArcGISCameraControllerComponent_MoveCamera_m418741BBF5E1DA79F779719FA9E6414216A8F918(__this, L_20, NULL);
+	}
+
+IL_0086:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::MoveCamera(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_MoveCamera_m418741BBF5E1DA79F779719FA9E6414216A8F918 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_movDir, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* V_3 = NULL;
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* V_4 = NULL;
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* V_5 = NULL;
+	{
+		// var distance = math.length(movDir);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_movDir;
+		double L_1;
+		L_1 = math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline(L_0, NULL);
+		V_0 = L_1;
+		// movDir /= distance;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_movDir;
+		double L_3 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4;
+		L_4 = double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline(L_2, L_3, NULL);
+		___0_movDir = L_4;
+		// var cameraPosition = Position;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090(__this, NULL);
+		V_1 = L_5;
+		// var cameraRotation = Rotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_6;
+		L_6 = ArcGISCameraControllerComponent_get_Rotation_m0E3A5128DA7B504F2A8D85B0B8CB7396EC803188(__this, NULL);
+		V_2 = L_6;
+		// if (arcGISMapComponent.MapType == GameEngine.Map.ArcGISMapType.Global)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_7 = __this->___arcGISMapComponent_4;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline(L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0130;
+		}
+	}
+	{
+		// var spheroidData = arcGISMapComponent.View.SpatialReference.SpheroidData;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_9 = __this->___arcGISMapComponent_4;
+		NullCheck(L_9);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_10;
+		L_10 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_9, NULL);
+		NullCheck(L_10);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_11;
+		L_11 = ArcGISView_get_SpatialReference_m7292D2AB784E4229DE76E779C2DE176FC6DB5DA0(L_10, NULL);
+		NullCheck(L_11);
+		ArcGISSpheroidData_tFEF516D5982F2BC23F01C9C84982FD774D8CFED6 L_12;
+		L_12 = ArcGISSpatialReference_get_SpheroidData_mA99AC1AC7707C13096FEB2FED37C208BBA82E590(L_11, NULL);
+		// var nextArcGISPoint = arcGISMapComponent.View.WorldToGeographic(movDir + cameraPosition);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_13 = __this->___arcGISMapComponent_4;
+		NullCheck(L_13);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_14;
+		L_14 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_13, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_15 = ___0_movDir;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_16 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_17;
+		L_17 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_15, L_16, NULL);
+		NullCheck(L_14);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_18;
+		L_18 = ArcGISView_WorldToGeographic_m18BBC5FD841B531EFE370DD199745D0EE443D955(L_14, L_17, NULL);
+		V_3 = L_18;
+		// if (nextArcGISPoint.Z > MaxCameraHeight)
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_19 = V_3;
+		NullCheck(L_19);
+		double L_20;
+		L_20 = ArcGISPoint_get_Z_mE3B051B20A9E292A548B40B7C2E82F2C2FB9BB0D(L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_21 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraHeight_13;
+		if ((!(((double)L_20) > ((double)L_21))))
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		// var point = new ArcGISPoint(nextArcGISPoint.X, nextArcGISPoint.Y, MaxCameraHeight, nextArcGISPoint.SpatialReference);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_22 = V_3;
+		NullCheck(L_22);
+		double L_23;
+		L_23 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_22, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_24 = V_3;
+		NullCheck(L_24);
+		double L_25;
+		L_25 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_24, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_26 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraHeight_13;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_27 = V_3;
+		NullCheck(L_27);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_28;
+		L_28 = ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04(L_27, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_29 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_29);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_29, L_23, L_25, L_26, L_28, NULL);
+		V_4 = L_29;
+		// cameraPosition = arcGISMapComponent.View.GeographicToWorld(point);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_30 = __this->___arcGISMapComponent_4;
+		NullCheck(L_30);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_31;
+		L_31 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_30, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_32 = V_4;
+		NullCheck(L_31);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_33;
+		L_33 = ArcGISView_GeographicToWorld_mB3D52E55AF2B56E95459E9D9CE800BF7091B7B34(L_31, L_32, NULL);
+		V_1 = L_33;
+		goto IL_00ea;
+	}
+
+IL_009c:
+	{
+		// else if (nextArcGISPoint.Z < MinCameraHeight)
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_34 = V_3;
+		NullCheck(L_34);
+		double L_35;
+		L_35 = ArcGISPoint_get_Z_mE3B051B20A9E292A548B40B7C2E82F2C2FB9BB0D(L_34, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_36 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MinCameraHeight_14;
+		if ((!(((double)L_35) < ((double)L_36))))
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		// var point = new ArcGISPoint(nextArcGISPoint.X, nextArcGISPoint.Y, MinCameraHeight, nextArcGISPoint.SpatialReference);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_37 = V_3;
+		NullCheck(L_37);
+		double L_38;
+		L_38 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_37, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_39 = V_3;
+		NullCheck(L_39);
+		double L_40;
+		L_40 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_39, NULL);
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_41 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MinCameraHeight_14;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_42 = V_3;
+		NullCheck(L_42);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_43;
+		L_43 = ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04(L_42, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_44 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_44, L_38, L_40, L_41, L_43, NULL);
+		V_5 = L_44;
+		// cameraPosition = arcGISMapComponent.View.GeographicToWorld(point);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_45 = __this->___arcGISMapComponent_4;
+		NullCheck(L_45);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_46;
+		L_46 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_45, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_47 = V_5;
+		NullCheck(L_46);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_48;
+		L_48 = ArcGISView_GeographicToWorld_mB3D52E55AF2B56E95459E9D9CE800BF7091B7B34(L_46, L_47, NULL);
+		V_1 = L_48;
+		goto IL_00ea;
+	}
+
+IL_00dc:
+	{
+		// cameraPosition += movDir * distance;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_49 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_50 = ___0_movDir;
+		double L_51 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_52;
+		L_52 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_50, L_51, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_53;
+		L_53 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_49, L_52, NULL);
+		V_1 = L_53;
+	}
+
+IL_00ea:
+	{
+		// var newENUReference = arcGISMapComponent.View.GetENUReference(cameraPosition);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_54 = __this->___arcGISMapComponent_4;
+		NullCheck(L_54);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_55;
+		L_55 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_54, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_56 = V_1;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_57;
+		L_57 = ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF(L_55, L_56, NULL);
+		// var oldENUReference = arcGISMapComponent.View.GetENUReference(Position);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_58 = __this->___arcGISMapComponent_4;
+		NullCheck(L_58);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_59;
+		L_59 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_58, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_60;
+		L_60 = ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090(__this, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_61;
+		L_61 = ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF(L_59, L_60, NULL);
+		// cameraRotation = math.mul(math.inverse(oldENUReference.GetRotation()), cameraRotation);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_62;
+		L_62 = HPMath_GetRotation_mD3928B0174CE0CA828862E6E8121AB7165ECC46D(L_61, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_63;
+		L_63 = math_inverse_mAB8FC214DC9438E44EB31D19E3C70D3BDFAAF202_inline(L_62, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_64 = V_2;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_65;
+		L_65 = math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline(L_63, L_64, NULL);
+		V_2 = L_65;
+		// cameraRotation = math.mul(newENUReference.GetRotation(), cameraRotation);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_66;
+		L_66 = HPMath_GetRotation_mD3928B0174CE0CA828862E6E8121AB7165ECC46D(L_57, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_67 = V_2;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_68;
+		L_68 = math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline(L_66, L_67, NULL);
+		V_2 = L_68;
+		goto IL_013e;
+	}
+
+IL_0130:
+	{
+		// cameraPosition += movDir * distance;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_69 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_70 = ___0_movDir;
+		double L_71 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_72;
+		L_72 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_70, L_71, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_73;
+		L_73 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_69, L_72, NULL);
+		V_1 = L_73;
+	}
+
+IL_013e:
+	{
+		// Position = cameraPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_74 = V_1;
+		ArcGISCameraControllerComponent_set_Position_m4A1FA4F2E0E6EBAC542F00E93524DE6E3B11FB26(__this, L_74, NULL);
+		// Rotation = cameraRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_75 = V_2;
+		ArcGISCameraControllerComponent_set_Rotation_m613EE5B412EE9631CE3536D52E32278B71988B8B(__this, L_75, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::OnTransformParentChanged()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_OnTransformParentChanged_m24DC2C3D4251F91D97DFC81F0891D6A7E7464402 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	{
+		// OnEnable();
+		ArcGISCameraControllerComponent_OnEnable_mAB64653AD1312384A39176FD69E48B361E4342BC(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::DragMouseEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_DragMouseEvent_mE0B6C26F412956E98B4022DBED6E512618BC830C (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		// var cartesianPosition = Position;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0;
+		L_0 = ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090(__this, NULL);
+		V_0 = L_0;
+		// var cartesianRotation = Rotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1;
+		L_1 = ArcGISCameraControllerComponent_get_Rotation_m0E3A5128DA7B504F2A8D85B0B8CB7396EC803188(__this, NULL);
+		V_1 = L_1;
+		// var deltaMouse = GetMousePosition() - lastMouseScreenPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___lastMouseScreenPosition_20;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_2, L_3, NULL);
+		V_2 = L_4;
+		// if (!firstOnFocus)
+		bool L_5 = __this->___firstOnFocus_21;
+		if (L_5)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		// if (IsMouseLeftClicked())
+		bool L_6;
+		L_6 = ArcGISCameraControllerComponent_IsMouseLeftClicked_mC90AFDB285635DA9FE882017B0AA0CC968561EBB(__this, NULL);
+		if (!L_6)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		// if (deltaMouse != Vector3.zero)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		bool L_9;
+		L_9 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_7, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		// if (arcGISMapComponent.MapType == GameEngine.Map.ArcGISMapType.Global)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_10 = __this->___arcGISMapComponent_4;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline(L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		// GlobalDragging(ref cartesianPosition, ref cartesianRotation);
+		ArcGISCameraControllerComponent_GlobalDragging_m10400E6665C55E92E1FA65BCF36476B7B182D590(__this, (&V_0), (&V_1), NULL);
+		goto IL_00a1;
+	}
+
+IL_0056:
+	{
+		// else if (arcGISMapComponent.MapType == GameEngine.Map.ArcGISMapType.Local)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_12 = __this->___arcGISMapComponent_4;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline(L_12, NULL);
+		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		// LocalDragging(ref cartesianPosition);
+		ArcGISCameraControllerComponent_LocalDragging_m4A5A359AAA7E0D515A7DE0DEA1AD634D845C3916(__this, (&V_0), NULL);
+		goto IL_00a1;
+	}
+
+IL_006e:
+	{
+		// else if (IsMouseRightClicked())
+		bool L_14;
+		L_14 = ArcGISCameraControllerComponent_IsMouseRightClicked_m0AF56E9DB613E852D99897AAC4D65E1B439B863D(__this, NULL);
+		if (!L_14)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		// if (!deltaMouse.Equals(Vector3.zero))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		bool L_16;
+		L_16 = Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline((&V_2), L_15, NULL);
+		if (L_16)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		// RotateAround(ref cartesianPosition, ref cartesianRotation, deltaMouse);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_2;
+		ArcGISCameraControllerComponent_RotateAround_mB0E4F337FC698F5425888053C2236050955B9A3E(__this, (&V_0), (&V_1), L_17, NULL);
+		goto IL_00a1;
+	}
+
+IL_0091:
+	{
+		// firstDragStep = true;
+		__this->___firstDragStep_19 = (bool)1;
+		goto IL_00a1;
+	}
+
+IL_009a:
+	{
+		// firstOnFocus = false;
+		__this->___firstOnFocus_21 = (bool)0;
+	}
+
+IL_00a1:
+	{
+		// Position = cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18 = V_0;
+		ArcGISCameraControllerComponent_set_Position_m4A1FA4F2E0E6EBAC542F00E93524DE6E3B11FB26(__this, L_18, NULL);
+		// Rotation = cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_19 = V_1;
+		ArcGISCameraControllerComponent_set_Rotation_m613EE5B412EE9631CE3536D52E32278B71988B8B(__this, L_19, NULL);
+		// lastMouseScreenPosition = GetMousePosition();
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5(__this, NULL);
+		__this->___lastMouseScreenPosition_20 = L_20;
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::LocalDragging(Unity.Mathematics.double3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_LocalDragging_m4A5A359AAA7E0D515A7DE0DEA1AD634D845C3916 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double V_1 = 0.0;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	{
+		// var worldRayDir = GetMouseRayCastDirection();
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0;
+		L_0 = ArcGISCameraControllerComponent_GetMouseRayCastDirection_mA332A584E20312EAE05D5833057979670439FF96(__this, NULL);
+		V_0 = L_0;
+		// var isIntersected = Geometry.RayPlaneIntersection(cartesianPosition, worldRayDir, double3.zero, math.up(), out var intersection);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_1 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_1);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = V_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
+		L_5 = math_up_m0BE1699606608A1C5B2F4996F2D550938DB736C1_inline(NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6;
+		L_6 = double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline(L_5, NULL);
+		bool L_7;
+		L_7 = Geometry_RayPlaneIntersection_m5516614D4A2C028AAA5F02D75CC3EABFCE238BEF(L_2, L_3, L_4, L_6, (&V_1), NULL);
+		// if (isIntersected && intersection >= 0)
+		if (!L_7)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		double L_8 = V_1;
+		if ((!(((double)L_8) >= ((double)(0.0)))))
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		// double3 cartesianCoord = cartesianPosition + worldRayDir * intersection;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_9 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_9);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_11 = V_0;
+		double L_12 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_13;
+		L_13 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_11, L_12, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_14;
+		L_14 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_10, L_13, NULL);
+		V_2 = L_14;
+		// var delta = firstDragStep ? double3.zero : lastCartesianPoint - cartesianCoord;
+		bool L_15 = __this->___firstDragStep_19;
+		if (L_15)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_16 = __this->___lastCartesianPoint_16;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_17 = V_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18;
+		L_18 = double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline(L_16, L_17, NULL);
+		G_B5_0 = L_18;
+		goto IL_0060;
+	}
+
+IL_005b:
+	{
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_19 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		G_B5_0 = L_19;
+	}
+
+IL_0060:
+	{
+		V_3 = G_B5_0;
+		// lastCartesianPoint = cartesianCoord + delta;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_20 = V_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_21 = V_3;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_22;
+		L_22 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_20, L_21, NULL);
+		__this->___lastCartesianPoint_16 = L_22;
+		// cartesianPosition += delta;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_23 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_24 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_25 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_24);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_26 = V_3;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_27;
+		L_27 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_25, L_26, NULL);
+		*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_23 = L_27;
+		// firstDragStep = false;
+		__this->___firstDragStep_19 = (bool)0;
+	}
+
+IL_0087:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GlobalDragging(Unity.Mathematics.double3&,Unity.Mathematics.quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_GlobalDragging_m10400E6665C55E92E1FA65BCF36476B7B182D590 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_cartesianRotation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double V_1 = 0.0;
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* V_3 = NULL;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* V_5 = NULL;
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	double V_7 = 0.0;
+	double V_8 = 0.0;
+	double V_9 = 0.0;
+	double V_10 = 0.0;
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* G_B4_0 = NULL;
+	ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* G_B3_0 = NULL;
+	double G_B5_0 = 0.0;
+	ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* G_B5_1 = NULL;
+	double G_B8_0 = 0.0;
+	double G_B11_0 = 0.0;
+	double G_B14_0 = 0.0;
+	double G_B16_0 = 0.0;
+	double G_B15_0 = 0.0;
+	double G_B17_0 = 0.0;
+	double G_B17_1 = 0.0;
+	double G_B22_0 = 0.0;
+	{
+		// var spheroidData = arcGISMapComponent.View.SpatialReference.SpheroidData;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		NullCheck(L_0);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_1;
+		L_1 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_0, NULL);
+		NullCheck(L_1);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_2;
+		L_2 = ArcGISView_get_SpatialReference_m7292D2AB784E4229DE76E779C2DE176FC6DB5DA0(L_1, NULL);
+		NullCheck(L_2);
+		ArcGISSpheroidData_tFEF516D5982F2BC23F01C9C84982FD774D8CFED6 L_3;
+		L_3 = ArcGISSpatialReference_get_SpheroidData_mA99AC1AC7707C13096FEB2FED37C208BBA82E590(L_2, NULL);
+		// var worldRayDir = GetMouseRayCastDirection();
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4;
+		L_4 = ArcGISCameraControllerComponent_GetMouseRayCastDirection_mA332A584E20312EAE05D5833057979670439FF96(__this, NULL);
+		V_0 = L_4;
+		// var isIntersected = Geometry.RayEllipsoidIntersection(spheroidData, cartesianPosition, worldRayDir, 0, out var intersection);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_5 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_5);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = V_0;
+		bool L_8;
+		L_8 = Geometry_RayEllipsoidIntersection_mD7FC27B9AF49C964E54D3DD1C61CF19DF74ADC5C(L_3, L_6, L_7, (0.0), (&V_1), NULL);
+		// if (isIntersected && intersection >= 0)
+		if (!L_8)
+		{
+			goto IL_027c;
+		}
+	}
+	{
+		double L_9 = V_1;
+		if ((!(((double)L_9) >= ((double)(0.0)))))
+		{
+			goto IL_027c;
+		}
+	}
+	{
+		// var oldENUReference = arcGISMapComponent.View.GetENUReference(cartesianPosition);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_10 = __this->___arcGISMapComponent_4;
+		NullCheck(L_10);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_11;
+		L_11 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_10, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_12 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_13 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_12);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_14;
+		L_14 = ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF(L_11, L_13, NULL);
+		V_2 = L_14;
+		// var geoPosition = arcGISMapComponent.View.WorldToGeographic(cartesianPosition);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_15 = __this->___arcGISMapComponent_4;
+		NullCheck(L_15);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_16;
+		L_16 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_15, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_17 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_18 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_17);
+		NullCheck(L_16);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_19;
+		L_19 = ArcGISView_WorldToGeographic_m18BBC5FD841B531EFE370DD199745D0EE443D955(L_16, L_18, NULL);
+		V_3 = L_19;
+		// double3 cartesianCoord = cartesianPosition + worldRayDir * intersection;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_20 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_21 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_20);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_22 = V_0;
+		double L_23 = V_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_24;
+		L_24 = double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline(L_22, L_23, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_25;
+		L_25 = double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline(L_21, L_24, NULL);
+		V_4 = L_25;
+		// var currentGeoPosition = arcGISMapComponent.View.WorldToGeographic(cartesianCoord);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_26 = __this->___arcGISMapComponent_4;
+		NullCheck(L_26);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_27;
+		L_27 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_26, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_28 = V_4;
+		NullCheck(L_27);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_29;
+		L_29 = ArcGISView_WorldToGeographic_m18BBC5FD841B531EFE370DD199745D0EE443D955(L_27, L_28, NULL);
+		V_5 = L_29;
+		// var visibleHemisphereDir = math.normalize(arcGISMapComponent.View.GeographicToWorld(new ArcGISPoint(geoPosition.X, 0, 0, geoPosition.SpatialReference)));
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_30 = __this->___arcGISMapComponent_4;
+		NullCheck(L_30);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_31;
+		L_31 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_30, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_32 = V_3;
+		NullCheck(L_32);
+		double L_33;
+		L_33 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_32, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_34 = V_3;
+		NullCheck(L_34);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_35;
+		L_35 = ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04(L_34, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_36 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_36);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_36, L_33, (0.0), (0.0), L_35, NULL);
+		NullCheck(L_31);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_37;
+		L_37 = ArcGISView_GeographicToWorld_mB3D52E55AF2B56E95459E9D9CE800BF7091B7B34(L_31, L_36, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_38;
+		L_38 = math_normalize_m13118ECBEA0AF4D81C9B2B289B2D6E1C2040DF44_inline(L_37, NULL);
+		V_6 = L_38;
+		// double dotVC = math.dot(cartesianCoord, visibleHemisphereDir);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_39 = V_4;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_40 = V_6;
+		double L_41;
+		L_41 = math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline(L_39, L_40, NULL);
+		V_7 = L_41;
+		// lastDotVC = firstDragStep ? dotVC : lastDotVC;
+		bool L_42 = __this->___firstDragStep_19;
+		G_B3_0 = __this;
+		if (L_42)
+		{
+			G_B4_0 = __this;
+			goto IL_00f3;
+		}
+	}
+	{
+		double L_43 = __this->___lastDotVC_18;
+		G_B5_0 = L_43;
+		G_B5_1 = G_B3_0;
+		goto IL_00f5;
+	}
+
+IL_00f3:
+	{
+		double L_44 = V_7;
+		G_B5_0 = L_44;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_00f5:
+	{
+		NullCheck(G_B5_1);
+		G_B5_1->___lastDotVC_18 = G_B5_0;
+		// double deltaX = firstDragStep ? 0 : lastArcGISPoint.X - currentGeoPosition.X;
+		bool L_45 = __this->___firstDragStep_19;
+		if (L_45)
+		{
+			goto IL_0117;
+		}
+	}
+	{
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_46 = __this->___lastArcGISPoint_17;
+		NullCheck(L_46);
+		double L_47;
+		L_47 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_46, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_48 = V_5;
+		NullCheck(L_48);
+		double L_49;
+		L_49 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_48, NULL);
+		G_B8_0 = ((double)il2cpp_codegen_subtract(L_47, L_49));
+		goto IL_0120;
+	}
+
+IL_0117:
+	{
+		G_B8_0 = (0.0);
+	}
+
+IL_0120:
+	{
+		V_8 = G_B8_0;
+		// double deltaY = firstDragStep ? 0 : lastArcGISPoint.Y - currentGeoPosition.Y;
+		bool L_50 = __this->___firstDragStep_19;
+		if (L_50)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_51 = __this->___lastArcGISPoint_17;
+		NullCheck(L_51);
+		double L_52;
+		L_52 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_51, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_53 = V_5;
+		NullCheck(L_53);
+		double L_54;
+		L_54 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_53, NULL);
+		G_B11_0 = ((double)il2cpp_codegen_subtract(L_52, L_54));
+		goto IL_0148;
+	}
+
+IL_013f:
+	{
+		G_B11_0 = (0.0);
+	}
+
+IL_0148:
+	{
+		V_9 = G_B11_0;
+		// deltaY = Math.Sign(dotVC) != Math.Sign(lastDotVC) ? 0 : deltaY;
+		double L_55 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_56;
+		L_56 = Math_Sign_m6E20753D72DE4B46CB1268023661DBE154294408(L_55, NULL);
+		double L_57 = __this->___lastDotVC_18;
+		int32_t L_58;
+		L_58 = Math_Sign_m6E20753D72DE4B46CB1268023661DBE154294408(L_57, NULL);
+		if ((!(((uint32_t)L_56) == ((uint32_t)L_58))))
+		{
+			goto IL_0162;
+		}
+	}
+	{
+		double L_59 = V_9;
+		G_B14_0 = L_59;
+		goto IL_016b;
+	}
+
+IL_0162:
+	{
+		G_B14_0 = (0.0);
+	}
+
+IL_016b:
+	{
+		V_9 = G_B14_0;
+		// lastArcGISPoint = new ArcGISPoint(currentGeoPosition.X + deltaX, currentGeoPosition.Y + deltaY, lastArcGISPoint.Z, lastArcGISPoint.SpatialReference);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_60 = V_5;
+		NullCheck(L_60);
+		double L_61;
+		L_61 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_60, NULL);
+		double L_62 = V_8;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_63 = V_5;
+		NullCheck(L_63);
+		double L_64;
+		L_64 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_63, NULL);
+		double L_65 = V_9;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_66 = __this->___lastArcGISPoint_17;
+		NullCheck(L_66);
+		double L_67;
+		L_67 = ArcGISPoint_get_Z_mE3B051B20A9E292A548B40B7C2E82F2C2FB9BB0D(L_66, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_68 = __this->___lastArcGISPoint_17;
+		NullCheck(L_68);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_69;
+		L_69 = ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04(L_68, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_70 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_70);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_70, ((double)il2cpp_codegen_add(L_61, L_62)), ((double)il2cpp_codegen_add(L_64, L_65)), L_67, L_69, NULL);
+		__this->___lastArcGISPoint_17 = L_70;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastArcGISPoint_17), (void*)L_70);
+		// var YVal = geoPosition.Y + (dotVC <= 0 ? -deltaY : deltaY);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_71 = V_3;
+		NullCheck(L_71);
+		double L_72;
+		L_72 = ArcGISPoint_get_Y_m37D5849189E4BA6056F1BD3CE1653A273B1410F4(L_71, NULL);
+		double L_73 = V_7;
+		G_B15_0 = L_72;
+		if ((((double)L_73) <= ((double)(0.0))))
+		{
+			G_B16_0 = L_72;
+			goto IL_01b9;
+		}
+	}
+	{
+		double L_74 = V_9;
+		G_B17_0 = L_74;
+		G_B17_1 = G_B15_0;
+		goto IL_01bc;
+	}
+
+IL_01b9:
+	{
+		double L_75 = V_9;
+		G_B17_0 = ((-L_75));
+		G_B17_1 = G_B16_0;
+	}
+
+IL_01bc:
+	{
+		V_10 = ((double)il2cpp_codegen_add(G_B17_1, G_B17_0));
+		// YVal = Math.Abs(YVal) < MaxCameraLatitude ? YVal : (YVal > 0 ? MaxCameraLatitude : -MaxCameraLatitude);
+		double L_76 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_77;
+		L_77 = fabs(L_76);
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_78 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraLatitude_15;
+		if ((((double)L_77) < ((double)L_78)))
+		{
+			goto IL_01e9;
+		}
+	}
+	{
+		double L_79 = V_10;
+		if ((((double)L_79) > ((double)(0.0))))
+		{
+			goto IL_01e2;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_80 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraLatitude_15;
+		G_B22_0 = ((-L_80));
+		goto IL_01eb;
+	}
+
+IL_01e2:
+	{
+		il2cpp_codegen_runtime_class_init_inline(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		double L_81 = ((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraLatitude_15;
+		G_B22_0 = L_81;
+		goto IL_01eb;
+	}
+
+IL_01e9:
+	{
+		double L_82 = V_10;
+		G_B22_0 = L_82;
+	}
+
+IL_01eb:
+	{
+		V_10 = G_B22_0;
+		// geoPosition = new ArcGISPoint(geoPosition.X + deltaX, YVal, geoPosition.Z, geoPosition.SpatialReference);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_83 = V_3;
+		NullCheck(L_83);
+		double L_84;
+		L_84 = ArcGISPoint_get_X_m436988DC94A3DDFBE3942D8E3045CAAA2E0FD522(L_83, NULL);
+		double L_85 = V_8;
+		double L_86 = V_10;
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_87 = V_3;
+		NullCheck(L_87);
+		double L_88;
+		L_88 = ArcGISPoint_get_Z_mE3B051B20A9E292A548B40B7C2E82F2C2FB9BB0D(L_87, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_89 = V_3;
+		NullCheck(L_89);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_90;
+		L_90 = ArcGISGeometry_get_SpatialReference_mB7D823B9BB3D7FF700EFB48E0C559F18FCC20F04(L_89, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_91 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_91);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_91, ((double)il2cpp_codegen_add(L_84, L_85)), L_86, L_88, L_90, NULL);
+		V_3 = L_91;
+		// cartesianPosition = arcGISMapComponent.View.GeographicToWorld(geoPosition);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_92 = ___0_cartesianPosition;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_93 = __this->___arcGISMapComponent_4;
+		NullCheck(L_93);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_94;
+		L_94 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_93, NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_95 = V_3;
+		NullCheck(L_94);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_96;
+		L_96 = ArcGISView_GeographicToWorld_mB3D52E55AF2B56E95459E9D9CE800BF7091B7B34(L_94, L_95, NULL);
+		*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_92 = L_96;
+		// var newENUReference = arcGISMapComponent.View.GetENUReference(cartesianPosition);
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_97 = __this->___arcGISMapComponent_4;
+		NullCheck(L_97);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_98;
+		L_98 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_97, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_99 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_100 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_99);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_101;
+		L_101 = ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF(L_98, L_100, NULL);
+		V_11 = L_101;
+		// cartesianRotation = math.mul(math.inverse(oldENUReference.GetRotation()), cartesianRotation);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_102 = ___1_cartesianRotation;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_103 = V_2;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_104;
+		L_104 = HPMath_GetRotation_mD3928B0174CE0CA828862E6E8121AB7165ECC46D(L_103, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_105;
+		L_105 = math_inverse_mAB8FC214DC9438E44EB31D19E3C70D3BDFAAF202_inline(L_104, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_106 = ___1_cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_107 = (*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_106);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_108;
+		L_108 = math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline(L_105, L_107, NULL);
+		*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_102 = L_108;
+		// cartesianRotation = math.mul(newENUReference.GetRotation(), cartesianRotation);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_109 = ___1_cartesianRotation;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_110 = V_11;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_111;
+		L_111 = HPMath_GetRotation_mD3928B0174CE0CA828862E6E8121AB7165ECC46D(L_110, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_112 = ___1_cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_113 = (*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_112);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_114;
+		L_114 = math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline(L_111, L_113, NULL);
+		*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_109 = L_114;
+		// firstDragStep = false;
+		__this->___firstDragStep_19 = (bool)0;
+		// lastDotVC = dotVC;
+		double L_115 = V_7;
+		__this->___lastDotVC_18 = L_115;
+	}
+
+IL_027c:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::RotateAround(Unity.Mathematics.double3&,Unity.Mathematics.quaternion&,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_RotateAround_mB0E4F337FC698F5425888053C2236050955B9A3E (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* ___0_cartesianPosition, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* ___1_cartesianRotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_deltaMouse, const RuntimeMethod* method) 
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		// var ENUReference = arcGISMapComponent.View.GetENUReference(cartesianPosition).ToMatrix4x4();
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_4;
+		NullCheck(L_0);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_1;
+		L_1 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_0, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* L_2 = ___0_cartesianPosition;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = (*(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4*)L_2);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_4;
+		L_4 = ArcGISViewExtensions_GetENUReference_m6487617137DBA9CE3723AE08CBF4EBE57C3046DF(L_1, L_3, NULL);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5;
+		L_5 = HPMath_ToMatrix4x4_mA501D31DB701CB8BC828E8BEA551E564BB06D508(L_4, NULL);
+		V_0 = L_5;
+		// angles.x = deltaMouse.x / (float)Screen.width * RotationSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___2_deltaMouse;
+		float L_7 = L_6.___x_2;
+		int32_t L_8;
+		L_8 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		float L_9 = __this->___RotationSpeed_11;
+		(&V_1)->___x_0 = ((float)il2cpp_codegen_multiply(((float)(L_7/((float)L_8))), L_9));
+		// angles.y = deltaMouse.y / (float)Screen.height * RotationSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___2_deltaMouse;
+		float L_11 = L_10.___y_3;
+		int32_t L_12;
+		L_12 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		float L_13 = __this->___RotationSpeed_11;
+		(&V_1)->___y_1 = ((float)il2cpp_codegen_multiply(((float)(L_11/((float)L_12))), L_13));
+		// angles.y = Mathf.Min(Mathf.Max(angles.y, -90.0f), 90.0f);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_1;
+		float L_15 = L_14.___y_1;
+		float L_16;
+		L_16 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_15, (-90.0f), NULL);
+		float L_17;
+		L_17 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_16, (90.0f), NULL);
+		(&V_1)->___y_1 = L_17;
+		// var right = Matrix4x4.Rotate(cartesianRotation).GetColumn(0);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_18 = ___1_cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_19 = (*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_18);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
+		L_20 = quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41(L_19, NULL);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_21;
+		L_21 = Matrix4x4_Rotate_m015442530DFF5651458BBFDFB3CBC9180FC09D9E(L_20, NULL);
+		V_5 = L_21;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_22;
+		L_22 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&V_5), 0, NULL);
+		V_2 = L_22;
+		// var rotationY = Quaternion.AngleAxis(angles.x, ENUReference.GetColumn(1));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = V_1;
+		float L_24 = L_23.___x_0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_25;
+		L_25 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&V_0), 1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_25, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27;
+		L_27 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(L_24, L_26, NULL);
+		V_3 = L_27;
+		// var rotationX = Quaternion.AngleAxis(-angles.y, right);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_1;
+		float L_29 = L_28.___y_1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_30 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_30, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32;
+		L_32 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(((-L_29)), L_31, NULL);
+		V_4 = L_32;
+		// cartesianRotation = rotationY * rotationX * cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_33 = ___1_cartesianRotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35 = V_4;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36;
+		L_36 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_34, L_35, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* L_37 = ___1_cartesianRotation;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_38 = (*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_37);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_39;
+		L_39 = quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41(L_38, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40;
+		L_40 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_36, L_39, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_41;
+		L_41 = quaternion_op_Implicit_m12C97CDC5FE642C53837F73E2F9B8761D530C502(L_40, NULL);
+		*(quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4*)L_33 = L_41;
+		// }
+		return;
+	}
+}
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::GetMouseRayCastDirection()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_GetMouseRayCastDirection_mA332A584E20312EAE05D5833057979670439FF96 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	{
+		// var forward = hpTransform.Forward.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		NullCheck(L_0);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
+		L_1 = HPTransform_get_Forward_m993BF27382E1F7452A7F7F0DF7ECC270AE9733DD(L_0, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2;
+		L_2 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_1, NULL);
+		V_0 = L_2;
+		// var right = hpTransform.Right.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_3 = __this->___hpTransform_5;
+		NullCheck(L_3);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4;
+		L_4 = HPTransform_get_Right_m2C374EDE7EB5D5B59B6316C64A11D38AB2D73F84(L_3, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_4, NULL);
+		V_1 = L_5;
+		// var up = hpTransform.Up.ToDouble3();
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_6 = __this->___hpTransform_5;
+		NullCheck(L_6);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
+		L_7 = HPTransform_get_Up_m1C7200EA25AEC1B49B31B2B2C85B1C9ED36A3E91(L_6, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8;
+		L_8 = float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline(L_7, NULL);
+		V_2 = L_8;
+		// var camera = gameObject.GetComponent<Camera>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_9);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10;
+		L_10 = GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6(L_9, GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6_RuntimeMethod_var);
+		// var view = new double4x4
+		// (
+		//     math.double4(right, 0),
+		//     math.double4(up, 0),
+		//     math.double4(forward, 0),
+		//     math.double4(double3.zero, 1)
+		// );
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_11 = V_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_12;
+		L_12 = math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline(L_11, (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_13 = V_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_14;
+		L_14 = math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline(L_13, (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_15 = V_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_16;
+		L_16 = math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline(L_15, (0.0), NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_17 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_18;
+		L_18 = math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline(L_17, (1.0), NULL);
+		double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline((&V_3), L_12, L_14, L_16, L_18, NULL);
+		// var proj = camera.projectionMatrix.inverse.ToDouble4x4();
+		NullCheck(L_10);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_19;
+		L_19 = Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A(L_10, NULL);
+		V_8 = L_19;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_20;
+		L_20 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD((&V_8), NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_21;
+		L_21 = MatrixExtension_ToDouble4x4_m882B94536FC161B1A2CE6ADBE7EE9ED4BB4649A4(L_20, NULL);
+		V_4 = L_21;
+		// proj.c2.w *= -1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_22 = (&(&V_4)->___c2_2);
+		double* L_23 = (&L_22->___w_3);
+		double* L_24 = L_23;
+		double L_25 = *((double*)L_24);
+		*((double*)L_24) = (double)((double)il2cpp_codegen_multiply(L_25, (-1.0)));
+		// proj.c3.z *= -1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* L_26 = (&(&V_4)->___c3_3);
+		double* L_27 = (&L_26->___z_2);
+		double* L_28 = L_27;
+		double L_29 = *((double*)L_28);
+		*((double*)L_28) = (double)((double)il2cpp_codegen_multiply(L_29, (-1.0)));
+		// var MousePosition = GetMousePosition();
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = ArcGISCameraControllerComponent_GetMousePosition_m0839676D6E916C0A0057671F372D7180ED0CBAC5(__this, NULL);
+		V_5 = L_30;
+		// double3 ndcCoord = new double3(2.0 * (MousePosition.x / Screen.width) - 1.0, 2.0 * (MousePosition.y / Screen.height) - 1.0, 1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_5;
+		float L_32 = L_31.___x_2;
+		int32_t L_33;
+		L_33 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_5;
+		float L_35 = L_34.___y_3;
+		int32_t L_36;
+		L_36 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&V_6), ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply((2.0), ((double)((float)(L_32/((float)L_33)))))), (1.0))), ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply((2.0), ((double)((float)(L_35/((float)L_36)))))), (1.0))), (1.0), NULL);
+		// double3 viewRayDir = math.normalize(proj.HomogeneousTransformPoint(ndcCoord));
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_37 = V_4;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_38 = V_6;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_39;
+		L_39 = HPMath_HomogeneousTransformPoint_mD4E424BEAD78D590A5026B18D40905DDF2A0343E_inline(L_37, L_38, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_40;
+		L_40 = math_normalize_m13118ECBEA0AF4D81C9B2B289B2D6E1C2040DF44_inline(L_39, NULL);
+		V_7 = L_40;
+		// return view.HomogeneousTransformVector(viewRayDir);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_41 = V_3;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_42 = V_7;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_43;
+		L_43 = HPMath_HomogeneousTransformVector_mD4C65D7735EC88B9CB9903914F412D9EA470B6B5_inline(L_41, L_42, NULL);
+		return L_43;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::FocusChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_FocusChanged_mEC77A7C9386CD673544210488A8283E62C0421CC (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, bool ___0_isFocus, const RuntimeMethod* method) 
+{
+	{
+		// firstOnFocus = true;
+		__this->___firstOnFocus_21 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::UpdateSpeed(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_UpdateSpeed_mCF8F629A632D17A62F81326C696FC8FDB2826ECE (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double ___0_height, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	{
+		// var msMaxSpeed = (MaxSpeed * 1000) / 3600;
+		double L_0 = __this->___MaxSpeed_22;
+		V_0 = ((double)(((double)il2cpp_codegen_multiply(L_0, (1000.0)))/(3600.0)));
+		// var msMinSpeed = (MinSpeed * 1000) / 3600;
+		double L_1 = __this->___MinSpeed_23;
+		V_1 = ((double)(((double)il2cpp_codegen_multiply(L_1, (1000.0)))/(3600.0)));
+		// TranslationSpeed = (float)(Math.Pow(Math.Min((height / 100000.0), 1), 2.0) * (msMaxSpeed - msMinSpeed) + msMinSpeed);
+		double L_2 = ___0_height;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_3;
+		L_3 = Math_Min_mA3310F1FF7876DA2FC7F37B822E6DD66410565C1(((double)(L_2/(100000.0))), (1.0), NULL);
+		double L_4;
+		L_4 = Math_Pow_mEAE651F0858203FBE12B72B6A53951BBD0FB5265(L_3, (2.0), NULL);
+		double L_5 = V_0;
+		double L_6 = V_1;
+		double L_7 = V_1;
+		__this->___TranslationSpeed_10 = ((float)((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_4, ((double)il2cpp_codegen_subtract(L_5, L_6)))), L_7)));
+		// }
+		return;
+	}
+}
+// Unity.Mathematics.double3 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::get_Position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ArcGISCameraControllerComponent_get_Position_mE975714C87554FE78211E62B30003C581D5FB090 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	{
+		// return hpTransform.UniversePosition;
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		NullCheck(L_0);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1;
+		L_1 = HPTransform_get_UniversePosition_m7ED66F0C5E5C63E0ED7CCC96551D70ABA1E96F12(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::set_Position(Unity.Mathematics.double3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_set_Position_m4A1FA4F2E0E6EBAC542F00E93524DE6E3B11FB26 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// hpTransform.UniversePosition = value;
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___0_value;
+		NullCheck(L_0);
+		HPTransform_set_UniversePosition_m0D5DBB46152059D91BD5666B5C7080C73DB57C66(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// Unity.Mathematics.quaternion Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::get_Rotation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ArcGISCameraControllerComponent_get_Rotation_m0E3A5128DA7B504F2A8D85B0B8CB7396EC803188 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	{
+		// return hpTransform.UniverseRotation;
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		NullCheck(L_0);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1;
+		L_1 = HPTransform_get_UniverseRotation_mE87A1C439F67301FCD86072790AD990A0C76E107(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::set_Rotation(Unity.Mathematics.quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent_set_Rotation_m613EE5B412EE9631CE3536D52E32278B71988B8B (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// hpTransform.UniverseRotation = value;
+		HPTransform_tD5E543FCE0726C417ADD5F976F8231289D966B9E* L_0 = __this->___hpTransform_5;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = ___0_value;
+		NullCheck(L_0);
+		HPTransform_set_UniverseRotation_m89008C41EFDA38D60D8C11256A1765444D5602A3(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent__ctor_m523F034BF5D445A1E77898F06B525570FBAE21F4 (ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private float RotationSpeed = 100.0f;
+		__this->___RotationSpeed_11 = (100.0f);
+		// private double MouseScrollSpeed = 0.1f;
+		__this->___MouseScrollSpeed_12 = (0.10000000149011612);
+		// private double3 lastCartesianPoint = double3.zero;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ((double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_StaticFields*)il2cpp_codegen_static_fields_for(double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4_il2cpp_TypeInfo_var))->___zero_3;
+		__this->___lastCartesianPoint_16 = L_0;
+		// private ArcGISPoint lastArcGISPoint = new ArcGISPoint(0, 0, 0, ArcGISSpatialReference.WGS84());
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_1;
+		L_1 = ArcGISSpatialReference_WGS84_mB8A74F047550EBC18BBA4F328AE4B46A041CBC99(NULL);
+		ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD* L_2 = (ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD*)il2cpp_codegen_object_new(ArcGISPoint_t789C0856298C4DF1A2C73AA10B5082290D46AFBD_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		ArcGISPoint__ctor_m9948038EEA6ABEFDE4783212FEDC9BA7921797AC(L_2, (0.0), (0.0), (0.0), L_1, NULL);
+		__this->___lastArcGISPoint_17 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastArcGISPoint_17), (void*)L_2);
+		// private bool firstDragStep = true;
+		__this->___firstDragStep_19 = (bool)1;
+		// private bool firstOnFocus = true;
+		__this->___firstOnFocus_21 = (bool)1;
+		// public double MaxSpeed = 2000000.0;
+		__this->___MaxSpeed_22 = (2000000.0);
+		// public double MinSpeed = 1000.0;
+		__this->___MinSpeed_23 = (1000.0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponent::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponent__cctor_m7333E6FD66891B835DBC8B5D839BA89224149DB9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static double MaxCameraHeight = 11000000.0;
+		((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraHeight_13 = (11000000.0);
+		// private static double MinCameraHeight = 1.8;
+		((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MinCameraHeight_14 = (1.8);
+		// private static double MaxCameraLatitude = 85.0;
+		((ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_StaticFields*)il2cpp_codegen_static_fields_for(ArcGISCameraControllerComponent_t9747EEF806E4BF7182CCC9C18C47CA65792CD033_il2cpp_TypeInfo_var))->___MaxCameraLatitude_15 = (85.0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.InputSystem.InputActionAsset Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_asset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputActionAsset asset { get; }
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___U3CassetU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions__ctor_m283656135C837EE1088972A22A48C80B9A1BD43F (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A70DC8C790D0EFD53AE03FF23CB99D8B7A53CA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral724F6EF07C0D3FFFD32A55027218B65FB4F377E1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D0744B42D825ABDF3BEA2282D80FFAD935CE205);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D354CA1036DDA6F701F800C5C1B3A4235D2EDD7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE20B211F8AE1EC582AC21FD4069D7C9DE9AD7B96);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public @ArcGISCameraControllerComponentActions()
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//             asset = InputActionAsset.FromJson(@"{
+		//     ""name"": ""ArcGISCameraControllerComponentActions"",
+		//     ""maps"": [
+		//         {
+		//             ""name"": ""Move"",
+		//             ""id"": ""2c9bcb99-1de2-4daf-9c89-769175e99ba2"",
+		//             ""actions"": [
+		//                 {
+		//                     ""name"": ""Up"",
+		//                     ""type"": ""Button"",
+		//                     ""id"": ""3761cf8f-23f1-44ca-820e-28b47b3be36f"",
+		//                     ""expectedControlType"": ""Button"",
+		//                     ""processors"": """",
+		//                     ""interactions"": """",
+		//                     ""initialStateCheck"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""Forward"",
+		//                     ""type"": ""Button"",
+		//                     ""id"": ""0d592f84-62a7-45eb-9648-8fc7d5dc1d10"",
+		//                     ""expectedControlType"": ""Button"",
+		//                     ""processors"": """",
+		//                     ""interactions"": """",
+		//                     ""initialStateCheck"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""Right"",
+		//                     ""type"": ""Button"",
+		//                     ""id"": ""f2a0ae8a-49b8-40ef-8d59-493e82dab5e0"",
+		//                     ""expectedControlType"": ""Button"",
+		//                     ""processors"": """",
+		//                     ""interactions"": """",
+		//                     ""initialStateCheck"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""GetCoordinates"",
+		//                     ""type"": ""Button"",
+		//                     ""id"": ""12a1c694-1b1a-43cb-a373-133cba54dde4"",
+		//                     ""expectedControlType"": ""Button"",
+		//                     ""processors"": """",
+		//                     ""interactions"": """",
+		//                     ""initialStateCheck"": false
+		//                 }
+		//             ],
+		//             ""bindings"": [
+		//                 {
+		//                     ""name"": ""Up"",
+		//                     ""id"": ""2a57c5e2-e595-4368-957f-b394bc4d26ed"",
+		//                     ""path"": ""1DAxis(minValue=-10,maxValue=10)"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""negative"",
+		//                     ""id"": ""456354b5-74f2-4346-a858-b7f7d7239dc6"",
+		//                     ""path"": ""<Gamepad>/leftStick/down"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""positive"",
+		//                     ""id"": ""b71bc2a8-b29a-4c10-b0af-61d850da1b6c"",
+		//                     ""path"": ""<Gamepad>/leftStick/up"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""UpAlt"",
+		//                     ""id"": ""36cf9440-7dd9-4660-a769-8a7da129031a"",
+		//                     ""path"": ""1DAxis"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""negative"",
+		//                     ""id"": ""9725a33c-9c3b-42e5-8a39-91fca5fc139a"",
+		//                     ""path"": ""<Keyboard>/q"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""positive"",
+		//                     ""id"": ""beebb3ee-c53e-4920-8b76-6ef1992c1813"",
+		//                     ""path"": ""<Keyboard>/e"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""UpVR"",
+		//                     ""id"": ""99d766f7-580c-4ecc-8406-876a6f567389"",
+		//                     ""path"": ""OneModifier"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""modifier"",
+		//                     ""id"": ""501d041d-34b6-4a24-a5af-a16ffe2aa3e9"",
+		//                     ""path"": ""<XRController>{RightHand}/gripPressed"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""binding"",
+		//                     ""id"": ""04060ea5-d679-44e5-80cf-3dfcfb5d7943"",
+		//                     ""path"": ""<XRController>{RightHand}/devicePosition/y"",
+		//                     ""interactions"": """",
+		//                     ""processors"": ""Invert,Scale(factor=75)"",
+		//                     ""groups"": """",
+		//                     ""action"": ""Up"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""ForwardVR"",
+		//                     ""id"": ""50e0300d-7d9a-4054-9838-ad2ee7b4cee8"",
+		//                     ""path"": ""1DAxis"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Forward"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""negative"",
+		//                     ""id"": ""16b9d37c-0f17-44bc-81d5-60fbdaade763"",
+		//                     ""path"": ""<XRController>{LeftHand}/gripPressed"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Forward"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""positive"",
+		//                     ""id"": ""ec763bd9-2cb6-4aee-bd28-63e7b74cdffc"",
+		//                     ""path"": ""<XRController>{LeftHand}/triggerPressed"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Forward"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""RightAlt"",
+		//                     ""id"": ""4a3e4613-7f52-4257-bcf5-f6ba6adfd1ce"",
+		//                     ""path"": ""1DAxis(minValue=-10,maxValue=10)"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""negative"",
+		//                     ""id"": ""6676c811-9056-49b8-8383-f6c9781510cf"",
+		//                     ""path"": ""<Gamepad>/leftStick/left"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""positive"",
+		//                     ""id"": ""c1bca799-6987-4879-98cc-d00643829b94"",
+		//                     ""path"": ""<Gamepad>/leftStick/right"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""RightVR"",
+		//                     ""id"": ""f4906ade-a545-43b4-9e81-3261c053d15e"",
+		//                     ""path"": ""OneModifier"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": true,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": ""modifier"",
+		//                     ""id"": ""50479104-6a88-4dd6-b8ed-92a9ed39fb8f"",
+		//                     ""path"": ""<XRController>{RightHand}/gripPressed"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": ""binding"",
+		//                     ""id"": ""09c2352f-9863-4dfe-b974-03e9671cfa03"",
+		//                     ""path"": ""<XRController>{RightHand}/devicePosition/x"",
+		//                     ""interactions"": """",
+		//                     ""processors"": ""Invert,Scale(factor=75)"",
+		//                     ""groups"": """",
+		//                     ""action"": ""Right"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": true
+		//                 },
+		//                 {
+		//                     ""name"": """",
+		//                     ""id"": ""54e1ca08-2bdb-4455-a99a-0aad675b0fb5"",
+		//                     ""path"": ""<Mouse>/middleButton"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""GetCoordinates"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": false
+		//                 },
+		//                 {
+		//                     ""name"": """",
+		//                     ""id"": ""1cb942c4-131d-41a7-af24-23b1865e0049"",
+		//                     ""path"": ""<XRController>{RightHand}/triggerPressed"",
+		//                     ""interactions"": """",
+		//                     ""processors"": """",
+		//                     ""groups"": """",
+		//                     ""action"": ""GetCoordinates"",
+		//                     ""isComposite"": false,
+		//                     ""isPartOfComposite"": false
+		//                 }
+		//             ]
+		//         }
+		//     ],
+		//     ""controlSchemes"": []
+		// }");
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = InputActionAsset_FromJson_m8F7212EB013EF4D853836228D393C0D15BD0433C(_stringLiteralE20B211F8AE1EC582AC21FD4069D7C9DE9AD7B96, NULL);
+		__this->___U3CassetU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CassetU3Ek__BackingField_0), (void*)L_0);
+		// m_Move = asset.FindActionMap("Move", throwIfNotFound: true);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_1;
+		L_1 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_1);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_2;
+		L_2 = InputActionAsset_FindActionMap_mE04E63102310DA7662194A4D283E2E42D90CCC75(L_1, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, (bool)1, NULL);
+		__this->___m_Move_1 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Move_1), (void*)L_2);
+		// m_Move_Up = m_Move.FindAction("Up", throwIfNotFound: true);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_3 = __this->___m_Move_1;
+		NullCheck(L_3);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
+		L_4 = InputActionMap_FindAction_m94A9B02203CFFA97310EC589FAD4CCB15898F0A3(L_3, _stringLiteral9D354CA1036DDA6F701F800C5C1B3A4235D2EDD7, (bool)1, NULL);
+		__this->___m_Move_Up_3 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Move_Up_3), (void*)L_4);
+		// m_Move_Forward = m_Move.FindAction("Forward", throwIfNotFound: true);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_5 = __this->___m_Move_1;
+		NullCheck(L_5);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
+		L_6 = InputActionMap_FindAction_m94A9B02203CFFA97310EC589FAD4CCB15898F0A3(L_5, _stringLiteral724F6EF07C0D3FFFD32A55027218B65FB4F377E1, (bool)1, NULL);
+		__this->___m_Move_Forward_4 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Move_Forward_4), (void*)L_6);
+		// m_Move_Right = m_Move.FindAction("Right", throwIfNotFound: true);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_7 = __this->___m_Move_1;
+		NullCheck(L_7);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_8;
+		L_8 = InputActionMap_FindAction_m94A9B02203CFFA97310EC589FAD4CCB15898F0A3(L_7, _stringLiteral16A70DC8C790D0EFD53AE03FF23CB99D8B7A53CA, (bool)1, NULL);
+		__this->___m_Move_Right_5 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Move_Right_5), (void*)L_8);
+		// m_Move_GetCoordinates = m_Move.FindAction("GetCoordinates", throwIfNotFound: true);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_9 = __this->___m_Move_1;
+		NullCheck(L_9);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_10;
+		L_10 = InputActionMap_FindAction_m94A9B02203CFFA97310EC589FAD4CCB15898F0A3(L_9, _stringLiteral9D0744B42D825ABDF3BEA2282D80FFAD935CE205, (bool)1, NULL);
+		__this->___m_Move_GetCoordinates_6 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Move_GetCoordinates_6), (void*)L_10);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions_Dispose_m0EA671FF5C8CB3EBBE94AD8DBAEA5046C79AF9A5 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// UnityEngine.Object.Destroy(asset);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Nullable`1<UnityEngine.InputSystem.InputBinding> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_bindingMask()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ArcGISCameraControllerComponentActions_get_bindingMask_m67CF13D89E99A7FAC544FA980D1A045C9222B30B (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => asset.bindingMask;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 L_1;
+		L_1 = InputActionAsset_get_bindingMask_mD5D2FAC455D221E7BC657DA5E7E4F5402E0B4F6C_inline(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::set_bindingMask(System.Nullable`1<UnityEngine.InputSystem.InputBinding>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions_set_bindingMask_m2D943510B0F06F415E39A6DE448D0F513138527E (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// set => asset.bindingMask = value;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 L_1 = ___0_value;
+		NullCheck(L_0);
+		InputActionAsset_set_bindingMask_mD621370B859495F593CBE28019D84F44922C94A5(L_0, L_1, NULL);
+		return;
+	}
+}
+// System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_devices()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D ArcGISCameraControllerComponentActions_get_devices_m0CD4578FBDAFC4AFDCAC8A18D3197757DE92BD8B (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => asset.devices;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D L_1;
+		L_1 = InputActionAsset_get_devices_m8FF856B2C61E23B7360A9279C10F8A6498C72B9C(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::set_devices(System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions_set_devices_m550CBB20F753A63B7E4E0A7A7B5C565E13F362BD (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// set => asset.devices = value;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		Nullable_1_t6B4D7100F56DCBBBD57A82F0DE4C93A1BA86EC4D L_1 = ___0_value;
+		NullCheck(L_0);
+		InputActionAsset_set_devices_m5A513BB841DB76966CD2B39E0E6FA8AFB3EBE38D(L_0, L_1, NULL);
+		return;
+	}
+}
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_controlSchemes()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyArray_1_tC41FC1476A6CC9385BDD74ECC6D3AF66A6C82BF9 ArcGISCameraControllerComponentActions_get_controlSchemes_mAA01DF4BAB2DE1EDE769DF4ABEFFA5BD08B688D6 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ReadOnlyArray<InputControlScheme> controlSchemes => asset.controlSchemes;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		ReadOnlyArray_1_tC41FC1476A6CC9385BDD74ECC6D3AF66A6C82BF9 L_1;
+		L_1 = InputActionAsset_get_controlSchemes_m257644C546BD6221DD62251F6C7C2A2CC11BD099(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::Contains(UnityEngine.InputSystem.InputAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArcGISCameraControllerComponentActions_Contains_m3A28295B4155FB577297D9C75759209D0351D385 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___0_action, const RuntimeMethod* method) 
+{
+	{
+		// return asset.Contains(action);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = ___0_action;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = InputActionAsset_Contains_mB3B9FBCE562FB5229F9387F14AEC22083FC6CDDE(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArcGISCameraControllerComponentActions_GetEnumerator_m56D4154F049AA03ABE781406D1E262DAC8BCDD85 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// return asset.GetEnumerator();
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = InputActionAsset_GetEnumerator_m39998F5B21D08AAE328E63B3FDCC0F414620A8A9(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Collections.IEnumerator Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArcGISCameraControllerComponentActions_System_Collections_IEnumerable_GetEnumerator_m91EA72CDCF254A99468E36C03A52BB52BA0308AC (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// return GetEnumerator();
+		RuntimeObject* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_GetEnumerator_m56D4154F049AA03ABE781406D1E262DAC8BCDD85(__this, NULL);
+		return L_0;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions_Enable_mD8554CCA3558E482BBE03BAB161A84A20545B824 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// asset.Enable();
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		InputActionAsset_Enable_m5102429EE832C7891F73B6979612702CECA8F431(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISCameraControllerComponentActions_Disable_m47CBD092F83E85A638E7FD9D3D9102BEC168DA21 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// asset.Disable();
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		InputActionAsset_Disable_m62FD8B11BB4EDF6AADAB2BDDC699242D09BAF99C(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding> Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_bindings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArcGISCameraControllerComponentActions_get_bindings_mA5470E894CFD75423CC48056439AB5A892CC5387 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IEnumerable<InputBinding> bindings => asset.bindings;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = InputActionAsset_get_bindings_mB045318575B5D7B13A92B973CABB40E0FEC70FB9(L_0, NULL);
+		return L_1;
+	}
+}
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::FindAction(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ArcGISCameraControllerComponentActions_FindAction_m75E0F6B9C890A064D44D8594B711AD17241BADA0 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, String_t* ___0_actionNameOrId, bool ___1_throwIfNotFound, const RuntimeMethod* method) 
+{
+	{
+		// return asset.FindAction(actionNameOrId, throwIfNotFound);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		String_t* L_1 = ___0_actionNameOrId;
+		bool L_2 = ___1_throwIfNotFound;
+		NullCheck(L_0);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
+		L_3 = InputActionAsset_FindAction_m50D07EAFAA8628B9793E7BBEEB2E89C2A9C45C00(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// System.Int32 Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::FindBinding(UnityEngine.InputSystem.InputBinding,UnityEngine.InputSystem.InputAction&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArcGISCameraControllerComponentActions_FindBinding_m2F582BB24223EFDF26A06C52B2ECB82FD5BDDE06 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___0_bindingMask, InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD** ___1_action, const RuntimeMethod* method) 
+{
+	{
+		// return asset.FindBinding(bindingMask, out action);
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0;
+		L_0 = ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline(__this, NULL);
+		InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 L_1 = ___0_bindingMask;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD** L_2 = ___1_action;
+		NullCheck(L_0);
+		int32_t L_3;
+		L_3 = InputActionAsset_FindBinding_mB5B36B9DDFAABFD4B528B891653B1B5B895DBDC5(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions::get_Move()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 ArcGISCameraControllerComponentActions_get_Move_mA422172D76CEB173A52F38F0F038B76A315FE6D8 (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public MoveActions @Move => new MoveActions(this);
+		MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1_inline((&L_0), __this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_pinvoke(const MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77& unmarshaled, MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___m_Wrapper_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Wrapper' of type 'MoveActions': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Wrapper_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_pinvoke_back(const MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_pinvoke& marshaled, MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77& unmarshaled)
+{
+	Exception_t* ___m_Wrapper_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Wrapper' of type 'MoveActions': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Wrapper_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_pinvoke_cleanup(MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_com(const MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77& unmarshaled, MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_com& marshaled)
+{
+	Exception_t* ___m_Wrapper_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Wrapper' of type 'MoveActions': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Wrapper_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_com_back(const MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_com& marshaled, MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77& unmarshaled)
+{
+	Exception_t* ___m_Wrapper_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Wrapper' of type 'MoveActions': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Wrapper_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions
+IL2CPP_EXTERN_C void MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshal_com_cleanup(MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77_marshaled_com& marshaled)
+{
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::.ctor(Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___0_wrapper, const RuntimeMethod* method) 
+{
+	{
+		// public MoveActions(@ArcGISCameraControllerComponentActions wrapper) { m_Wrapper = wrapper; }
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = ___0_wrapper;
+		__this->___m_Wrapper_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Wrapper_0), (void*)L_0);
+		// public MoveActions(@ArcGISCameraControllerComponentActions wrapper) { m_Wrapper = wrapper; }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1_AdjustorThunk (RuntimeObject* __this, ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___0_wrapper, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1_inline(_thisAdjusted, ___0_wrapper, method);
+}
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Up()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputAction @Up => m_Wrapper.m_Move_Up;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = L_0->___m_Move_Up_3;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* _returnValue;
+	_returnValue = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Forward()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputAction @Forward => m_Wrapper.m_Move_Forward;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = L_0->___m_Move_Forward_4;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* _returnValue;
+	_returnValue = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_Right()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputAction @Right => m_Wrapper.m_Move_Right;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = L_0->___m_Move_Right_5;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* _returnValue;
+	_returnValue = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.InputAction Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_GetCoordinates()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputAction @GetCoordinates => m_Wrapper.m_Move_GetCoordinates;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1 = L_0->___m_Move_GetCoordinates_6;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* _returnValue;
+	_returnValue = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.InputActionMap Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Get()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputActionMap Get() { return m_Wrapper.m_Move; }
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_1 = L_0->___m_Move_1;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* _returnValue;
+	_returnValue = MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Enable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_Enable_m33D2B67F136D786AA45C5319EB49D825FA2E4A7F (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public void Enable() { Get().Enable(); }
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_0;
+		L_0 = MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5(__this, NULL);
+		NullCheck(L_0);
+		InputActionMap_Enable_mAB23F0C4179D27C375F9FA335898B02E336CA4F6(L_0, NULL);
+		// public void Enable() { Get().Enable(); }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MoveActions_Enable_m33D2B67F136D786AA45C5319EB49D825FA2E4A7F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	MoveActions_Enable_m33D2B67F136D786AA45C5319EB49D825FA2E4A7F(_thisAdjusted, method);
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_Disable_m29D9FFD1B078413070F5A695FE4943B98EE42F0B (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public void Disable() { Get().Disable(); }
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_0;
+		L_0 = MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5(__this, NULL);
+		NullCheck(L_0);
+		InputActionMap_Disable_m987468348648610F8B84D4F481592FF37AF5445C(L_0, NULL);
+		// public void Disable() { Get().Disable(); }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MoveActions_Disable_m29D9FFD1B078413070F5A695FE4943B98EE42F0B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	MoveActions_Disable_m29D9FFD1B078413070F5A695FE4943B98EE42F0B(_thisAdjusted, method);
+}
+// System.Boolean Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::get_enabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveActions_get_enabled_m8A9277DC9B1ADE37531DFEF41B75C3E696769ECE (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool enabled => Get().enabled;
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_0;
+		L_0 = MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5(__this, NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = InputActionMap_get_enabled_mB89FAA20F1EA1884A28829B3E350822D7456E888(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  bool MoveActions_get_enabled_m8A9277DC9B1ADE37531DFEF41B75C3E696769ECE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = MoveActions_get_enabled_m8A9277DC9B1ADE37531DFEF41B75C3E696769ECE(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.InputActionMap Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::op_Implicit(Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* MoveActions_op_Implicit_mB4C5CFA839BFC3EEE25C6E118F5EF4733EB07504 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77 ___0_set, const RuntimeMethod* method) 
+{
+	{
+		// public static implicit operator InputActionMap(MoveActions set) { return set.Get(); }
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_0;
+		L_0 = MoveActions_Get_mD0604EF85055CB79252EE8D1C6990044424496B5((&___0_set), NULL);
+		return L_0;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/MoveActions::SetCallbacks(Esri.ArcGISMapsSDK.Samples.Components.ArcGISCameraControllerComponentActions/IMoveActions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveActions_SetCallbacks_m27759F5F85A1415FAC5616443BE211FC144EBA09 (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, RuntimeObject* ___0_instance, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (m_Wrapper.m_MoveActionsCallbackInterface != null)
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = __this->___m_Wrapper_0;
+		NullCheck(L_0);
+		RuntimeObject* L_1 = L_0->___m_MoveActionsCallbackInterface_2;
+		if (!L_1)
+		{
+			goto IL_01a8;
+		}
+	}
+	{
+		// @Up.started -= m_Wrapper.m_MoveActionsCallbackInterface.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
+		L_2 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_3 = __this->___m_Wrapper_0;
+		NullCheck(L_3);
+		RuntimeObject* L_4 = L_3->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_5 = L_4;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_6 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_6, L_5, (intptr_t)((void*)GetInterfaceMethodInfo(L_5, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_2);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_2, L_6, NULL);
+		// @Up.performed -= m_Wrapper.m_MoveActionsCallbackInterface.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_7;
+		L_7 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_8 = __this->___m_Wrapper_0;
+		NullCheck(L_8);
+		RuntimeObject* L_9 = L_8->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_10 = L_9;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_11 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_11, L_10, (intptr_t)((void*)GetInterfaceMethodInfo(L_10, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_7);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_7, L_11, NULL);
+		// @Up.canceled -= m_Wrapper.m_MoveActionsCallbackInterface.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12;
+		L_12 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_13 = __this->___m_Wrapper_0;
+		NullCheck(L_13);
+		RuntimeObject* L_14 = L_13->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_15 = L_14;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_16 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_16, L_15, (intptr_t)((void*)GetInterfaceMethodInfo(L_15, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_12);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_12, L_16, NULL);
+		// @Forward.started -= m_Wrapper.m_MoveActionsCallbackInterface.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_17;
+		L_17 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_18 = __this->___m_Wrapper_0;
+		NullCheck(L_18);
+		RuntimeObject* L_19 = L_18->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_20 = L_19;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_21 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_21, L_20, (intptr_t)((void*)GetInterfaceMethodInfo(L_20, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_17);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_17, L_21, NULL);
+		// @Forward.performed -= m_Wrapper.m_MoveActionsCallbackInterface.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_22;
+		L_22 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_23 = __this->___m_Wrapper_0;
+		NullCheck(L_23);
+		RuntimeObject* L_24 = L_23->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_25 = L_24;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_26 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_26);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_26, L_25, (intptr_t)((void*)GetInterfaceMethodInfo(L_25, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_22);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_22, L_26, NULL);
+		// @Forward.canceled -= m_Wrapper.m_MoveActionsCallbackInterface.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_27;
+		L_27 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_28 = __this->___m_Wrapper_0;
+		NullCheck(L_28);
+		RuntimeObject* L_29 = L_28->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_30 = L_29;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_31 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_31);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_31, L_30, (intptr_t)((void*)GetInterfaceMethodInfo(L_30, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_27);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_27, L_31, NULL);
+		// @Right.started -= m_Wrapper.m_MoveActionsCallbackInterface.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_32;
+		L_32 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_33 = __this->___m_Wrapper_0;
+		NullCheck(L_33);
+		RuntimeObject* L_34 = L_33->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_35 = L_34;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_36 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_36);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_36, L_35, (intptr_t)((void*)GetInterfaceMethodInfo(L_35, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_32);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_32, L_36, NULL);
+		// @Right.performed -= m_Wrapper.m_MoveActionsCallbackInterface.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_37;
+		L_37 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_38 = __this->___m_Wrapper_0;
+		NullCheck(L_38);
+		RuntimeObject* L_39 = L_38->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_40 = L_39;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_41 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_41);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_41, L_40, (intptr_t)((void*)GetInterfaceMethodInfo(L_40, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_37);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_37, L_41, NULL);
+		// @Right.canceled -= m_Wrapper.m_MoveActionsCallbackInterface.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_42;
+		L_42 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_43 = __this->___m_Wrapper_0;
+		NullCheck(L_43);
+		RuntimeObject* L_44 = L_43->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_45 = L_44;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_46 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_46);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_46, L_45, (intptr_t)((void*)GetInterfaceMethodInfo(L_45, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_42);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_42, L_46, NULL);
+		// @GetCoordinates.started -= m_Wrapper.m_MoveActionsCallbackInterface.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_47;
+		L_47 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_48 = __this->___m_Wrapper_0;
+		NullCheck(L_48);
+		RuntimeObject* L_49 = L_48->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_50 = L_49;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_51 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_51);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_51, L_50, (intptr_t)((void*)GetInterfaceMethodInfo(L_50, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_47);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_47, L_51, NULL);
+		// @GetCoordinates.performed -= m_Wrapper.m_MoveActionsCallbackInterface.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_52;
+		L_52 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_53 = __this->___m_Wrapper_0;
+		NullCheck(L_53);
+		RuntimeObject* L_54 = L_53->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_55 = L_54;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_56 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_56);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_56, L_55, (intptr_t)((void*)GetInterfaceMethodInfo(L_55, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_52);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_52, L_56, NULL);
+		// @GetCoordinates.canceled -= m_Wrapper.m_MoveActionsCallbackInterface.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_57;
+		L_57 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_58 = __this->___m_Wrapper_0;
+		NullCheck(L_58);
+		RuntimeObject* L_59 = L_58->___m_MoveActionsCallbackInterface_2;
+		RuntimeObject* L_60 = L_59;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_61 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_61);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_61, L_60, (intptr_t)((void*)GetInterfaceMethodInfo(L_60, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_57);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_57, L_61, NULL);
+	}
+
+IL_01a8:
+	{
+		// m_Wrapper.m_MoveActionsCallbackInterface = instance;
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_62 = __this->___m_Wrapper_0;
+		RuntimeObject* L_63 = ___0_instance;
+		NullCheck(L_62);
+		L_62->___m_MoveActionsCallbackInterface_2 = L_63;
+		Il2CppCodeGenWriteBarrier((void**)(&L_62->___m_MoveActionsCallbackInterface_2), (void*)L_63);
+		// if (instance != null)
+		RuntimeObject* L_64 = ___0_instance;
+		if (!L_64)
+		{
+			goto IL_02da;
+		}
+	}
+	{
+		// @Up.started += instance.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_65;
+		L_65 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		RuntimeObject* L_66 = ___0_instance;
+		RuntimeObject* L_67 = L_66;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_68 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_68);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_68, L_67, (intptr_t)((void*)GetInterfaceMethodInfo(L_67, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_65);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_65, L_68, NULL);
+		// @Up.performed += instance.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_69;
+		L_69 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		RuntimeObject* L_70 = ___0_instance;
+		RuntimeObject* L_71 = L_70;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_72 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_72);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_72, L_71, (intptr_t)((void*)GetInterfaceMethodInfo(L_71, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_69);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_69, L_72, NULL);
+		// @Up.canceled += instance.OnUp;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_73;
+		L_73 = MoveActions_get_Up_m6CBC95D4342AC5682C470BD25DE84F4ED7DE4A37(__this, NULL);
+		RuntimeObject* L_74 = ___0_instance;
+		RuntimeObject* L_75 = L_74;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_76 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_76);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_76, L_75, (intptr_t)((void*)GetInterfaceMethodInfo(L_75, 0, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_73);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_73, L_76, NULL);
+		// @Forward.started += instance.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_77;
+		L_77 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		RuntimeObject* L_78 = ___0_instance;
+		RuntimeObject* L_79 = L_78;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_80 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_80);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_80, L_79, (intptr_t)((void*)GetInterfaceMethodInfo(L_79, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_77);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_77, L_80, NULL);
+		// @Forward.performed += instance.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_81;
+		L_81 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		RuntimeObject* L_82 = ___0_instance;
+		RuntimeObject* L_83 = L_82;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_84 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_84, L_83, (intptr_t)((void*)GetInterfaceMethodInfo(L_83, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_81);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_81, L_84, NULL);
+		// @Forward.canceled += instance.OnForward;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_85;
+		L_85 = MoveActions_get_Forward_mAF96158E2A7CAA00D1C7B9C89C49F1868C05C821(__this, NULL);
+		RuntimeObject* L_86 = ___0_instance;
+		RuntimeObject* L_87 = L_86;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_88 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_88);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_88, L_87, (intptr_t)((void*)GetInterfaceMethodInfo(L_87, 1, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_85);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_85, L_88, NULL);
+		// @Right.started += instance.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_89;
+		L_89 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		RuntimeObject* L_90 = ___0_instance;
+		RuntimeObject* L_91 = L_90;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_92 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_92);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_92, L_91, (intptr_t)((void*)GetInterfaceMethodInfo(L_91, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_89);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_89, L_92, NULL);
+		// @Right.performed += instance.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_93;
+		L_93 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		RuntimeObject* L_94 = ___0_instance;
+		RuntimeObject* L_95 = L_94;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_96 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_96);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_96, L_95, (intptr_t)((void*)GetInterfaceMethodInfo(L_95, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_93);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_93, L_96, NULL);
+		// @Right.canceled += instance.OnRight;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_97;
+		L_97 = MoveActions_get_Right_m938819713CBA41A7E4A59CED739D5B400FC2E9D1(__this, NULL);
+		RuntimeObject* L_98 = ___0_instance;
+		RuntimeObject* L_99 = L_98;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_100 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_100);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_100, L_99, (intptr_t)((void*)GetInterfaceMethodInfo(L_99, 2, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_97);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_97, L_100, NULL);
+		// @GetCoordinates.started += instance.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_101;
+		L_101 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		RuntimeObject* L_102 = ___0_instance;
+		RuntimeObject* L_103 = L_102;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_104 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_104);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_104, L_103, (intptr_t)((void*)GetInterfaceMethodInfo(L_103, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_101);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_101, L_104, NULL);
+		// @GetCoordinates.performed += instance.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_105;
+		L_105 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		RuntimeObject* L_106 = ___0_instance;
+		RuntimeObject* L_107 = L_106;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_108 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_108);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_108, L_107, (intptr_t)((void*)GetInterfaceMethodInfo(L_107, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_105);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_105, L_108, NULL);
+		// @GetCoordinates.canceled += instance.OnGetCoordinates;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_109;
+		L_109 = MoveActions_get_GetCoordinates_m72EA20B0BEBF3AE1986C44A0524F62B9752A0422(__this, NULL);
+		RuntimeObject* L_110 = ___0_instance;
+		RuntimeObject* L_111 = L_110;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_112 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		NullCheck(L_112);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_112, L_111, (intptr_t)((void*)GetInterfaceMethodInfo(L_111, 3, IMoveActions_t1EFE3AE8FCD397969EAB7D4B8A13341CEB2A9961_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_109);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_109, L_112, NULL);
+	}
+
+IL_02da:
+	{
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MoveActions_SetCallbacks_m27759F5F85A1415FAC5616443BE211FC144EBA09_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_instance, const RuntimeMethod* method)
+{
+	MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77*>(__this + _offset);
+	MoveActions_SetCallbacks_m27759F5F85A1415FAC5616443BE211FC144EBA09(_thisAdjusted, ___0_instance, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::OnEnable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_OnEnable_mB90640CC092417843E3D141B16FE5F6FA91CE629 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m48048CEC8C895EC5EA48D7E3554DC12D218614EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7EC1DB04E87FF7730A44EB2E46E7B7AF9BB1F14C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// arcGISMapComponent = GetComponentInParent<ArcGISMapComponent>();
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0;
+		L_0 = Component_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m48048CEC8C895EC5EA48D7E3554DC12D218614EF(__this, Component_GetComponentInParent_TisArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C_m48048CEC8C895EC5EA48D7E3554DC12D218614EF_RuntimeMethod_var);
+		__this->___arcGISMapComponent_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___arcGISMapComponent_5), (void*)L_0);
+		// if (arcGISMapComponent == null)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_1 = __this->___arcGISMapComponent_5;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		// Debug.LogError("Unable to find a parent ArcGISMapComponent.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral7EC1DB04E87FF7730A44EB2E46E7B7AF9BB1F14C, NULL);
+		// enabled = false;
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		// return;
+		return;
+	}
+
+IL_002c:
+	{
+		// SubscribeToViewStateEvents();
+		ArcGISViewStateLoggingComponent_SubscribeToViewStateEvents_m1B866B11EC21675BE97748721F457B19E9979B10(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::OnDisable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_OnDisable_m5670B2A70A31FB17E7AAEE58BD6819EB355C3EF2 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// arcGISMapComponent.View.ViewStateChanged = null;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_5;
+		NullCheck(L_0);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_1;
+		L_1 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_0, NULL);
+		NullCheck(L_1);
+		ArcGISView_set_ViewStateChanged_mF39E05BCDAEFC45B38D85C05BCD2AF19607A4FB4(L_1, (ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0*)NULL, NULL);
+		// arcGISMapComponent.View.ElevationSourceViewStateChanged = null;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_2 = __this->___arcGISMapComponent_5;
+		NullCheck(L_2);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_3;
+		L_3 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_2, NULL);
+		NullCheck(L_3);
+		ArcGISView_set_ElevationSourceViewStateChanged_mC63CAABD36EF20B692B5491A5A53F0DBEBE86351(L_3, (ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4*)NULL, NULL);
+		// arcGISMapComponent.View.LayerViewStateChanged = null;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_4 = __this->___arcGISMapComponent_5;
+		NullCheck(L_4);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_5;
+		L_5 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_4, NULL);
+		NullCheck(L_5);
+		ArcGISView_set_LayerViewStateChanged_m711FEB22896E6826D8B915E5BF5432C8DB43791D(L_5, (ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C*)NULL, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::SubscribeToViewStateEvents()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_SubscribeToViewStateEvents_m1B866B11EC21675BE97748721F457B19E9979B10 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_0_mC218367F9EEB53A5D33EE27A55536943494651E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_1_mE34FE163008BE38F797ADD97D80302A9BD238F42_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_2_mDC4B210C227DD44275ADECBD956D3964B346A6C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_3_m142D720B1D3EFF586A9D73364593B702FB21C51E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (arcGISMapComponent == null || arcGISMapComponent.View == null)
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_5;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_2 = __this->___arcGISMapComponent_5;
+		NullCheck(L_2);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_3;
+		L_3 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_001c;
+		}
+	}
+
+IL_001b:
+	{
+		// return;
+		return;
+	}
+
+IL_001c:
+	{
+		// arcGISMapComponent.View.ElevationSourceViewStateChanged += (Esri.GameEngine.Elevation.Base.ArcGISElevationSource layer, ArcGISElevationSourceViewState arcGISElevationSourceViewState) =>
+		// {
+		//     var message = arcGISElevationSourceViewState.Message?.GetMessage();
+		//     var status = arcGISElevationSourceViewState.Status;
+		// 
+		//     var statusString = "ArcGISElevationSourceViewState " + layer.Name + " changed to : " + status.ToString();
+		// 
+		//     if ((status.HasFlag(ArcGISElevationSourceViewStatus.Error) || status.HasFlag(ArcGISElevationSourceViewStatus.Warning)) && message != null)
+		//     {
+		//         statusString += " (" + message + ")";
+		// 
+		//         var additionalInfo = arcGISElevationSourceViewState.Message.GetAdditionalInformation();
+		//         string additionalMessage = "";
+		//         additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		// 
+		//         if (additionalMessage != null && additionalMessage != "")
+		//         {
+		//             statusString += "\nAdditional info: " + additionalMessage;
+		//         }
+		//     }
+		// 
+		//     if (enableLogging)
+		//     {
+		//         Debug.Log(statusString);
+		//     }
+		// };
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_4 = __this->___arcGISMapComponent_5;
+		NullCheck(L_4);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_5;
+		L_5 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_4, NULL);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_6 = L_5;
+		NullCheck(L_6);
+		ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4* L_7;
+		L_7 = ArcGISView_get_ElevationSourceViewStateChanged_m9B96746A72F809CDB66176A851684AB295AEA063(L_6, NULL);
+		ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4* L_8 = (ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4*)il2cpp_codegen_object_new(ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		ArcGISElevationSourceViewStateChangedEvent__ctor_m28A685C6D71A257729FF100116743D556D8999C2(L_8, __this, (intptr_t)((void*)ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_0_mC218367F9EEB53A5D33EE27A55536943494651E6_RuntimeMethod_var), NULL);
+		Delegate_t* L_9;
+		L_9 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_7, L_8, NULL);
+		NullCheck(L_6);
+		ArcGISView_set_ElevationSourceViewStateChanged_mC63CAABD36EF20B692B5491A5A53F0DBEBE86351(L_6, ((ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4*)CastclassSealed((RuntimeObject*)L_9, ArcGISElevationSourceViewStateChangedEvent_t59A8CA10771916DB59E5D4D37D76C68648A17FE4_il2cpp_TypeInfo_var)), NULL);
+		// arcGISMapComponent.View.LayerViewStateChanged += (Esri.GameEngine.Layers.Base.ArcGISLayer layer, ArcGISLayerViewState arcGISLayerViewState) =>
+		// {
+		//     var message = arcGISLayerViewState.Message?.GetMessage();
+		//     var status = arcGISLayerViewState.Status;
+		// 
+		//     var statusString = "ArcGISLayerViewState " + layer.Name + " changed to : " + status.ToString();
+		// 
+		//     if ((status.HasFlag(ArcGISLayerViewStatus.Error) || status.HasFlag(ArcGISLayerViewStatus.Warning)) && message != null)
+		//     {
+		//         statusString += " (" + message + ")";
+		// 
+		//         var additionalInfo = arcGISLayerViewState.Message.GetAdditionalInformation();
+		//         string additionalMessage = "";
+		//         additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		// 
+		//         if (additionalMessage != null && additionalMessage != "")
+		//         {
+		//             statusString += "\nAdditional info: " + additionalMessage;
+		//         }
+		//     }
+		// 
+		//     if (enableLogging)
+		//     {
+		//         Debug.Log(statusString);
+		//     }
+		// };
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_10 = __this->___arcGISMapComponent_5;
+		NullCheck(L_10);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_11;
+		L_11 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_10, NULL);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_12 = L_11;
+		NullCheck(L_12);
+		ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C* L_13;
+		L_13 = ArcGISView_get_LayerViewStateChanged_m75B33C3496D6B3744353A3D967BAD764C4968EC1(L_12, NULL);
+		ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C* L_14 = (ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C*)il2cpp_codegen_object_new(ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		ArcGISLayerViewStateChangedEvent__ctor_mEDD0DDA3D0A5CB13E1817CC49D201C4707FA41A6(L_14, __this, (intptr_t)((void*)ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_1_mE34FE163008BE38F797ADD97D80302A9BD238F42_RuntimeMethod_var), NULL);
+		Delegate_t* L_15;
+		L_15 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_13, L_14, NULL);
+		NullCheck(L_12);
+		ArcGISView_set_LayerViewStateChanged_m711FEB22896E6826D8B915E5BF5432C8DB43791D(L_12, ((ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C*)CastclassSealed((RuntimeObject*)L_15, ArcGISLayerViewStateChangedEvent_t15A90FAB07035E7440CBF124E1713841A2BB6B2C_il2cpp_TypeInfo_var)), NULL);
+		// arcGISMapComponent.View.ViewStateChanged += (ArcGISViewState arcGISViewState) =>
+		// {
+		//     var message = arcGISViewState.Message?.GetMessage();
+		//     var status = arcGISViewState.Status;
+		// 
+		//     var statusString = "ArcGISViewState changed to : " + status.ToString();
+		// 
+		//     if ((status.HasFlag(ArcGISViewStatus.Error) || status.HasFlag(ArcGISViewStatus.Warning)) && message != null)
+		//     {
+		//         statusString += " (" + message + ")";
+		// 
+		//         var additionalInfo = arcGISViewState.Message.GetAdditionalInformation();
+		//         string additionalMessage = "";
+		//         additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		// 
+		//         if (additionalMessage != null && additionalMessage != "")
+		//         {
+		//             statusString += "\nAdditional info: " + additionalMessage;
+		//         }
+		//     }
+		// 
+		//     if (enableLogging)
+		//     {
+		//         Debug.Log(statusString);
+		//     }
+		// };
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_16 = __this->___arcGISMapComponent_5;
+		NullCheck(L_16);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_17;
+		L_17 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_16, NULL);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_18 = L_17;
+		NullCheck(L_18);
+		ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0* L_19;
+		L_19 = ArcGISView_get_ViewStateChanged_m35A72508F906130DC46CED27CA2F2723E0B17A6B(L_18, NULL);
+		ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0* L_20 = (ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0*)il2cpp_codegen_object_new(ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0_il2cpp_TypeInfo_var);
+		NullCheck(L_20);
+		ArcGISViewStateChangedEvent__ctor_m8BD386F8BEFCEEA8D23299B0D7E817E7860203E2(L_20, __this, (intptr_t)((void*)ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_2_mDC4B210C227DD44275ADECBD956D3964B346A6C3_RuntimeMethod_var), NULL);
+		Delegate_t* L_21;
+		L_21 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_19, L_20, NULL);
+		NullCheck(L_18);
+		ArcGISView_set_ViewStateChanged_mF39E05BCDAEFC45B38D85C05BCD2AF19607A4FB4(L_18, ((ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0*)CastclassSealed((RuntimeObject*)L_21, ArcGISViewStateChangedEvent_t2D77D0936AFA59D9D2069A020A4B8746C4A20DF0_il2cpp_TypeInfo_var)), NULL);
+		// arcGISMapComponent.View.SpatialReferenceChanged += () =>
+		// {
+		//     var spatialReference = arcGISMapComponent.View.SpatialReference;
+		// 
+		//     if (spatialReference != null)
+		//     {
+		//         if (enableLogging)
+		//         {
+		//             Debug.Log("SpatialReference changed to : " + spatialReference.WKID.ToString());
+		//         }
+		//     }
+		// };
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_22 = __this->___arcGISMapComponent_5;
+		NullCheck(L_22);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_23;
+		L_23 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_22, NULL);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_24 = L_23;
+		NullCheck(L_24);
+		ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4* L_25;
+		L_25 = ArcGISView_get_SpatialReferenceChanged_m820E06B23D283CC6CC37AFB1335D3CEDACAD8282(L_24, NULL);
+		ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4* L_26 = (ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4*)il2cpp_codegen_object_new(ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4_il2cpp_TypeInfo_var);
+		NullCheck(L_26);
+		ArcGISViewSpatialReferenceChangedEvent__ctor_m44D558E28C2F5BD09AA9BA5A97DB164DEF1FFE1C(L_26, __this, (intptr_t)((void*)ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_3_m142D720B1D3EFF586A9D73364593B702FB21C51E_RuntimeMethod_var), NULL);
+		Delegate_t* L_27;
+		L_27 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_25, L_26, NULL);
+		NullCheck(L_24);
+		ArcGISView_set_SpatialReferenceChanged_m65ECF54AF507C2FCBB77E4DCD34DE68C5DF5788E(L_24, ((ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4*)CastclassSealed((RuntimeObject*)L_27, ArcGISViewSpatialReferenceChangedEvent_t2A4BC642A3B7ACC1087C17B8391383BF6C6EB7B4_il2cpp_TypeInfo_var)), NULL);
+		// }
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent__ctor_mD7A25D4D1D28F5EC2380BD7BA021FEB1B3EC967C (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool enableLogging = true;
+		__this->___enableLogging_4 = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::<SubscribeToViewStateEvents>b__4_0(Esri.GameEngine.Elevation.Base.ArcGISElevationSource,Esri.GameEngine.View.State.ArcGISElevationSourceViewState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_0_mC218367F9EEB53A5D33EE27A55536943494651E6 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F* ___0_layer, ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* ___1_arcGISElevationSourceViewState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISElevationSourceViewStatus_t122162AF3F54CDAD39B9C694F84275E8D9CCC8DB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8BE5699979AC3DE9620AFBA19563FBC5BC8CE935);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC16A72F568099036F31C777BB6DB1252A60B74E0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B2_0 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		// var message = arcGISElevationSourceViewState.Message?.GetMessage();
+		ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* L_0 = ___1_arcGISElevationSourceViewState;
+		NullCheck(L_0);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_1;
+		L_1 = ArcGISElevationSourceViewState_get_Message_m1A6E4076702AA36EDCEAAB7C080F21228DFF23EB(L_0, NULL);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_000d;
+		}
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		goto IL_0012;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		String_t* L_3;
+		L_3 = ArcGISViewStateMessage_GetMessage_m3170DC93134B73F7BB2125A045B4E3B2EFBE648C(G_B2_0, NULL);
+		G_B3_0 = L_3;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		// var status = arcGISElevationSourceViewState.Status;
+		ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* L_4 = ___1_arcGISElevationSourceViewState;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ArcGISElevationSourceViewState_get_Status_m2F6BA465CFBD7E573D825BDE3520447525009D25(L_4, NULL);
+		V_1 = L_5;
+		// var statusString = "ArcGISElevationSourceViewState " + layer.Name + " changed to : " + status.ToString();
+		ArcGISElevationSource_t7E37A40E6A83C43F2C3E948EAE99C10B6B052F0F* L_6 = ___0_layer;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = ArcGISElevationSource_get_Name_mB7CFFC8EE53CEAC4C53670578A980AD3253FFC84(L_6, NULL);
+		Il2CppFakeBox<int32_t> L_8(ArcGISElevationSourceViewStatus_t122162AF3F54CDAD39B9C694F84275E8D9CCC8DB_il2cpp_TypeInfo_var, (&V_1));
+		String_t* L_9;
+		L_9 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_8), NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralC16A72F568099036F31C777BB6DB1252A60B74E0, L_7, _stringLiteral8BE5699979AC3DE9620AFBA19563FBC5BC8CE935, L_9, NULL);
+		V_2 = L_10;
+		// if ((status.HasFlag(ArcGISElevationSourceViewStatus.Error) || status.HasFlag(ArcGISElevationSourceViewStatus.Warning)) && message != null)
+		int32_t L_11 = V_1;
+		int32_t L_12 = L_11;
+		int32_t L_13 = ((int32_t)16);
+		bool L_14 = il2cpp_codegen_enum_has_flag((int32_t)L_12, (int32_t)L_13);
+		if (L_14)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		int32_t L_17 = ((int32_t)32);
+		bool L_18 = il2cpp_codegen_enum_has_flag((int32_t)L_16, (int32_t)L_17);
+		if (!L_18)
+		{
+			goto IL_00b5;
+		}
+	}
+
+IL_0065:
+	{
+		String_t* L_19 = V_0;
+		if (!L_19)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		// statusString += " (" + message + ")";
+		String_t* L_20 = V_2;
+		String_t* L_21 = V_0;
+		String_t* L_22;
+		L_22 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_20, _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32, L_21, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		V_2 = L_22;
+		// var additionalInfo = arcGISElevationSourceViewState.Message.GetAdditionalInformation();
+		ArcGISElevationSourceViewState_t7664D305077A327770353B2FD9A5B3FE81008536* L_23 = ___1_arcGISElevationSourceViewState;
+		NullCheck(L_23);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_24;
+		L_24 = ArcGISElevationSourceViewState_get_Message_m1A6E4076702AA36EDCEAAB7C080F21228DFF23EB(L_23, NULL);
+		NullCheck(L_24);
+		ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC* L_25;
+		L_25 = ArcGISViewStateMessage_GetAdditionalInformation_mA83197CC58B522603C63EB2E1F9EA77D89FEC4B8(L_24, NULL);
+		// string additionalMessage = "";
+		V_3 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		// additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		NullCheck(L_25);
+		bool L_26;
+		L_26 = ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751(L_25, _stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B, (&V_3), ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		// if (additionalMessage != null && additionalMessage != "")
+		String_t* L_27 = V_3;
+		if (!L_27)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		String_t* L_28 = V_3;
+		bool L_29;
+		L_29 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_28, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_29)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		// statusString += "\nAdditional info: " + additionalMessage;
+		String_t* L_30 = V_2;
+		String_t* L_31 = V_3;
+		String_t* L_32;
+		L_32 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_30, _stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4, L_31, NULL);
+		V_2 = L_32;
+	}
+
+IL_00b5:
+	{
+		// if (enableLogging)
+		bool L_33 = __this->___enableLogging_4;
+		if (!L_33)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		// Debug.Log(statusString);
+		String_t* L_34 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_34, NULL);
+	}
+
+IL_00c3:
+	{
+		// };
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::<SubscribeToViewStateEvents>b__4_1(Esri.GameEngine.Layers.Base.ArcGISLayer,Esri.GameEngine.View.State.ArcGISLayerViewState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_1_mE34FE163008BE38F797ADD97D80302A9BD238F42 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* ___0_layer, ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* ___1_arcGISLayerViewState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISLayerViewStatus_t1CF73F38A0F934F70488533AA868EA8B87B84C1B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8BE5699979AC3DE9620AFBA19563FBC5BC8CE935);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE61CD0CEC26DE828F369FEF299C7118F6873632A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B2_0 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		// var message = arcGISLayerViewState.Message?.GetMessage();
+		ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* L_0 = ___1_arcGISLayerViewState;
+		NullCheck(L_0);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_1;
+		L_1 = ArcGISLayerViewState_get_Message_mB465576DE6C3D051EED1D4545687FF84054195BB(L_0, NULL);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_000d;
+		}
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		goto IL_0012;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		String_t* L_3;
+		L_3 = ArcGISViewStateMessage_GetMessage_m3170DC93134B73F7BB2125A045B4E3B2EFBE648C(G_B2_0, NULL);
+		G_B3_0 = L_3;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		// var status = arcGISLayerViewState.Status;
+		ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* L_4 = ___1_arcGISLayerViewState;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ArcGISLayerViewState_get_Status_m1D95E8866E238E6B4331534AEE0126FE8DD06763(L_4, NULL);
+		V_1 = L_5;
+		// var statusString = "ArcGISLayerViewState " + layer.Name + " changed to : " + status.ToString();
+		ArcGISLayer_t80D0434BA9C98500800E5FFFA72CC75D68DD9B29* L_6 = ___0_layer;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = ArcGISLayer_get_Name_mAA1EF99A6DDCD877F46B20DE8EB1F0F1DFDCDEC1(L_6, NULL);
+		Il2CppFakeBox<int32_t> L_8(ArcGISLayerViewStatus_t1CF73F38A0F934F70488533AA868EA8B87B84C1B_il2cpp_TypeInfo_var, (&V_1));
+		String_t* L_9;
+		L_9 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_8), NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralE61CD0CEC26DE828F369FEF299C7118F6873632A, L_7, _stringLiteral8BE5699979AC3DE9620AFBA19563FBC5BC8CE935, L_9, NULL);
+		V_2 = L_10;
+		// if ((status.HasFlag(ArcGISLayerViewStatus.Error) || status.HasFlag(ArcGISLayerViewStatus.Warning)) && message != null)
+		int32_t L_11 = V_1;
+		int32_t L_12 = L_11;
+		int32_t L_13 = ((int32_t)16);
+		bool L_14 = il2cpp_codegen_enum_has_flag((int32_t)L_12, (int32_t)L_13);
+		if (L_14)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		int32_t L_17 = ((int32_t)32);
+		bool L_18 = il2cpp_codegen_enum_has_flag((int32_t)L_16, (int32_t)L_17);
+		if (!L_18)
+		{
+			goto IL_00b5;
+		}
+	}
+
+IL_0065:
+	{
+		String_t* L_19 = V_0;
+		if (!L_19)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		// statusString += " (" + message + ")";
+		String_t* L_20 = V_2;
+		String_t* L_21 = V_0;
+		String_t* L_22;
+		L_22 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_20, _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32, L_21, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		V_2 = L_22;
+		// var additionalInfo = arcGISLayerViewState.Message.GetAdditionalInformation();
+		ArcGISLayerViewState_tA84E3F93809177A77876B1BB1628FE73C2689829* L_23 = ___1_arcGISLayerViewState;
+		NullCheck(L_23);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_24;
+		L_24 = ArcGISLayerViewState_get_Message_mB465576DE6C3D051EED1D4545687FF84054195BB(L_23, NULL);
+		NullCheck(L_24);
+		ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC* L_25;
+		L_25 = ArcGISViewStateMessage_GetAdditionalInformation_mA83197CC58B522603C63EB2E1F9EA77D89FEC4B8(L_24, NULL);
+		// string additionalMessage = "";
+		V_3 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		// additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		NullCheck(L_25);
+		bool L_26;
+		L_26 = ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751(L_25, _stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B, (&V_3), ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		// if (additionalMessage != null && additionalMessage != "")
+		String_t* L_27 = V_3;
+		if (!L_27)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		String_t* L_28 = V_3;
+		bool L_29;
+		L_29 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_28, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_29)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		// statusString += "\nAdditional info: " + additionalMessage;
+		String_t* L_30 = V_2;
+		String_t* L_31 = V_3;
+		String_t* L_32;
+		L_32 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_30, _stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4, L_31, NULL);
+		V_2 = L_32;
+	}
+
+IL_00b5:
+	{
+		// if (enableLogging)
+		bool L_33 = __this->___enableLogging_4;
+		if (!L_33)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		// Debug.Log(statusString);
+		String_t* L_34 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_34, NULL);
+	}
+
+IL_00c3:
+	{
+		// };
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::<SubscribeToViewStateEvents>b__4_2(Esri.GameEngine.View.State.ArcGISViewState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_2_mDC4B210C227DD44275ADECBD956D3964B346A6C3 (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* ___0_arcGISViewState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcGISViewStatus_t2A5ADB3472098506F5AC0F5012B184C738F477A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F21EACE919110FF489F0C6F157FC28CAC42C527);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B2_0 = NULL;
+	ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	{
+		// var message = arcGISViewState.Message?.GetMessage();
+		ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* L_0 = ___0_arcGISViewState;
+		NullCheck(L_0);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_1;
+		L_1 = ArcGISViewState_get_Message_m440A75FB26690388EF36C44D85E8D7CA339AEF9B(L_0, NULL);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_000d;
+		}
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		goto IL_0012;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		String_t* L_3;
+		L_3 = ArcGISViewStateMessage_GetMessage_m3170DC93134B73F7BB2125A045B4E3B2EFBE648C(G_B2_0, NULL);
+		G_B3_0 = L_3;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		// var status = arcGISViewState.Status;
+		ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* L_4 = ___0_arcGISViewState;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ArcGISViewState_get_Status_m2DF98B4CDF97F05C30722EF82F0CF4016C1ADAF7(L_4, NULL);
+		V_1 = L_5;
+		// var statusString = "ArcGISViewState changed to : " + status.ToString();
+		Il2CppFakeBox<int32_t> L_6(ArcGISViewStatus_t2A5ADB3472098506F5AC0F5012B184C738F477A3_il2cpp_TypeInfo_var, (&V_1));
+		String_t* L_7;
+		L_7 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_6), NULL);
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0F21EACE919110FF489F0C6F157FC28CAC42C527, L_7, NULL);
+		V_2 = L_8;
+		// if ((status.HasFlag(ArcGISViewStatus.Error) || status.HasFlag(ArcGISViewStatus.Warning)) && message != null)
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		int32_t L_11 = ((int32_t)16);
+		bool L_12 = il2cpp_codegen_enum_has_flag((int32_t)L_10, (int32_t)L_11);
+		if (L_12)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		int32_t L_13 = V_1;
+		int32_t L_14 = L_13;
+		int32_t L_15 = ((int32_t)32);
+		bool L_16 = il2cpp_codegen_enum_has_flag((int32_t)L_14, (int32_t)L_15);
+		if (!L_16)
+		{
+			goto IL_00aa;
+		}
+	}
+
+IL_005a:
+	{
+		String_t* L_17 = V_0;
+		if (!L_17)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		// statusString += " (" + message + ")";
+		String_t* L_18 = V_2;
+		String_t* L_19 = V_0;
+		String_t* L_20;
+		L_20 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_18, _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32, L_19, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		V_2 = L_20;
+		// var additionalInfo = arcGISViewState.Message.GetAdditionalInformation();
+		ArcGISViewState_t629DB8133696B937298EEC561A2EB6D3E439CD9E* L_21 = ___0_arcGISViewState;
+		NullCheck(L_21);
+		ArcGISViewStateMessage_tB013B28170354831C053595412B6B69A1F02EA5F* L_22;
+		L_22 = ArcGISViewState_get_Message_m440A75FB26690388EF36C44D85E8D7CA339AEF9B(L_21, NULL);
+		NullCheck(L_22);
+		ArcGISDictionary_2_t63E1B54CB946309633D4BDEC869FBB95AC5208FC* L_23;
+		L_23 = ArcGISViewStateMessage_GetAdditionalInformation_mA83197CC58B522603C63EB2E1F9EA77D89FEC4B8(L_22, NULL);
+		// string additionalMessage = "";
+		V_3 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		// additionalInfo.TryGetValue("Additional Message", out additionalMessage);
+		NullCheck(L_23);
+		bool L_24;
+		L_24 = ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751(L_23, _stringLiteral18882438EE5F818C4AD6030992DAD4344DE41D9B, (&V_3), ArcGISDictionary_2_TryGetValue_m861F69F9B4BD3D32008DF0AFB01F8F1F3AF44751_RuntimeMethod_var);
+		// if (additionalMessage != null && additionalMessage != "")
+		String_t* L_25 = V_3;
+		if (!L_25)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		String_t* L_26 = V_3;
+		bool L_27;
+		L_27 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_26, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_27)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		// statusString += "\nAdditional info: " + additionalMessage;
+		String_t* L_28 = V_2;
+		String_t* L_29 = V_3;
+		String_t* L_30;
+		L_30 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_28, _stringLiteralFF471BD61A54E2A324FED89C195CD71FC830BDB4, L_29, NULL);
+		V_2 = L_30;
+	}
+
+IL_00aa:
+	{
+		// if (enableLogging)
+		bool L_31 = __this->___enableLogging_4;
+		if (!L_31)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		// Debug.Log(statusString);
+		String_t* L_32 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_32, NULL);
+	}
+
+IL_00b8:
+	{
+		// };
+		return;
+	}
+}
+// System.Void Esri.ArcGISMapsSDK.Samples.Components.ArcGISViewStateLoggingComponent::<SubscribeToViewStateEvents>b__4_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcGISViewStateLoggingComponent_U3CSubscribeToViewStateEventsU3Eb__4_3_m142D720B1D3EFF586A9D73364593B702FB21C51E (ArcGISViewStateLoggingComponent_tA16237733A95347AA1F494061E727E620012A9E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral680D8B64F824701349EA7DF217364A98284B8BB2);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		// var spatialReference = arcGISMapComponent.View.SpatialReference;
+		ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* L_0 = __this->___arcGISMapComponent_5;
+		NullCheck(L_0);
+		ArcGISView_t44D85E7E04E7897A522EE8354D38A884035DE5CB* L_1;
+		L_1 = ArcGISMapComponent_get_View_mC28C3502579FA1ADB28040E698CC7799EAC9298A(L_0, NULL);
+		NullCheck(L_1);
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_2;
+		L_2 = ArcGISView_get_SpatialReference_m7292D2AB784E4229DE76E779C2DE176FC6DB5DA0(L_1, NULL);
+		V_0 = L_2;
+		// if (spatialReference != null)
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		// if (enableLogging)
+		bool L_4 = __this->___enableLogging_4;
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		// Debug.Log("SpatialReference changed to : " + spatialReference.WKID.ToString());
+		ArcGISSpatialReference_t01CD7B4B5F8673C5B022559792A9A9A894911791* L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = ArcGISSpatialReference_get_WKID_mB7CB991B7C4004CEB26996407F6C771A8D7BE415(L_5, NULL);
+		V_1 = L_6;
+		String_t* L_7;
+		L_7 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral680D8B64F824701349EA7DF217364A98284B8BB2, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+	}
+
+IL_0039:
+	{
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ArcGISMapComponent_get_MapType_mC4037321673ADF061E056715616CCC5533A77485_inline (ArcGISMapComponent_tFFD4859062D453445BF1CB26201D9E27A2F5770C* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => mapType;
+		int32_t L_0 = __this->___mapType_15;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SetLayerAttributesEventHandler_Invoke_m9FA39BF89B3821E87F188F7312D40BB841BECA4A_inline (SetLayerAttributesEventHandler_t5709AF62479871B49877A46E3E0604331F8410F3* __this, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA* ___0_layer, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ArcGIS3DObjectSceneLayer_t396E1997C3C6E5DE93EA924E9F37EC10D33C5FFA*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_layer, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Environment_SetAuthenticationChallengeHandler_m485732689D8075AA565EFFB4F7EF916F13874C65_inline (ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* ___0_authenticationChallengeHandler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Environment.authenticationChallengeHandler = authenticationChallengeHandler;
+		ArcGISAuthenticationChallengeHandler_t1133B9385EC303A05AABAE829DE7642A667D8012* L_0 = ___0_authenticationChallengeHandler;
+		((Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_StaticFields*)il2cpp_codegen_static_fields_for(Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_il2cpp_TypeInfo_var))->___authenticationChallengeHandler_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_StaticFields*)il2cpp_codegen_static_fields_for(Environment_tBF82FAA9C1F33586D441C6A520E267177DBC21C2_il2cpp_TypeInfo_var))->___authenticationChallengeHandler_1), (void*)L_0);
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* HttpListenerContext_get_Response_m64CA8756CB54BE4A08A336ACCAC5EED26EF42867_inline (HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* __this, const RuntimeMethod* method) 
+{
+	{
+		HttpListenerResponse_tE2A3F65DF2E0B73D19CE1FBDCFE622CADE7B38B1* L_0 = __this->___response_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* HttpListenerContext_get_Request_m12CFD433DD5D32D9A72388BEBE6256C7BABE1808_inline (HttpListenerContext_tCD5824B5A03F644280D1F171203A2A03F7377412* __this, const RuntimeMethod* method) 
+{
+	{
+		HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* L_0 = __this->___request_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpListenerRequest_get_QueryString_mA0A78DFE87D21645E21CC6947A8F3FA5DC78622B_inline (HttpListenerRequest_t30206889F6CB705A9774EAD0C76C905096237FA8* __this, const RuntimeMethod* method) 
+{
+	{
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_0 = __this->___query_string_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public new static Mouse current { get; private set; }
+		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0 = ((Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F_StaticFields*)il2cpp_codegen_static_fields_for(Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F_il2cpp_TypeInfo_var))->___U3CcurrentU3Ek__BackingField_52;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* Pointer_get_position_m4286004169788483EEDA6AF833CEFDB04FEDF3D8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Vector2Control position { get; protected set; }
+		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = __this->___U3CpositionU3Ek__BackingField_39;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
+		float L_1 = L_0.___x_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
+		float L_3 = L_2.___y_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 float3Extensions_ToDouble3_m1E7A7C191C5619C2F69E31D97240AF2CD3A30033_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// return math.double3(value.x, value.y, value.z);
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_value;
+		float L_1 = L_0.___x_0;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_value;
+		float L_3 = L_2.___y_1;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_value;
+		float L_5 = L_4.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6;
+		L_6 = math_double3_m66E7EE72E3425CD355C75D86B3D21E720F07A030_inline(((double)L_1), ((double)L_3), ((double)L_5), NULL);
+		return L_6;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_mF18D6011FB9D647C1F1A430FA272B91736A07AC8_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 operator * (double3 lhs, double rhs) { return new double3 (lhs.x * rhs, lhs.y * rhs, lhs.z * rhs); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double L_2 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = ___0_lhs;
+		double L_4 = L_3.___y_1;
+		double L_5 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___0_lhs;
+		double L_7 = L_6.___z_2;
+		double L_8 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_9), ((double)il2cpp_codegen_multiply(L_1, L_2)), ((double)il2cpp_codegen_multiply(L_4, L_5)), ((double)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Addition_mBAAE8EB7B08FA0F788CDC40FB633F4ACC0089DCA_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 operator + (double3 lhs, double3 rhs) { return new double3 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_rhs;
+		double L_3 = L_2.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_lhs;
+		double L_5 = L_4.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_rhs;
+		double L_7 = L_6.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_lhs;
+		double L_9 = L_8.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_rhs;
+		double L_11 = L_10.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_12), ((double)il2cpp_codegen_add(L_1, L_3)), ((double)il2cpp_codegen_add(L_5, L_7)), ((double)il2cpp_codegen_add(L_9, L_11)), /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* Mouse_get_scroll_mB17E8A9038C866A29701595E06B8806E945ACA00_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public DeltaControl scroll { get; protected set; }
+		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = __this->___U3CscrollU3Ek__BackingField_45;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_leftButton_m1015BCBE6BE30B1D1D2702736A4E64120F6B5DFB_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ButtonControl leftButton { get; protected set; }
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = __this->___U3CleftButtonU3Ek__BackingField_46;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* Mouse_get_rightButton_mFA0FD700624C0DE1B858F9516426414767F09D98_inline (Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ButtonControl rightButton { get; protected set; }
+		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = __this->___U3CrightButtonU3Ek__BackingField_48;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool double3_Equals_mF3C722BF906A714D77899BB9055403481C2FC192_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public bool Equals(double3 rhs) { return x == rhs.x && y == rhs.y && z == rhs.z; }
+		double L_0 = __this->___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___0_rhs;
+		double L_2 = L_1.___x_0;
+		if ((!(((double)L_0) == ((double)L_2))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		double L_3 = __this->___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_rhs;
+		double L_5 = L_4.___y_1;
+		if ((!(((double)L_3) == ((double)L_5))))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		double L_6 = __this->___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = ___0_rhs;
+		double L_8 = L_7.___z_2;
+		return (bool)((((double)L_6) == ((double)L_8))? 1 : 0);
+	}
+
+IL_002b:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_m936CF76FF0C94E358B2193CFB59E41080B87E641_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
+{
+	{
+		// public static double length(double3 x) { return sqrt(dot(x, x)); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___0_x;
+		double L_2;
+		L_2 = math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline(L_0, L_1, NULL);
+		double L_3;
+		L_3 = math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline(L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Division_mBFCCDD798F735189AE8D843BD014FCF5F1EEAD93_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 operator / (double3 lhs, double rhs) { return new double3 (lhs.x / rhs, lhs.y / rhs, lhs.z / rhs); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double L_2 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3 = ___0_lhs;
+		double L_4 = L_3.___y_1;
+		double L_5 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___0_lhs;
+		double L_7 = L_6.___z_2;
+		double L_8 = ___1_rhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_9), ((double)(L_1/L_2)), ((double)(L_4/L_5)), ((double)(L_7/L_8)), /*hidden argument*/NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_inverse_mAB8FC214DC9438E44EB31D19E3C70D3BDFAAF202_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_q, const RuntimeMethod* method) 
+{
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// float4 x = q.value;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___0_q;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___value_0;
+		V_0 = L_1;
+		// return quaternion(rcp(dot(x, x)) * x * float4(-1.0f, -1.0f, -1.0f, 1.0f));
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = V_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = V_0;
+		float L_4;
+		L_4 = math_dot_m20F2285F7227DC308D9CF2DCB8EAAD3E774501D4_inline(L_2, L_3, NULL);
+		float L_5;
+		L_5 = math_rcp_mED2BCEE83560EEE59CE06EBD90332CAFA9C08024_inline(L_4, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = V_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
+		L_7 = float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581_inline(L_5, L_6, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
+		L_8 = math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline((-1.0f), (-1.0f), (-1.0f), (1.0f), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
+		L_9 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_7, L_8, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_10;
+		L_10 = math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline(L_9, NULL);
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_mul_m3CC0941E6A3DE5718C6439421E74D7F80793F652_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___0_a, quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		// return quaternion(a.value.wwww * b.value + (a.value.xyzx * b.value.wwwx + a.value.yzxy * b.value.zxyy) * float4(1.0f, 1.0f, 1.0f, -1.0f) - a.value.zxyz * b.value.yzxz);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___0_a)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
+		L_1 = float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_inline(L_0, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_2 = ___1_b;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = L_2.___value_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		L_4 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_1, L_3, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_5 = (&(&___0_a)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6;
+		L_6 = float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_inline(L_5, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_7 = (&(&___1_b)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
+		L_8 = float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_inline(L_7, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
+		L_9 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_6, L_8, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_10 = (&(&___0_a)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
+		L_11 = float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_inline(L_10, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_12 = (&(&___1_b)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_13;
+		L_13 = float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_inline(L_12, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
+		L_14 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_11, L_13, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
+		L_15 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_9, L_14, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
+		L_16 = math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline((1.0f), (1.0f), (1.0f), (-1.0f), NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17;
+		L_17 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_15, L_16, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_18;
+		L_18 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_4, L_17, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_19 = (&(&___0_a)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_20;
+		L_20 = float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_inline(L_19, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_21 = (&(&___1_b)->___value_0);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_22;
+		L_22 = float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_inline(L_21, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_23;
+		L_23 = float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline(L_20, L_22, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_24;
+		L_24 = float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3_inline(L_18, L_23, NULL);
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_25;
+		L_25 = math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline(L_24, NULL);
+		return L_25;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), /*hidden argument*/NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector_5;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_rhs;
+		bool L_2;
+		L_2 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_0, L_1, NULL);
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_other, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
+	{
+		float L_0 = __this->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_other;
+		float L_2 = L_1.___x_2;
+		if ((!(((float)L_0) == ((float)L_2))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		float L_3 = __this->___y_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_other;
+		float L_5 = L_4.___y_3;
+		if ((!(((float)L_3) == ((float)L_5))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		float L_6 = __this->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___0_other;
+		float L_8 = L_7.___z_4;
+		G_B4_0 = ((((float)L_6) == ((float)L_8))? 1 : 0);
+		goto IL_002e;
+	}
+
+IL_002d:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		bool L_9 = V_0;
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_up_m0BE1699606608A1C5B2F4996F2D550938DB736C1_inline (const RuntimeMethod* method) 
+{
+	{
+		// public static float3 up() { return new float3(0.0f, 1.0f, 0.0f); }  // for compatibility
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_0), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Implicit_m5DCE807570E8C929820AE8D221FFEE4861D9D5D9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		// public static implicit operator double3(float3 v) { return new double3(v); }
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline((&L_1), L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Subtraction_m22E94C140DA02DCD57ADB54B6DEEFA271AEB82A0_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 operator - (double3 lhs, double3 rhs) { return new double3 (lhs.x - rhs.x, lhs.y - rhs.y, lhs.z - rhs.z); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_rhs;
+		double L_3 = L_2.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_lhs;
+		double L_5 = L_4.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_rhs;
+		double L_7 = L_6.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_lhs;
+		double L_9 = L_8.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_rhs;
+		double L_11 = L_10.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_12), ((double)il2cpp_codegen_subtract(L_1, L_3)), ((double)il2cpp_codegen_subtract(L_5, L_7)), ((double)il2cpp_codegen_subtract(L_9, L_11)), /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_normalize_m13118ECBEA0AF4D81C9B2B289B2D6E1C2040DF44_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 normalize(double3 x) { return rsqrt(dot(x, x)) * x; }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___0_x;
+		double L_2;
+		L_2 = math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline(L_0, L_1, NULL);
+		double L_3;
+		L_3 = math_rsqrt_mFCE41521321BF854424BE66D4887EF27C21AA592_inline(L_2, NULL);
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_5;
+		L_5 = double3_op_Multiply_m4B2A373F7D9A179B6DBB10BB3827D95DE914EF89_inline(L_3, L_4, NULL);
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_m710CE5F525FC4891265B265568DE10C0100B509B_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_x, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_y, const RuntimeMethod* method) 
+{
+	{
+		// public static double dot(double3 x, double3 y) { return x.x * y.x + x.y * y.y + x.z * y.z; }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_x;
+		double L_1 = L_0.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_y;
+		double L_3 = L_2.___x_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_x;
+		double L_5 = L_4.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_6 = ___1_y;
+		double L_7 = L_6.___y_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_8 = ___0_x;
+		double L_9 = L_8.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10 = ___1_y;
+		double L_11 = L_10.___z_2;
+		return ((double)il2cpp_codegen_add(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_1, L_3)), ((double)il2cpp_codegen_multiply(L_5, L_7)))), ((double)il2cpp_codegen_multiply(L_9, L_11))));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_v, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_v;
+		float L_1 = L_0.___x_1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2 = ___0_v;
+		float L_3 = L_2.___y_2;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4 = ___0_v;
+		float L_5 = L_4.___z_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), L_1, L_3, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		return L_7;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
+		memset((&L_64), 0, sizeof(L_64));
+		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_64), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63)))), /*hidden argument*/NULL);
+		V_0 = L_64;
+		goto IL_00e5;
+	}
+
+IL_00e5:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = V_0;
+		return L_65;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 math_double4_m7AB9A73442DB781B5C36F12FAD5D13AA84AAF179_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) 
+{
+	{
+		// public static double4 double4(double3 xyz, double w) { return new double4(xyz, w); }
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_xyz;
+		double L_1 = ___1_w;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_2), L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4x4__ctor_mC28DA9877244770A1E61E41A50DF95F405AFD34B_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_c0, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_c1, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___2_c2, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___3_c3, const RuntimeMethod* method) 
+{
+	{
+		// this.c0 = c0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___0_c0;
+		__this->___c0_0 = L_0;
+		// this.c1 = c1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = ___1_c1;
+		__this->___c1_1 = L_1;
+		// this.c2 = c2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___2_c2;
+		__this->___c2_2 = L_2;
+		// this.c3 = c3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_3 = ___3_c3;
+		__this->___c3_3 = L_3;
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
+{
+	{
+		// this.x = x;
+		double L_0 = ___0_x;
+		__this->___x_0 = L_0;
+		// this.y = y;
+		double L_1 = ___1_y;
+		__this->___y_1 = L_1;
+		// this.z = z;
+		double L_2 = ___2_z;
+		__this->___z_2 = L_2;
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 HPMath_HomogeneousTransformPoint_mD4E424BEAD78D590A5026B18D40905DDF2A0343E_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_point, const RuntimeMethod* method) 
+{
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	double V_1 = 0.0;
+	{
+		// double4 result = matrix.c0 * point.x + matrix.c1 * point.y + matrix.c2 * point.z + matrix.c3;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___1_point;
+		double L_3 = L_2.___x_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4;
+		L_4 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_1, L_3, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_5 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = L_5.___c1_1;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = ___1_point;
+		double L_8 = L_7.___y_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_9;
+		L_9 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_6, L_8, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10;
+		L_10 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_4, L_9, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_11 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_12 = L_11.___c2_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_13 = ___1_point;
+		double L_14 = L_13.___z_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_15;
+		L_15 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_12, L_14, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_16;
+		L_16 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_10, L_15, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_17 = ___0_matrix;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_18 = L_17.___c3_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_19;
+		L_19 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_16, L_18, NULL);
+		V_0 = L_19;
+		// double w = 1.0 / result.w;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_20 = V_0;
+		double L_21 = L_20.___w_3;
+		V_1 = ((double)((1.0)/L_21));
+		// return new double3(w * result.x, w * result.y, w * result.z);
+		double L_22 = V_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_23 = V_0;
+		double L_24 = L_23.___x_0;
+		double L_25 = V_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_26 = V_0;
+		double L_27 = L_26.___y_1;
+		double L_28 = V_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_29 = V_0;
+		double L_30 = L_29.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_31), ((double)il2cpp_codegen_multiply(L_22, L_24)), ((double)il2cpp_codegen_multiply(L_25, L_27)), ((double)il2cpp_codegen_multiply(L_28, L_30)), /*hidden argument*/NULL);
+		return L_31;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 HPMath_HomogeneousTransformVector_mD4C65D7735EC88B9CB9903914F412D9EA470B6B5_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_matrix, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_vector, const RuntimeMethod* method) 
+{
+	double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// double4 result = math.mul(matrix, new double4(vector, 0));
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___0_matrix;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___1_vector;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline((&L_2), L_1, (0.0), /*hidden argument*/NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_3;
+		L_3 = math_mul_m15697BA79A02858D72C9114C635AF321624CBD0D_inline(L_0, L_2, NULL);
+		V_0 = L_3;
+		// return new double3(result.x, result.y, result.z);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = V_0;
+		double L_5 = L_4.___x_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = V_0;
+		double L_7 = L_6.___y_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_8 = V_0;
+		double L_9 = L_8.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_10), L_5, L_7, L_9, /*hidden argument*/NULL);
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ArcGISCameraControllerComponentActions_get_asset_mD467DB341CEA953A6AC2ABFAA1649C38C61EAB88_inline (ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InputActionAsset asset { get; }
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___U3CassetU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 InputActionAsset_get_bindingMask_mD5D2FAC455D221E7BC657DA5E7E4F5402E0B4F6C_inline (InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_BindingMask;
+		Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 L_0 = __this->___m_BindingMask_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MoveActions__ctor_mA38337270DFEF268FD12469B65D56609E6BCCAC1_inline (MoveActions_t528A0911BFBE716BE888C70CB17494BD3643DC77* __this, ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* ___0_wrapper, const RuntimeMethod* method) 
+{
+	{
+		// public MoveActions(@ArcGISCameraControllerComponentActions wrapper) { m_Wrapper = wrapper; }
+		ArcGISCameraControllerComponentActions_t96FD283FC8D70DAC928BB946A62BB6F20C7B00EC* L_0 = ___0_wrapper;
+		__this->___m_Wrapper_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Wrapper_0), (void*)L_0);
+		// public MoveActions(@ArcGISCameraControllerComponentActions wrapper) { m_Wrapper = wrapper; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m88484A213EB00FF7254FE3DB935BFB06DD3F5753_gshared_inline (Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) 
+{
+	{
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_0 = (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2*)__this->____task_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x_2 = L_0;
+		float L_1 = ___1_y;
+		__this->___y_3 = L_1;
+		float L_2 = ___2_z;
+		__this->___z_4 = L_2;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 math_double3_m66E7EE72E3425CD355C75D86B3D21E720F07A030_inline (double ___0_x, double ___1_y, double ___2_z, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 double3(double x, double y, double z) { return new double3(x, y, z); }
+		double L_0 = ___0_x;
+		double L_1 = ___1_y;
+		double L_2 = ___2_z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_3), L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static double sqrt(double x) { return System.Math.Sqrt(x); }
+		double L_0 = ___0_x;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = sqrt(L_0);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_m20F2285F7227DC308D9CF2DCB8EAAD3E774501D4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) 
+{
+	{
+		// public static float dot(float4 x, float4 y) { return x.x * y.x + x.y * y.y + x.z * y.z + x.w * y.w; }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
+		float L_1 = L_0.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_y;
+		float L_3 = L_2.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_x;
+		float L_5 = L_4.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_y;
+		float L_7 = L_6.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_x;
+		float L_9 = L_8.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_y;
+		float L_11 = L_10.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_x;
+		float L_13 = L_12.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_y;
+		float L_15 = L_14.___w_3;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rcp_mED2BCEE83560EEE59CE06EBD90332CAFA9C08024_inline (float ___0_x, const RuntimeMethod* method) 
+{
+	{
+		// public static float rcp(float x) { return 1.0f / x; }
+		float L_0 = ___0_x;
+		return ((float)((1.0f)/L_0));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581_inline (float ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static float4 operator * (float lhs, float4 rhs) { return new float4 (lhs * rhs.x, lhs * rhs.y, lhs * rhs.z, lhs * rhs.w); }
+		float L_0 = ___0_lhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___1_rhs;
+		float L_2 = L_1.___x_0;
+		float L_3 = ___0_lhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___1_rhs;
+		float L_5 = L_4.___y_1;
+		float L_6 = ___0_lhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7 = ___1_rhs;
+		float L_8 = L_7.___z_2;
+		float L_9 = ___0_lhs;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_12), ((float)il2cpp_codegen_multiply(L_0, L_2)), ((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_8)), ((float)il2cpp_codegen_multiply(L_9, L_11)), /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline (float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		// public static float4 float4(float x, float y, float z, float w) { return new float4(x, y, z, w); }
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		float L_3 = ___3_w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static float4 operator * (float4 lhs, float4 rhs) { return new float4 (lhs.x * rhs.x, lhs.y * rhs.y, lhs.z * rhs.z, lhs.w * rhs.w); }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), ((float)il2cpp_codegen_multiply(L_9, L_11)), ((float)il2cpp_codegen_multiply(L_13, L_15)), /*hidden argument*/NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 math_quaternion_m315B4CA2F8475CC33F3C73187F00AC8B64BBF939_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// public static quaternion quaternion(float4 value) { return new quaternion(value); }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_value;
+		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_inline((&L_1), L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(w, w, w, w); }
+		float L_0 = __this->___w_3;
+		float L_1 = __this->___w_3;
+		float L_2 = __this->___w_3;
+		float L_3 = __this->___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(x, y, z, x); }
+		float L_0 = __this->___x_0;
+		float L_1 = __this->___y_1;
+		float L_2 = __this->___z_2;
+		float L_3 = __this->___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(w, w, w, x); }
+		float L_0 = __this->___w_3;
+		float L_1 = __this->___w_3;
+		float L_2 = __this->___w_3;
+		float L_3 = __this->___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(y, z, x, y); }
+		float L_0 = __this->___y_1;
+		float L_1 = __this->___z_2;
+		float L_2 = __this->___x_0;
+		float L_3 = __this->___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(z, x, y, y); }
+		float L_0 = __this->___z_2;
+		float L_1 = __this->___x_0;
+		float L_2 = __this->___y_1;
+		float L_3 = __this->___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static float4 operator + (float4 lhs, float4 rhs) { return new float4 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z, lhs.w + rhs.w); }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), ((float)il2cpp_codegen_add(L_13, L_15)), /*hidden argument*/NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(z, x, y, z); }
+		float L_0 = __this->___z_2;
+		float L_1 = __this->___x_0;
+		float L_2 = __this->___y_1;
+		float L_3 = __this->___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return new float4(y, z, x, z); }
+		float L_0 = __this->___y_1;
+		float L_1 = __this->___z_2;
+		float L_2 = __this->___x_0;
+		float L_3 = __this->___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static float4 operator - (float4 lhs, float4 rhs) { return new float4 (lhs.x - rhs.x, lhs.y - rhs.y, lhs.z - rhs.z, lhs.w - rhs.w); }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x_0;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y_1;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z_2;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w_3;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15)), /*hidden argument*/NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x_2;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y_3;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z_4;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		V_4 = (bool)((((float)L_18) < ((float)(9.99999944E-11f)))? 1 : 0);
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		bool L_19 = V_4;
+		return L_19;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		// this.x = x;
+		float L_0 = ___0_x;
+		__this->___x_0 = L_0;
+		// this.y = y;
+		float L_1 = ___1_y;
+		__this->___y_1 = L_1;
+		// this.z = z;
+		float L_2 = ___2_z;
+		__this->___z_2 = L_2;
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double3__ctor_m246C72AEDE9AC7E52CF7DF7FEE065D66EF96AB8A_inline (double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		// this.x = v.x;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
+		float L_1 = L_0.___x_0;
+		__this->___x_0 = ((double)L_1);
+		// this.y = v.y;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_v;
+		float L_3 = L_2.___y_1;
+		__this->___y_1 = ((double)L_3);
+		// this.z = v.z;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_v;
+		float L_5 = L_4.___z_2;
+		__this->___z_2 = ((double)L_5);
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_rsqrt_mFCE41521321BF854424BE66D4887EF27C21AA592_inline (double ___0_x, const RuntimeMethod* method) 
+{
+	{
+		// public static double rsqrt(double x) { return 1.0 / sqrt(x); }
+		double L_0 = ___0_x;
+		double L_1;
+		L_1 = math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline(L_0, NULL);
+		return ((double)((1.0)/L_1));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 double3_op_Multiply_m4B2A373F7D9A179B6DBB10BB3827D95DE914EF89_inline (double ___0_lhs, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double3 operator * (double lhs, double3 rhs) { return new double3 (lhs * rhs.x, lhs * rhs.y, lhs * rhs.z); }
+		double L_0 = ___0_lhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_1 = ___1_rhs;
+		double L_2 = L_1.___x_0;
+		double L_3 = ___0_lhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___1_rhs;
+		double L_5 = L_4.___y_1;
+		double L_6 = ___0_lhs;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_7 = ___1_rhs;
+		double L_8 = L_7.___z_2;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		double3__ctor_mDF4F1B343383615E326E74EAE18FC4325F7367E1_inline((&L_9), ((double)il2cpp_codegen_multiply(L_0, L_2)), ((double)il2cpp_codegen_multiply(L_3, L_5)), ((double)il2cpp_codegen_multiply(L_6, L_8)), /*hidden argument*/NULL);
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x_0 = L_0;
+		float L_1 = ___1_y;
+		__this->___y_1 = L_1;
+		float L_2 = ___2_z;
+		__this->___z_2 = L_2;
+		float L_3 = ___3_w;
+		__this->___w_3 = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_mAAB30D5A18E63BBEB9AD9B98E95D510784E64B26_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 ___0_xyz, double ___1_w, const RuntimeMethod* method) 
+{
+	{
+		// this.x = xyz.x;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_0 = ___0_xyz;
+		double L_1 = L_0.___x_0;
+		__this->___x_0 = L_1;
+		// this.y = xyz.y;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_2 = ___0_xyz;
+		double L_3 = L_2.___y_1;
+		__this->___y_1 = L_3;
+		// this.z = xyz.z;
+		double3_t4E22E063009822491E39D3E064709F4B4B9E6CF4 L_4 = ___0_xyz;
+		double L_5 = L_4.___z_2;
+		__this->___z_2 = L_5;
+		// this.w = w;
+		double L_6 = ___1_w;
+		__this->___w_3 = L_6;
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double4 operator * (double4 lhs, double rhs) { return new double4 (lhs.x * rhs, lhs.y * rhs, lhs.z * rhs, lhs.w * rhs); }
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double L_2 = ___1_rhs;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_3 = ___0_lhs;
+		double L_4 = L_3.___y_1;
+		double L_5 = ___1_rhs;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = ___0_lhs;
+		double L_7 = L_6.___z_2;
+		double L_8 = ___1_rhs;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_9 = ___0_lhs;
+		double L_10 = L_9.___w_3;
+		double L_11 = ___1_rhs;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_12), ((double)il2cpp_codegen_multiply(L_1, L_2)), ((double)il2cpp_codegen_multiply(L_4, L_5)), ((double)il2cpp_codegen_multiply(L_7, L_8)), ((double)il2cpp_codegen_multiply(L_10, L_11)), /*hidden argument*/NULL);
+		return L_12;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___0_lhs, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		// public static double4 operator + (double4 lhs, double4 rhs) { return new double4 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z, lhs.w + rhs.w); }
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___0_lhs;
+		double L_1 = L_0.___x_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___1_rhs;
+		double L_3 = L_2.___x_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = ___0_lhs;
+		double L_5 = L_4.___y_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = ___1_rhs;
+		double L_7 = L_6.___y_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_8 = ___0_lhs;
+		double L_9 = L_8.___z_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10 = ___1_rhs;
+		double L_11 = L_10.___z_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_12 = ___0_lhs;
+		double L_13 = L_12.___w_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_14 = ___1_rhs;
+		double L_15 = L_14.___w_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline((&L_16), ((double)il2cpp_codegen_add(L_1, L_3)), ((double)il2cpp_codegen_add(L_5, L_7)), ((double)il2cpp_codegen_add(L_9, L_11)), ((double)il2cpp_codegen_add(L_13, L_15)), /*hidden argument*/NULL);
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 math_mul_m15697BA79A02858D72C9114C635AF321624CBD0D_inline (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___0_a, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		// return a.c0 * b.x + a.c1 * b.y + a.c2 * b.z + a.c3 * b.w;
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___0_a;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___1_b;
+		double L_3 = L_2.___x_0;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4;
+		L_4 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_1, L_3, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_5 = ___0_a;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = L_5.___c1_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = ___1_b;
+		double L_8 = L_7.___y_1;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_9;
+		L_9 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_6, L_8, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10;
+		L_10 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_4, L_9, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_11 = ___0_a;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_12 = L_11.___c2_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_13 = ___1_b;
+		double L_14 = L_13.___z_2;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_15;
+		L_15 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_12, L_14, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_16;
+		L_16 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_10, L_15, NULL);
+		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_17 = ___0_a;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_18 = L_17.___c3_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_19 = ___1_b;
+		double L_20 = L_19.___w_3;
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_21;
+		L_21 = double4_op_Multiply_m7198FFA1CA9CECA269103FF59DDB9B17339C960E_inline(L_18, L_20, NULL);
+		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_22;
+		L_22 = double4_op_Addition_m8AAE5EE5F10ABBC89E198D1A91BA868E8FF9AD90_inline(L_16, L_21, NULL);
+		return L_22;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		// this.x = x;
+		float L_0 = ___0_x;
+		__this->___x_0 = L_0;
+		// this.y = y;
+		float L_1 = ___1_y;
+		__this->___y_1 = L_1;
+		// this.z = z;
+		float L_2 = ___2_z;
+		__this->___z_2 = L_2;
+		// this.w = w;
+		float L_3 = ___3_w;
+		__this->___w_3 = L_3;
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// public quaternion(float4 value) { this.value = value; }
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_value;
+		__this->___value_0 = L_0;
+		// public quaternion(float4 value) { this.value = value; }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double4__ctor_m49D96B66F7E9E5F0783AA40FCBE7EC199F5C7C42_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5* __this, double ___0_x, double ___1_y, double ___2_z, double ___3_w, const RuntimeMethod* method) 
+{
+	{
+		// this.x = x;
+		double L_0 = ___0_x;
+		__this->___x_0 = L_0;
+		// this.y = y;
+		double L_1 = ___1_y;
+		__this->___y_1 = L_1;
+		// this.z = z;
+		double L_2 = ___2_z;
+		__this->___z_2 = L_2;
+		// this.w = w;
+		double L_3 = ___3_w;
+		__this->___w_3 = L_3;
+		// }
+		return;
+	}
+}
