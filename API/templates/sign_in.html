@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign-in</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <form action="./sign_in" method="post">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    <h2 id="text">Columbs People sign in page</h2>
+                </div>
+                <div class="col-6 text-center mt-4">
+                    <label id="text" class="loginAlani">User e-mail</label>
+                </div>
+                <div class="col-6 mt-4">
+                    <input type="text" id="input" name="e-mail" class="inputAlani" size="30" placeholder="User e-mail">
+                </div>
+                <div class="col-6 text-center mt-4">
+                    <label id="text" class="loginAlani">Password</label>
+                </div>
+                <div class="col-6 mt-4">
+                    <input type="password" class="inputAlani" id="input" name="password" size="30" placeholder="Password">
+                </div>
+                <div class="col-6 text-center mt-4">
+                    <label id="text" class="loginAlani">Code</label>
+                </div>
+                <div class="col-6 mt-4">
+                    <input type="text" class="inputAlani" id="input" name="code" size="30" placeholder="Code">
+                </div>
+                <div class="col-12 mt-4 text-right">
+                    <input type="submit" value="Sing in" class="btn-success" id="buton" />
+                </div>
+                <div class="col-12" id="text">
+                    {% if message %}
+                    <p id="message">{{ message | safe }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form action="./sign_up_page" method="get">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 mt-3 text-right">
+                    <input type="submit" value="Sign up" class="btn-primary" id="buton" />
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
