@@ -70,7 +70,11 @@ class Question(db.Model):
 def get_question_country(country):
     questions = Question.query.all()
     questions_api = [question.to_api_with_country(country) for question in questions]
-    return jsonify(questions_api)
+    return_list=[]
+    for i in range(len(questions_api)):
+        if questions_api[i]!=None:
+            return_list.append(questions_api[i])
+    return jsonify(return_list)
 @app.route('/questionsApi', methods=['GET'])
 def get_questions():
     questions = Question.query.all()
@@ -99,7 +103,11 @@ def get_tip():
 def get_tip_country(country):
     tip = Tip.query.all()
     tip_api = [tip.to_api2_with_country(country) for tip in tip]
-    return jsonify(tip_api)
+    return_list=[]
+    for i in range(len(tip_api)):
+        if tip_api[i]!=None:
+            return_list.append(tip_api[i])
+    return jsonify(return_list)
 
 class Player(db.Model):
     id = db.Column(db.String(500), primary_key=True)
@@ -131,14 +139,18 @@ def get_player():
 def get_player_id(id):
     player = Player.query.all()
     player_api = [player.to_api_playerWithId(id) for player in player]
-    return jsonify(player_api)           
+    return_list=[]
+    for i in range(len(player_api)):
+        if player_api[i]!=None:
+            return_list.append(player_api[i])
+    return jsonify(return_list)           
 @app.route('/')
 def index():    
     return render_template('login.html')
 
-class codeWithID(db.Model):
-    id = db.Column(db.String(500), primary_key=True)
-    code = db.Column(db.String(6),unique=True, nullable=False)
+class codeWithId(db.Model):
+    id = db.Column(db.String(500), nullable=False)
+    code = db.Column(db.String(6), primary_key=True, nullable=False)
 
     def __init__(self, id, code,):
         self.id = id
@@ -148,10 +160,14 @@ class codeWithID(db.Model):
         if code==self.code:
             return {'id': self.id, 'code': self.code}
 @app.route('/code/<id>', methods=['GET'])
-def get_code():
-    code = codeWithID.query.all()
+def get_code(id):
+    code = codeWithId.query.all()
     questions_api = [code.to_api(id) for code in code]
-    return jsonify(questions_api)
+    return_list=[]
+    for i in range(len(questions_api)):
+        if questions_api[i]!=None:
+            return_list.append(questions_api[i])
+    return jsonify(return_list)
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -212,7 +228,7 @@ def sign_in():
                 token = login['localId']                
             except:
                 return render_template('sign_in.html',message="Invalid token")  
-            new_question = codeWithID(token, code)
+            new_question = codeWithId(token, code)
             db.session.add(new_question)
             db.session.commit()           
             return render_template('sign_in.html',message="Successfully logged in!")

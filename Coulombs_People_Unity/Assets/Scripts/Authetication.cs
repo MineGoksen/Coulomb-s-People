@@ -1,46 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using TMPro;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Enterance : MonoBehaviour
+public class Authetication : MonoBehaviour
 {
-    public GameObject image_popup;
-    private const string URL = "http://127.0.0.1:5000/questionsApi";
-    public string email;
-    public string username;
-    private string userId;
+    public TextMeshProUGUI code;
+     private string URL = "http://192.168.208.26:5000/code/";
+    // Start is called before the first frame update
     void Start()
     {
-        image_popup.SetActive(false);
-        userId=PlayerPrefs.GetString("userId");
-        Debug.Log(userId);
-        //StartCoroutine(GetRequest(URL));
+        System.Random rnd = new System.Random();
+        int num = rnd.Next(100000,999999);
+        Debug.Log(num);
+        code.text=""+num;
+        URL+=(""+num);
+        
     }
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {  
+        StartCoroutine(GetRequest(URL));
     }
-    public void HidePopUp()
-    {
-        // Hide the pop-up when the button is clicked
-        image_popup.SetActive(false);
-    }
-    public void ShowPopUp()
-    {
-        // Show the pop-up when the button is clicked
-        image_popup.SetActive(true);
 
-    }
-    public void toVideo()
-    {
-        SceneManager.LoadScene("Video");
-    }
-    IEnumerator GetRequest(string uri)
+     IEnumerator GetRequest(string uri)
     {
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
         {
@@ -62,10 +51,25 @@ public class Enterance : MonoBehaviour
                     Debug.LogError(pages[page] + ": HTTP Error: " + webRequest.error);
                     break;
                 case UnityWebRequest.Result.Success:
-                    QuestionData[] data = JsonConvert.DeserializeObject<QuestionData[]>(webRequest.downloadHandler.text);
-                    
+                    AuthData[] data = JsonConvert.DeserializeObject<AuthData[]>(webRequest.downloadHandler.text);
+                    if(data.Length!=0){
+                        Debug.Log("sec"+data[0].id);
+                        PlayerPrefs.SetString("userId",data[0].id);
+                        code.text="Giriş Yapıldı.";
+                        StartCoroutine(time());
+                    }
                     break;
             }
+        }   
+    }
+
+     IEnumerator time()
+    {   int saniye =5;
+        while (saniye>0)
+        {       
+            saniye -= 1;
+            yield return new WaitForSeconds(1);
         }
+        SceneManager.LoadScene("Entrance");
     }
 }

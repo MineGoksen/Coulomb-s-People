@@ -16,11 +16,10 @@ namespace YoutubePlayer
         public TextMeshProUGUI countdown;
         private int saniye = 20;
 
-        private void Awake()
+        private async void Awake()
         {
             start_btn.interactable = true;
             videoPlayer = youtubePlayer.GetComponent<VideoPlayer>();
-
         }
         void Start()
         {

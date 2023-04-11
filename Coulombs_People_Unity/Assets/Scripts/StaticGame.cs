@@ -20,7 +20,7 @@ public  class StaticGame
         double lon = locations[round].lon;
         double distance = HaversineFormula(lat, lon, lat_guessed, lon_guessed);
         Debug.Log(distance);
-        score += distance;//1/distance yapýp 1 ile 100 arasý normalize edelim 
+        score += distance;//1/distance yapï¿½p 1 ile 100 arasï¿½ normalize edelim 
     }
     static double HaversineFormula(double lat1, double lon1, double lat2, double lon2)
     {
@@ -43,7 +43,7 @@ public  class StaticGame
     {
         if (answer)
         {
-            score += 10;//bundan emin deðilim sadece distance ile aldýðýmýz deðeri 2 katýna da çýkarabiliriz doðru ise diye düþündüm 
+            score += 10;//bundan emin deï¿½ilim sadece distance ile aldï¿½ï¿½ï¿½mï¿½z deï¿½eri 2 katï¿½na da ï¿½ï¿½karabiliriz doï¿½ru ise diye dï¿½ï¿½ï¿½ndï¿½m 
         }
         round += 1;
     }
