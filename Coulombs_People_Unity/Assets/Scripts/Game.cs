@@ -38,7 +38,6 @@ public class Game : MonoBehaviour
         }
         if (!StaticGame.isStarted)
             RoundCountDown.text = "Start";
-        Debug.Log(StaticGame.startGame());
         StaticGame.isStarted = true;
         SceneManager.LoadScene("Videos");
     }

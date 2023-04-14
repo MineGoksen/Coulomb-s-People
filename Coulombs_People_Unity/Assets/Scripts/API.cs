@@ -103,30 +103,29 @@ public class API : MonoBehaviour
 
     public void clickedA()
 {
-    if(rightAnswer=="A" && !isClicked)
-        StaticGame.questionScoreAdd(true);
+        StaticGame.correctAnswer = true;
 
 }
  public void clickedB()
 {
-    if(rightAnswer=="B" && !isClicked)
-        StaticGame.questionScoreAdd(true);
+        StaticGame.correctAnswer = true;
 
-}
- public void clickedC()
+
+    }
+    public void clickedC()
 {
-    if(rightAnswer=="C" && !isClicked)
-        StaticGame.questionScoreAdd(true);
+        StaticGame.correctAnswer = true;
 
-}
- public void clickedD()
+
+    }
+    public void clickedD()
 {
-    if(rightAnswer=="D" && !isClicked)
-        StaticGame.questionScoreAdd(true);
-}
+        StaticGame.correctAnswer = true;
 
-public void nextRound(){
-     SceneManager.LoadScene("Game");
+    }
+
+    public void nextRound(){
+        StaticGame.endRound();
 }
 
 }
