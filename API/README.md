@@ -11,7 +11,8 @@ pip install -r requirements.txt
 Admin Page için 
 ```
 pyhton
-from app import db
+from project import app, db
+app.app_context().push()
 db.create_all()
 exit()
 
