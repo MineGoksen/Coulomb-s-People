@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class API : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class API : MonoBehaviour
     public TextMeshProUGUI b;
     public TextMeshProUGUI c;
     public TextMeshProUGUI d;
+    public Button nextRoundBtn;
+    private bool isClicked=false;
     private string rightAnswer;
 
 
@@ -23,6 +26,7 @@ public class API : MonoBehaviour
 
     void Start()
     {// string country = StaticGame.returnCountry();
+        nextRoundBtn.gameObject.SetActive(false);
         StartCoroutine(GetRequest(URL+"Turkey"));
         Debug.Log("the request is sent");
     }
@@ -68,8 +72,6 @@ public class API : MonoBehaviour
     {
         switch (rightAnswer)
         {
-
-
             case "A":
                 buton_a.GetComponent<Image>().color = Color.green;
                 buton_b.GetComponent<Image>().color = Color.red;
@@ -95,14 +97,36 @@ public class API : MonoBehaviour
                 buton_d.GetComponent<Image>().color = Color.green;
                 break;
         }
-
-
-
-
-
+        nextRoundBtn.gameObject.SetActive(true);
 
     }
 
+    public void clickedA()
+{
+    if(rightAnswer=="A" && !isClicked)
+        StaticGame.questionScoreAdd(true);
 
+}
+ public void clickedB()
+{
+    if(rightAnswer=="B" && !isClicked)
+        StaticGame.questionScoreAdd(true);
+
+}
+ public void clickedC()
+{
+    if(rightAnswer=="C" && !isClicked)
+        StaticGame.questionScoreAdd(true);
+
+}
+ public void clickedD()
+{
+    if(rightAnswer=="D" && !isClicked)
+        StaticGame.questionScoreAdd(true);
+}
+
+public void nextRound(){
+     SceneManager.LoadScene("Game");
+}
 
 }
