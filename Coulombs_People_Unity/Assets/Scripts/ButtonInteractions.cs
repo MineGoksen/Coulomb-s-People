@@ -23,14 +23,15 @@ public class ButtonInteractions : MonoBehaviour
 
     public void AnswerA_Clicked()
     {
-        counter++;
-        simpleUIText.text = "AnswerA: " + counter;
+ 
+        Debug.Log("corrds: "+StaticGame.guessed_coordinates[0] + ", " + StaticGame.guessed_coordinates[1]);
+
     }
 
     public void AnswerB_Clicked()
     {
-        counter++;
-        simpleUIText.text = "AnswerB: " + counter;
+
+        Debug.Log("corrds: "+StaticGame.guessed_coordinates[0]+", "+ StaticGame.guessed_coordinates[1]);
     }
 
     public void AnswerC_Clicked()
@@ -44,6 +45,7 @@ public class ButtonInteractions : MonoBehaviour
         counter++;
         simpleUIText.text = "AnswerD: " + counter;
     }
+
 
 
 

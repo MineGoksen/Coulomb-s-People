@@ -14,14 +14,32 @@ public  class StaticGame
     public static string [] roundCountry=new string[10];
     public static VideoStruct[] locations = new VideoStruct [2];
     public static bool isStarted = false;
+
+    public static bool hintUsed = false;
+
+    public static float[] guessed_coordinates = new float[2];
    
-    public static void CalculateScore(double lat_guessed, double lon_guessed)
+    public static void CalculateScore()
     {
         double lat = locations[round].lat;
         double lon = locations[round].lon;
-        double distance = HaversineFormula(lat, lon, lat_guessed, lon_guessed);
+
+        double distance = HaversineFormula(locations[round].lat, locations[round].lon, guessed_coordinates[0], guessed_coordinates[1]);
         Debug.Log(distance);
-        score += distance;//1/distance yap�p 1 ile 100 aras� normalize edelim 
+        if (distance < 100)
+            score += 125;
+        else if (distance < 500)
+            score += 100;
+        else if (distance < 750)
+            score += 75;
+        else if (distance < 1000)
+            score += 50;
+        else if (distance < 1500)
+            score += 25;
+
+        if (hintUsed)
+            score -= 25;
+
     }
     static double HaversineFormula(double lat1, double lon1, double lat2, double lon2)
     {
@@ -44,7 +62,7 @@ public  class StaticGame
     {
         if (answer)
         {
-            score += 10;//bundan emin de�ilim sadece distance ile ald���m�z de�eri 2 kat�na da ��karabiliriz do�ru ise diye d���nd�m 
+            score *= 0.25;
         }
         round += 1;
     }
