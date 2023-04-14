@@ -1,8 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class WorldMapController : MonoBehaviour, IPointerClickHandler
 {
@@ -10,18 +11,29 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
     public float mapWidth = 360f;
     public float mapHeight = 180f;
     public GameObject pointer;
+    public float timer = 45f;
     private RectTransform rectTransform;
+    public TextMeshProUGUI timerText;
+    public TextMeshProUGUI hintText;
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
     }
-
+    public void Update()
+    {
+        timer -= Time.deltaTime;
+        timerText.text = timer+" seconds remaining.";
+        if (timer < 0)
+        {
+            GuessButtonCLicked();
+        }
+    }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         Vector2 localCursor;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out localCursor))
-        SceneManager.LoadScene("Videos");
+        {
             float xRatio = (localCursor.x + rectTransform.rect.width * 0.5f) / rectTransform.rect.width;
             float yRatio = (localCursor.y + rectTransform.rect.height * 0.5f) / rectTransform.rect.height;
 
@@ -36,9 +48,20 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
 
             PointerMove.instance.setCoordinates(latitude, longitude);
 
-            Debug.Log($"T�klanan Koordinatlar: Enlem {latitude}, Boylam {longitude}");
-            StaticGame.CalculateScore(latitude, longitude);
-            SceneManager.LoadScene("Questions");
-    
+            
+        }
+    }
+
+    public void GuessButtonCLicked()
+    {
+        float [] guess_coords = PointerMove.instance.getCoordinates();
+        StaticGame.guessed_coordinates = guess_coords;
+        SceneManager.LoadScene("Questions");
+    }
+
+    public void HintButtonCLicked()
+    {
+        hintText.text = "HINT: prrrrrşibidibabbapbapbapbapyesyesyesyesdıpşipididıpşibididabılüdabılüdabılüdabılüyesyesyesyes";
+        StaticGame.hintUsed = true;
     }
 }
