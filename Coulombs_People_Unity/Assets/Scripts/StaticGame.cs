@@ -64,7 +64,7 @@ public  class StaticGame
         locations[1] = new VideoStruct();
         locations[1].fill("https://www.youtube.com/watch?v=uM5BHCWlcio&ab_channel=WalkWithMe%21", "Greece", 37.983810, 23.727539);
         Debug.Log("filled");
-
+        
     }
     public static string returnUrl()
     {
