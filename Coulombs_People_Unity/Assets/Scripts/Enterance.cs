@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Enterance : MonoBehaviour
 {
     public GameObject image_popup;
-    private const string URL = "http://127.0.0.1:5000/questionsApi";
+    private string URL = StaticGame.URL+"questionsApi";
     public string email;
     public string username;
     private string userId;
@@ -36,9 +36,9 @@ public class Enterance : MonoBehaviour
         image_popup.SetActive(true);
 
     }
-    public void toVideo()
+    public void startGame()
     {
-        SceneManager.LoadScene("Video");
+        SceneManager.LoadScene("Game");
     }
     IEnumerator GetRequest(string uri)
     {

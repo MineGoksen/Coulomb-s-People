@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 public class Authetication : MonoBehaviour
 {
     public TextMeshProUGUI code;
-     private string URL = "http://192.168.208.26:5000/code/";
+     private string URL = StaticGame.URL+"code/";
     // Start is called before the first frame update
     void Start()
     {

@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 public class PopUpController : MonoBehaviour
 {
-    private const string URL = "http://127.0.0.1:5000/tipApi";
+    private string URL =StaticGame.URL+"tipApi";
     public GameObject image_tip;
     public TextMeshProUGUI tip;
     string t = "tip";

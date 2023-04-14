@@ -7,6 +7,7 @@ using System;
 public  class StaticGame 
 {
     // Start is called before the first frame update
+    public static string URL="http://192.168.1.6:5000/";
     public static double score=0;
     public static int round=0;
     public static float[] videoCoordinates=new float[2];
