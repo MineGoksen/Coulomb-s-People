@@ -24,7 +24,7 @@ auth=firebase.auth()
 
 app = Flask(__name__)
 app.debug = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instance//site.db'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
@@ -109,35 +109,33 @@ def get_tip_country(country):
             return_list.append(tip_api[i])
     return jsonify(return_list)
 
-class Player(db.Model):
+class Players(db.Model):
     id = db.Column(db.String(500), primary_key=True)
     nickname = db.Column(db.String(40),unique=True, nullable=False)
     e_mail = db.Column(db.String(100),unique=True, nullable=False)
-    guest_point = db.Column(db.Integer, nullable=False)
-    question_point = db.Column(db.Integer, nullable=False)    
+    point = db.Column(db.Integer, nullable=False)       
 
-    def __init__(self, id, nickname, e_mail, guest_point, question_point):
+    def __init__(self, id, nickname, e_mail, point):
         self.id = id
         self.nickname = nickname
         self.e_mail = e_mail
-        self.guest_point = guest_point
-        self.question_point = question_point
+        self.point = point
     def to_api_players(self):
-        return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'guest-point': self.guest_point,'question-point': self.question_point}  
+        return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'point': self.point}  
     def to_api_playerWithId(self,id):
         if id==self.id:
-            return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'guest-point': self.guest_point,'question-point': self.question_point}  
+            return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'point': self.point}  
     def to_api_playerWithemail(self,email):
         if email==self.e_mail:
             return self.id    
 @app.route('/playerApi', methods=['GET'])
 def get_player():
-    player = Player.query.all()
+    player = Players.query.all()
     player_api = [player.to_api_players() for player in player]
     return jsonify(player_api)
 @app.route('/playerApi/<id>', methods=['GET'])
 def get_player_id(id):
-    player = Player.query.all()
+    player = Players.query.all()
     player_api = [player.to_api_playerWithId(id) for player in player]
     return_list=[]
     for i in range(len(player_api)):
@@ -169,6 +167,31 @@ def get_code(id):
             return_list.append(questions_api[i])
     return jsonify(return_list)
 
+class videos(db.Model):
+    country = db.Column(db.String(50), primary_key=True,nullable=False)
+    link = db.Column(db.String(1000),  nullable=False)
+    lat = db.Column(db.String(50), nullable=False)
+    lon = db.Column(db.String(50), nullable=False)
+
+    def __init__(self, country, link,lat,lon):
+        self.country = country
+        self.link = link
+        self.lat = lat
+        self.lon = lon
+
+    def to_api(self,country):
+        if country==self.country:
+            return {'country': self.country, 'link': self.link,'lat':self.lat,'lon':self.lon}
+@app.route('/country/<country>', methods=['GET'])
+def get_video(country):
+    code = videos.query.all()
+    questions_api = [code.to_api(country) for code in code]
+    return_list=[]
+    for i in range(len(questions_api)):
+        if questions_api[i]!=None:
+            return_list.append(questions_api[i])
+    return jsonify(return_list)
+
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['username']
@@ -181,7 +204,7 @@ def login():
 
 @app.route('/home')
 def home():    
-    return render_template('add_question.html')
+    return render_template('add_question.html',login=True)
 
 @app.route('/add_question', methods=['POST'])
 def add_question():
@@ -204,6 +227,16 @@ def add_tip():
     tip = request.form['tip']
     new_question = Tip(tip, country)
     db.session.add(new_question)
+    db.session.commit()
+    return redirect(url_for('home'))
+@app.route('/add_video', methods=['POST'])
+def add_video():
+    country = request.form['country']
+    link = request.form['link']
+    lan = request.form['lan']
+    lon = request.form['lon']
+    new_video = videos(country,link,lan,lon)
+    db.session.add(new_video)
     db.session.commit()
     return redirect(url_for('home'))
 @app.route('/sign_in_page' ,methods=['GET', 'POST'])
@@ -242,11 +275,11 @@ def sign_in():
 def sign_up():    
     if(request.method == "POST"):
         nickName=request.form.get("nickName")
-        data=db.session.query(Player.id).filter(Player.nickname==nickName).first()  
+        data=db.session.query(Players.id).filter(Players.nickname==nickName).first()  
         if data is not None:            
             return render_template('sign_up.html',message="NickName already exists") 
         e_mail=request.form.get("e-mail")  
-        data=db.session.query(Player.id).filter(Player.e_mail==e_mail).first()  
+        data=db.session.query(Players.id).filter(Players.e_mail==e_mail).first()  
         if data is not None:            
             return render_template('sign_up.html',message="E-mail already exists") 
         
@@ -258,7 +291,7 @@ def sign_up():
                 token = user['localId']                
             except:
                 return render_template('sign_up.html',message="Invalid token")
-            new_question = Player(token,nickName,e_mail,0,0)
+            new_question = Players(token,nickName,e_mail,0)
             db.session.add(new_question)
             db.session.commit()
             return render_template('sign_in.html',message="account created")           
