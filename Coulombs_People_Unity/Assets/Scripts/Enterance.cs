@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class Enterance : MonoBehaviour
 {
     public GameObject image_popup;
-    private string URL = StaticGame.URL+"questionsApi";
-    public string email;
-    public string username;
+    private string URL = StaticGame.URL+"playerApi/";
+    public TextMeshProUGUI email;
+    public TextMeshProUGUI username;
+    private TextMeshProUGUI puan;
     private string userId;
     void Start()
     {
         image_popup.SetActive(false);
         userId=PlayerPrefs.GetString("userId");
         Debug.Log(userId);
-        //StartCoroutine(GetRequest(URL));
+        StartCoroutine(GetRequest(URL));
     }
 
     // Update is called once per frame
@@ -62,7 +64,12 @@ public class Enterance : MonoBehaviour
                     Debug.LogError(pages[page] + ": HTTP Error: " + webRequest.error);
                     break;
                 case UnityWebRequest.Result.Success:
-                    QuestionData[] data = JsonConvert.DeserializeObject<QuestionData[]>(webRequest.downloadHandler.text);
+                    UserData[] data = JsonConvert.DeserializeObject<UserData[]>(webRequest.downloadHandler.text);
+                    if(data.Length!=0){
+                        email.text=data[0].e_mail;
+                        username.text=data[0].nickname;
+                        //puan.text=data[0];
+                    }
                     
                     break;
             }
