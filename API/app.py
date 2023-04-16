@@ -8,6 +8,7 @@ import pyrebase
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
+import random
 
 
 firebaseConfig = {
@@ -77,6 +78,7 @@ def get_question_country(country):
     return jsonify(return_list)
 @app.route('/questionsApi', methods=['GET'])
 def get_questions():
+
     questions = Question.query.all()
     questions_api = [question.to_api() for question in questions]
     return jsonify(questions_api)
@@ -89,10 +91,10 @@ class Tip(db.Model):
         self.tip = tip
         self.country = country
     def to_api2(self):
-        return {'id': self.id, 'tip': self.tip, 'country': self.country}
+        return { 'tip': self.tip, 'country': self.country}
     def to_api2_with_country(self,country):
         if country==self.country:
-            return {'id': self.id, 'tip': self.tip, 'country': self.country}    
+            return { 'tip': self.tip, 'country': self.country}    
 
 @app.route('/tipApi', methods=['GET'])
 def get_tip():
@@ -109,7 +111,7 @@ def get_tip_country(country):
             return_list.append(tip_api[i])
     return jsonify(return_list)
 
-class Players(db.Model):
+class players(db.Model):
     id = db.Column(db.String(500), primary_key=True)
     nickname = db.Column(db.String(40),unique=True, nullable=False)
     e_mail = db.Column(db.String(100),unique=True, nullable=False)
@@ -120,22 +122,24 @@ class Players(db.Model):
         self.nickname = nickname
         self.e_mail = e_mail
         self.point = point
+    def to_add_point(self):
+        return self.point     
     def to_api_players(self):
-        return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'point': self.point}  
+        return {'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
     def to_api_playerWithId(self,id):
         if id==self.id:
-            return {'id': self.id, 'nickname': self.nickname, 'e-mail': self.e_mail,'point': self.point}  
+            return {'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
     def to_api_playerWithemail(self,email):
         if email==self.e_mail:
             return self.id    
 @app.route('/playerApi', methods=['GET'])
 def get_player():
-    player = Players.query.all()
+    player = players.query.all()
     player_api = [player.to_api_players() for player in player]
     return jsonify(player_api)
 @app.route('/playerApi/<id>', methods=['GET'])
 def get_player_id(id):
-    player = Players.query.all()
+    player = players.query.all()
     player_api = [player.to_api_playerWithId(id) for player in player]
     return_list=[]
     for i in range(len(player_api)):
@@ -143,13 +147,13 @@ def get_player_id(id):
             return_list.append(player_api[i])
     return jsonify(return_list)           
 @app.route('/')
-def index():    
+def index():     
+       
     return render_template('login.html')
 
 class codeWithId(db.Model):
     id = db.Column(db.String(500), nullable=False)
     code = db.Column(db.String(6), primary_key=True, nullable=False)
-
     def __init__(self, id, code,):
         self.id = id
         self.code = code
@@ -167,9 +171,9 @@ def get_code(id):
             return_list.append(questions_api[i])
     return jsonify(return_list)
 
-class videos(db.Model):
-    country = db.Column(db.String(50), primary_key=True,nullable=False)
-    link = db.Column(db.String(1000),  nullable=False)
+class video(db.Model):
+    country = db.Column(db.String(50), nullable=False)
+    link = db.Column(db.String(1000), primary_key=True, nullable=False)
     lat = db.Column(db.String(50), nullable=False)
     lon = db.Column(db.String(50), nullable=False)
 
@@ -178,24 +182,33 @@ class videos(db.Model):
         self.link = link
         self.lat = lat
         self.lon = lon
-
-    def to_api(self,country):
-        if country==self.country:
-            return {'country': self.country, 'link': self.link,'lat':self.lat,'lon':self.lon}
-@app.route('/country/<country>', methods=['GET'])
-def get_video(country):
-    code = videos.query.all()
-    questions_api = [code.to_api(country) for code in code]
-    return_list=[]
-    for i in range(len(questions_api)):
-        if questions_api[i]!=None:
-            return_list.append(questions_api[i])
-    return jsonify(return_list)
+    def to_firstList(self):            
+            return self.country
+    def to_returnList(self):
+        return {'country': self.country, 'link': self.link,'lat': self.lat,'lon': self.lon}
+@app.route('/get_video', methods=['GET'])
+def get_video():
+    code = video.query.all()
+    questions_api = [code.to_firstList() for code in code] 
+    random.shuffle(questions_api)
+    list=[]
+    for i in questions_api:        
+        if i not in list:
+            list.append(i)   
+        if len(list)==4:
+            break    
+    videos=["","","","",""]
+    for i in range(len(list)):
+        value=video.query.filter_by(country=list[i]).all() 
+        returner=[value.to_returnList() for value in value]
+        videos[i]=returner[0]      
+    return jsonify(videos)
 
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['username']
     password = request.form['password']
+
     user = User.query.filter_by(username=username, password=password).first()
     if user:
         return redirect(url_for('home'))
@@ -203,7 +216,7 @@ def login():
         return render_template('login.html',message="Username or Password is incorrect")
 
 @app.route('/home')
-def home():    
+def home():        
     return render_template('add_question.html',login=True)
 
 @app.route('/add_question', methods=['POST'])
@@ -235,7 +248,7 @@ def add_video():
     link = request.form['link']
     lan = request.form['lan']
     lon = request.form['lon']
-    new_video = videos(country,link,lan,lon)
+    new_video = video(country,link,lan,lon)
     db.session.add(new_video)
     db.session.commit()
     return redirect(url_for('home'))
@@ -247,9 +260,17 @@ def sign_in_page():
 def sign_up_page():    
     if(request.method == "GET"):
         return render_template('sign_up.html')
-
+@app.route('/add_Point/<id>/<point>', methods=['PUT'])
+def add_point(id,point):
+        player = players.query.filter_by(id=id).first()
+        if player !=None:
+            print(player)
+            addPoint=int(point)+player.to_add_point()
+            updated = players.query.filter_by(id=id).update(dict(point=addPoint))
+            db.session.commit()
+        return render_template('sign_up.html')
 @app.route('/sign_in', methods=['GET', 'POST'])
-def sign_in():  
+def sign_in():     
     if(request.method == "POST"):
         e_mail=request.form.get("e-mail") 
         password=request.form.get("password") 
@@ -275,11 +296,11 @@ def sign_in():
 def sign_up():    
     if(request.method == "POST"):
         nickName=request.form.get("nickName")
-        data=db.session.query(Players.id).filter(Players.nickname==nickName).first()  
+        data=db.session.query(players.id).filter(players.nickname==nickName).first()  
         if data is not None:            
             return render_template('sign_up.html',message="NickName already exists") 
         e_mail=request.form.get("e-mail")  
-        data=db.session.query(Players.id).filter(Players.e_mail==e_mail).first()  
+        data=db.session.query(players.id).filter(players.e_mail==e_mail).first()  
         if data is not None:            
             return render_template('sign_up.html',message="E-mail already exists") 
         
@@ -291,7 +312,7 @@ def sign_up():
                 token = user['localId']                
             except:
                 return render_template('sign_up.html',message="Invalid token")
-            new_question = Players(token,nickName,e_mail,0)
+            new_question = players(token,nickName,e_mail,0)
             db.session.add(new_question)
             db.session.commit()
             return render_template('sign_in.html',message="account created")           
@@ -300,6 +321,7 @@ def sign_up():
     if(request.method == "GET"):
         return render_template('sign_up.html')
     return render_template('sign_in.html')  
+
 
 if __name__ == '__main__':
     app.run()

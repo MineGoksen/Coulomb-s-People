@@ -45,18 +45,18 @@
         </form>
     </div>
     <div class="container">
-        <form action="{{ url_for('add_video') }}" method="post">
+        <form action="./add_video" method="post">
             <label id="text" for="country">Country:</label>
-            <input type="text" id="question" name="question" required>
+            <input type="text" id="country" name="country" required>
             <br>
             <label id="text" for="link">Link:</label>
-            <input type="text" id="choice_a" name="choice_a" required>
+            <input type="text" id="link" name="link" required>
             <br>
             <label id="text" for="lan">Lan:</label>
-            <input type="text" id="choice_b" name="choice_b" required>
+            <input type="text" id="lan" name="lan" required>
             <br>
             <label id="text" for="lon">Lon:</label>
-            <input type="text" id="choice_c" name="choice_c" required>
+            <input type="text" id="lon" name="lon" required>
             <br>
             <input type="submit" value="Add video">
         </form>
