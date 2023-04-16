@@ -147,8 +147,7 @@ def get_player_id(id):
             return_list.append(player_api[i])
     return jsonify(return_list)           
 @app.route('/')
-def index():     
-       
+def index():    
     return render_template('login.html')
 
 class codeWithId(db.Model):
@@ -207,18 +206,29 @@ def get_video():
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['username']
-    password = request.form['password']
-
+    password = request.form['password']    
     user = User.query.filter_by(username=username, password=password).first()
-    if user:
+    if user:       
+        e_mail= username+"@gmail.com"   
+        try:
+            auth.sign_in_with_email_and_password(e_mail, password)
+        except:
+            return render_template('login.html',message="Username or Password is incorrect")
         return redirect(url_for('home'))
     else:
         return render_template('login.html',message="Username or Password is incorrect")
 
 @app.route('/home')
-def home():        
-    return render_template('add_question.html',login=True)
-
+def home():
+    users=""+"@gmail.com"
+    try:            
+            if auth.current_user['localId']=="AjGsYxBK6UbUn4MtsiWu6QrPplG3":
+                return render_template('add_question.html')
+            else:
+                return render_template('login.html',message="You have to login")           
+                       
+    except:             
+            return render_template('login.html',message="You have to login")
 @app.route('/add_question', methods=['POST'])
 def add_question():
     question = request.form['question']
