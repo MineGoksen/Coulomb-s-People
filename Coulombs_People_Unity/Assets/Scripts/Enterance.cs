@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class Enterance : MonoBehaviour
 {
     public GameObject image_popup;
+    public GameObject globalchart_popup;
     private string URL = StaticGame.URL+"playerApi/";
     public TextMeshProUGUI email;
     public TextMeshProUGUI username;
@@ -19,6 +20,7 @@ public class Enterance : MonoBehaviour
     void Start()
     {
         image_popup.SetActive(false);
+        globalchart_popup.SetActive(false);
         MyVideoPlayer.Play();
         userId=PlayerPrefs.GetString("userId");
         if(userId==null ||userId==""){
@@ -56,6 +58,17 @@ public class Enterance : MonoBehaviour
     public void startGame()
     {
         SceneManager.LoadScene("Game");
+    }
+    public void HideChartPopUp()
+    {
+        // Hide the pop-up when the button is clicked
+        globalchart_popup.SetActive(false);
+    }
+    public void ShowChartPopUp()
+    {
+        // Show the pop-up when the button is clicked
+        globalchart_popup.SetActive(true);
+
     }
   
 }
