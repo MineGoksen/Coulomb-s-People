@@ -25,7 +25,7 @@ auth=firebase.auth()
 
 app = Flask(__name__)
 app.debug = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instance//site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 

@@ -12,8 +12,10 @@ public class Game : MonoBehaviour
     {   if (!StaticGame.isStarted)
         {
             saniye = 5;
+            Client <VideoData> cli =new Client <VideoData> ();
+            StartCoroutine(cli.GetRequest(StaticGame.URL+"get_video"));
+            Debug.Log(cli.data);
         }
-        StaticGame.fillArray();
         StartCoroutine(time());
     }
 

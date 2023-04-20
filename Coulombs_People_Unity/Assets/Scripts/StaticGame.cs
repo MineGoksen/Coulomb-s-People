@@ -9,7 +9,7 @@ public  class StaticGame
 {
     // Start is called before the first frame update
     public static int noOfRounds = 2;
-    public static string URL="http://10.2.137.1:3000/";
+    public static string URL="http://192.168.1.46:5000/";
     public static float score=0;
     public static int round=0;
     public static float[] roundScores = new float[5];
