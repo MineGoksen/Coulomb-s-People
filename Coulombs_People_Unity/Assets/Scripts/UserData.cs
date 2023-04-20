@@ -8,6 +8,5 @@ public class UserData : MonoBehaviour
    public string id { get; set; }
    public string nickname { get; set; }
    public int point { get; set; }
-
    
 }

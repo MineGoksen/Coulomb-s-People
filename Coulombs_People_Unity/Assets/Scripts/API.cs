@@ -27,7 +27,7 @@ public class API : MonoBehaviour
     void Start()
     {// string country = StaticGame.returnCountry();
         nextRoundBtn.gameObject.SetActive(false);
-         Client <QuestionData> cli =new Client <QuestionData> ();
+        Client <QuestionData> cli =new Client <QuestionData> ();
         QuestionData[] question=cli.httpGet("questionsApi/"+StaticGame.returnCountry());
         fillButtons(question);
         Debug.Log("the request is sent");

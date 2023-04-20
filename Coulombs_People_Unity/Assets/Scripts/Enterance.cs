@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
 using TMPro;
+using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
 public class Enterance : MonoBehaviour
@@ -14,9 +15,11 @@ public class Enterance : MonoBehaviour
     public TextMeshProUGUI username;
     private TextMeshProUGUI puan;
     private string userId;
+    public VideoPlayer MyVideoPlayer;
     void Start()
     {
         image_popup.SetActive(false);
+        MyVideoPlayer.Play();
         userId=PlayerPrefs.GetString("userId");
         if(userId==null ||userId==""){
              SceneManager.LoadScene("SignInUp");
@@ -25,12 +28,9 @@ public class Enterance : MonoBehaviour
         Client <UserData> cli =new Client <UserData> ();
         UserData[] user=cli.httpGet("playerApi/"+userId);
         if(user.Length!=0){
-            Debug.Log(user);
-            Debug.Log(user[0]);
             email.text=user[0].e_mail;
             username.text=user[0].nickname;
-            //puan.text=data[0];
-                    }
+            }
     }
 
     // Update is called once per frame
