@@ -31,12 +31,7 @@ namespace YoutubePlayer
         private string youtubeUrl;
         void Update()
         {
-            /*System.Random rnd = new System.Random();
-            string[] videoClips = { "https://www.youtube.com/watch?v=nbD8XYTw23Y", "https://youtu.be/Npcv4vnD1LU?t=270", "https://www.youtube.com/watch?v=U1zEx7QISnQ", "https://youtu.be/rUokxZu2ltA?t=42", "https://www.youtube.com/watch?v=O5wn8Adxr_8","https://www.youtube.com/watch?v=X68teeQN34M","https://www.youtube.com/watch?v=E7_cwXaLU94&ab_channel=KEN","https://www.youtube.com/watch?v=5-tW-wjW1YA" };
-            int randomIndex = rnd.Next(0, videoClips.Length);
-            videoClips[randomIndex];*/
-           youtubeUrl = StaticGame.returnUrl();
-           //youtubeUrl = "https://www.youtube.com/watch?v=nbD8XYTw23Y";
+           youtubeUrl =   "https://www.youtube.com/watch?v=ImRJuBl1z6w&ab_channel=Y%C3%BCr%C3%BCBenimle-WalkwithMe"; //StaticGame.returnUrl();
         }
         /// <summary>
         /// Specify whether to use 360 configuration
@@ -56,6 +51,7 @@ namespace YoutubePlayer
         void Awake()
         {
             VideoPlayer = GetComponent<VideoPlayer>();
+            
         }
 
         async void OnEnable()

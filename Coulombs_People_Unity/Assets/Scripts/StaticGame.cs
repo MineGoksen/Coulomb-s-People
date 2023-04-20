@@ -8,14 +8,14 @@ using UnityEngine.SceneManagement;
 public  class StaticGame 
 {
     // Start is called before the first frame update
-    public static int noOfRounds = 2;
+    public static int noOfRounds = 4;
     public static string URL="http://192.168.1.46:5000/";
     public static float score=0;
     public static int round=0;
     public static float[] roundScores = new float[5];
     public static float[] videoCoordinates=new float[2];
     public static string [] roundCountry=new string[10];
-    public static VideoStruct[] locations = new VideoStruct [2];
+    public static VideoStruct[] locations = new VideoStruct [4];
     public static bool isStarted = false;
 
 
@@ -79,18 +79,20 @@ public  class StaticGame
         roundCountry = new string[10];
         return "worked";
     }
-    public static void fillArray()
+    public static void fillArray(VideoData [] videos)
     {   if (locations[0] != null)
             return;
-        locations[0] = new VideoStruct();
-        locations[0].fill("https://www.youtube.com/watch?v=ImRJuBl1z6w&ab_channel=Y%C3%BCr%C3%BCBenimle-WalkwithMe","Turkey", 39.925533, 32.866287);
-        locations[1] = new VideoStruct();
-        locations[1].fill("https://www.youtube.com/watch?v=uM5BHCWlcio&ab_channel=WalkWithMe%21", "Greece", 37.983810, 23.727539);
+        for(int i=0;i<4;i++){
+            locations[i] = new VideoStruct();
+            locations[i].fill(videos[i].link,videos[i].country, videos[i].lat, videos[i].lon);
+        }
         Debug.Log("filled");
         
     }
     public static string returnUrl()
     {
+        Debug.Log(round);
+        Debug.Log(locations[round].URL);
         return locations[round].URL;
     }
 
@@ -148,12 +150,12 @@ public  class StaticGame
         roundScores = new float[5];
         videoCoordinates = new float[2];
         roundCountry = new string[10];
-        locations = new VideoStruct[2];
+        locations = new VideoStruct[4];
         isStarted = false;
         hintUsed = false;
         correctAnswer = false;
         guessed_coordinates = new float[2];
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Entrance");
     }
 
 }

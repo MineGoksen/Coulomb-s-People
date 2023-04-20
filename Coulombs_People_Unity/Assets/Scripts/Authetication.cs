@@ -11,10 +11,17 @@ using UnityEngine.SceneManagement;
 public class Authetication : MonoBehaviour
 {
     public TextMeshProUGUI code;
+    public TextMeshProUGUI url;
+    public TextMeshProUGUI constant;
      private string URL = StaticGame.URL+"code/";
     // Start is called before the first frame update
     void Start()
     {
+        string userId=PlayerPrefs.GetString("userId");
+        if(userId!=null &&userId!=""){
+             SceneManager.LoadScene("Entrance");
+        }
+        url.text=StaticGame.URL;
         System.Random rnd = new System.Random();
         int num = rnd.Next(100000,999999);
         Debug.Log(num);
@@ -53,6 +60,8 @@ public class Authetication : MonoBehaviour
                 case UnityWebRequest.Result.Success:
                     AuthData[] data = JsonConvert.DeserializeObject<AuthData[]>(webRequest.downloadHandler.text);
                     if(data.Length!=0){
+                        constant.text="";
+                        url.text="";
                         Debug.Log("sec"+data[0].id);
                         PlayerPrefs.SetString("userId",data[0].id);
                         code.text="Giriş Yapıldı.";

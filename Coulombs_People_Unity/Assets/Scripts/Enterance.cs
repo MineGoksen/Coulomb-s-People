@@ -18,8 +18,19 @@ public class Enterance : MonoBehaviour
     {
         image_popup.SetActive(false);
         userId=PlayerPrefs.GetString("userId");
+        if(userId==null ||userId==""){
+             SceneManager.LoadScene("SignInUp");
+        }
         Debug.Log(userId);
-        StartCoroutine(GetRequest(URL));
+        Client <UserData> cli =new Client <UserData> ();
+        UserData[] user=cli.httpGet("playerApi/"+userId);
+        if(user.Length!=0){
+            Debug.Log(user);
+            Debug.Log(user[0]);
+            email.text=user[0].e_mail;
+            username.text=user[0].nickname;
+            //puan.text=data[0];
+                    }
     }
 
     // Update is called once per frame
@@ -38,41 +49,13 @@ public class Enterance : MonoBehaviour
         image_popup.SetActive(true);
 
     }
+    public void logOut(){
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene("SignInUp");
+    }
     public void startGame()
     {
         SceneManager.LoadScene("Game");
     }
-    IEnumerator GetRequest(string uri)
-    {
-        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
-        {
-            // Request and wait for the desired page.
-            yield return webRequest.SendWebRequest();
-
-            string[] pages = uri.Split('/');
-            int page = pages.Length - 1;
-
-            switch (webRequest.result)
-            {
-                case UnityWebRequest.Result.ConnectionError:
-                    Debug.LogError(pages[page] + ": Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.DataProcessingError:
-                    Debug.LogError(pages[page] + ": Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.ProtocolError:
-                    Debug.LogError(pages[page] + ": HTTP Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.Success:
-                    UserData[] data = JsonConvert.DeserializeObject<UserData[]>(webRequest.downloadHandler.text);
-                    if(data.Length!=0){
-                        email.text=data[0].e_mail;
-                        username.text=data[0].nickname;
-                        //puan.text=data[0];
-                    }
-                    
-                    break;
-            }
-        }
-    }
+  
 }

@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ClosingScene.unity
     guid: d043107b10faf7c438a557e6c21439c5
+  - enabled: 1
+    path: Assets/Scenes/SignInUp.unity
+    guid: 80adf9abace0d9e4bbf00c4b030f151f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

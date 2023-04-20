@@ -5,6 +5,10 @@ using UnityEngine.Networking;
 using Newtonsoft.Json;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Threading.Tasks;
+using System.Net.Http;
+using System;
+using System.Net.Http.Headers;
 
 public class Client<T> {
       
@@ -21,33 +25,27 @@ public class Client<T> {
             this.data = value;
         }
     }
-    public IEnumerator GetRequest(string uri)
-    {
-        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+    public T[] httpGet(string path){
+        HttpClient client = new HttpClient();
+        client.BaseAddress = new Uri(StaticGame.URL);
+        Debug.Log(StaticGame.URL);
+            // Add an Accept header for JSON format.
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            // List all Names.
+        HttpResponseMessage response = client.GetAsync(path).Result;  // Blocking call!
+        if (response.IsSuccessStatusCode)
         {
-            // Request and wait for the desired page.
-            yield return webRequest.SendWebRequest();
-
-            string[] pages = uri.Split('/');
-            int page = pages.Length - 1;
-
-            switch (webRequest.result)
-            {
-                case UnityWebRequest.Result.ConnectionError:
-                    Debug.LogError(pages[page] + ": Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.DataProcessingError:
-                    Debug.LogError(pages[page] + ": Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.ProtocolError:
-                    Debug.LogError(pages[page] + ": HTTP Error: " + webRequest.error);
-                    break;
-                case UnityWebRequest.Result.Success:
-                    T[] data = JsonConvert.DeserializeObject<T[]>(webRequest.downloadHandler.text);
-                    this.data=data ;
-                    break;
-            }
-        } 
+            var products = response.Content.ReadAsStringAsync().Result;
+            //Debug.Log(products);
+            T[] data = JsonConvert.DeserializeObject<T[]>(products);
+            return data;
+        }
+        else
+        {
+            Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+        }
+        return null;
+    
     }
 }
   

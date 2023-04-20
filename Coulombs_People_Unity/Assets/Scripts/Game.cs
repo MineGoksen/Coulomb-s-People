@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Net;
+using System.Net.Http;
 using UnityEngine.SceneManagement;
 public class Game : MonoBehaviour
 {
@@ -13,8 +15,9 @@ public class Game : MonoBehaviour
         {
             saniye = 5;
             Client <VideoData> cli =new Client <VideoData> ();
-            StartCoroutine(cli.GetRequest(StaticGame.URL+"get_video"));
-            Debug.Log(cli.data);
+            //StartCoroutine(cli.GetRequest(StaticGame.URL+"get_video"));
+            VideoData [] videos=cli.httpGet("get_video");
+            StaticGame.fillArray(videos);
         }
         StartCoroutine(time());
     }
