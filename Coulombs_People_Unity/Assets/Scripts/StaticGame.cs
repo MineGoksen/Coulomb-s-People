@@ -12,6 +12,7 @@ public  class StaticGame
     public static string URL="http://192.168.1.46:5000/";
     public static float score=0;
     public static int round=0;
+    public static float total = 0;
     public static float[] roundScores = new float[5];
     public static float[] videoCoordinates=new float[2];
     public static string [] roundCountry=new string[10];
@@ -132,7 +133,7 @@ public  class StaticGame
     public static String showResults()
     {
         String result = "";
-        float total = 0;
+        
         for (int i = 0; i< noOfRounds; i++)
         {
             result += "Round " +(i+1)+" score: " + roundScores[i] + "\n";
@@ -147,6 +148,7 @@ public  class StaticGame
     {
         score = 0;
         round = 0;
+        total = 0;
         roundScores = new float[5];
         videoCoordinates = new float[2];
         roundCountry = new string[10];

@@ -2000,6 +2000,7 @@ MonoBehaviour:
   globalchart_popup: {fileID: 99752716}
   email: {fileID: 1220455407}
   username: {fileID: 1870177652}
+  puan: {fileID: 299276177}
   MyVideoPlayer: {fileID: 1110893433}
 --- !u!1 &869651583
 GameObject:

@@ -47,5 +47,24 @@ public class Client<T> {
         return null;
     
     }
+
+    public void httpPut(string path){
+        HttpClient client = new HttpClient();
+        client.BaseAddress = new Uri(StaticGame.URL);
+        Debug.Log(StaticGame.URL);
+            // Add an Accept header for JSON format.
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            // List all Names.
+        HttpResponseMessage response = client.PutAsync(path, null).Result; 
+        if (response.IsSuccessStatusCode)
+        {
+             Console.Write("Success");
+        }
+        else
+        {
+            Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+        }
+    
+    }
 }
   

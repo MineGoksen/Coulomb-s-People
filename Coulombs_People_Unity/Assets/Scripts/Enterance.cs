@@ -14,7 +14,7 @@ public class Enterance : MonoBehaviour
     private string URL = StaticGame.URL+"playerApi/";
     public TextMeshProUGUI email;
     public TextMeshProUGUI username;
-    private TextMeshProUGUI puan;
+    public TextMeshProUGUI puan;
     private string userId;
     public VideoPlayer MyVideoPlayer;
     void Start()
@@ -32,6 +32,7 @@ public class Enterance : MonoBehaviour
         if(user.Length!=0){
             email.text=user[0].e_mail;
             username.text=user[0].nickname;
+            puan.text=""+user[0].point;
             }
     }
 
