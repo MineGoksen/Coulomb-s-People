@@ -22,7 +22,7 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
     public void Update()
     {
         timer -= Time.deltaTime;
-        timerText.text = timer+" seconds remaining.";
+        timerText.text = (int)timer+" seconds remaining.";
         if (timer < 0)
         {
             GuessButtonCLicked();

@@ -31,12 +31,8 @@ namespace YoutubePlayer
         private string youtubeUrl;
         void Update()
         {
-           youtubeUrl =   "https://www.youtube.com/watch?v=ImRJuBl1z6w&ab_channel=Y%C3%BCr%C3%BCBenimle-WalkwithMe"; //StaticGame.returnUrl();
+           youtubeUrl = StaticGame.returnUrl(); // "https://www.youtube.com/watch?v=ImRJuBl1z6w&ab_channel=Y%C3%BCr%C3%BCBenimle-WalkwithMe"; //
         }
-        /// <summary>
-        /// Specify whether to use 360 configuration
-        /// </summary>
-        public bool is360Video;
 
         /// <summary>
         /// The cli tool to be used (youtube-dl | yt-dlp)
@@ -100,9 +96,8 @@ namespace YoutubePlayer
         public async Task PrepareVideoAsync(string videoUrl = null, YoutubeDlOptions options = null, CancellationToken cancellationToken = default)
         {
             videoUrl = videoUrl ?? youtubeUrl;
-            options = options ?? (is360Video ? YoutubeDlOptions.Three60 : YoutubeDlOptions.Default);
             var downloader = GetCli(cli);
-            var rawUrl = await GetRawVideoUrlAsync(videoUrl, downloader, options, cancellationToken);
+            var rawUrl = await GetRawVideoUrlAsync(videoUrl, downloader, YoutubeDlOptions.Default, cancellationToken);
 
             VideoPlayer.source = VideoSource.Url;
 
@@ -124,8 +119,7 @@ namespace YoutubePlayer
         /// <returns>A Task to await</returns>
         public async Task PlayVideoAsync(string videoUrl = null, YoutubeDlOptions options = null, CancellationToken cancellationToken = default)
         {
-            options = options ?? (is360Video ? YoutubeDlOptions.Three60 : YoutubeDlOptions.Default);
-            await PrepareVideoAsync(videoUrl, options, cancellationToken);
+            await PrepareVideoAsync(videoUrl,YoutubeDlOptions.Default, cancellationToken);
             VideoPlayer.Play();
         }
 

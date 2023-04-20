@@ -91,8 +91,8 @@ public  class StaticGame
     }
     public static string returnUrl()
     {
-        Debug.Log(round);
-        Debug.Log(locations[round].URL);
+        //Debug.Log(round);
+        //Debug.Log(locations[round].URL);
         return locations[round].URL;
     }
 
