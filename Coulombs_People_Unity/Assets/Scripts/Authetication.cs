@@ -11,9 +11,11 @@ using UnityEngine.SceneManagement;
 public class Authetication : MonoBehaviour
 {
     public TextMeshProUGUI code;
+    public GameObject button_popup;
     public TextMeshProUGUI url;
     public TextMeshProUGUI constant;
-     private string URL = StaticGame.URL+"code/";
+    private string URL ;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,13 +23,11 @@ public class Authetication : MonoBehaviour
         if(userId!=null &&userId!=""){
              SceneManager.LoadScene("Entrance");
         }
-        url.text=StaticGame.URL;
-        System.Random rnd = new System.Random();
-        int num = rnd.Next(100000,999999);
-        Debug.Log(num);
-        code.text=""+num;
-        URL+=(""+num);
-        
+        url.text=StaticGame.URL+"/sign_in";
+        button_popup.SetActive(false);
+        StartCoroutine(time());
+        CreateRandNum();
+      
     }
 
     // Update is called once per frame
@@ -62,17 +62,18 @@ public class Authetication : MonoBehaviour
                     if(data.Length!=0){
                         constant.text="";
                         url.text="";
+                        button_popup.SetActive(false);
                         Debug.Log("sec"+data[0].id);
                         PlayerPrefs.SetString("userId",data[0].id);
                         code.text="Giriş Yapıldı.";
-                        StartCoroutine(time());
+                        StartCoroutine(timeToEnter());
                     }
                     break;
             }
         }   
     }
 
-     IEnumerator time()
+     IEnumerator timeToEnter()
     {   int saniye =5;
         while (saniye>0)
         {       
@@ -80,5 +81,25 @@ public class Authetication : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
         SceneManager.LoadScene("Entrance");
+    }
+
+     IEnumerator time()
+    {
+        int saniye =15;
+        while (saniye>0)
+        {       
+            saniye -= 1;
+            yield return new WaitForSeconds(1);
+        }
+        button_popup.SetActive(true);
+    }
+
+    public void CreateRandNum(){
+        System.Random rnd = new System.Random();
+        int num = rnd.Next(100000,999999);
+        Debug.Log(num);
+        code.text=""+num;
+        URL=StaticGame.URL+"code/"+num;
+        
     }
 }
