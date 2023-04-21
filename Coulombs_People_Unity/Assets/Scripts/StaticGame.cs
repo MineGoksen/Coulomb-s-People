@@ -69,7 +69,7 @@ public  class StaticGame
     {
         if (answer)
         {
-            score *= 1.25f;
+            score *= 1.20f;
         }
     }
     static public string startGame()
