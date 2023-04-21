@@ -129,6 +129,9 @@ class players(db.Model):
     def to_api_playerWithId(self,id):
         if id==self.id:
             return {'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
+    def to_api_playerWithId(self,id,index):
+        if id==self.id:
+            return {'index': index,'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
     def to_api_playerWithemail(self,email):
         if email==self.e_mail:
             return self.id    
@@ -145,7 +148,25 @@ def get_player_id(id):
     for i in range(len(player_api)):
         if player_api[i]!=None:
             return_list.append(player_api[i])
-    return jsonify(return_list)           
+    return jsonify(return_list)  
+@app.route('/topList', methods=['GET'])
+def get_top_player():
+    top5 = players.query.order_by(players.point.desc()).limit(5).all()
+    player_api = [player.to_api_players() for player in top5]
+    return jsonify(player_api)    
+@app.route('/topList/<id>', methods=['GET'])
+def get_top_player_withID(id):
+    top5 = players.query.order_by(players.point.desc()).all()
+    idPlayer=players.query.filter_by(id=id).first()
+    if idPlayer==None:
+        return jsonify([])    
+    index=top5.index(idPlayer)    
+    player_api = [player.to_api_playerWithId(id,index) for player in top5]
+    return_list=[]
+    for i in range(len(player_api)): 
+        if player_api[i]!=None:
+            return_list.append(player_api[i])
+    return jsonify(return_list)    
 @app.route('/')
 def index():    
     return render_template('login.html')
