@@ -129,7 +129,7 @@ class players(db.Model):
     def to_api_playerWithId(self,id):
         if id==self.id:
             return {'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
-    def to_api_playerWithId(self,id,index):
+    def to_api_playerWithIndex(self,id,index):
         if id==self.id:
             return {'index': index,'id': self.id, 'nickname': self.nickname, 'e_mail': self.e_mail,'point': self.point}  
     def to_api_playerWithemail(self,email):
@@ -161,7 +161,7 @@ def get_top_player_withID(id):
     if idPlayer==None:
         return jsonify([])    
     index=top5.index(idPlayer)    
-    player_api = [player.to_api_playerWithId(id,index) for player in top5]
+    player_api = [player.to_api_playerWithIndex(id,index) for player in top5]
     return_list=[]
     for i in range(len(player_api)): 
         if player_api[i]!=None:

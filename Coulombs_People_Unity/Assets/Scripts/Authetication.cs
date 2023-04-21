@@ -23,17 +23,17 @@ public class Authetication : MonoBehaviour
         if(userId!=null &&userId!=""){
              SceneManager.LoadScene("Entrance");
         }
-        url.text=StaticGame.URL+"/sign_in";
+        url.text=StaticGame.URL+"sign_in";
         button_popup.SetActive(false);
         StartCoroutine(time());
+        StartCoroutine(sendRequest());
         CreateRandNum();
-      
+        
     }
 
     // Update is called once per frame
     void Update()
     {  
-        StartCoroutine(GetRequest(URL));
     }
 
      IEnumerator GetRequest(string uri)
@@ -85,11 +85,12 @@ public class Authetication : MonoBehaviour
 
      IEnumerator time()
     {
-        int saniye =15;
+        int saniye =2;
         while (saniye>0)
         {       
             saniye -= 1;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(5);
+            StartCoroutine(GetRequest(URL));
         }
         button_popup.SetActive(true);
     }
@@ -101,5 +102,13 @@ public class Authetication : MonoBehaviour
         code.text=""+num;
         URL=StaticGame.URL+"code/"+num;
         
+    }
+       IEnumerator sendRequest()
+    {
+        while (true)
+        {       
+            yield return new WaitForSeconds(5);
+            StartCoroutine(GetRequest(URL));
+        }
     }
 }
