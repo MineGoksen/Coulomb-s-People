@@ -11,7 +11,6 @@ public class Enterance : MonoBehaviour
 {
     public GameObject image_popup;
     public GameObject globalchart_popup;
-    private string URL = StaticGame.URL+"playerApi/";
     public TextMeshProUGUI email;
     public TextMeshProUGUI username;
     public TextMeshProUGUI puan;
@@ -27,6 +26,12 @@ public class Enterance : MonoBehaviour
              SceneManager.LoadScene("SignInUp");
         }
         Debug.Log(userId);
+        getUserData();
+        getChartData();
+        
+    }
+
+    private void getUserData(){
         Client <UserData> cli =new Client <UserData> ();
         UserData[] user=cli.httpGet("playerApi/"+userId);
         if(user.Length!=0){
@@ -36,6 +41,21 @@ public class Enterance : MonoBehaviour
             }
     }
 
+    public TextMeshProUGUI first_player;
+    public TextMeshProUGUI sec_player;
+    public TextMeshProUGUI third_player;
+    public TextMeshProUGUI user_ranking;
+    private void getChartData(){
+        Client <UserData> cli_chart =new Client <UserData> ();
+        UserData[] user=cli_chart.httpGet("topList");
+        first_player.text=user[0].nickname+":\t"+user[0].point;
+        sec_player.text=user[1].nickname+":\t"+user[1].point;
+        third_player.text=user[2].nickname+":\t"+user[2].point;
+
+        Client <ChartUserData> cli =new Client <ChartUserData> ();
+        ChartUserData[] chartUser=cli.httpGet("topList/"+userId);
+        user_ranking.text=""+(chartUser[0].index+1)+".\t "+chartUser[0].point+" point";
+    }
     // Update is called once per frame
     void Update()
     {
