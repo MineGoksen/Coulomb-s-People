@@ -9,6 +9,7 @@ namespace YoutubePlayer
 {
     public class VideoControl : MonoBehaviour
     {
+        public GameObject earth;
         public YoutubePlayer youtubePlayer;
         VideoPlayer videoPlayer;
         public Button start_btn;
@@ -35,6 +36,7 @@ namespace YoutubePlayer
             try
             {
                 await youtubePlayer.PrepareVideoAsync();
+                Destroy(earth);
                 print("video hazir");
             }
             catch

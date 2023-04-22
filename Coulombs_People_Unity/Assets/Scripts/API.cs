@@ -41,7 +41,7 @@ public class API : MonoBehaviour
         rightAnswer = data[0].right_answer;
     }
 
-    public void RightAnswerCheck()
+    public void RevealAnswer()
     {
         switch (rightAnswer)
         {
@@ -76,25 +76,23 @@ public class API : MonoBehaviour
 
     public void clickedA()
 {
-        StaticGame.correctAnswer = true;
-
+        RevealAnswer();
+        StaticGame.correctAnswer = rightAnswer == "A";
 }
  public void clickedB()
 {
-        StaticGame.correctAnswer = true;
-
-
+        RevealAnswer();
+        StaticGame.correctAnswer = rightAnswer == "B";
     }
     public void clickedC()
 {
-        StaticGame.correctAnswer = true;
-
-
+        RevealAnswer();
+        StaticGame.correctAnswer = rightAnswer == "C";
     }
     public void clickedD()
 {
-        StaticGame.correctAnswer = true;
-
+        RevealAnswer();
+        StaticGame.correctAnswer = rightAnswer == "D";
     }
 
     public void nextRound(){
