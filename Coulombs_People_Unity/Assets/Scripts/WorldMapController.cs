@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Networking;
+using Newtonsoft.Json;
+using UnityEngine.UI;
+
 
 public class WorldMapController : MonoBehaviour, IPointerClickHandler
 {
@@ -61,7 +65,9 @@ public class WorldMapController : MonoBehaviour, IPointerClickHandler
 
     public void HintButtonCLicked()
     {
-        hintText.text = "HINT: prrrrrşibidibabbapbapbapbapyesyesyesyesdıpşipididıpşibididabılüdabılüdabılüdabılüyesyesyesyes";
         StaticGame.hintUsed = true;
+        Client<HintData> cli = new Client<HintData>();
+        HintData[] hint = cli.httpGet("tipApi/" + StaticGame.returnCountry());
+        hintText.text = hint[0].tip;
     }
 }
