@@ -50,8 +50,22 @@ namespace YoutubePlayer
 
         public void PlayVideo()
         {
+<<<<<<< Updated upstream
             videoPlayer.Play();
         }
+=======
+            while (saniye > 0)
+            {
+                if(saniye<6)
+                    countdown.color=Color.red;
+                
+                countdown.text = saniye.ToString();
+                saniye -= 1;
+                yield return new WaitForSeconds(1);
+            }
+            SceneManager.LoadScene("New_map");
+            Debug.Log(StaticGame.startGame());
+>>>>>>> Stashed changes
 
 
         public void PauseVideo()
