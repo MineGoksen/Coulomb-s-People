@@ -110,4 +110,8 @@ public class Enterance : MonoBehaviour
     }
   
   
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

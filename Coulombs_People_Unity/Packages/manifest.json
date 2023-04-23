@@ -1,9 +1,13 @@
 {
   "dependencies": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     "com.esri.arcgis-maps-sdk": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
 
+=======
+    "com.esri.arcgis-maps-sdk": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
+>>>>>>> Stashed changes
 =======
     "com.esri.arcgis-maps-sdk": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
 >>>>>>> Stashed changes
