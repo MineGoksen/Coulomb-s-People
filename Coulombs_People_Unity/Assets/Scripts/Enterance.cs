@@ -10,6 +10,8 @@ using UnityEngine.SceneManagement;
 public class Enterance : MonoBehaviour
 {
     public GameObject image_popup;
+    public GameObject coulombspeople;
+    public GameObject howToPlay_popup;
     public GameObject globalchart_popup;
     public TextMeshProUGUI email;
     public TextMeshProUGUI username;
@@ -19,6 +21,8 @@ public class Enterance : MonoBehaviour
     void Start()
     {
         image_popup.SetActive(false);
+        howToPlay_popup.SetActive(false);
+        coulombspeople.SetActive(true);
         globalchart_popup.SetActive(false);
         MyVideoPlayer.Play();
         userId=PlayerPrefs.GetString("userId");
@@ -65,30 +69,49 @@ public class Enterance : MonoBehaviour
     {
         // Hide the pop-up when the button is clicked
         image_popup.SetActive(false);
+        coulombspeople.SetActive(true);
     }
     public void ShowPopUp()
     {
         // Show the pop-up when the button is clicked
         image_popup.SetActive(true);
-
+        coulombspeople.SetActive(false);
     }
     public void logOut(){
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("SignInUp");
     }
-    public void startGame()
-    {
-        SceneManager.LoadScene("Game");
-    }
+
     public void HideChartPopUp()
     {
         // Hide the pop-up when the button is clicked
         globalchart_popup.SetActive(false);
+        coulombspeople.SetActive(true);
     }
     public void ShowChartPopUp()
     {
         // Show the pop-up when the button is clicked
         globalchart_popup.SetActive(true);
+        coulombspeople.SetActive(false);
+    }
+
+     public void startGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+    public void HideHowToPlayPopUp()
+    {
+        // Hide the pop-up when the button is clicked
+        
+        howToPlay_popup.SetActive(false);
+        coulombspeople.SetActive(true);
+    }
+    public void ShowHowToPlayPopUp()
+    {
+        // Show the pop-up when the button is clicked
+        howToPlay_popup.SetActive(true);
+        coulombspeople.SetActive(false);
+
 
     }
   

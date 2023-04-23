@@ -57,6 +57,8 @@ namespace YoutubePlayer
         {
             while (saniye > 0)
             {
+                if(saniye<6)
+                    countdown.color=Color.red;
                 countdown.text = saniye.ToString();
                 saniye -= 1;
                 yield return new WaitForSeconds(1);
