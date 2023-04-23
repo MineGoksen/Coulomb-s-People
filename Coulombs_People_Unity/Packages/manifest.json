@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.esri.arcgis-maps-sdk": "file:C:/Users/berak/Downloads/arcgis-maps-sdk-unity-1.1.0.tgz",
+    "com.esri.arcgis-maps-sdk": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
