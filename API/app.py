@@ -306,6 +306,8 @@ def sign_in():
         e_mail=request.form.get("e-mail") 
         password=request.form.get("password") 
         code=request.form.get("code")
+        if len(code)!=6:
+            return render_template('sign_in.html',message="code must be at 6 characters") 
         try:            
             login = auth.sign_in_with_email_and_password(e_mail, password)
             token=None             
@@ -336,6 +338,8 @@ def sign_up():
             return render_template('sign_up.html',message="E-mail already exists") 
         
         password=request.form.get("password") 
+        if len(password)<8:
+            return render_template('sign_up.html',message="password must be at least 8 characters")
         try:
             user = auth.create_user_with_email_and_password(e_mail, password)
             token=None             
