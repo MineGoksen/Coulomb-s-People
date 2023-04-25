@@ -189,6 +189,11 @@ def get_code(id):
     for i in range(len(questions_api)):
         if questions_api[i]!=None:
             return_list.append(questions_api[i])
+     deleteDAta =codeWithId.query.filter_by(code=id).first() 
+     if deleteDAta!=None:              
+         db.session.delete(deleteDAta)
+         db.session.commit()
+        
     return jsonify(return_list)
 
 class video(db.Model):
@@ -215,9 +220,9 @@ def get_video():
     for i in questions_api:        
         if i not in list:
             list.append(i)   
-        if len(list)==4:
+        if len(list)==5:
             break    
-    videos=["","","","",""]
+    videos=["","","","","",""]
     for i in range(len(list)):
         value=video.query.filter_by(country=list[i]).all() 
         returner=[value.to_returnList() for value in value]
