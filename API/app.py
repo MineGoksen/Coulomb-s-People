@@ -189,8 +189,8 @@ def get_code(id):
     for i in range(len(questions_api)):
         if questions_api[i]!=None:
             return_list.append(questions_api[i])
-     deleteDAta =codeWithId.query.filter_by(code=id).first() 
-     if deleteDAta!=None:              
+    deleteDAta =codeWithId.query.filter_by(code=id).first() 
+    if deleteDAta!=None:              
          db.session.delete(deleteDAta)
          db.session.commit()
         

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public  class StaticGame 
 {
     // Start is called before the first frame update
-    public static int noOfRounds = 4;
+    public static int noOfRounds = 5;
     public static string URL="https://columbus-people.onrender.com/";
     public static float score=0;
     public static int round=0;
@@ -16,7 +16,7 @@ public  class StaticGame
     public static float[] roundScores = new float[5];
     public static float[] videoCoordinates=new float[2];
     public static string [] roundCountry=new string[10];
-    public static VideoStruct[] locations = new VideoStruct [4];
+    public static VideoStruct[] locations = new VideoStruct [5];
     public static bool isStarted = false;
 
 
@@ -83,7 +83,7 @@ public  class StaticGame
     public static void fillArray(VideoData [] videos)
     {   if (locations[0] != null)
             return;
-        for(int i=0;i<4;i++){
+        for(int i=0;i<5;i++){
             locations[i] = new VideoStruct();
             locations[i].fill(videos[i].link,videos[i].country, videos[i].lat, videos[i].lon);
         }
