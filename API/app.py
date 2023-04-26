@@ -222,7 +222,7 @@ def get_video():
             list.append(i)   
         if len(list)==5:
             break    
-    videos=["","","","","",""]
+    videos=["","","","",""]
     for i in range(len(list)):
         value=video.query.filter_by(country=list[i]).all() 
         returner=[value.to_returnList() for value in value]
