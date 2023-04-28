@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.esri.arcgis-maps-sdk": {
-      "version": "file:C:/Users/kayra/OneDrive/Masaüstü/arcgis-maps-sdk-unity-1.1.0.tgz",
+      "version": "file:C:/Users/berak/Downloads/arcgis-maps-sdk-unity-1.1.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
