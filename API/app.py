@@ -109,6 +109,7 @@ def get_tip_country(country):
     for i in range(len(tip_api)):
         if tip_api[i]!=None:
             return_list.append(tip_api[i])
+    random.shuffle(return_list)          
     return jsonify(return_list)
 
 class players(db.Model):
